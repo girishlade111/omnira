@@ -1,0 +1,14 @@
+:root {
+  /* Surface & text tokens — refined during design-system extraction */
+  --color-bg-primary: #07080a;
+  --color-bg-surface: #0f1116;
+  --color-border-subtle: rgba(255, 255, 255, 0.12);
+  --color-text-primary: #f5f7fa;
+  --color-text-secondary: #a1a7b3;
+  --color-accent-primary: #3b82f6;
+
+  /* Spacing & geometry tokens */
+  --space-unit: 8px;
+  --container-max-width: 1440px;
+  --chamfer-size: 16px;
+}

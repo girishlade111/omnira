@@ -1,0 +1,16 @@
+{
+  "url": "https://stylokit.com/license",
+  "finalUrl": "https://stylokit.com/license",
+  "status": 200,
+  "headers": {
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-ray": "a60ba0dd9f8f95f1-SIN",
+    "content-encoding": "br",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Thu, 26 Nov 2026 20:26:29 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=GyGObQs1OjhD%2FUxbzO8ItTTlBi1vFxECj67C74aJ%2F7XX4uuQSELy2309acDEVN9GEio%2F1kA9Neb0dgUT%2B2L4m5AR%2Ftgw8X81Gx5D9c3xFZy1m0qmyldHIwr7sNq5K%2BY%3D\"}]}",
+    "server": "cloudflare",
+    "vary": "RSC, Accept, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode"
+  }
+}

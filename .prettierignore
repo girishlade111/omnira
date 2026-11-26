@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+dist/
+coverage/
+research/
+assets-source/
+playwright-report/
+test-results/
+next-env.d.ts

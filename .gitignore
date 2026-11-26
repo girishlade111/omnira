@@ -48,6 +48,9 @@ coverage/
 *.lcov
 junit.xml
 test-results/
+playwright-report/
+blob-report/
+next-env.d.ts
 
 # =======================
 # OS Files
