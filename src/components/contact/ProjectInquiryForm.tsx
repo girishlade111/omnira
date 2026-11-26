@@ -4,7 +4,7 @@ import type { FormEvent } from 'react';
 import { useState } from 'react';
 import { ChamferedButton, ChamferedPanel } from '@/components/primitives';
 import { contactContent } from '@/content/contact';
-import { contactSchema } from '@/lib/contact-validation';
+import { validateContactSubmission } from '@/lib/contact-validation';
 import { TechnicalSelect } from './TechnicalSelect';
 import styles from './contact.module.css';
 
@@ -57,7 +57,7 @@ export function ProjectInquiryForm() {
     if (submitting) return;
 
     setFeedback(null);
-    const parsed = contactSchema.safeParse({
+    const parsed = validateContactSubmission({
       name: form.name,
       email: form.email,
       projectType: form.projectType,
@@ -68,16 +68,15 @@ export function ProjectInquiryForm() {
 
     if (!parsed.success) {
       const nextErrors: FieldErrors = {};
-      const flat = parsed.error.flatten().fieldErrors;
-      for (const [k, messages] of Object.entries(flat)) {
-        if (messages && messages.length > 0) {
+      for (const [k, messages] of Object.entries(parsed.fieldErrors)) {
+        if (messages.length > 0) {
           nextErrors[k as keyof FormState] = messages[0];
         }
       }
       setFieldErrors(nextErrors);
       setFeedback({
         type: 'error',
-        message: 'Please review the highlighted fields before sending your request.',
+        message: parsed.error,
       });
       return;
     }

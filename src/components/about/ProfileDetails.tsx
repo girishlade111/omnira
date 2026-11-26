@@ -1,8 +1,8 @@
-import type { ProfileDetailRow } from '@/types';
+import type { ProfileDetailsItem } from '@/types';
 import styles from './about.module.css';
 
 export interface ProfileDetailsProps {
-  details: ProfileDetailRow[];
+  details: ProfileDetailsItem[];
 }
 
 function DetailRowIcon({ index }: { index: number }) {
