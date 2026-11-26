@@ -1,0 +1,1356 @@
+{
+  "generatedAt": "2026-11-26T20:46:39.509Z",
+  "sourceSite": "https://omnira.framer.website/",
+  "worksTotalCount": 27,
+  "categories": [
+    {
+      "id": null,
+      "label": "ALL PROJECTS",
+      "slug": null,
+      "count": 27
+    },
+    {
+      "id": "sCjTByVW3",
+      "label": "AI",
+      "slug": "ai",
+      "count": 3
+    },
+    {
+      "id": "hPM5LXyjX",
+      "label": "BUSINESS",
+      "slug": "business",
+      "count": 12
+    },
+    {
+      "id": "KuZC2UqsA",
+      "label": "ONE PAGE",
+      "slug": "one-page",
+      "count": 5
+    },
+    {
+      "id": "uEcIAASIa",
+      "label": "PORTFOLIO",
+      "slug": "portfolio",
+      "count": 7
+    }
+  ],
+  "projects": [
+    {
+      "order": 1,
+      "id": "xBLzQ310r",
+      "title": "Brandora",
+      "slug": "brandora",
+      "displayDomain": "bradora.studio",
+      "externalUrl": "https://brandora.framer.website/",
+      "categoryId": "uEcIAASIa",
+      "category": "PORTFOLIO",
+      "categorySlug": "portfolio",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": true,
+        "inHomeAboutBento": true,
+        "inInitialWorksSSR": true
+      },
+      "createdAt": "2026-06-10T07:47:34.770Z",
+      "updatedAt": "2026-07-20T09:00:43.462Z"
+    },
+    {
+      "order": 2,
+      "id": "doFmNYbAn",
+      "title": "Nivora",
+      "slug": "nivora",
+      "displayDomain": "nivora.studio",
+      "externalUrl": "https://nivora.framer.website/",
+      "categoryId": "uEcIAASIa",
+      "category": "PORTFOLIO",
+      "categorySlug": "portfolio",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": true,
+        "inHomeAboutBento": true,
+        "inInitialWorksSSR": true
+      },
+      "createdAt": "2026-06-10T07:40:35.537Z",
+      "updatedAt": "2026-07-20T09:00:47.208Z"
+    },
+    {
+      "order": 3,
+      "id": "MrDMPzoiT",
+      "title": "Codify",
+      "slug": "codify",
+      "displayDomain": "codify.pro",
+      "externalUrl": "https://codify.framer.website/",
+      "categoryId": "uEcIAASIa",
+      "category": "PORTFOLIO",
+      "categorySlug": "portfolio",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": true,
+        "inHomeAboutBento": true,
+        "inInitialWorksSSR": true
+      },
+      "createdAt": null,
+      "updatedAt": "2026-07-20T09:00:49.026Z"
+    },
+    {
+      "order": 4,
+      "id": "SYepgO67U",
+      "title": "Neutra",
+      "slug": "neutra",
+      "displayDomain": "neutra.studio",
+      "externalUrl": "https://neutra.framer.website/",
+      "categoryId": "uEcIAASIa",
+      "category": "PORTFOLIO",
+      "categorySlug": "portfolio",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": true,
+        "inHomeAboutBento": true,
+        "inInitialWorksSSR": true
+      },
+      "createdAt": "2026-06-10T07:38:41.582Z",
+      "updatedAt": "2026-07-20T09:00:50.360Z"
+    },
+    {
+      "order": 5,
+      "id": "deeZ3a7X0",
+      "title": "AI Nest",
+      "slug": "ai-nest",
+      "displayDomain": "ainest.io",
+      "externalUrl": "https://ainest.framer.website/",
+      "categoryId": "sCjTByVW3",
+      "category": "AI",
+      "categorySlug": "ai",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": true,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": true
+      },
+      "createdAt": "2026-06-10T07:44:59.387Z",
+      "updatedAt": "2026-07-20T09:00:52.350Z"
+    },
+    {
+      "order": 6,
+      "id": "bkEWZVjqy",
+      "title": "Studyflow",
+      "slug": "studyflow",
+      "displayDomain": "studyflow.com",
+      "externalUrl": "https://studyflow.framer.website/",
+      "categoryId": "hPM5LXyjX",
+      "category": "BUSINESS",
+      "categorySlug": "business",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": true,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": true
+      },
+      "createdAt": "2026-06-10T07:45:30.603Z",
+      "updatedAt": "2026-07-20T09:00:54.428Z"
+    },
+    {
+      "order": 7,
+      "id": "xbAHNKNlM",
+      "title": "Todofusion",
+      "slug": "todofusion",
+      "displayDomain": "todofusion.io",
+      "externalUrl": "https://todofusion.framer.website/",
+      "categoryId": "hPM5LXyjX",
+      "category": "BUSINESS",
+      "categorySlug": "business",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/1WDP6JNBEINfsxd5XfGn2yGGKk.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/1WDP6JNBEINfsxd5XfGn2yGGKk.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/1WDP6JNBEINfsxd5XfGn2yGGKk.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/1WDP6JNBEINfsxd5XfGn2yGGKk.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": true
+      },
+      "createdAt": null,
+      "updatedAt": "2026-07-20T09:00:55.668Z"
+    },
+    {
+      "order": 8,
+      "id": "ivZEXC1Aq",
+      "title": "Snapkit",
+      "slug": "snapkit",
+      "displayDomain": "snapkit.co",
+      "externalUrl": "https://snapkit.framer.website/",
+      "categoryId": "hPM5LXyjX",
+      "category": "BUSINESS",
+      "categorySlug": "business",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/FFLBzahmEMjxMWMzWWNqfJn2k.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/FFLBzahmEMjxMWMzWWNqfJn2k.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/FFLBzahmEMjxMWMzWWNqfJn2k.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/FFLBzahmEMjxMWMzWWNqfJn2k.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": true
+      },
+      "createdAt": "2026-06-10T07:45:58.577Z",
+      "updatedAt": "2026-07-20T09:00:58.019Z"
+    },
+    {
+      "order": 9,
+      "id": "tQgJglhyM",
+      "title": "Grido",
+      "slug": "grido",
+      "displayDomain": "girdo.studio",
+      "externalUrl": "https://grido.framer.website/",
+      "categoryId": "uEcIAASIa",
+      "category": "PORTFOLIO",
+      "categorySlug": "portfolio",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/CI6nTUEhsyTRK5vYBMX1HvQ6Fg.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/CI6nTUEhsyTRK5vYBMX1HvQ6Fg.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/CI6nTUEhsyTRK5vYBMX1HvQ6Fg.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/CI6nTUEhsyTRK5vYBMX1HvQ6Fg.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": true
+      },
+      "createdAt": "2026-06-10T07:43:44.583Z",
+      "updatedAt": "2026-07-20T09:00:59.430Z"
+    },
+    {
+      "order": 10,
+      "id": "zYLgugeuj",
+      "title": "Trainly",
+      "slug": "trainly",
+      "displayDomain": "trainly.com",
+      "externalUrl": "https://trainly.framer.website/",
+      "categoryId": "hPM5LXyjX",
+      "category": "BUSINESS",
+      "categorySlug": "business",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/k2wjUdBMurpCZgsR4JXVtuEwsqE.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/k2wjUdBMurpCZgsR4JXVtuEwsqE.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/k2wjUdBMurpCZgsR4JXVtuEwsqE.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/k2wjUdBMurpCZgsR4JXVtuEwsqE.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": true
+      },
+      "createdAt": "2026-06-10T07:46:43.073Z",
+      "updatedAt": "2026-07-20T09:01:01.458Z"
+    },
+    {
+      "order": 11,
+      "id": "QRIAhA0et",
+      "title": "Stickify",
+      "slug": "stickify",
+      "displayDomain": "stickify.pro",
+      "externalUrl": "https://stickify.framer.website/",
+      "categoryId": "hPM5LXyjX",
+      "category": "BUSINESS",
+      "categorySlug": "business",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/tbFBoq3VwCEUknOeRGY4OyHfkM.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/tbFBoq3VwCEUknOeRGY4OyHfkM.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/tbFBoq3VwCEUknOeRGY4OyHfkM.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/tbFBoq3VwCEUknOeRGY4OyHfkM.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": true
+      },
+      "createdAt": "2026-06-10T07:40:03.623Z",
+      "updatedAt": "2026-07-20T09:01:11.185Z"
+    },
+    {
+      "order": 12,
+      "id": "OubmC1nSx",
+      "title": "Landify",
+      "slug": "landify",
+      "displayDomain": "landify.com",
+      "externalUrl": "https://landify.framer.website/",
+      "categoryId": "KuZC2UqsA",
+      "category": "ONE PAGE",
+      "categorySlug": "one-page",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/BnwhKq277QWV3q8O3QfKelDcRQo.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/BnwhKq277QWV3q8O3QfKelDcRQo.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/BnwhKq277QWV3q8O3QfKelDcRQo.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/BnwhKq277QWV3q8O3QfKelDcRQo.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": true
+      },
+      "createdAt": null,
+      "updatedAt": "2026-07-20T09:01:13.833Z"
+    },
+    {
+      "order": 13,
+      "id": "tl_CENBPk",
+      "title": "Thinkbot",
+      "slug": "thinkbot",
+      "displayDomain": "thinkbot.io",
+      "externalUrl": "https://thinkbot.framer.ai/",
+      "categoryId": "sCjTByVW3",
+      "category": "AI",
+      "categorySlug": "ai",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/8Wkade4FAfsfSxKzgmDKR6y0GQ.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/8Wkade4FAfsfSxKzgmDKR6y0GQ.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/8Wkade4FAfsfSxKzgmDKR6y0GQ.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/8Wkade4FAfsfSxKzgmDKR6y0GQ.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": "2026-06-10T07:42:40.820Z",
+      "updatedAt": "2026-07-20T09:01:15.327Z"
+    },
+    {
+      "order": 14,
+      "id": "wpoEx1Tcf",
+      "title": "Groomix",
+      "slug": "groomix",
+      "displayDomain": "groomix.co",
+      "externalUrl": "https://groomix.framer.website/",
+      "categoryId": "hPM5LXyjX",
+      "category": "BUSINESS",
+      "categorySlug": "business",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/uj6KsfdruGmZHLHowqLzx0gaHc.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/uj6KsfdruGmZHLHowqLzx0gaHc.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/uj6KsfdruGmZHLHowqLzx0gaHc.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/uj6KsfdruGmZHLHowqLzx0gaHc.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": "2026-06-10T07:41:31.705Z",
+      "updatedAt": "2026-07-20T09:01:17.536Z"
+    },
+    {
+      "order": 15,
+      "id": "YlPQfvyFd",
+      "title": "Gradia",
+      "slug": "gradia",
+      "displayDomain": "gradia.com",
+      "externalUrl": "https://gradia.framer.website/",
+      "categoryId": "KuZC2UqsA",
+      "category": "ONE PAGE",
+      "categorySlug": "one-page",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/wvOnAKgR0jm2ZbtzbD8uQ4ms.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/wvOnAKgR0jm2ZbtzbD8uQ4ms.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/wvOnAKgR0jm2ZbtzbD8uQ4ms.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/wvOnAKgR0jm2ZbtzbD8uQ4ms.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": "2026-06-10T07:41:03.670Z",
+      "updatedAt": "2026-07-20T09:01:31.709Z"
+    },
+    {
+      "order": 16,
+      "id": "mvtl73ptN",
+      "title": "Designor",
+      "slug": "designor",
+      "displayDomain": "designer.com",
+      "externalUrl": "https://designor.framer.website/",
+      "categoryId": "KuZC2UqsA",
+      "category": "ONE PAGE",
+      "categorySlug": "one-page",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/LjuoG9nQQywmClBbBmVxIFQuo.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/LjuoG9nQQywmClBbBmVxIFQuo.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/LjuoG9nQQywmClBbBmVxIFQuo.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/LjuoG9nQQywmClBbBmVxIFQuo.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": "2026-06-10T07:44:21.511Z",
+      "updatedAt": "2026-07-20T09:01:33.545Z"
+    },
+    {
+      "order": 17,
+      "id": "lDXhSXgyW",
+      "title": "Pixor",
+      "slug": "pixor",
+      "displayDomain": "pixor.com",
+      "externalUrl": "https://pixor.framer.website/",
+      "categoryId": "KuZC2UqsA",
+      "category": "ONE PAGE",
+      "categorySlug": "one-page",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/Eo0abGCpM6vJvbTKN3xx5KeF5OE.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/Eo0abGCpM6vJvbTKN3xx5KeF5OE.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/Eo0abGCpM6vJvbTKN3xx5KeF5OE.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/Eo0abGCpM6vJvbTKN3xx5KeF5OE.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": "2026-06-10T07:42:05.875Z",
+      "updatedAt": "2026-07-20T09:01:35.104Z"
+    },
+    {
+      "order": 18,
+      "id": "phC3zBHI5",
+      "title": "Kavro",
+      "slug": "kavro",
+      "displayDomain": "kavro.studio",
+      "externalUrl": "https://kavro.framer.website/",
+      "categoryId": "KuZC2UqsA",
+      "category": "ONE PAGE",
+      "categorySlug": "one-page",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/UpKIxq0BQLTKVMz18DD9iWCYg.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/UpKIxq0BQLTKVMz18DD9iWCYg.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/UpKIxq0BQLTKVMz18DD9iWCYg.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/UpKIxq0BQLTKVMz18DD9iWCYg.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": "2026-06-10T07:39:36.766Z",
+      "updatedAt": "2026-07-20T09:01:36.566Z"
+    },
+    {
+      "order": 19,
+      "id": "vAJw5gdlm",
+      "title": "Taskify",
+      "slug": "taskify",
+      "displayDomain": "taskify.com",
+      "externalUrl": "https://taskify.framer.website/",
+      "categoryId": "hPM5LXyjX",
+      "category": "BUSINESS",
+      "categorySlug": "business",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/UTYXmlpiLXjYNK2FGNOrxorcpLg.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/UTYXmlpiLXjYNK2FGNOrxorcpLg.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/UTYXmlpiLXjYNK2FGNOrxorcpLg.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/UTYXmlpiLXjYNK2FGNOrxorcpLg.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": null,
+      "updatedAt": "2026-07-20T09:01:38.970Z"
+    },
+    {
+      "order": 20,
+      "id": "ALH21iIKv",
+      "title": "Flexify",
+      "slug": "flexify",
+      "displayDomain": "flexify.com",
+      "externalUrl": "https://flexify.framer.website/",
+      "categoryId": "hPM5LXyjX",
+      "category": "BUSINESS",
+      "categorySlug": "business",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/vwiKhlILR8iWUa8fIOhA8kU24.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/vwiKhlILR8iWUa8fIOhA8kU24.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/vwiKhlILR8iWUa8fIOhA8kU24.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/vwiKhlILR8iWUa8fIOhA8kU24.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": null,
+      "updatedAt": "2026-07-20T09:01:40.121Z"
+    },
+    {
+      "order": 21,
+      "id": "lrgtSZMqI",
+      "title": "Nexus AI",
+      "slug": "nexusai",
+      "displayDomain": "nexusai.io",
+      "externalUrl": "https://nexusai.framer.website/",
+      "categoryId": "sCjTByVW3",
+      "category": "AI",
+      "categorySlug": "ai",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/nDJhd5O56lYf8TC5BvNzn9fI04.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/nDJhd5O56lYf8TC5BvNzn9fI04.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/nDJhd5O56lYf8TC5BvNzn9fI04.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/nDJhd5O56lYf8TC5BvNzn9fI04.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": null,
+      "updatedAt": "2026-07-20T09:01:41.600Z"
+    },
+    {
+      "order": 22,
+      "id": "CK3Kg9Vvx",
+      "title": "Dailyhub",
+      "slug": "dailyhub",
+      "displayDomain": "dailyhub.supply",
+      "externalUrl": "https://dailyhub.framer.website/",
+      "categoryId": "hPM5LXyjX",
+      "category": "BUSINESS",
+      "categorySlug": "business",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/d3RuP4yNwxrIViJfQxQtGjvDIlc.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/d3RuP4yNwxrIViJfQxQtGjvDIlc.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/d3RuP4yNwxrIViJfQxQtGjvDIlc.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/d3RuP4yNwxrIViJfQxQtGjvDIlc.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": "2024-08-22T06:15:37.833Z",
+      "updatedAt": "2026-07-20T09:01:43.282Z"
+    },
+    {
+      "order": 23,
+      "id": "n4iBvtWcZ",
+      "title": "Agentify",
+      "slug": "agentify",
+      "displayDomain": "agentify.studio",
+      "externalUrl": "https://agentify.framer.website/",
+      "categoryId": "uEcIAASIa",
+      "category": "PORTFOLIO",
+      "categorySlug": "portfolio",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/KoS0lWadzjl7JWKqZpTIzurVxc.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/KoS0lWadzjl7JWKqZpTIzurVxc.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/KoS0lWadzjl7JWKqZpTIzurVxc.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/KoS0lWadzjl7JWKqZpTIzurVxc.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": "2024-08-22T06:18:21.234Z",
+      "updatedAt": "2026-07-20T09:01:48.891Z"
+    },
+    {
+      "order": 24,
+      "id": "C8XcBAbwW",
+      "title": "Protify",
+      "slug": "protify",
+      "displayDomain": "protify.studio",
+      "externalUrl": "https://protify.framer.website/",
+      "categoryId": "uEcIAASIa",
+      "category": "PORTFOLIO",
+      "categorySlug": "portfolio",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/2j5EIxJRnsvElF3xWnDiOxGQHZE.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/2j5EIxJRnsvElF3xWnDiOxGQHZE.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/2j5EIxJRnsvElF3xWnDiOxGQHZE.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/2j5EIxJRnsvElF3xWnDiOxGQHZE.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": "2024-08-22T06:19:32.513Z",
+      "updatedAt": "2026-07-20T09:01:50.238Z"
+    },
+    {
+      "order": 25,
+      "id": "F32lunQf2",
+      "title": "Startify",
+      "slug": "startify",
+      "displayDomain": "startify.com",
+      "externalUrl": "https://startify.framer.website/",
+      "categoryId": "hPM5LXyjX",
+      "category": "BUSINESS",
+      "categorySlug": "business",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/ENU1aqUrQEeRW1RpDwLIN3yplTk.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/ENU1aqUrQEeRW1RpDwLIN3yplTk.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/ENU1aqUrQEeRW1RpDwLIN3yplTk.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/ENU1aqUrQEeRW1RpDwLIN3yplTk.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": "2024-08-22T06:17:30.852Z",
+      "updatedAt": "2026-07-20T09:01:51.555Z"
+    },
+    {
+      "order": 26,
+      "id": "SdcouobK4",
+      "title": "Flowboard",
+      "slug": "flowboard",
+      "displayDomain": "flowboard.com",
+      "externalUrl": "https://flowboard.framer.website/",
+      "categoryId": "hPM5LXyjX",
+      "category": "BUSINESS",
+      "categorySlug": "business",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/Hh2tA35Qs2BaOhXKd2rE3KOXtSo.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/Hh2tA35Qs2BaOhXKd2rE3KOXtSo.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/Hh2tA35Qs2BaOhXKd2rE3KOXtSo.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/Hh2tA35Qs2BaOhXKd2rE3KOXtSo.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": "2024-08-22T06:20:26.416Z",
+      "updatedAt": "2026-07-20T09:01:53.565Z"
+    },
+    {
+      "order": 27,
+      "id": "TCTTuikaP",
+      "title": "Platify",
+      "slug": "platify",
+      "displayDomain": "platify.com",
+      "externalUrl": "https://platify.framer.website/",
+      "categoryId": "hPM5LXyjX",
+      "category": "BUSINESS",
+      "categorySlug": "business",
+      "thumbnail": {
+        "src": "https://framerusercontent.com/images/RjDOv8UFqlOTruQpVkomYmdVcHU.jpg?width=1600&height=1200",
+        "srcSet": "https://framerusercontent.com/images/RjDOv8UFqlOTruQpVkomYmdVcHU.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/RjDOv8UFqlOTruQpVkomYmdVcHU.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/RjDOv8UFqlOTruQpVkomYmdVcHU.jpg?width=1600&height=1200 1600w",
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
+      },
+      "featured": {
+        "inHomeSelectedWork": false,
+        "inHomeAboutBento": false,
+        "inInitialWorksSSR": false
+      },
+      "createdAt": "2024-08-22T06:16:53.600Z",
+      "updatedAt": "2026-07-20T09:01:55.346Z"
+    }
+  ],
+  "hero": {
+    "badge": "INTERFACE DESIGNER",
+    "headlineTemplate": "Design beyond the interface",
+    "targetWord": "interface",
+    "rotatingWords": [
+      "interface",
+      "system",
+      "product",
+      "experience"
+    ],
+    "rotationIntervalSeconds": 3,
+    "rotationDurationSeconds": 0.65,
+    "description": "I design and build futuristic digital experiences with cinematic visuals, sharp layouts, and high-tech interactions. My work blends strategy, creativity, and clean execution to create portfolios that feel bold, immersive, and unforgettable.",
+    "primaryCta": {
+      "label": "VIEW WORKS",
+      "href": "/works"
+    },
+    "secondaryCta": {
+      "label": "EXPLORE PROCESS",
+      "href": "/#process"
+    },
+    "statusText": "AVAILABLE FOR HIRE",
+    "scrollHint": "SCROLL TO EXPLORE",
+    "portraitHalftoneImage": "https://framerusercontent.com/images/Sy1FOpVGp8D2UAJSvei3zr08s.png?width=1254&height=1254"
+  },
+  "process": {
+    "badge": "PROCESS",
+    "heading": "FROM CONCEPT TO LAUNCH",
+    "description": "A focused workflow for turning early ideas into polished digital experiences through clear direction, refined interface design, and smooth execution.",
+    "phases": [
+      {
+        "id": "content-1",
+        "phaseCode": "PHASES 01",
+        "title": "DISCOVER",
+        "description": "Define the goal, audience, visual direction, and project structure before moving into focused design."
+      },
+      {
+        "id": "content-2",
+        "phaseCode": "PHASES 02",
+        "title": "Design",
+        "description": "Create high-impact interface concepts with strong hierarchy, futuristic detail, and responsive."
+      },
+      {
+        "id": "content-3",
+        "phaseCode": "PHASES 03",
+        "title": "Build",
+        "description": "Turn the approved direction into a clean Framer experience with interaction, motion, and precision."
+      },
+      {
+        "id": "content-4",
+        "phaseCode": "PHASES 04",
+        "title": "Refine",
+        "description": "Polish spacing, performance, responsiveness, and final details to make the experience launch ready."
+      }
+    ],
+    "principleChips": [
+      "CLARITY",
+      "STRUCTURE",
+      "MOTION",
+      "IMPACT"
+    ],
+    "metrixStripRaw": [
+      "hhU9KfRnT:4,id:`xDiy_Xp3H`,layoutId:`xDiy_Xp3H`,Qn588qtqS:`PHASES`",
+      "hhU9KfRnT:100,id:`Z3G93h21p`,layoutId:`Z3G93h21p`,Qn588qtqS:`PRECISION`",
+      "hhU9KfRnT:100,id:`xnWTShe6h`,layoutId:`xnWTShe6h`,Qn588qtqS:`POSSIBILITIES`"
+    ]
+  },
+  "homeServices": {
+    "badge": "CORE SERVICES",
+    "heading": "WHAT I CREATE",
+    "description": "High-impact services for sharp interfaces, visual systems, and polished Framer execution.",
+    "items": [
+      {
+        "index": 1,
+        "layer": 1,
+        "title": "Design",
+        "description": "Websites, landing pages, and product interfaces.",
+        "deliverables": [
+          "UX structure",
+          "Visual hierarchy",
+          "Responsive layouts",
+          "Interaction-ready"
+        ]
+      },
+      {
+        "index": 2,
+        "layer": 2,
+        "title": "Development",
+        "description": "Fast, responsive Framer builds ready to launch.",
+        "deliverables": [
+          "Component setup",
+          "CMS structure",
+          "Smooth interactions",
+          "Launch optimization"
+        ]
+      },
+      {
+        "index": 3,
+        "layer": 3,
+        "title": "VISUAL SYSTEM",
+        "description": "Reusable styles, components, and interface rules.",
+        "deliverables": [
+          "Design tokens",
+          "UI components",
+          "Style guidelines",
+          "Consistent layouts"
+        ]
+      },
+      {
+        "index": 4,
+        "layer": 4,
+        "title": "CREATIVE",
+        "description": "Strong concepts and visual systems for bold brands.",
+        "deliverables": [
+          "Art direction",
+          "Motion ideas",
+          "Brand atmosphere",
+          "Visual storytelling"
+        ]
+      }
+    ],
+    "isometricStackImages": [
+      "https://framerusercontent.com/images/i4y7SrEdFXTq2dfS6EBaILcMk8s.png?width=1254&height=1254",
+      "https://framerusercontent.com/images/R99krk6OPN1XkkZo0gvX58mUo.png?width=1254&height=1254",
+      "https://framerusercontent.com/images/jcV1GRf10v5jLEPOQONySjQScc.png?width=1254&height=1254",
+      "https://framerusercontent.com/images/mAEVKNciJxLXPNAoqzu9DCLeNE.png?width=1254&height=1254",
+      "https://framerusercontent.com/images/pL91H7JbYueyYlfBaqJ54P8NVrQ.png?width=1254&height=1254"
+    ]
+  },
+  "aboutProfile": {
+    "name": "Adrian Voss",
+    "role": "Graphic designer",
+    "focus": "Web design",
+    "experience": "6+ years",
+    "location": "Germany, Berlin",
+    "kpiStats": [
+      {
+        "label": "YEARS",
+        "value": 6,
+        "suffix": "+"
+      },
+      {
+        "label": "PROJECTS",
+        "value": 40,
+        "suffix": "+"
+      },
+      {
+        "label": "CLIENTS",
+        "value": 10,
+        "suffix": "K+"
+      }
+    ]
+  },
+  "terminal": {
+    "badge": "TERMINAL",
+    "statusLabel": "STAUS:",
+    "statusValue": "IN PROGRESS",
+    "steps": [
+      {
+        "step": "01",
+        "label": "INPUT",
+        "description": "Understand your goals, audience and context"
+      },
+      {
+        "step": "02",
+        "label": "STRATEGY",
+        "description": "Analyze the market, competitors and opportunities."
+      },
+      {
+        "step": "03",
+        "label": "STRUCTURE",
+        "description": "Build the information archittecture and user flow."
+      },
+      {
+        "step": "04",
+        "label": "INTERFACE",
+        "description": "Design the UI system, layouts and interactions."
+      },
+      {
+        "step": "05",
+        "label": "LAUNCH",
+        "description": "Build in Framer, test thoroughly and deliver."
+      }
+    ],
+    "commandPrompt": "omnira@terminal: -$",
+    "commandTextDesktop": "purpuse + structure + clarity = impact",
+    "commandTextMobile": "purpuse",
+    "enterLabel": "ENTER",
+    "outputLabel": "OUTPUT",
+    "systemCheckLabel": "SYSTEM CHECK",
+    "systemCheckStatus": "[ALL OK]",
+    "summaryLine": "Polished interface system",
+    "isometricStackImages": [
+      "https://framerusercontent.com/images/IX96wnZHFKkZ4CkKxvOe2RM.png?width=1254&height=1254",
+      "https://framerusercontent.com/images/wEILxW4gYewea7cS8LA8wZiFfaU.png?width=1254&height=1254",
+      "https://framerusercontent.com/images/Wi1fmxlgmCXqbsGz9XIbOm8Z9ps.png?width=1254&height=1254",
+      "https://framerusercontent.com/images/POquvLl5DNV4ddB2ya871EmvM0.png?width=1254&height=1254",
+      "https://framerusercontent.com/images/CaJnltcQvNkhaEQYafZBlfAzCg.png?width=1254&height=1254"
+    ]
+  },
+  "timeline": [
+    {
+      "id": "timeline-1",
+      "year": "2020",
+      "title": "Design foundation",
+      "description": "Began my journey in UI/UX design, Crafting interface that are clean, intvitive and user-focused.",
+      "imageUrl": "https://framerusercontent.com/images/Q5ttqWayMypFOKawr93eBNQj8.png?width=1254&height=1254"
+    },
+    {
+      "id": "timeline-2",
+      "year": "2021",
+      "title": "Product systems",
+      "description": "Started building visual systems, reusable layouts, and scalable design patterns for consistent digital experiences.",
+      "imageUrl": "https://framerusercontent.com/images/9eq9GWhCmOZP3CVjgECMhws1q90.png?width=1254&height=1254"
+    },
+    {
+      "id": "timeline-3",
+      "year": "2022",
+      "title": "Web evolution",
+      "description": "Expanded from static interface design into responsive websites, interactive layouts, and polished digital storytelling.",
+      "imageUrl": "https://framerusercontent.com/images/FvxphlrFir4baiJreIJhZDGdPS4.png?width=1254&height=1254"
+    },
+    {
+      "id": "timeline-4",
+      "year": "2023",
+      "title": "Framer builds",
+      "description": "Specialized in Framer builds, motion, CMS structure, and fast launch-ready websites with clean execution.",
+      "imageUrl": "https://framerusercontent.com/images/MCD3GkcRtN3ArTxCU6KUgQNV18.png?width=1254&height=1254"
+    },
+    {
+      "id": "timeline-5",
+      "year": "2024",
+      "title": "Motion language",
+      "description": "Developed stronger design languages with typography, color, components, and motion working as one clear system.",
+      "imageUrl": "https://framerusercontent.com/images/1iUlxmWvaMCgwSxBvvdJ39R1xWI.png?width=1254&height=1254"
+    },
+    {
+      "id": "timeline-6",
+      "year": "2025",
+      "title": "Creative direction",
+      "description": "Pushed visual direction toward cinematic, high-impact digital experiences with bold systems and immersive interfaces.",
+      "imageUrl": "https://framerusercontent.com/images/GiQNd5HblQoHdoYl6bOJXISRHNo.png?width=1254&height=1254"
+    },
+    {
+      "id": "timeline-7",
+      "year": "2026",
+      "title": "Sharper systems",
+      "description": "Creating advanced portfolio templates, interactive components, and high-end Framer systems for bold digital brands.",
+      "imageUrl": "https://framerusercontent.com/images/0cgLuZ1DjJ3EkkzXWD8JvmL404.png?width=1254&height=1254"
+    }
+  ],
+  "toolStackCategories": [
+    {
+      "category": "DESIGN",
+      "tools": [
+        {
+          "index": 1,
+          "code": "01",
+          "name": "FIGMA",
+          "description": "Interface design and prototyping",
+          "url": "https://www.figma.com/"
+        },
+        {
+          "index": 2,
+          "code": "02",
+          "name": "Photoshop",
+          "description": "Image editing and refinement",
+          "url": "https://www.adobe.com/products/photoshop.html"
+        },
+        {
+          "index": 3,
+          "code": "03",
+          "name": "Illustrator",
+          "description": "Vector graphics and icons",
+          "url": "https://www.adobe.com/products/illustrator.html"
+        },
+        {
+          "index": 4,
+          "code": "04",
+          "name": "Design systems",
+          "description": "Design system examples and resources",
+          "url": "https://designsystemsrepo.com/"
+        }
+      ]
+    },
+    {
+      "category": "DEVELOPMENT",
+      "tools": [
+        {
+          "index": 1,
+          "code": "01",
+          "name": "FRAMER",
+          "description": "Fast interactive website builds",
+          "url": "https://www.framer.com/?via=dmytri_design"
+        },
+        {
+          "index": 2,
+          "code": "02",
+          "name": "React",
+          "description": "Component-based interface logic",
+          "url": "https://react.dev/"
+        },
+        {
+          "index": 3,
+          "code": "03",
+          "name": "TypeScript",
+          "description": "Safer scalable code structure",
+          "url": "https://www.typescriptlang.org/"
+        },
+        {
+          "index": 4,
+          "code": "04",
+          "name": "Storybook",
+          "description": "UI component documentation",
+          "url": "https://storybook.js.org/"
+        }
+      ]
+    },
+    {
+      "category": "MOTION",
+      "tools": [
+        {
+          "index": 1,
+          "code": "01",
+          "name": "GSAP",
+          "description": "Advanced timeline animations",
+          "url": "https://gsap.com/"
+        },
+        {
+          "index": 2,
+          "code": "02",
+          "name": "Motion",
+          "description": "Smooth interface transitions",
+          "url": "https://motion.dev/"
+        },
+        {
+          "index": 3,
+          "code": "03",
+          "name": "After Effects",
+          "description": "Cinematic motion direction",
+          "url": "https://www.adobe.com/products/aftereffects.html"
+        },
+        {
+          "index": 4,
+          "code": "04",
+          "name": "LottieFiles",
+          "description": "Web animation delivery",
+          "url": "https://lottiefiles.com/"
+        }
+      ]
+    },
+    {
+      "category": "3D / VISUAL",
+      "tools": [
+        {
+          "index": 1,
+          "code": "01",
+          "name": "Spline",
+          "description": "Interactive 3D web scenes",
+          "url": "https://spline.design/"
+        },
+        {
+          "index": 2,
+          "code": "02",
+          "name": "Blender",
+          "description": "High-quality 3D visuals",
+          "url": "https://www.blender.org/"
+        },
+        {
+          "index": 3,
+          "code": "03",
+          "name": "Three.js",
+          "description": "Custom web-based 3D",
+          "url": "https://threejs.org/"
+        },
+        {
+          "index": 4,
+          "code": "04",
+          "name": "Rive",
+          "description": "Interactive animated graphics",
+          "url": "https://rive.app/"
+        }
+      ]
+    }
+  ],
+  "testimonials": {
+    "badge": "TESTIMONIALS",
+    "description": "Feedback from founders and teams who needed sharp visuals, clear systems, and polished digital execution.",
+    "rating": "4.8",
+    "ratingCaption": "CLIENT SATISFACTION",
+    "ratingSubcaption": "FROM 24 CLIENT PROJECTS",
+    "items": [
+      {
+        "index": 1,
+        "name": "Marko Ivanov",
+        "roleAndCompany": "Director, Vanta",
+        "quote": "Omnira delivered a sharp website with clear structure, strong visuals, and smooth execution from start to finish.",
+        "link": "https://x.com/Dmytri_Design",
+        "avatarUrl": null
+      },
+      {
+        "index": 2,
+        "name": "Daniel Kim",
+        "roleAndCompany": "Founder, Lumen",
+        "quote": "The process felt focused and fast, with polished details that made our product feel truly premium.",
+        "link": "https://x.com/Dmytri_Design",
+        "avatarUrl": null
+      },
+      {
+        "index": 3,
+        "name": "Sarah Chen",
+        "roleAndCompany": "Product Lead, Statik",
+        "quote": "A clean system, strong direction, and excellent Framer execution. Everything felt intentional and launch-ready.",
+        "link": "https://x.com/Dmytri_Design",
+        "avatarUrl": null
+      },
+      {
+        "index": 4,
+        "name": "Leon Hart",
+        "roleAndCompany": "Director, Vanta",
+        "quote": "Omnira turned our rough direction into a polished website with strong structure, smooth motion, and memorable visual impact.",
+        "link": "https://x.com/Dmytri_Design",
+        "avatarUrl": null
+      },
+      {
+        "index": 5,
+        "name": "Sofia brand",
+        "roleAndCompany": "Founder, Lumen",
+        "quote": "We needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.",
+        "link": "https://x.com/Dmytri_Design",
+        "avatarUrl": null
+      },
+      {
+        "index": 6,
+        "name": "Mira klein",
+        "roleAndCompany": "Product Lead, Statik",
+        "quote": "We needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.",
+        "link": "https://x.com/Dmytri_Design",
+        "avatarUrl": null
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "PRICING",
+    "description": "Choose a focused package for sharp interfaces, polished Framer builds, and launch-ready digital experiences.",
+    "tiers": [
+      {
+        "planName": "STARTER",
+        "featured": false,
+        "description": "For focused landing pages",
+        "priceUsd": 1200,
+        "currency": "USD",
+        "features": [
+          "Landing poge",
+          "Framer build",
+          "Responsive layout",
+          "Basic interactions",
+          "Launch support"
+        ]
+      },
+      {
+        "planName": "PRO",
+        "featured": true,
+        "description": "Complete website system",
+        "priceUsd": 2400,
+        "currency": "USD",
+        "features": [
+          "Multi-page website",
+          "Design system setup",
+          "CMS structure",
+          "Advanced interactions",
+          "Launch optimization"
+        ]
+      },
+      {
+        "planName": "Custom",
+        "featured": false,
+        "description": "Advanced systems and CMS",
+        "priceUsd": 4800,
+        "currency": "USD",
+        "features": [
+          "Custom page structure",
+          "Complex CMS",
+          "Motion direction",
+          "Component library",
+          "Ongoing support"
+        ]
+      }
+    ],
+    "assuranceStrip": [
+      "SECURE",
+      "FAST DELIVERY",
+      "PROCESS",
+      "SUPPORT"
+    ]
+  },
+  "faqs": [
+    {
+      "number": 1,
+      "code": "01",
+      "question": "How long does it take?",
+      "answer": "Most projects take 2–4 weeks, depending on page count, content readiness, and interaction complexity."
+    },
+    {
+      "number": 2,
+      "code": "02",
+      "question": "Do you build in Framer?",
+      "answer": "Yes. I design and build polished Framer websites with responsive layouts, CMS setup, and clean interactions."
+    },
+    {
+      "number": 3,
+      "code": "03",
+      "question": "Is it fully responsive?",
+      "answer": "Yes. Every page is designed and tested across desktop, tablet, and mobile breakpoints."
+    },
+    {
+      "number": 4,
+      "code": "04",
+      "question": "Can I add pages?",
+      "answer": "Yes. Extra pages can be added based on your project scope, content needs, and final structure."
+    },
+    {
+      "number": 5,
+      "code": "05",
+      "question": "Do you support launch?",
+      "answer": "Yes. I help with final checks, basic SEO setup, performance review, and publishing support."
+    },
+    {
+      "number": 6,
+      "code": "06",
+      "question": "Can I edit later?",
+      "answer": "Yes. The site is built with clean structure, reusable components, and easy-to-edit Framer sections."
+    },
+    {
+      "number": 7,
+      "code": "07",
+      "question": "Do you include CMS?",
+      "answer": "Yes. CMS can be included for blogs, projects, updates, or repeatable content sections."
+    },
+    {
+      "number": 8,
+      "code": "08",
+      "question": "Can we add motion?",
+      "answer": "Yes. Subtle motion and interactions can be added to make the site feel more polished."
+    }
+  ],
+  "contact": {
+    "emails": [
+      "hello@omnira.studio",
+      "hello@omniro.studio"
+    ],
+    "mailtos": [
+      "mailto:hello@omnira.studio"
+    ],
+    "locations": [
+      "Berlin, Germany"
+    ],
+    "selectOptions": {
+      "projectType": [
+        {
+          "value": "design",
+          "label": "Design"
+        },
+        {
+          "value": "development",
+          "label": "Development"
+        },
+        {
+          "value": "visual_system",
+          "label": "Visual system"
+        },
+        {
+          "value": "creative",
+          "label": "Creative"
+        }
+      ],
+      "budgetRange": [
+        {
+          "value": "1k-3k",
+          "label": "$1k - $3K"
+        },
+        {
+          "value": "3k-5k",
+          "label": "$3k - $5k"
+        },
+        {
+          "value": "5k-10k",
+          "label": "$5k - $10k"
+        },
+        {
+          "value": "10k-plus",
+          "label": "$10k+"
+        },
+        {
+          "value": "not-sure-yet",
+          "label": "Not suire yet"
+        }
+      ],
+      "timeline": [
+        {
+          "value": "asap",
+          "label": "ASAP"
+        },
+        {
+          "value": "2-weeks",
+          "label": "2 weeks"
+        },
+        {
+          "value": "2-4-weeks",
+          "label": "2-4 weeks"
+        },
+        {
+          "value": "1-2-months",
+          "label": "1-2 months"
+        },
+        {
+          "value": "3-plus-months",
+          "label": "3+ months"
+        },
+        {
+          "value": "flexible",
+          "label": "Flexible"
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "badge": "ERROR",
+    "code": "404",
+    "heading": "PAGE NOT FOUND",
+    "description": "The page you're looking for doesn't exist or has been moved to another dimension.",
+    "actions": [
+      {
+        "label": "BACK TO HOME",
+        "href": "/"
+      },
+      {
+        "label": "Contact me",
+        "href": "/contact"
+      }
+    ],
+    "imageUrl": "https://framerusercontent.com/images/Px212XLUGoDFI4k0qFQM1pkxE.png?width=1448&height=1086"
+  },
+  "footer": {
+    "clockLabel": "LOCAL TIME:",
+    "clockRegion": "Germany — Berlin",
+    "clockTimeZone": "Europe/Berlin",
+    "clockFormat": "12h",
+    "clockShowSeconds": true,
+    "copyright": "© MADE IN STYLOKIT",
+    "socialLinks": [
+      {
+        "label": "Email",
+        "href": "mailto:hello@omnira.studio"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/Dmytri_Design"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/dmytri-design/"
+      }
+    ],
+    "templateLinks": {
+      "remixTemplate": "https://stylokit.lemonsqueezy.com/checkout/buy/2f9c0adb-b559-41e0-98d8-e7d3f1ed923a",
+      "framerRemix": "https://framer.link/bFVcS5o"
+    }
+  }
+}
