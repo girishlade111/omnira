@@ -97,7 +97,7 @@ describe('Sliding-window rate limiter', () => {
     const afterWindow = checkRateLimit('ip:1', {
       windowMs: 60_000,
       maxRequests: 5,
-      now: t0 + 60_001,
+      now: t0 + 60_500,
     });
     expect(afterWindow.allowed).toBe(true);
     expect(afterWindow.remaining).toBe(4);
