@@ -317,11 +317,15 @@
 .terminalLeftPanel,
 .terminalRightPanel {
   width: 100%;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .terminalLeftInner {
   display: flex;
   flex-direction: column;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .terminalTopBar {
@@ -800,7 +804,7 @@
   font-size: 28px;
   font-weight: 600;
   line-height: 34px;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.56);
   transition: color var(--duration-fast) ease;
 }
 

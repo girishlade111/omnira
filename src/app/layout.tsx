@@ -48,6 +48,13 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
           as="font"
           type="font/woff2"
           crossOrigin="anonymous"
+          href="/assets/fonts/orbitron-600-normal-latin.woff2"
+        />
+        <link
+          rel="preload"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
           href="/assets/fonts/orbitron-500-normal-latin.woff2"
         />
         <link

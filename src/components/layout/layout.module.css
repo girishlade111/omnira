@@ -140,24 +140,45 @@
 .desktopNavList {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   list-style: none;
   margin: 0;
-  padding: 4px 8px;
+  padding: 0;
 }
 
 .desktopNavLink {
   position: relative;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 6px 14px;
+  justify-content: center;
+  padding: 8px 12px;
   font-family: var(--body-font, 'Chakra Petch', sans-serif);
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.88);
+  transition: color var(--duration-fast) ease;
+}
+
+.desktopNavLink:hover {
+  color: var(--color-text-primary);
+}
+
+.desktopNavLinkActive {
+  color: var(--color-accent);
+}
+
+.navActiveMarker {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 2px;
+  background-color: var(--color-accent);
+}
   color: var(--color-text-secondary, rgba(255, 255, 255, 0.7));
   transition: color 0.2s ease;
 }
