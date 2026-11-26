@@ -160,17 +160,15 @@ async function investigateProcessAndServices(page: Page) {
 
   // Locate Process and Services containers in document coordinates
   const ranges = await page.evaluate(() => {
-    const findSection = (needle: string) => {
+    const matchesFor = (needle: string) => {
       const matches = Array.from(document.querySelectorAll("section, [data-framer-name], div")).filter((el) => {
         const txt = (el.textContent || "").trim();
         const r = el.getBoundingClientRect();
         return txt.includes(needle) && r.height >= 500 && r.width >= 800;
       });
-      // Pick the tightest container >= 500px tall that still has sticky children or represents the section
       matches.sort((a, b) => a.getBoundingClientRect().height - b.getBoundingClientRect().height);
       const best = matches[matches.length - 1] || matches[0];
       if (!best) return null;
-      // Find section-level ancestor (direct child of main column or >= 1200px tall)
       let cur: HTMLElement | null = best as HTMLElement;
       while (cur && cur.parentElement && cur.parentElement.getBoundingClientRect().height < 14000) {
         if (cur.getBoundingClientRect().height >= 1200 && cur.getBoundingClientRect().height <= 6000) break;
@@ -186,8 +184,8 @@ async function investigateProcessAndServices(page: Page) {
     };
 
     return {
-      process: findSection("01 //"),
-      services: findSection("SERVICES"),
+      process: matchesFor("DISCOVER"),
+      services: matchesFor("SERVICES"),
       allTallChildren: Array.from((document.querySelector("#main > div") || document.body).children).map((c) => {
         const r = c.getBoundingClientRect();
         const cs = getComputedStyle(c);
