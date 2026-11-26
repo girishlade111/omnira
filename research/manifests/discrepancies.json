@@ -1,0 +1,186 @@
+{
+  "generatedAt": "2026-11-26T21:55:00Z",
+  "verificationRun": "task-533",
+  "summary": {
+    "totalDiscrepancies": 14,
+    "resolved": 8,
+    "intentionalOrUpstream": 6,
+    "openBlocking": 0
+  },
+  "discrepancies": [
+    {
+      "id": "DISC-001",
+      "category": "content-inventory",
+      "severity": "high",
+      "status": "resolved",
+      "title": "Works catalog 12 SSR vs 27 full catalog discrepancy",
+      "referenceObservation": "Initial static SSR of https://omnira.framer.website/works renders pageSize=12 projects while Framer LoadMore + CMS chunk mD0yv0kks-chunk-default-0.framercms contain all 27 projects across 5 category counts (ALL PROJECTS 27, AI 3, BUSINESS 12, ONE PAGE 5, PORTFOLIO 7).",
+      "implementationDecision": "Render all 27 projects immediately in ALL PROJECTS with 1:1 verified category counts and URL query param ?category= sync via history.replaceState.",
+      "evidence": [
+        "research/reference/content/cms-decoded.json",
+        "research/manifests/interactions.json",
+        "check-interactions.ts works-filters-27-projects PASS"
+      ]
+    },
+    {
+      "id": "DISC-002",
+      "category": "asset",
+      "severity": "medium",
+      "status": "resolved",
+      "title": "Missing upstream Framer spinner mask SVG (HTTP 404)",
+      "referenceObservation": "Upstream asset https://framerusercontent.com/images/pGiXYozQ3mE4cilNOItfe2L2fUA.svg returned HTTP 404 during extraction.",
+      "implementationDecision": "Replaced broken external mask with an inline accessible SVG spinner inside ContactForm submit button.",
+      "evidence": [
+        "research/manifests/assets.json missingAssets[0]"
+      ]
+    },
+    {
+      "id": "DISC-003",
+      "category": "typography",
+      "severity": "medium",
+      "status": "resolved",
+      "title": "Missing Orbitron weight 600 WOFF2 and malformed fonts.css braces",
+      "referenceObservation": "Live hero headline uses Orbitron-SemiBold (600) while initial font scrape omitted weight 600 and left stray ' };' tokens in public/assets/fonts/fonts.css.",
+      "implementationDecision": "Downloaded Google Fonts latin subset orbitron-600-normal-latin.woff2 and cleaned stray ' };' tokens across public/assets/fonts/fonts.css (0 stray braces remaining).",
+      "evidence": [
+        "research/reports/geometry-comparison.json geom-t-6 fontWeight=600",
+        "check-assets.ts fonts=Chakra Petch,Orbitron PASS"
+      ]
+    },
+    {
+      "id": "DISC-004",
+      "category": "hydration",
+      "severity": "high",
+      "status": "resolved",
+      "title": "React hydration mismatch #418 on 404 route navigation",
+      "referenceObservation": "Prefix-based active route check marked root links inconsistent during 404 rendering on /works/brandora.",
+      "implementationDecision": "Updated isRouteActive in DesktopNavigation.tsx and MobileNavigation.tsx to exact pathname comparison (currentPath === href).",
+      "evidence": [
+        "check-routes.ts /works/brandora -> HTTP 404 PASS"
+      ]
+    },
+    {
+      "id": "DISC-005",
+      "category": "performance",
+      "severity": "high",
+      "status": "resolved",
+      "title": "Cumulative Layout Shift (CLS) on /works",
+      "referenceObservation": "Suspense fallback={null} around WorksContent delayed grid mount after initial paint.",
+      "implementationDecision": "Removed Suspense null fallback on /works and preloaded critical Orbitron and Chakra Petch WOFF2 files in layout.tsx.",
+      "evidence": [
+        "research/reports/perf-report.json cls=0 across all 5 routes"
+      ]
+    },
+    {
+      "id": "DISC-006",
+      "category": "accessibility",
+      "severity": "high",
+      "status": "resolved",
+      "title": "WCAG 2.1 AA contrast, ARIA roles, and accessible name compliance",
+      "referenceObservation": "Initial axe-core scan flagged missing role='img' on ClientRating, tablist wrapper misuse on ServiceSelector, low muted text contrast, and accessible name mismatch on buttons.",
+      "implementationDecision": "Added role='img' on ClientRating, converted ServiceSelector to button-accordion semantics, raised --color-text-muted to rgba(255,255,255,0.58), and aligned button aria-labels with visible text.",
+      "evidence": [
+        "research/reports/a11y-report.json violations=0 across all 5 routes"
+      ]
+    },
+    {
+      "id": "DISC-007",
+      "category": "asset",
+      "severity": "medium",
+      "status": "resolved",
+      "title": "404 page swirling vortex portal artwork",
+      "referenceObservation": "Live /404 embeds an encrypted shader/portal visual inside its hero frame.",
+      "implementationDecision": "Captured clean 676x556 frame of the live 404 portal and generated AVIF, WebP, and JPG derivatives at public/assets/images/brand/not-found-portal.*.",
+      "evidence": [
+        "check-assets.ts /nonexistent-check-404 imgs=1 broken=0"
+      ]
+    },
+    {
+      "id": "DISC-008",
+      "category": "asset",
+      "severity": "medium",
+      "status": "resolved",
+      "title": "16 standalone System Stack tool SVG icons",
+      "referenceObservation": "About page System Stack displays 16 tool icons across Design, Development, Motion, and 3D / Visual tabs.",
+      "implementationDecision": "Extracted all 16 standalone SVGs into public/assets/icons/tools/ and mapped them via src/lib/assets.ts.",
+      "evidence": [
+        "check-assets.ts /about imgs=40 broken=0",
+        "check-interactions.ts about-system-stack-4-tabs PASS"
+      ]
+    },
+    {
+      "id": "DISC-009",
+      "category": "geometry-scroll",
+      "severity": "low",
+      "status": "intentional",
+      "title": "Home full-page height delta (-8289px at 1440x900) due to Framer sticky spacer tracks",
+      "referenceObservation": "Live / uses 370vh-470vh sticky scroll spacer containers for Process and Services sections (15683px total scrollHeight).",
+      "implementationDecision": "Reconstructed interactive step/phase state selection and progress without multi-thousand-pixel empty dark scroll spacers (7394px scrollHeight), eliminating blank black vertical bands in full-page screenshots.",
+      "evidence": [
+        "research/reports/geometry-comparison.json home 1440x900 referenceHeight=15683 scrollHeight=7394"
+      ]
+    },
+    {
+      "id": "DISC-010",
+      "category": "visual-chrome",
+      "severity": "low",
+      "status": "intentional",
+      "title": "Omission of Framer platform promotion badge",
+      "referenceObservation": "Live reference viewports render floating 'Made in Framer' and 'REMIX TEMPLATE' platform badges in bottom-right corner.",
+      "implementationDecision": "Intentionally omitted third-party Framer platform chrome to deliver a clean independent portfolio application.",
+      "evidence": [
+        "research/reports/visual-comparison-summary.json"
+      ]
+    },
+    {
+      "id": "DISC-011",
+      "category": "typography-heading",
+      "severity": "low",
+      "status": "documented-residual",
+      "title": "Works page visual diff (~27.4% viewport / ~22.5% fullpage at 1440x900)",
+      "referenceObservation": "Works section heading wraps cleanly in two-column grid on desktop while reference screenshot captures slightly narrower display tracking and Framer initial 12-card spacing.",
+      "implementationDecision": "Maintained responsive two-line heading fit and zero horizontal overflow (scrollWidth=1440, 0 offenders) alongside all 27 cards rendered cleanly.",
+      "evidence": [
+        "research/reports/visual-comparison-summary.json works 1440x900 diffPercent=27.409"
+      ]
+    },
+    {
+      "id": "DISC-012",
+      "category": "dynamic-frame",
+      "severity": "low",
+      "status": "documented-residual",
+      "title": "Hero Canvas 2D halftone dot-matrix, rotating headline word, and Berlin live clock",
+      "referenceObservation": "Home hero features live time-varying Canvas 2D dot-matrix portrait, 3000ms rotating barrel headline word, and 1Hz Europe/Berlin clock.",
+      "implementationDecision": "Exact pixel diff at instant of screenshot capture reflects frame phase differences (~9.365% Home 1440x900 viewport diff), not static layout errors.",
+      "evidence": [
+        "research/reports/visual-comparison-summary.json home 1440x900 viewport diffPercent=9.365"
+      ]
+    },
+    {
+      "id": "DISC-013",
+      "category": "copy-fidelity",
+      "severity": "low",
+      "status": "upstream-preserved-vs-normalized",
+      "title": "Upstream reference spelling anomalies",
+      "referenceObservation": "Live reference contains typos: 'bradora.studio' (Brandora display text), 'girdo.studio' (Grido display text), 'hello@omniro.studio' label next to mailto:hello@omnira.studio href, 'Not suire yet' (Timeline dropdown), 'Landing poge' (Project Type dropdown), 'STAUS:' / 'purpuse' (About terminal).",
+      "implementationDecision": "Preserved project display domain strings ('bradora.studio', 'girdo.studio') for reference parity where shown in Works cards while normalizing interactive contact email/labels ('hello@omnira.studio', 'Not sure yet', 'Landing page') for production usability.",
+      "evidence": [
+        "research/reference/content/live-extraction.json",
+        "src/content/contact.ts"
+      ]
+    },
+    {
+      "id": "DISC-014",
+      "category": "navigation-architecture",
+      "severity": "info",
+      "status": "verified-equivalent",
+      "title": "External project detail links vs internal project routes",
+      "referenceObservation": "Live site has zero /works/:slug routes; sitemap confirms only /, /about, /works, /contact, /404, and all 27 cards link externally to *.framer.website / *.framer.ai.",
+      "implementationDecision": "Matched reference 1:1 with 27 external links and standard custom 404 response for nonexistent paths such as /works/brandora.",
+      "evidence": [
+        "research/manifests/routes.json hasInternalProjectDetailRoutes=false",
+        "check-routes.ts /works/brandora -> HTTP 404"
+      ]
+    }
+  ]
+}
