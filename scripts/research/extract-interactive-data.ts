@@ -296,24 +296,26 @@ async function main() {
           opacity: cs.opacity,
         };
       });
-      // Determine which word is centered inside the slot (e.g. compare against sibling slot box)
+      // Find the word currently visible inside its clipping viewport / opacity=1
       let activeWord: string | null = null;
-      if (wordNodes.length > 0) {
-        const slot = wordNodes[0].parentElement?.parentElement;
-        const slotRect = slot?.getBoundingClientRect();
-        if (slotRect) {
-          const slotMid = slotRect.top + slotRect.height / 2;
-          let bestDist = Infinity;
-          for (const el of wordNodes) {
-            const r = el.getBoundingClientRect();
-            const mid = r.top + r.height / 2;
-            const dist = Math.abs(mid - slotMid);
-            if (dist < bestDist) {
-              bestDist = dist;
-              activeWord = (el.textContent ?? '').trim();
-            }
-          }
-        }
+      const visibleWords = wordNodes
+        .map((el) => {
+          const r = el.getBoundingClientRect();
+          const cs = window.getComputedStyle(el);
+          return {
+            word: (el.textContent ?? '').trim(),
+            top: r.top,
+            bottom: r.bottom,
+            opacity: parseFloat(cs.opacity || '1'),
+          };
+        })
+        .filter((w) => w.opacity > 0.5 && w.bottom > 0 && w.top < 500);
+      if (visibleWords.length > 0) {
+        // Pick the one closest to the median y of the header block
+        const headerRect = header?.getBoundingClientRect();
+        const targetY = headerRect ? headerRect.bottom - 50 : 280;
+        visibleWords.sort((a, b) => Math.abs(a.top - targetY) - Math.abs(b.top - targetY));
+        activeWord = visibleWords[0].word;
       }
       return { headerLines, activeWord, wordPositions };
     });
