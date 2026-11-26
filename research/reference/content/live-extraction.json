@@ -1,37 +1,43 @@
 {
-  "extractedAt": "2026-11-26T20:39:52.967Z",
+  "extractedAt": "2026-11-26T20:44:49.550Z",
   "baseUrl": "https://omnira.framer.website",
   "home": {
     "hero": {
-      "status": "STATUS:AVAILABLE FOR HIRE",
+      "headerLines": [
+        "INTERFACE DESIGNER",
+        "DESIGN BEYOND THE",
+        "INTERFACE",
+        "SYSTEM",
+        "PRODUCT",
+        "EXPERIENCE"
+      ],
+      "status": "STATUS: AVAILABLE FOR HIRE",
       "desc": "I design and build futuristic digital experiences with cinematic visuals, sharp layouts, and high-tech interactions. My work blends strategy, creativity, and clean execution to create portfolios that feel bold, immersive, and unforgettable.",
       "ctas": [
         {
+          "tag": "A",
+          "name": "Primary | md",
           "text": "VIEW WORKS",
           "href": ""
         },
         {
+          "tag": "A",
+          "name": "Secondary | md",
           "text": "EXPLORE PROCESS",
           "href": ""
         }
       ],
-      "observedHeadlines": [],
-      "observedYellowPhrases": [
-        "INTERFACE DESIGNER"
+      "rotatingWordsInDom": [
+        "INTERFACE",
+        "SYSTEM",
+        "PRODUCT",
+        "EXPERIENCE"
       ],
-      "samplesCount": 58,
-      "samplesPreview": [
-        {
-          "tMs": 27,
-          "h1Text": "",
-          "heroTexts": [
-            "INTERFACE DESIGNER"
-          ]
-        }
-      ]
+      "activeWordTransitions": [],
+      "samplesCount": 49
     },
     "selectedProjects": {
-      "sectionText": "SELECTED WORKCRAFTED DIGITAL EXPERIENCESA curated collection of digital experiences shaped with strong visual direction, clean interaction, and futuristic design systems.",
+      "sectionText": "SELECTED WORK CRAFTED DIGITAL EXPERIENCES A curated collection of digital experiences shaped with strong visual direction, clean interaction, and futuristic design systems.",
       "cardCount": 6,
       "cards": [
         {
@@ -73,73 +79,93 @@
       ]
     },
     "process": {
-      "phases": [
-        {
-          "key": "Content-1",
-          "text": "",
-          "lines": []
-        },
-        {
-          "key": "Content-2",
-          "text": "",
-          "lines": []
-        },
-        {
-          "key": "Content-3",
-          "text": "",
-          "lines": []
-        },
-        {
-          "key": "Content-4",
-          "text": "",
-          "lines": []
-        }
+      "lines": [
+        "PROCESS",
+        "FROM CONCEPT TO LAUNCH",
+        "A focused workflow for turning early ideas into polished digital experiences through clear direction, refined interface design, and smooth execution.",
+        "DISCOVER",
+        "Define the goal, audience, visual direction, and project structure before moving into focused design.",
+        "PHASES 01",
+        "DESIGN",
+        "Create high-impact interface concepts with strong hierarchy, futuristic detail, and responsive.",
+        "PHASES 02",
+        "BUILD",
+        "Turn the approved direction into a clean Framer experience with interaction, motion, and precision.",
+        "PHASES 03",
+        "REFINE",
+        "Polish spacing, performance, responsiveness, and final details to make the experience launch ready.",
+        "PHASES 04",
+        "4",
+        "PHASES",
+        "100",
+        "%",
+        "PRECISION",
+        "∞",
+        "POSSIBILITIES"
       ],
-      "fullText": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early ideas into polished digital experiences through clear direction, refined interface design, and smooth execution.DISCOVERDefine the goal, audience, visual direction, and project structure before moving into focused design.PHASES 01DesignCreate high-impact interface concepts with strong hierarchy, futuristic detail, and responsive.PHASES 02BuildTurn the approved direction into a clean Framer experience with interaction, motion, and precision.PHASES 03RefinePolish spacing, performance, responsiveness, and final details to make the experience launch ready.PHASES 044PHASES100%PRECISION∞POSSIBILITIES"
+      "fullText": "PROCESS FROM CONCEPT TO LAUNCH A focused workflow for turning early ideas into polished digital experiences through clear direction, refined interface design, and smooth execution. DISCOVER Define the goal, audience, visual direction, and project structure before moving into focused design. PHASES 01 DESIGN Create high-impact interface concepts with strong hierarchy, futuristic detail, and responsive. PHASES 02 BUILD Turn the approved direction into a clean Framer experience with interaction, motion, and precision. PHASES 03 REFINE Polish spacing, performance, responsiveness, and final details to make the experience launch ready. PHASES 04 4 PHASES 100 % PRECISION ∞ POSSIBILITIES"
     },
     "aboutPreview": {
-      "stats": [
-        "01",
-        "02",
-        "03",
-        "04"
-      ],
-      "listItems": [
+      "lines": [
+        "ABOUT ME",
+        "SHARP DESIGN CLEAN FLOW",
+        "I create high-impact websites and product interfaces shaped by strategy, systems, and clean execution.",
+        "STATUS:",
+        "OPEN FOR WORK",
+        "FRAMER DESIGNER & DEVELOPER",
+        "6",
+        "+",
+        "YEARS",
+        "40",
+        "+",
+        "PROJECTS",
+        "10",
+        "K",
+        "+",
+        "CLIENTS",
         "CLARITY",
         "STRUCTURE",
         "MOTION",
-        "IMPACT"
+        "IMPACT",
+        "Built for bold digital experiences.",
+        "─ OMNIRA",
+        "INTERFACE DESIGN",
+        "01",
+        "Clear interfaces with strong hierarchy",
+        "SYSTEM THINKING",
+        "02",
+        "Scalable systems built for growth",
+        "FRAMER EXECUTION",
+        "03",
+        "Fast builds with polished interactions",
+        "VISUAL DIRECTION",
+        "04",
+        "Distinct visuals with future energy",
+        "WORKING WORLDWIDE"
       ],
-      "fullText": "ABOUT MESharp design Clean flowI create high-impact websites and product interfaces shaped by strategy, systems, and clean execution.STATUS:OPEN FOR WORKFRAMER DESIGNER & DEVELOPER6+YEARS40+PROJECTS10K+CLIENTSCLARITYSTRUCTUREMOTIONIMPACTBuilt for bold digital experiences.─ OMNIRAInterface design01Clear interfaces with strong hierarchySystem thinking02Scalable systems built for growthFramer execution03Fast builds with polished interactionsVisual direction04Distinct visuals with future energyWORKING WORLDWIDE"
+      "fullText": "ABOUT ME SHARP DESIGN CLEAN FLOW I create high-impact websites and product interfaces shaped by strategy, systems, and clean execution. STATUS: OPEN FOR WORK FRAMER DESIGNER & DEVELOPER 6 + YEARS 40 + PROJECTS 10 K + CLIENTS CLARITY STRUCTURE MOTION IMPACT Built for bold digital experiences. ─ OMNIRA INTERFACE DESIGN 01 Clear interfaces with strong hierarchy SYSTEM THINKING 02 Scalable systems built for growth FRAMER EXECUTION 03 Fast builds with polished interactions VISUAL DIRECTION 04 Distinct visuals with future energy WORKING WORLDWIDE"
     },
     "services": [
       {
         "index": 0,
         "beforeText": "Design",
         "afterHover": {
-          "text": "Design",
+          "text": "DESIGN",
           "hasActiveName": false,
           "height": 104
         },
         "afterClick": {
-          "text": "DesignWebsites, landing pages, and product interfaces.UX structureVisual hierarchyResponsive layoutsInteraction-ready",
-          "hasActiveName": true,
-          "height": 226.72964477539062,
-          "deliverables": [
+          "lines": [
+            "DESIGN",
             "Websites, landing pages, and product interfaces.",
             "UX structure",
-            "UX structure",
-            "UX structure",
-            "Visual hierarchy",
-            "Visual hierarchy",
             "Visual hierarchy",
             "Responsive layouts",
-            "Responsive layouts",
-            "Responsive layouts",
-            "Interaction-ready",
-            "Interaction-ready",
             "Interaction-ready"
           ],
+          "hasActiveName": true,
+          "height": 227,
+          "svgCount": 37,
           "sectionImages": []
         }
       },
@@ -147,29 +173,22 @@
         "index": 1,
         "beforeText": "Development",
         "afterHover": {
-          "text": "Development",
+          "text": "DEVELOPMENT",
           "hasActiveName": false,
           "height": 104
         },
         "afterClick": {
-          "text": "DevelopmentFast, responsive Framer builds ready to launch.Component setupCMS structureSmooth interactionsLaunch optimization",
-          "hasActiveName": true,
-          "height": 227,
-          "deliverables": [
+          "lines": [
+            "DEVELOPMENT",
             "Fast, responsive Framer builds ready to launch.",
             "Component setup",
-            "Component setup",
-            "Component setup",
-            "CMS structure",
-            "CMS structure",
             "CMS structure",
             "Smooth interactions",
-            "Smooth interactions",
-            "Smooth interactions",
-            "Launch optimization",
-            "Launch optimization",
             "Launch optimization"
           ],
+          "hasActiveName": true,
+          "height": 227,
+          "svgCount": 37,
           "sectionImages": []
         }
       },
@@ -182,24 +201,17 @@
           "height": 104
         },
         "afterClick": {
-          "text": "VISUAL SYSTEMReusable styles, components, and interface rules.Design tokensUI componentsStyle guidelinesConsistent layouts",
-          "hasActiveName": true,
-          "height": 227,
-          "deliverables": [
+          "lines": [
+            "VISUAL SYSTEM",
             "Reusable styles, components, and interface rules.",
             "Design tokens",
-            "Design tokens",
-            "Design tokens",
-            "UI components",
-            "UI components",
             "UI components",
             "Style guidelines",
-            "Style guidelines",
-            "Style guidelines",
-            "Consistent layouts",
-            "Consistent layouts",
             "Consistent layouts"
           ],
+          "hasActiveName": true,
+          "height": 222,
+          "svgCount": 37,
           "sectionImages": []
         }
       },
@@ -212,135 +224,182 @@
           "height": 104
         },
         "afterClick": {
-          "text": "CREATIVEStrong concepts and visual systems for bold brands.Art directionMotion ideasBrand atmosphereVisual storytelling",
-          "hasActiveName": true,
-          "height": 227,
-          "deliverables": [
+          "lines": [
+            "CREATIVE",
             "Strong concepts and visual systems for bold brands.",
             "Art direction",
-            "Art direction",
-            "Art direction",
-            "Motion ideas",
-            "Motion ideas",
             "Motion ideas",
             "Brand atmosphere",
-            "Brand atmosphere",
-            "Brand atmosphere",
-            "Visual storytelling",
-            "Visual storytelling",
             "Visual storytelling"
           ],
+          "hasActiveName": true,
+          "height": 180,
+          "svgCount": 37,
           "sectionImages": []
         }
       }
     ],
     "testimonials": {
-      "slides": [
+      "mechanism": "carousel",
+      "controlsFound": [
         {
-          "step": 0,
-          "fullName": "",
-          "role": "",
-          "score": "",
+          "tag": "BUTTON",
+          "ariaLabel": "Previous",
+          "text": ""
+        },
+        {
+          "tag": "BUTTON",
+          "ariaLabel": "Next",
+          "text": ""
+        }
+      ],
+      "uniqueTestimonialsCount": 5,
+      "testimonials": [
+        {
+          "quote": "A clean system, strong direction, and excellent Framer execution. Everything felt intentional and launch-ready.",
+          "fullName": "SARAH CHEN",
+          "role": "Product Lead, Statik",
+          "linkHref": "https://x.com/Dmytri_Design",
           "avatar": null,
-          "text": "Omnira delivered a sharp website with clear structure, strong visuals, and smooth execution from start to finish.",
-          "buttonsCount": 0
-        }
-      ],
-      "uniqueSlidesCount": 1,
-      "logoCount": 17,
-      "logos": [
-        {
-          "tag": "svg",
-          "src": null,
-          "alt": null
+          "score": ""
         },
         {
-          "tag": "IMG",
+          "quote": "Omnira turned our rough direction into a polished website with strong structure, smooth motion, and memorable visual impact.",
+          "fullName": "LEON HART",
+          "role": "Director, Vanta",
+          "linkHref": "https://x.com/Dmytri_Design",
+          "avatar": null,
+          "score": ""
+        },
+        {
+          "quote": "We needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.",
+          "fullName": "SOFIA BRAND",
+          "role": "Founder, Lumen",
+          "linkHref": "https://x.com/Dmytri_Design",
+          "avatar": null,
+          "score": ""
+        },
+        {
+          "quote": "Omnira delivered a sharp website with clear structure, strong visuals, and smooth execution from start to finish.",
+          "fullName": "MARKO IVANOV",
+          "role": "Director, Vanta",
+          "linkHref": "https://x.com/Dmytri_Design",
+          "avatar": null,
+          "score": ""
+        },
+        {
+          "quote": "The process felt focused and fast, with polished details that made our product feel truly premium.",
+          "fullName": "DANIEL KIM",
+          "role": "Founder, Lumen",
+          "linkHref": "https://x.com/Dmytri_Design",
+          "avatar": null,
+          "score": ""
+        }
+      ],
+      "sectionHeaderLines": [
+        "A clean system, strong direction, and excellent Framer execution. Everything felt intentional and launch-ready.",
+        "SARAH CHEN",
+        "Product Lead, Statik",
+        "X LINK",
+        "Omnira turned our rough direction into a polished website with strong structure, smooth motion, and memorable visual impact.",
+        "LEON HART",
+        "Director, Vanta",
+        "X LINK",
+        "We needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.",
+        "SOFIA BRAND",
+        "Founder, Lumen",
+        "X LINK",
+        "We needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.",
+        "MIRA KLEIN",
+        "Product Lead, Statik",
+        "X LINK",
+        "Omnira delivered a sharp website with clear structure, strong visuals, and smooth execution from start to finish.",
+        "MARKO IVANOV",
+        "Director, Vanta",
+        "X LINK"
+      ],
+      "uniquePartnerLogosCount": 8,
+      "partnerLogos": [
+        {
           "src": "https://framerusercontent.com/images/IqKxDRyRX4qoLEnBIi3mdLI1Q.svg?width=108&height=26",
           "alt": ""
         },
         {
-          "tag": "IMG",
           "src": "https://framerusercontent.com/images/wv22Eg8hr28a5gwn3gPPx1Ma4.svg?width=106&height=26",
           "alt": ""
         },
         {
-          "tag": "IMG",
           "src": "https://framerusercontent.com/images/PbRnFcOvUjjW788Phwiw4MCXl2k.svg?width=124&height=24",
           "alt": ""
         },
         {
-          "tag": "IMG",
           "src": "https://framerusercontent.com/images/R2byks8NQNtmIlHMiBdyqLqrc90.svg?width=133&height=26",
           "alt": ""
         },
         {
-          "tag": "IMG",
-          "src": "https://framerusercontent.com/images/IqKxDRyRX4qoLEnBIi3mdLI1Q.svg?width=108&height=26",
-          "alt": ""
-        },
-        {
-          "tag": "IMG",
-          "src": "https://framerusercontent.com/images/wv22Eg8hr28a5gwn3gPPx1Ma4.svg?width=106&height=26",
-          "alt": ""
-        },
-        {
-          "tag": "IMG",
-          "src": "https://framerusercontent.com/images/PbRnFcOvUjjW788Phwiw4MCXl2k.svg?width=124&height=24",
-          "alt": ""
-        },
-        {
-          "tag": "IMG",
-          "src": "https://framerusercontent.com/images/R2byks8NQNtmIlHMiBdyqLqrc90.svg?width=133&height=26",
-          "alt": ""
-        },
-        {
-          "tag": "IMG",
           "src": "https://framerusercontent.com/images/IdT5H66BBVtWf4GCyPHLiMMM1Y.svg?width=153&height=26",
           "alt": ""
         },
         {
-          "tag": "IMG",
           "src": "https://framerusercontent.com/images/NeHSUqqMDzz4hsXc9zOtvzr4kk.svg?width=113&height=26",
           "alt": ""
         },
         {
-          "tag": "IMG",
           "src": "https://framerusercontent.com/images/jU9dICUp6earhkuXGJZMGRNFPes.svg?width=106&height=26",
           "alt": ""
         },
         {
-          "tag": "IMG",
-          "src": "https://framerusercontent.com/images/h7VY2xZw6J1LTI1Nh2DPPpvjxP0.svg?width=109&height=26",
-          "alt": ""
-        },
-        {
-          "tag": "IMG",
-          "src": "https://framerusercontent.com/images/IdT5H66BBVtWf4GCyPHLiMMM1Y.svg?width=153&height=26",
-          "alt": ""
-        },
-        {
-          "tag": "IMG",
-          "src": "https://framerusercontent.com/images/NeHSUqqMDzz4hsXc9zOtvzr4kk.svg?width=113&height=26",
-          "alt": ""
-        },
-        {
-          "tag": "IMG",
-          "src": "https://framerusercontent.com/images/jU9dICUp6earhkuXGJZMGRNFPes.svg?width=106&height=26",
-          "alt": ""
-        },
-        {
-          "tag": "IMG",
           "src": "https://framerusercontent.com/images/h7VY2xZw6J1LTI1Nh2DPPpvjxP0.svg?width=109&height=26",
           "alt": ""
         }
-      ],
-      "logoCloudText": "",
-      "containerText": "Omnira delivered a sharp website with clear structure, strong visuals, and smooth execution from start to finish.Marko IvanovDirector, VantaX LINKThe process felt focused and fast, with polished details that made our product feel truly premium.Daniel KimFounder, LumenX LINKA clean system, strong direction, and excellent Framer execution. Everything felt intentional and launch-ready.Sarah ChenProduct Lead, StatikX LINKOmnira turned our rough direction into a polished website with strong structure, smooth motion, and memorable visual impact.Leon HartDirector, VantaX LINKWe needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.Sofia brandFounder, LumenX LINKWe needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.Mira kleinProduct Lead, StatikX LINKOmnira delivered a sharp website with clear structure, strong visuals, and smooth execution from start to finish.Marko IvanovDirector, VantaX LINKThe process felt focused and fast, with polished details that made our product feel truly premium.Daniel KimFounder, LumenX LINKA clean system, strong direction, and excellent Framer execution. Everything felt intentional and launch-ready.Sarah ChenProduct Lead, StatikX LINKOmnira turned our rough direction into a polished website with strong structure, smooth motion, and memorable visual impact.Leon HartDirector, VantaX LINKWe needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.Sofia brandFounder, LumenX LINKWe needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.Mira kleinProduct Lead, StatikX LINKOmnira delivered a sharp website with clear structure, strong visuals, and smooth execution from start to finish.Marko IvanovDirector, VantaX LINKThe process felt focused and fast, with polished details that made our product feel truly premium.Daniel KimFounder, LumenX LINKA clean system, strong direction, and excellent Framer execution. Everything felt intentional and launch-ready.Sarah ChenProduct Lead, StatikX LINKOmnira turned our rough direction into a polished website with strong structure, smooth motion, and memorable visual impact.Leon HartDirector, VantaX LINKWe needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.Sofia brandFounder, LumenX LINKWe needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.Mira kleinProduct Lead, StatikX LINKOmnira delivered a sharp website with clear structure, strong visuals, and smooth execution from start to finish.Marko IvanovDirector, VantaX LINKThe process felt focused and fast, with polished details that made our product feel truly premium.Daniel KimFounder, LumenX LINKA clean system, strong direction, and excellent Framer execution. Everything felt intentional and launch-ready.Sarah ChenProduct Lead, StatikX LINKOmnira turned our rough direction into a polished website with strong structure, smooth motion, and memorable visual impact.Leon HartDirector, VantaX LINKWe needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.Sofia brandFounder, LumenX LINKWe needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.Mira kleinProduct Lead, StatikX LINK"
+      ]
     },
     "pricing": {
       "framerName": "Pricing",
-      "text": "PRICINGBuilt for every project stageChoose a focused package for sharp interfaces, polished Framer builds, and launch-ready digital experiences.STARTERFor focused landing pages$1,200USDLanding pogeFramer buildResponsive layoutBasic interactionsLaunch supportGET STARTEDPROComplete website system$2,400USDMulti-page websiteDesign system setupCMS structureAdvanced interactionsLaunch optimizationGET STARTEDCustomAdvanced systems and CMS$4,800USDCustom page structureComplex CMSMotion directionComponent libraryOngoing supportGET STARTEDSECURESafe project handlingFAST DELIVERYOn-time, every timePROCESSSimple focused workflowSUPPORTHelp after launch"
+      "lines": [
+        "PRICING",
+        "BUILT FOR EVERY PROJECT STAGE",
+        "Choose a focused package for sharp interfaces, polished Framer builds, and launch-ready digital experiences.",
+        "STARTER",
+        "For focused landing pages",
+        "$1,200",
+        "USD",
+        "Landing poge",
+        "Framer build",
+        "Responsive layout",
+        "Basic interactions",
+        "Launch support",
+        "GET STARTED",
+        "PRO",
+        "Complete website system",
+        "$2,400",
+        "USD",
+        "Multi-page website",
+        "Design system setup",
+        "CMS structure",
+        "Advanced interactions",
+        "Launch optimization",
+        "GET STARTED",
+        "CUSTOM",
+        "Advanced systems and CMS",
+        "$4,800",
+        "USD",
+        "Custom page structure",
+        "Complex CMS",
+        "Motion direction",
+        "Component library",
+        "Ongoing support",
+        "GET STARTED",
+        "SECURE",
+        "Safe project handling",
+        "FAST DELIVERY",
+        "On-time, every time",
+        "PROCESS",
+        "Simple focused workflow",
+        "SUPPORT",
+        "Help after launch"
+      ],
+      "fullText": "PRICING BUILT FOR EVERY PROJECT STAGE Choose a focused package for sharp interfaces, polished Framer builds, and launch-ready digital experiences. STARTER For focused landing pages $1,200 USD Landing poge Framer build Responsive layout Basic interactions Launch support GET STARTED PRO Complete website system $2,400 USD Multi-page website Design system setup CMS structure Advanced interactions Launch optimization GET STARTED CUSTOM Advanced systems and CMS $4,800 USD Custom page structure Complex CMS Motion direction Component library Ongoing support GET STARTED SECURE Safe project handling FAST DELIVERY On-time, every time PROCESS Simple focused workflow SUPPORT Help after launch"
     },
     "faq": {
       "count": 8,
@@ -348,148 +407,460 @@
         {
           "index": 0,
           "question": "How long does it take?",
-          "beforeText": "01How long does it take?",
-          "afterText": "01How long does it take?Most projects take 2–4 weeks, depending on page count, content readiness, and interaction complexity.",
-          "expandedAnswer": "Most projects take 2–4 weeks, depending on page count, content readiness, and interaction complexity."
+          "expandedAnswer": "Most projects take 2–4 weeks, depending on page count, content readiness, and interaction complexity.",
+          "fullTextAfterClick": "01How long does it take?Most projects take 2–4 weeks, depending on page count, content readiness, and interaction complexity."
         },
         {
           "index": 1,
           "question": "Do you build in Framer?",
-          "beforeText": "02Do you build in Framer?",
-          "afterText": "02Do you build in Framer?Yes. I design and build polished Framer websites with responsive layouts, CMS setup, and clean interactions.",
-          "expandedAnswer": "Yes. I design and build polished Framer websites with responsive layouts, CMS setup, and clean interactions."
+          "expandedAnswer": "Yes. I design and build polished Framer websites with responsive layouts, CMS setup, and clean interactions.",
+          "fullTextAfterClick": "02Do you build in Framer?Yes. I design and build polished Framer websites with responsive layouts, CMS setup, and clean interactions."
         },
         {
           "index": 2,
           "question": "Is it fully responsive?",
-          "beforeText": "03Is it fully responsive?",
-          "afterText": "03Is it fully responsive?Yes. Every page is designed and tested across desktop, tablet, and mobile breakpoints.",
-          "expandedAnswer": "Yes. Every page is designed and tested across desktop, tablet, and mobile breakpoints."
+          "expandedAnswer": "Yes. Every page is designed and tested across desktop, tablet, and mobile breakpoints.",
+          "fullTextAfterClick": "03Is it fully responsive?Yes. Every page is designed and tested across desktop, tablet, and mobile breakpoints."
         },
         {
           "index": 3,
           "question": "Can I add pages?",
-          "beforeText": "04Can I add pages?",
-          "afterText": "04Can I add pages?Yes. Extra pages can be added based on your project scope, content needs, and final structure.",
-          "expandedAnswer": "Yes. Extra pages can be added based on your project scope, content needs, and final structure."
+          "expandedAnswer": "Yes. Extra pages can be added based on your project scope, content needs, and final structure.",
+          "fullTextAfterClick": "04Can I add pages?Yes. Extra pages can be added based on your project scope, content needs, and final structure."
         },
         {
           "index": 4,
           "question": "Do you support launch?",
-          "beforeText": "05Do you support launch?",
-          "afterText": "05Do you support launch?Yes. I help with final checks, basic SEO setup, performance review, and publishing support.",
-          "expandedAnswer": "Yes. I help with final checks, basic SEO setup, performance review, and publishing support."
+          "expandedAnswer": "Yes. I help with final checks, basic SEO setup, performance review, and publishing support.",
+          "fullTextAfterClick": "05Do you support launch?Yes. I help with final checks, basic SEO setup, performance review, and publishing support."
         },
         {
           "index": 5,
           "question": "Can I edit later?",
-          "beforeText": "06Can I edit later?",
-          "afterText": "06Can I edit later?Yes. The site is built with clean structure, reusable components, and easy-to-edit Framer sections.",
-          "expandedAnswer": "Yes. The site is built with clean structure, reusable components, and easy-to-edit Framer sections."
+          "expandedAnswer": "Yes. The site is built with clean structure, reusable components, and easy-to-edit Framer sections.",
+          "fullTextAfterClick": "06Can I edit later?Yes. The site is built with clean structure, reusable components, and easy-to-edit Framer sections."
         },
         {
           "index": 6,
           "question": "Do you include CMS?",
-          "beforeText": "07Do you include CMS?",
-          "afterText": "07Do you include CMS?Yes. CMS can be included for blogs, projects, updates, or repeatable content sections.",
-          "expandedAnswer": "Yes. CMS can be included for blogs, projects, updates, or repeatable content sections."
+          "expandedAnswer": "Yes. CMS can be included for blogs, projects, updates, or repeatable content sections.",
+          "fullTextAfterClick": "07Do you include CMS?Yes. CMS can be included for blogs, projects, updates, or repeatable content sections."
         },
         {
           "index": 7,
           "question": "Can we add motion?",
-          "beforeText": "08Can we add motion?",
-          "afterText": "08Can we add motion?Yes. Subtle motion and interactions can be added to make the site feel more polished.",
-          "expandedAnswer": "Yes. Subtle motion and interactions can be added to make the site feel more polished."
+          "expandedAnswer": "Yes. Subtle motion and interactions can be added to make the site feel more polished.",
+          "fullTextAfterClick": "08Can we add motion?Yes. Subtle motion and interactions can be added to make the site feel more polished."
         }
       ]
     }
   },
   "about": {
     "static": {
-      "headerText": "PROFILE SYSTEMBuild with clear directionI craft futuristic websites and digital experiences that combine clean aesthetics with powerful interactions. Every project is built with purpose, precision, and a focus on what what truly matters.6+YEARS40+PROJECTS10K+CLIENTSFOCUSWeb design, UI/UX, Framer development, Design systemTOOLSFigma, Framer, GSAP, SPLINE, THREE.JS, WEBFLOW",
-      "stats": [
-        "6+YEARS",
-        "40+PROJECTS",
-        "10K+CLIENTS"
+      "headerLines": [
+        "PROFILE SYSTEM",
+        "BUILD WITH CLEAR DIRECTION",
+        "I craft futuristic websites and digital experiences that combine clean aesthetics with powerful interactions. Every project is built with purpose, precision, and a focus on what what truly matters.",
+        "6",
+        "+",
+        "YEARS",
+        "40",
+        "+",
+        "PROJECTS",
+        "10",
+        "K+",
+        "CLIENTS",
+        "FOCUS",
+        "Web design, UI/UX, Framer development, Design system",
+        "TOOLS",
+        "Figma, Framer, GSAP, SPLINE, THREE.JS, WEBFLOW"
       ],
-      "aboutMeText": "ABOUT MEBEHIND OMNIRA. THIS IS WHO I AMI’m Adrian Voss, an interface designer and Framer developer based in Berlin, Germany, creating futuristic websites for bold brands and independent creators.My work blends visual direction, interaction design, and clean development to build digital experiences that feel sharp, immersive, and easy to use.I care about clarity, structure, motion, and meaningful details — turning ideas into interfaces that look distinctive and perform with purpose.PROFILENAMEAdrian VossRoleGraphic designerFocusWeb designEXPERIENCE6+ yearsLOCATIONGermany, BerlinTOOLS",
-      "servicesText": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for sharp interfaces, visual systems, and polished Framer execution.CORE SERVICES01DesignWebsites, landing pages, and product interfaces.UX structureVisual hierarchyResponsive layoutsInteraction-ready02DevelopmentFast, responsive Framer builds ready to launch.Component setupCMS structureSmooth interactionsLaunch optimization03VISUAL SYSTEMReusable styles, components, and interface rules.Design tokensUI componentsStyle guidelinesConsistent layouts04CREATIVEStrong concepts and visual systems for bold brands.Art directionMotion ideasBrand atmosphereVisual storytellingSTRATEGYDESIGNDEVELOPMENTIMPACT"
+      "stats": [
+        "6 + YEARS",
+        "40 + PROJECTS",
+        "10 K+ CLIENTS"
+      ],
+      "aboutMeLines": [
+        "ABOUT ME",
+        "BEHIND OMNIRA. THIS IS WHO I AM",
+        "I’m Adrian Voss, an interface designer and Framer developer based in Berlin, Germany, creating futuristic websites for bold brands and independent creators.",
+        "My work blends visual direction, interaction design, and clean development to build digital experiences that feel sharp, immersive, and easy to use.",
+        "I care about clarity, structure, motion, and meaningful details — turning ideas into interfaces that look distinctive and perform with purpose.",
+        "PROFILE",
+        "NAME",
+        "Adrian Voss",
+        "Role",
+        "Graphic designer",
+        "Focus",
+        "Web design",
+        "EXPERIENCE",
+        "6+ years",
+        "LOCATION",
+        "Germany, Berlin",
+        "TOOLS"
+      ],
+      "servicesLines": [
+        "WHAT I CREATE",
+        "DIGITAL SYSTEMS FOR BOLD BRANDS",
+        "High-impact services for sharp interfaces, visual systems, and polished Framer execution.",
+        "CORE SERVICES",
+        "01",
+        "DESIGN",
+        "Websites, landing pages, and product interfaces.",
+        "UX structure",
+        "Visual hierarchy",
+        "Responsive layouts",
+        "Interaction-ready",
+        "02",
+        "DEVELOPMENT",
+        "Fast, responsive Framer builds ready to launch.",
+        "Component setup",
+        "CMS structure",
+        "Smooth interactions",
+        "Launch optimization",
+        "03",
+        "VISUAL SYSTEM",
+        "Reusable styles, components, and interface rules.",
+        "Design tokens",
+        "UI components",
+        "Style guidelines",
+        "Consistent layouts",
+        "04",
+        "CREATIVE",
+        "Strong concepts and visual systems for bold brands.",
+        "Art direction",
+        "Motion ideas",
+        "Brand atmosphere",
+        "Visual storytelling",
+        "STRATEGY",
+        "DESIGN",
+        "DEVELOPMENT",
+        "IMPACT"
+      ]
     },
     "terminal": {
-      "initialText": "PROCESS SYSTEMBEHIND OMNIRA. THIS IS WHO I AMEvery step is built to keep the work clear, responsive, and ready to perform before launch.TERMINALSTAUS:IN PROGRESSINPUTUnderstand your goals, audience and contextSTRATEGYAnalyze the market, competitors and opportunities.STRUCTUREBuild the information archittecture and user flow.INTERFACEDesign the UI system, layouts and interactions.LAUNCHBuild in Framer, test thoroughly and deliver.omnira@terminal: -$purpuse + structure + clarity = impactENTEROUTPUTREADY TO LAUNCHPolished interface systemSYSTEM CHECK[ALL OK]CLARITYOKRESPONSIVEOKMOTIONOKPerformanceOK",
-      "stepCandidates": [],
-      "stepSnapshots": [
+      "isInteractiveOnLiveSite": false,
+      "interactiveEls": [],
+      "initialLines": [
+        "PROCESS SYSTEM",
+        "BEHIND OMNIRA. THIS IS WHO I AM",
+        "Every step is built to keep the work clear, responsive, and ready to perform before launch.",
+        "TERMINAL",
+        "STAUS:",
+        "IN PROGRESS",
+        "INPUT",
+        "Understand your goals, audience and context",
+        "STRATEGY",
+        "Analyze the market, competitors and opportunities.",
+        "STRUCTURE",
+        "Build the information archittecture and user flow.",
+        "INTERFACE",
+        "Design the UI system, layouts and interactions.",
+        "LAUNCH",
+        "Build in Framer, test thoroughly and deliver.",
+        "omnira@terminal: -$",
+        "purpuse + structure + clarity = impact",
+        "ENTER",
+        "OUTPUT",
+        "READY TO LAUNCH",
+        "Polished interface system",
+        "SYSTEM CHECK",
+        "[ALL OK]",
+        "CLARITY",
+        "OK",
+        "RESPONSIVE",
+        "OK",
+        "MOTION",
+        "OK",
+        "PERFORMANCE",
+        "OK"
+      ],
+      "clickTests": [
         {
-          "clickedIndex": 1,
-          "clickedLabel": "STAUS:",
-          "terminalText": "PROCESS SYSTEMBEHIND OMNIRA. THIS IS WHO I AMEvery step is built to keep the work clear, responsive, and ready to perform before launch.TERMINALSTAUS:IN PROGRESSINPUTUnderstand your goals, audience and contextSTRATEGYAnalyze the market, competitors and opportunities.STRUCTUREBuild the information archittecture and user flow.INTERFACEDesign the UI system, layouts and interactions.LAUNCHBuild in Framer, test thoroughly and deliver.omnira@terminal: -$purpuse + structure + clarity = impactENTEROUTPUTREADY TO LAUNCHPolished interface systemSYSTEM CHECK[ALL OK]CLARITYOKRESPONSIVEOKMOTIONOKPerformanceOK"
+          "label": "INPUT",
+          "changedDom": false,
+          "afterLines": [
+            "PROCESS SYSTEM",
+            "BEHIND OMNIRA. THIS IS WHO I AM",
+            "Every step is built to keep the work clear, responsive, and ready to perform before launch.",
+            "TERMINAL",
+            "STAUS:",
+            "IN PROGRESS",
+            "INPUT",
+            "Understand your goals, audience and context",
+            "STRATEGY",
+            "Analyze the market, competitors and opportunities.",
+            "STRUCTURE",
+            "Build the information archittecture and user flow.",
+            "INTERFACE",
+            "Design the UI system, layouts and interactions.",
+            "LAUNCH",
+            "Build in Framer, test thoroughly and deliver.",
+            "omnira@terminal: -$",
+            "purpuse + structure + clarity = impact",
+            "ENTER",
+            "OUTPUT",
+            "READY TO LAUNCH",
+            "Polished interface system",
+            "SYSTEM CHECK",
+            "[ALL OK]",
+            "CLARITY",
+            "OK",
+            "RESPONSIVE",
+            "OK",
+            "MOTION",
+            "OK",
+            "PERFORMANCE",
+            "OK"
+          ]
         },
         {
-          "clickedIndex": 2,
-          "clickedLabel": "IN PROGRESS",
-          "terminalText": "PROCESS SYSTEMBEHIND OMNIRA. THIS IS WHO I AMEvery step is built to keep the work clear, responsive, and ready to perform before launch.TERMINALSTAUS:IN PROGRESSINPUTUnderstand your goals, audience and contextSTRATEGYAnalyze the market, competitors and opportunities.STRUCTUREBuild the information archittecture and user flow.INTERFACEDesign the UI system, layouts and interactions.LAUNCHBuild in Framer, test thoroughly and deliver.omnira@terminal: -$purpuse + structure + clarity = impactENTEROUTPUTREADY TO LAUNCHPolished interface systemSYSTEM CHECK[ALL OK]CLARITYOKRESPONSIVEOKMOTIONOKPerformanceOK"
+          "label": "STRATEGY",
+          "changedDom": false,
+          "afterLines": [
+            "PROCESS SYSTEM",
+            "BEHIND OMNIRA. THIS IS WHO I AM",
+            "Every step is built to keep the work clear, responsive, and ready to perform before launch.",
+            "TERMINAL",
+            "STAUS:",
+            "IN PROGRESS",
+            "INPUT",
+            "Understand your goals, audience and context",
+            "STRATEGY",
+            "Analyze the market, competitors and opportunities.",
+            "STRUCTURE",
+            "Build the information archittecture and user flow.",
+            "INTERFACE",
+            "Design the UI system, layouts and interactions.",
+            "LAUNCH",
+            "Build in Framer, test thoroughly and deliver.",
+            "omnira@terminal: -$",
+            "purpuse + structure + clarity = impact",
+            "ENTER",
+            "OUTPUT",
+            "READY TO LAUNCH",
+            "Polished interface system",
+            "SYSTEM CHECK",
+            "[ALL OK]",
+            "CLARITY",
+            "OK",
+            "RESPONSIVE",
+            "OK",
+            "MOTION",
+            "OK",
+            "PERFORMANCE",
+            "OK"
+          ]
         },
         {
-          "clickedIndex": 3,
-          "clickedLabel": "omnira@terminal: -$",
-          "terminalText": "PROCESS SYSTEMBEHIND OMNIRA. THIS IS WHO I AMEvery step is built to keep the work clear, responsive, and ready to perform before launch.TERMINALSTAUS:IN PROGRESSINPUTUnderstand your goals, audience and contextSTRATEGYAnalyze the market, competitors and opportunities.STRUCTUREBuild the information archittecture and user flow.INTERFACEDesign the UI system, layouts and interactions.LAUNCHBuild in Framer, test thoroughly and deliver.omnira@terminal: -$purpuse + structure + clarity = impactENTEROUTPUTREADY TO LAUNCHPolished interface systemSYSTEM CHECK[ALL OK]CLARITYOKRESPONSIVEOKMOTIONOKPerformanceOK"
+          "label": "STRUCTURE",
+          "changedDom": false,
+          "afterLines": [
+            "PROCESS SYSTEM",
+            "BEHIND OMNIRA. THIS IS WHO I AM",
+            "Every step is built to keep the work clear, responsive, and ready to perform before launch.",
+            "TERMINAL",
+            "STAUS:",
+            "IN PROGRESS",
+            "INPUT",
+            "Understand your goals, audience and context",
+            "STRATEGY",
+            "Analyze the market, competitors and opportunities.",
+            "STRUCTURE",
+            "Build the information archittecture and user flow.",
+            "INTERFACE",
+            "Design the UI system, layouts and interactions.",
+            "LAUNCH",
+            "Build in Framer, test thoroughly and deliver.",
+            "omnira@terminal: -$",
+            "purpuse + structure + clarity = impact",
+            "ENTER",
+            "OUTPUT",
+            "READY TO LAUNCH",
+            "Polished interface system",
+            "SYSTEM CHECK",
+            "[ALL OK]",
+            "CLARITY",
+            "OK",
+            "RESPONSIVE",
+            "OK",
+            "MOTION",
+            "OK",
+            "PERFORMANCE",
+            "OK"
+          ]
         },
         {
-          "clickedIndex": 4,
-          "clickedLabel": "purpuse + structure + clarity = impact",
-          "terminalText": "PROCESS SYSTEMBEHIND OMNIRA. THIS IS WHO I AMEvery step is built to keep the work clear, responsive, and ready to perform before launch.TERMINALSTAUS:IN PROGRESSINPUTUnderstand your goals, audience and contextSTRATEGYAnalyze the market, competitors and opportunities.STRUCTUREBuild the information archittecture and user flow.INTERFACEDesign the UI system, layouts and interactions.LAUNCHBuild in Framer, test thoroughly and deliver.omnira@terminal: -$purpuse + structure + clarity = impactENTEROUTPUTREADY TO LAUNCHPolished interface systemSYSTEM CHECK[ALL OK]CLARITYOKRESPONSIVEOKMOTIONOKPerformanceOK"
+          "label": "INTERFACE",
+          "changedDom": false,
+          "afterLines": [
+            "PROCESS SYSTEM",
+            "BEHIND OMNIRA. THIS IS WHO I AM",
+            "Every step is built to keep the work clear, responsive, and ready to perform before launch.",
+            "TERMINAL",
+            "STAUS:",
+            "IN PROGRESS",
+            "INPUT",
+            "Understand your goals, audience and context",
+            "STRATEGY",
+            "Analyze the market, competitors and opportunities.",
+            "STRUCTURE",
+            "Build the information archittecture and user flow.",
+            "INTERFACE",
+            "Design the UI system, layouts and interactions.",
+            "LAUNCH",
+            "Build in Framer, test thoroughly and deliver.",
+            "omnira@terminal: -$",
+            "purpuse + structure + clarity = impact",
+            "ENTER",
+            "OUTPUT",
+            "READY TO LAUNCH",
+            "Polished interface system",
+            "SYSTEM CHECK",
+            "[ALL OK]",
+            "CLARITY",
+            "OK",
+            "RESPONSIVE",
+            "OK",
+            "MOTION",
+            "OK",
+            "PERFORMANCE",
+            "OK"
+          ]
         },
         {
-          "clickedIndex": 5,
-          "clickedLabel": "OUTPUT",
-          "terminalText": "PROCESS SYSTEMBEHIND OMNIRA. THIS IS WHO I AMEvery step is built to keep the work clear, responsive, and ready to perform before launch.TERMINALSTAUS:IN PROGRESSINPUTUnderstand your goals, audience and contextSTRATEGYAnalyze the market, competitors and opportunities.STRUCTUREBuild the information archittecture and user flow.INTERFACEDesign the UI system, layouts and interactions.LAUNCHBuild in Framer, test thoroughly and deliver.omnira@terminal: -$purpuse + structure + clarity = impactENTEROUTPUTREADY TO LAUNCHPolished interface systemSYSTEM CHECK[ALL OK]CLARITYOKRESPONSIVEOKMOTIONOKPerformanceOK"
+          "label": "LAUNCH",
+          "changedDom": false,
+          "afterLines": [
+            "PROCESS SYSTEM",
+            "BEHIND OMNIRA. THIS IS WHO I AM",
+            "Every step is built to keep the work clear, responsive, and ready to perform before launch.",
+            "TERMINAL",
+            "STAUS:",
+            "IN PROGRESS",
+            "INPUT",
+            "Understand your goals, audience and context",
+            "STRATEGY",
+            "Analyze the market, competitors and opportunities.",
+            "STRUCTURE",
+            "Build the information archittecture and user flow.",
+            "INTERFACE",
+            "Design the UI system, layouts and interactions.",
+            "LAUNCH",
+            "Build in Framer, test thoroughly and deliver.",
+            "omnira@terminal: -$",
+            "purpuse + structure + clarity = impact",
+            "ENTER",
+            "OUTPUT",
+            "READY TO LAUNCH",
+            "Polished interface system",
+            "SYSTEM CHECK",
+            "[ALL OK]",
+            "CLARITY",
+            "OK",
+            "RESPONSIVE",
+            "OK",
+            "MOTION",
+            "OK",
+            "PERFORMANCE",
+            "OK"
+          ]
+        },
+        {
+          "label": "ENTER",
+          "changedDom": false,
+          "afterLines": [
+            "PROCESS SYSTEM",
+            "BEHIND OMNIRA. THIS IS WHO I AM",
+            "Every step is built to keep the work clear, responsive, and ready to perform before launch.",
+            "TERMINAL",
+            "STAUS:",
+            "IN PROGRESS",
+            "INPUT",
+            "Understand your goals, audience and context",
+            "STRATEGY",
+            "Analyze the market, competitors and opportunities.",
+            "STRUCTURE",
+            "Build the information archittecture and user flow.",
+            "INTERFACE",
+            "Design the UI system, layouts and interactions.",
+            "LAUNCH",
+            "Build in Framer, test thoroughly and deliver.",
+            "omnira@terminal: -$",
+            "purpuse + structure + clarity = impact",
+            "ENTER",
+            "OUTPUT",
+            "READY TO LAUNCH",
+            "Polished interface system",
+            "SYSTEM CHECK",
+            "[ALL OK]",
+            "CLARITY",
+            "OK",
+            "RESPONSIVE",
+            "OK",
+            "MOTION",
+            "OK",
+            "PERFORMANCE",
+            "OK"
+          ]
         }
       ],
-      "afterEnterText": "PROCESS SYSTEMBEHIND OMNIRA. THIS IS WHO I AMEvery step is built to keep the work clear, responsive, and ready to perform before launch.TERMINALSTAUS:IN PROGRESSINPUTUnderstand your goals, audience and contextSTRATEGYAnalyze the market, competitors and opportunities.STRUCTUREBuild the information archittecture and user flow.INTERFACEDesign the UI system, layouts and interactions.LAUNCHBuild in Framer, test thoroughly and deliver.omnira@terminal: -$purpuse + structure + clarity = impactENTEROUTPUTREADY TO LAUNCHPolished interface systemSYSTEM CHECK[ALL OK]CLARITYOKRESPONSIVEOKMOTIONOKPerformanceOK"
+      "afterEnterChangedDom": false
     },
     "timeline": {
-      "fullText": "TIMELINE ARCHIVEYears of focused digital craftA timeline of design, development, and creative direction — shaped through systems, motion, and launch-ready digital work.2020Design foundationBegan my journey in UI/UX design, Crafting interface that are clean, intvitive and user-focused.2021Product systemsStarted building visual systems, reusable layouts, and scalable design patterns for consistent digital experiences.2022Web evolutionExpanded from static interface design into responsive websites, interactive layouts, and polished digital storytelling.2023Framer buildsSpecialized in Framer builds, motion, CMS structure, and fast launch-ready websites with clean execution.2024Motion languageDeveloped stronger design languages with typography, color, components, and motion working as one clear system.2025Creative directionPushed visual direction toward cinematic, high-impact digital experiences with bold systems and immersive interfaces.2026Sharper systemsCreating advanced portfolio templates, interactive components, and high-end Framer systems for bold digital brands.",
+      "headerLines": [
+        "TIMELINE ARCHIVE",
+        "YEARS OF FOCUSED DIGITAL CRAFT",
+        "A timeline of design, development, and creative direction — shaped through systems, motion, and launch-ready digital work."
+      ],
       "cards": [
         {
           "index": 0,
-          "framerName": null,
-          "text": "2020Design foundationBegan my journey in UI/UX design, Crafting interface that are clean, intvitive and user-focused.",
+          "year": "2020",
+          "title": "DESIGN FOUNDATION",
+          "description": "Began my journey in UI/UX design, Crafting interface that are clean, intvitive and user-focused.",
           "img": null
         },
         {
           "index": 1,
-          "framerName": null,
-          "text": "2021Product systemsStarted building visual systems, reusable layouts, and scalable design patterns for consistent digital experiences.",
+          "year": "2021",
+          "title": "PRODUCT SYSTEMS",
+          "description": "Started building visual systems, reusable layouts, and scalable design patterns for consistent digital experiences.",
           "img": null
         },
         {
           "index": 2,
-          "framerName": null,
-          "text": "2022Web evolutionExpanded from static interface design into responsive websites, interactive layouts, and polished digital storytelling.",
+          "year": "2022",
+          "title": "WEB EVOLUTION",
+          "description": "Expanded from static interface design into responsive websites, interactive layouts, and polished digital storytelling.",
           "img": null
         },
         {
           "index": 3,
-          "framerName": null,
-          "text": "2023Framer buildsSpecialized in Framer builds, motion, CMS structure, and fast launch-ready websites with clean execution.",
+          "year": "2023",
+          "title": "FRAMER BUILDS",
+          "description": "Specialized in Framer builds, motion, CMS structure, and fast launch-ready websites with clean execution.",
           "img": null
         },
         {
           "index": 4,
-          "framerName": null,
-          "text": "2024Motion languageDeveloped stronger design languages with typography, color, components, and motion working as one clear system.",
+          "year": "2024",
+          "title": "MOTION LANGUAGE",
+          "description": "Developed stronger design languages with typography, color, components, and motion working as one clear system.",
           "img": null
         },
         {
           "index": 5,
-          "framerName": null,
-          "text": "2025Creative directionPushed visual direction toward cinematic, high-impact digital experiences with bold systems and immersive interfaces.",
+          "year": "2025",
+          "title": "CREATIVE DIRECTION",
+          "description": "Pushed visual direction toward cinematic, high-impact digital experiences with bold systems and immersive interfaces.",
           "img": null
         },
         {
           "index": 6,
-          "framerName": null,
-          "text": "2026Sharper systemsCreating advanced portfolio templates, interactive components, and high-end Framer systems for bold digital brands.",
+          "year": "2026",
+          "title": "SHARPER SYSTEMS",
+          "description": "Creating advanced portfolio templates, interactive components, and high-end Framer systems for bold digital brands.",
           "img": null
         }
       ]
@@ -497,210 +868,122 @@
     "systemStack": {
       "DESIGN": [
         {
-          "title": "Interface design and prototyping",
-          "description": "",
-          "allTexts": [
-            "Interface design and prototyping"
-          ],
+          "title": "FIGMA",
+          "description": "Interface design and prototyping",
           "href": "https://www.figma.com/",
           "iconSrc": null,
           "hasSvgIcon": true
         },
         {
-          "title": "Image editing and refinement",
-          "description": "",
-          "allTexts": [
-            "Image editing and refinement"
-          ],
+          "title": "PHOTOSHOP",
+          "description": "Image editing and refinement",
           "href": "https://www.adobe.com/products/photoshop.html",
           "iconSrc": null,
           "hasSvgIcon": true
         },
         {
-          "title": "Vector graphics and icons",
-          "description": "",
-          "allTexts": [
-            "Vector graphics and icons"
-          ],
+          "title": "ILLUSTRATOR",
+          "description": "Vector graphics and icons",
           "href": "https://www.adobe.com/products/illustrator.html",
           "iconSrc": null,
           "hasSvgIcon": true
         },
         {
-          "title": "Design system examples and resources",
-          "description": "",
-          "allTexts": [
-            "Design system examples and resources"
-          ],
+          "title": "DESIGN SYSTEMS",
+          "description": "Design system examples and resources",
           "href": "https://designsystemsrepo.com/",
           "iconSrc": null,
           "hasSvgIcon": true
-        },
-        {
-          "title": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
-          "description": "",
-          "allTexts": [
-            "Create a free website with Framer, the website builder loved by startups, designers and agencies."
-          ],
-          "href": "https://www.framer.com",
-          "iconSrc": null,
-          "hasSvgIcon": false
         }
       ],
       "DEVELOPMENT": [
         {
-          "title": "Fast interactive website builds",
-          "description": "",
-          "allTexts": [
-            "Fast interactive website builds"
-          ],
+          "title": "FRAMER",
+          "description": "Fast interactive website builds",
           "href": "https://www.framer.com/?via=dmytri_design",
           "iconSrc": null,
           "hasSvgIcon": true
         },
         {
-          "title": "Component-based interface logic",
-          "description": "",
-          "allTexts": [
-            "Component-based interface logic"
-          ],
+          "title": "REACT",
+          "description": "Component-based interface logic",
           "href": "https://react.dev/",
           "iconSrc": null,
           "hasSvgIcon": true
         },
         {
-          "title": "Safer scalable code structure",
-          "description": "",
-          "allTexts": [
-            "Safer scalable code structure"
-          ],
+          "title": "TYPESCRIPT",
+          "description": "Safer scalable code structure",
           "href": "https://www.typescriptlang.org/",
           "iconSrc": null,
           "hasSvgIcon": true
         },
         {
-          "title": "UI component documentation",
-          "description": "",
-          "allTexts": [
-            "UI component documentation"
-          ],
+          "title": "STORYBOOK",
+          "description": "UI component documentation",
           "href": "https://storybook.js.org/",
           "iconSrc": null,
           "hasSvgIcon": true
-        },
-        {
-          "title": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
-          "description": "",
-          "allTexts": [
-            "Create a free website with Framer, the website builder loved by startups, designers and agencies."
-          ],
-          "href": "https://www.framer.com",
-          "iconSrc": null,
-          "hasSvgIcon": false
         }
       ],
       "MOTION": [
         {
-          "title": "Advanced timeline animations",
-          "description": "",
-          "allTexts": [
-            "Advanced timeline animations"
-          ],
+          "title": "GSAP",
+          "description": "Advanced timeline animations",
           "href": "https://gsap.com/",
           "iconSrc": null,
           "hasSvgIcon": true
         },
         {
-          "title": "Smooth interface transitions",
-          "description": "",
-          "allTexts": [
-            "Smooth interface transitions"
-          ],
+          "title": "MOTION",
+          "description": "Smooth interface transitions",
           "href": "https://motion.dev/",
           "iconSrc": null,
           "hasSvgIcon": true
         },
         {
-          "title": "Cinematic motion direction",
-          "description": "",
-          "allTexts": [
-            "Cinematic motion direction"
-          ],
+          "title": "AFTER EFFECTS",
+          "description": "Cinematic motion direction",
           "href": "https://www.adobe.com/products/aftereffects.html",
           "iconSrc": null,
           "hasSvgIcon": true
         },
         {
-          "title": "Web animation delivery",
-          "description": "",
-          "allTexts": [
-            "Web animation delivery"
-          ],
+          "title": "LOTTIEFILES",
+          "description": "Web animation delivery",
           "href": "https://lottiefiles.com/",
           "iconSrc": null,
           "hasSvgIcon": true
-        },
-        {
-          "title": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
-          "description": "",
-          "allTexts": [
-            "Create a free website with Framer, the website builder loved by startups, designers and agencies."
-          ],
-          "href": "https://www.framer.com",
-          "iconSrc": null,
-          "hasSvgIcon": false
         }
       ],
       "3D / VISUAL": [
         {
-          "title": "Interactive 3D web scenes",
-          "description": "",
-          "allTexts": [
-            "Interactive 3D web scenes"
-          ],
+          "title": "SPLINE",
+          "description": "Interactive 3D web scenes",
           "href": "https://spline.design/",
           "iconSrc": null,
           "hasSvgIcon": true
         },
         {
-          "title": "High-quality 3D visuals",
-          "description": "",
-          "allTexts": [
-            "High-quality 3D visuals"
-          ],
+          "title": "BLENDER",
+          "description": "High-quality 3D visuals",
           "href": "https://www.blender.org/",
           "iconSrc": null,
           "hasSvgIcon": true
         },
         {
-          "title": "Custom web-based 3D",
-          "description": "",
-          "allTexts": [
-            "Custom web-based 3D"
-          ],
+          "title": "THREE.JS",
+          "description": "Custom web-based 3D",
           "href": "https://threejs.org/",
           "iconSrc": null,
           "hasSvgIcon": true
         },
         {
-          "title": "Interactive animated graphics",
-          "description": "",
-          "allTexts": [
-            "Interactive animated graphics"
-          ],
+          "title": "RIVE",
+          "description": "Interactive animated graphics",
           "href": "https://rive.app/",
           "iconSrc": null,
           "hasSvgIcon": true
-        },
-        {
-          "title": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
-          "description": "",
-          "allTexts": [
-            "Create a free website with Framer, the website builder loved by startups, designers and agencies."
-          ],
-          "href": "https://www.framer.com",
-          "iconSrc": null,
-          "hasSvgIcon": false
         }
       ]
     }
@@ -709,24 +992,37 @@
     "initialHeight": 2789,
     "initialCardCount": 12,
     "afterScrollCardCount": 27,
-    "spinnerInfo": null,
     "paginationSnapshots": [
       {
         "step": 0,
+        "scrollY": 2789,
+        "height": 2789,
+        "cardCount": 12,
+        "hasSpinner": true
+      },
+      {
+        "step": 1,
+        "scrollY": 2789,
+        "height": 2789,
+        "cardCount": 12,
+        "hasSpinner": true
+      },
+      {
+        "step": 2,
         "scrollY": 2789,
         "height": 4321,
         "cardCount": 24,
         "hasSpinner": true
       },
       {
-        "step": 1,
+        "step": 3,
         "scrollY": 4321,
         "height": 4704,
         "cardCount": 27,
         "hasSpinner": false
       },
       {
-        "step": 2,
+        "step": 4,
         "scrollY": 4704,
         "height": 4704,
         "cardCount": 27,
@@ -747,6 +1043,7 @@
             "externalUrl": "https://brandora.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 420,
@@ -762,6 +1059,7 @@
             "externalUrl": "https://nivora.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 420,
@@ -777,6 +1075,7 @@
             "externalUrl": "https://codify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 420,
@@ -792,6 +1091,7 @@
             "externalUrl": "https://neutra.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 803,
@@ -807,6 +1107,7 @@
             "externalUrl": "https://ainest.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 803,
@@ -822,6 +1123,7 @@
             "externalUrl": "https://studyflow.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 803,
@@ -837,6 +1139,7 @@
             "externalUrl": "https://todofusion.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 1186,
@@ -852,6 +1155,7 @@
             "externalUrl": "https://snapkit.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 1186,
@@ -867,6 +1171,7 @@
             "externalUrl": "https://grido.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 1186,
@@ -882,6 +1187,7 @@
             "externalUrl": "https://trainly.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 1569,
@@ -897,6 +1203,7 @@
             "externalUrl": "https://stickify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 1569,
@@ -912,6 +1219,7 @@
             "externalUrl": "https://landify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 1569,
@@ -927,6 +1235,7 @@
             "externalUrl": "https://thinkbot.framer.ai/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 1952,
@@ -942,6 +1251,7 @@
             "externalUrl": "https://groomix.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 1952,
@@ -957,6 +1267,7 @@
             "externalUrl": "https://gradia.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 1952,
@@ -972,6 +1283,7 @@
             "externalUrl": "https://designor.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 2335,
@@ -987,6 +1299,7 @@
             "externalUrl": "https://pixor.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 2335,
@@ -1002,6 +1315,7 @@
             "externalUrl": "https://kavro.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 2335,
@@ -1017,6 +1331,7 @@
             "externalUrl": "https://taskify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 2718,
@@ -1032,6 +1347,7 @@
             "externalUrl": "https://flexify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 2718,
@@ -1047,6 +1363,7 @@
             "externalUrl": "https://nexusai.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 2718,
@@ -1062,6 +1379,7 @@
             "externalUrl": "https://dailyhub.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 3101,
@@ -1077,6 +1395,7 @@
             "externalUrl": "https://agentify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 3101,
@@ -1092,6 +1411,7 @@
             "externalUrl": "https://protify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 3101,
@@ -1107,6 +1427,7 @@
             "externalUrl": "https://startify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 3484,
@@ -1122,6 +1443,7 @@
             "externalUrl": "https://flowboard.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 3484,
@@ -1137,6 +1459,7 @@
             "externalUrl": "https://platify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 3484,
@@ -1159,6 +1482,7 @@
             "externalUrl": "https://ainest.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 420,
@@ -1174,6 +1498,7 @@
             "externalUrl": "https://thinkbot.framer.ai/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 420,
@@ -1189,6 +1514,7 @@
             "externalUrl": "https://nexusai.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 420,
@@ -1211,6 +1537,7 @@
             "externalUrl": "https://studyflow.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 420,
@@ -1226,6 +1553,7 @@
             "externalUrl": "https://todofusion.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 420,
@@ -1241,6 +1569,7 @@
             "externalUrl": "https://snapkit.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 420,
@@ -1256,6 +1585,7 @@
             "externalUrl": "https://trainly.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 803,
@@ -1271,6 +1601,7 @@
             "externalUrl": "https://stickify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 803,
@@ -1286,6 +1617,7 @@
             "externalUrl": "https://groomix.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 803,
@@ -1301,6 +1633,7 @@
             "externalUrl": "https://taskify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 1186,
@@ -1316,6 +1649,7 @@
             "externalUrl": "https://flexify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 1186,
@@ -1331,6 +1665,7 @@
             "externalUrl": "https://dailyhub.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 1186,
@@ -1346,6 +1681,7 @@
             "externalUrl": "https://startify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 1569,
@@ -1361,6 +1697,7 @@
             "externalUrl": "https://flowboard.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 1569,
@@ -1376,6 +1713,7 @@
             "externalUrl": "https://platify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 1569,
@@ -1398,6 +1736,7 @@
             "externalUrl": "https://landify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 420,
@@ -1413,6 +1752,7 @@
             "externalUrl": "https://gradia.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 420,
@@ -1428,6 +1768,7 @@
             "externalUrl": "https://designor.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 420,
@@ -1443,6 +1784,7 @@
             "externalUrl": "https://pixor.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 803,
@@ -1458,6 +1800,7 @@
             "externalUrl": "https://kavro.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 803,
@@ -1480,6 +1823,7 @@
             "externalUrl": "https://brandora.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 420,
@@ -1495,6 +1839,7 @@
             "externalUrl": "https://nivora.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 420,
@@ -1510,6 +1855,7 @@
             "externalUrl": "https://codify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 420,
@@ -1525,6 +1871,7 @@
             "externalUrl": "https://neutra.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 803,
@@ -1540,6 +1887,7 @@
             "externalUrl": "https://grido.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 521,
               "y": 803,
@@ -1555,6 +1903,7 @@
             "externalUrl": "https://agentify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 927,
               "y": 803,
@@ -1570,6 +1919,7 @@
             "externalUrl": "https://protify.framer.website/",
             "thumbnailSrc": "",
             "thumbnailAlt": "",
+            "hasBgWrapper": false,
             "rect": {
               "x": 116,
               "y": 1186,
@@ -1582,15 +1932,34 @@
     }
   },
   "contact": {
-    "headerText": "CONTACT CHANNELLet's build somethingSend a few details about your project, and I’ll get back with a clear direction, scope, timeline, and practical next steps for building something sharp, focused, and ready to launch.STATUS:AVAILABLE FOR HIRERESPONSEWITHIN 24 HOURSSignalSTRONGEMAILhello@omniro.studioLOCATIONBerlin, Germany",
+    "headerLines": [
+      "CONTACT CHANNEL",
+      "LET'S BUILD SOMETHING",
+      "Send a few details about your project, and I’ll get back with a clear direction, scope, timeline, and practical next steps for building something sharp, focused, and ready to launch.",
+      "STATUS:",
+      "AVAILABLE FOR HIRE",
+      "RESPONSE",
+      "WITHIN 24 HOURS",
+      "SIGNAL",
+      "STRONG",
+      "EMAIL",
+      "HELLO@OMNIRO.STUDIO",
+      "LOCATION",
+      "BERLIN, GERMANY",
+      "YOUR NAME",
+      "EMAIL ADDRESS",
+      "PROJECT TYPE",
+      "Select…",
+      "Design"
+    ],
     "statusRows": [
       "STATUS:",
-      "STATUS:OPEN FOR WORK",
+      "STATUS: OPEN FOR WORK",
       "STATUS:"
     ],
     "mailtos": [
       {
-        "text": "hello@omniro.studio",
+        "text": "HELLO@OMNIRO.STUDIO",
         "href": "mailto:hello@omnira.studio"
       },
       {
@@ -1600,7 +1969,7 @@
     ],
     "locationLinks": [
       {
-        "text": "Berlin, Germany",
+        "text": "BERLIN, GERMANY",
         "href": "https://www.google.com/maps"
       }
     ],
@@ -1630,7 +1999,7 @@
         "name": "Location",
         "placeholder": null,
         "required": true,
-        "labelText": "PROJECT TYPESelect…DesignDevelopmentVisual systemCreative",
+        "labelText": "PROJECT TYPE",
         "options": [
           {
             "value": "",
@@ -1661,7 +2030,7 @@
         "name": "Location",
         "placeholder": null,
         "required": true,
-        "labelText": "BUDGET RANGESelect$1k - $3K$3k - $5k$5k - $10k$10k+Not suire yet",
+        "labelText": "BUDGET RANGE",
         "options": [
           {
             "value": "",
@@ -1696,7 +2065,7 @@
         "name": "Location",
         "placeholder": null,
         "required": true,
-        "labelText": "TIMELINESelect…ASAP2 weeks2-4 weeks1-2 months3+ monthsFlexible",
+        "labelText": "TIMELINE",
         "options": [
           {
             "value": "",
@@ -1876,8 +2245,15 @@
     ]
   },
   "footer": {
-    "clockText": "LOCAL TIME:09:39:51 PM",
-    "footerText": "OMNIRAHOMEABOUTWORKSCONTACT© MADE IN STYLOKIT",
+    "clockText": "LOCAL TIME: 09:44:47 PM",
+    "footerLines": [
+      "OMNIRA",
+      "HOME",
+      "ABOUT",
+      "WORKS",
+      "CONTACT",
+      "© MADE IN STYLOKIT"
+    ],
     "links": [
       {
         "text": "OMNIRA",
@@ -1901,23 +2277,11 @@
       },
       {
         "text": "hello@omniro.studio",
-        "href": ""
-      },
-      {
-        "text": "hello@omniro.studio",
         "href": "mailto:hello@omnira.studio"
       },
       {
         "text": "@omnira_design",
-        "href": ""
-      },
-      {
-        "text": "@omnira_design",
         "href": "https://x.com/Dmytri_Design"
-      },
-      {
-        "text": "linkedin.com/in/omnira",
-        "href": ""
       },
       {
         "text": "linkedin.com/in/omnira",
@@ -1926,22 +2290,22 @@
     ],
     "statusText": [
       "STATUS:",
-      "STATUS:OPEN FOR WORK",
+      "STATUS: OPEN FOR WORK",
       "STATUS:"
     ],
     "timezoneComparison": {
-      "capturedAtIso": "2026-11-26T20:39:51.697Z",
-      "renderedClockText": "LOCAL TIME:09:39:51 PM",
+      "capturedAtIso": "2026-11-26T20:44:48.139Z",
+      "renderedClockText": "LOCAL TIME: 09:44:47 PM",
       "localZone": "America/Los_Angeles",
       "zones": {
-        "local": "12:39:51 PM",
-        "UTC": "08:39:51 PM",
-        "Europe/Berlin": "09:39:51 PM",
-        "Europe/London": "08:39:51 PM",
-        "Europe/Kyiv": "10:39:51 PM",
-        "America/New_York": "03:39:51 PM",
-        "America/Los_Angeles": "12:39:51 PM",
-        "Asia/Kolkata": "02:09:51 AM"
+        "local": "12:44:48 PM",
+        "UTC": "08:44:48 PM",
+        "Europe/Berlin": "09:44:48 PM",
+        "Europe/London": "08:44:48 PM",
+        "Europe/Kyiv": "10:44:48 PM",
+        "America/New_York": "03:44:48 PM",
+        "America/Los_Angeles": "12:44:48 PM",
+        "Asia/Kolkata": "02:14:48 AM"
       }
     }
   }

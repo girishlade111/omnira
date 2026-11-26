@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-11-26T20:39:52.967Z",
+  "generatedAt": "2026-11-26T20:44:49.550Z",
   "summary": {
-    "liveAllProjectsCount": 27,
+    "liveInitial12Count": 12,
+    "liveAllProjectsAfterScrollCount": 27,
     "cmsTotalCount": 27,
     "userScreenshotCount": 27,
-    "discrepancyReason": "Live /works Framer page configures its CMS Collection List query with limit: 12 and includes a Load More / Loading spinner block, whereas the underlying Framer CMS collection (mD0yv0kks) and the user-provided full-page Works screenshot contain all 27 projects.",
+    "discrepancyReason": "Live /works SSR renders limit: 12 initially, then client-side IntersectionObserver LoadMore appends 12 (to 24) and 3 (to 27) on scroll; thus all 27 projects from CMS (mD0yv0kks) match the user-provided full-page screenshot.",
     "categories": [
       {
         "id": "sCjTByVW3",
@@ -47,9 +48,11 @@
       "category": "PORTFOLIO",
       "categorySlug": "portfolio",
       "thumbnailUrl": "https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
       "presentInLiveInitial12": true,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -62,9 +65,11 @@
       "category": "PORTFOLIO",
       "categorySlug": "portfolio",
       "thumbnailUrl": "https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
       "presentInLiveInitial12": true,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -77,9 +82,11 @@
       "category": "PORTFOLIO",
       "categorySlug": "portfolio",
       "thumbnailUrl": "https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
       "presentInLiveInitial12": true,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -92,9 +99,11 @@
       "category": "PORTFOLIO",
       "categorySlug": "portfolio",
       "thumbnailUrl": "https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
       "presentInLiveInitial12": true,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -107,9 +116,11 @@
       "category": "AI",
       "categorySlug": "ai",
       "thumbnailUrl": "https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
       "presentInLiveInitial12": true,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -122,9 +133,11 @@
       "category": "BUSINESS",
       "categorySlug": "business",
       "thumbnailUrl": "https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
       "presentInLiveInitial12": true,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -137,9 +150,11 @@
       "category": "BUSINESS",
       "categorySlug": "business",
       "thumbnailUrl": "https://framerusercontent.com/images/1WDP6JNBEINfsxd5XfGn2yGGKk.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
       "presentInLiveInitial12": true,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -152,9 +167,11 @@
       "category": "BUSINESS",
       "categorySlug": "business",
       "thumbnailUrl": "https://framerusercontent.com/images/FFLBzahmEMjxMWMzWWNqfJn2k.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
       "presentInLiveInitial12": true,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -167,9 +184,11 @@
       "category": "PORTFOLIO",
       "categorySlug": "portfolio",
       "thumbnailUrl": "https://framerusercontent.com/images/CI6nTUEhsyTRK5vYBMX1HvQ6Fg.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
       "presentInLiveInitial12": true,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -182,9 +201,11 @@
       "category": "BUSINESS",
       "categorySlug": "business",
       "thumbnailUrl": "https://framerusercontent.com/images/k2wjUdBMurpCZgsR4JXVtuEwsqE.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
       "presentInLiveInitial12": true,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -197,9 +218,11 @@
       "category": "BUSINESS",
       "categorySlug": "business",
       "thumbnailUrl": "https://framerusercontent.com/images/tbFBoq3VwCEUknOeRGY4OyHfkM.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
       "presentInLiveInitial12": true,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -212,9 +235,11 @@
       "category": "ONE PAGE",
       "categorySlug": "one-page",
       "thumbnailUrl": "https://framerusercontent.com/images/BnwhKq277QWV3q8O3QfKelDcRQo.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
       "presentInLiveInitial12": true,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -227,9 +252,11 @@
       "category": "AI",
       "categorySlug": "ai",
       "thumbnailUrl": "https://framerusercontent.com/images/8Wkade4FAfsfSxKzgmDKR6y0GQ.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -242,9 +269,11 @@
       "category": "BUSINESS",
       "categorySlug": "business",
       "thumbnailUrl": "https://framerusercontent.com/images/uj6KsfdruGmZHLHowqLzx0gaHc.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -257,9 +286,11 @@
       "category": "ONE PAGE",
       "categorySlug": "one-page",
       "thumbnailUrl": "https://framerusercontent.com/images/wvOnAKgR0jm2ZbtzbD8uQ4ms.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -272,9 +303,11 @@
       "category": "ONE PAGE",
       "categorySlug": "one-page",
       "thumbnailUrl": "https://framerusercontent.com/images/LjuoG9nQQywmClBbBmVxIFQuo.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -287,9 +320,11 @@
       "category": "ONE PAGE",
       "categorySlug": "one-page",
       "thumbnailUrl": "https://framerusercontent.com/images/Eo0abGCpM6vJvbTKN3xx5KeF5OE.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -302,9 +337,11 @@
       "category": "ONE PAGE",
       "categorySlug": "one-page",
       "thumbnailUrl": "https://framerusercontent.com/images/UpKIxq0BQLTKVMz18DD9iWCYg.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -317,9 +354,11 @@
       "category": "BUSINESS",
       "categorySlug": "business",
       "thumbnailUrl": "https://framerusercontent.com/images/UTYXmlpiLXjYNK2FGNOrxorcpLg.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -332,9 +371,11 @@
       "category": "BUSINESS",
       "categorySlug": "business",
       "thumbnailUrl": "https://framerusercontent.com/images/vwiKhlILR8iWUa8fIOhA8kU24.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -347,9 +388,11 @@
       "category": "AI",
       "categorySlug": "ai",
       "thumbnailUrl": "https://framerusercontent.com/images/nDJhd5O56lYf8TC5BvNzn9fI04.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -362,9 +405,11 @@
       "category": "BUSINESS",
       "categorySlug": "business",
       "thumbnailUrl": "https://framerusercontent.com/images/d3RuP4yNwxrIViJfQxQtGjvDIlc.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -377,9 +422,11 @@
       "category": "PORTFOLIO",
       "categorySlug": "portfolio",
       "thumbnailUrl": "https://framerusercontent.com/images/KoS0lWadzjl7JWKqZpTIzurVxc.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -392,9 +439,11 @@
       "category": "PORTFOLIO",
       "categorySlug": "portfolio",
       "thumbnailUrl": "https://framerusercontent.com/images/2j5EIxJRnsvElF3xWnDiOxGQHZE.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -407,9 +456,11 @@
       "category": "BUSINESS",
       "categorySlug": "business",
       "thumbnailUrl": "https://framerusercontent.com/images/ENU1aqUrQEeRW1RpDwLIN3yplTk.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -422,9 +473,11 @@
       "category": "BUSINESS",
       "categorySlug": "business",
       "thumbnailUrl": "https://framerusercontent.com/images/Hh2tA35Qs2BaOhXKd2rE3KOXtSo.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     },
     {
@@ -437,9 +490,11 @@
       "category": "BUSINESS",
       "categorySlug": "business",
       "thumbnailUrl": "https://framerusercontent.com/images/RjDOv8UFqlOTruQpVkomYmdVcHU.jpg?width=1600&height=1200",
+      "liveRenderedThumbSrc": null,
       "thumbnailWidth": 1600,
       "thumbnailHeight": 1200,
-      "presentInLiveInitial12": true,
+      "presentInLiveInitial12": false,
+      "presentInLiveAfterScroll27": true,
       "presentInUserScreenshot27": true
     }
   ]

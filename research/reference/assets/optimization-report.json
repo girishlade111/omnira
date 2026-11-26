@@ -1,0 +1,2156 @@
+{
+  "generatedAt": "2026-11-26T20:44:48.396Z",
+  "summary": {
+    "optimizedAssetsCount": 74,
+    "totalDerivativesGenerated": 190,
+    "totalOriginalBytes": 9748969,
+    "totalBestBytes": 4335845,
+    "overallSavingsPercent": 55.5
+  },
+  "assets": [
+    {
+      "id": "project-brandora-cover",
+      "sourceRelPath": "projects/brandora-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/brandora-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/brandora-cover.webp",
+          "byteSize": 177194,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/brandora-cover.avif",
+          "byteSize": 117156,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/brandora-cover.jpg",
+          "byteSize": 246818,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 277851,
+      "bestBytes": 117156,
+      "savingsPercent": 57.8,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-nivora-cover",
+      "sourceRelPath": "projects/nivora-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/nivora-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/nivora-cover.webp",
+          "byteSize": 105770,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/nivora-cover.avif",
+          "byteSize": 82822,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/nivora-cover.jpg",
+          "byteSize": 165686,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 189876,
+      "bestBytes": 82822,
+      "savingsPercent": 56.4,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-codify-cover",
+      "sourceRelPath": "projects/codify-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/codify-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/codify-cover.webp",
+          "byteSize": 89238,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/codify-cover.avif",
+          "byteSize": 71867,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/codify-cover.jpg",
+          "byteSize": 124629,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 141230,
+      "bestBytes": 71867,
+      "savingsPercent": 49.1,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-neutra-cover",
+      "sourceRelPath": "projects/neutra-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/neutra-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/neutra-cover.webp",
+          "byteSize": 61108,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/neutra-cover.avif",
+          "byteSize": 47521,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/neutra-cover.jpg",
+          "byteSize": 88009,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 104597,
+      "bestBytes": 47521,
+      "savingsPercent": 54.6,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-ai-nest-cover",
+      "sourceRelPath": "projects/ai-nest-cover.png",
+      "publicPrimaryPath": "/assets/images/projects/ai-nest-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/ai-nest-cover.webp",
+          "byteSize": 134482,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/ai-nest-cover.avif",
+          "byteSize": 116003,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/projects/ai-nest-cover.png",
+          "byteSize": 525202,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 227032,
+      "bestBytes": 116003,
+      "savingsPercent": 48.9,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-studyflow-cover",
+      "sourceRelPath": "projects/studyflow-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/studyflow-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/studyflow-cover.webp",
+          "byteSize": 99984,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/studyflow-cover.avif",
+          "byteSize": 81721,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/studyflow-cover.jpg",
+          "byteSize": 148385,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 167919,
+      "bestBytes": 81721,
+      "savingsPercent": 51.3,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-todofusion-cover",
+      "sourceRelPath": "projects/todofusion-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/todofusion-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/todofusion-cover.webp",
+          "byteSize": 123646,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/todofusion-cover.avif",
+          "byteSize": 76129,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/todofusion-cover.jpg",
+          "byteSize": 203629,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 225962,
+      "bestBytes": 76129,
+      "savingsPercent": 66.3,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-snapkit-cover",
+      "sourceRelPath": "projects/snapkit-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/snapkit-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/snapkit-cover.webp",
+          "byteSize": 93030,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/snapkit-cover.avif",
+          "byteSize": 61722,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/snapkit-cover.jpg",
+          "byteSize": 157997,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 185857,
+      "bestBytes": 61722,
+      "savingsPercent": 66.8,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-grido-cover",
+      "sourceRelPath": "projects/grido-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/grido-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/grido-cover.webp",
+          "byteSize": 60932,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/grido-cover.avif",
+          "byteSize": 45523,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/grido-cover.jpg",
+          "byteSize": 102213,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 120936,
+      "bestBytes": 45523,
+      "savingsPercent": 62.4,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-trainly-cover",
+      "sourceRelPath": "projects/trainly-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/trainly-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/trainly-cover.webp",
+          "byteSize": 79792,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/trainly-cover.avif",
+          "byteSize": 66352,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/trainly-cover.jpg",
+          "byteSize": 119341,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 134853,
+      "bestBytes": 66352,
+      "savingsPercent": 50.8,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-stickify-cover",
+      "sourceRelPath": "projects/stickify-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/stickify-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/stickify-cover.webp",
+          "byteSize": 74150,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/stickify-cover.avif",
+          "byteSize": 63091,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/stickify-cover.jpg",
+          "byteSize": 132491,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 145335,
+      "bestBytes": 63091,
+      "savingsPercent": 56.6,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-landify-cover",
+      "sourceRelPath": "projects/landify-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/landify-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/landify-cover.webp",
+          "byteSize": 87514,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/landify-cover.avif",
+          "byteSize": 65676,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/landify-cover.jpg",
+          "byteSize": 126561,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 144520,
+      "bestBytes": 65676,
+      "savingsPercent": 54.6,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-thinkbot-cover",
+      "sourceRelPath": "projects/thinkbot-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/thinkbot-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/thinkbot-cover.webp",
+          "byteSize": 58142,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/thinkbot-cover.avif",
+          "byteSize": 45835,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/thinkbot-cover.jpg",
+          "byteSize": 93512,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 108370,
+      "bestBytes": 45835,
+      "savingsPercent": 57.7,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-groomix-cover",
+      "sourceRelPath": "projects/groomix-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/groomix-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/groomix-cover.webp",
+          "byteSize": 103632,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/groomix-cover.avif",
+          "byteSize": 83530,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/groomix-cover.jpg",
+          "byteSize": 162261,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 188256,
+      "bestBytes": 83530,
+      "savingsPercent": 55.6,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-gradia-cover",
+      "sourceRelPath": "projects/gradia-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/gradia-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/gradia-cover.webp",
+          "byteSize": 166386,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/gradia-cover.avif",
+          "byteSize": 97335,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/gradia-cover.jpg",
+          "byteSize": 258292,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 301977,
+      "bestBytes": 97335,
+      "savingsPercent": 67.8,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-designor-cover",
+      "sourceRelPath": "projects/designor-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/designor-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/designor-cover.webp",
+          "byteSize": 60892,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/designor-cover.avif",
+          "byteSize": 54316,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/designor-cover.jpg",
+          "byteSize": 90906,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 107002,
+      "bestBytes": 54316,
+      "savingsPercent": 49.2,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-pixor-cover",
+      "sourceRelPath": "projects/pixor-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/pixor-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/pixor-cover.webp",
+          "byteSize": 58954,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/pixor-cover.avif",
+          "byteSize": 48501,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/pixor-cover.jpg",
+          "byteSize": 94685,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 107839,
+      "bestBytes": 48501,
+      "savingsPercent": 55,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-kavro-cover",
+      "sourceRelPath": "projects/kavro-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/kavro-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/kavro-cover.webp",
+          "byteSize": 55772,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/kavro-cover.avif",
+          "byteSize": 46942,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/kavro-cover.jpg",
+          "byteSize": 85304,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 103649,
+      "bestBytes": 46942,
+      "savingsPercent": 54.7,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-taskify-cover",
+      "sourceRelPath": "projects/taskify-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/taskify-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/taskify-cover.webp",
+          "byteSize": 69728,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/taskify-cover.avif",
+          "byteSize": 60987,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/taskify-cover.jpg",
+          "byteSize": 108426,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 120879,
+      "bestBytes": 60987,
+      "savingsPercent": 49.5,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-flexify-cover",
+      "sourceRelPath": "projects/flexify-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/flexify-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/flexify-cover.webp",
+          "byteSize": 93134,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/flexify-cover.avif",
+          "byteSize": 77626,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/flexify-cover.jpg",
+          "byteSize": 138906,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 160808,
+      "bestBytes": 77626,
+      "savingsPercent": 51.7,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-nexusai-cover",
+      "sourceRelPath": "projects/nexusai-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/nexusai-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/nexusai-cover.webp",
+          "byteSize": 85922,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/nexusai-cover.avif",
+          "byteSize": 63476,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/nexusai-cover.jpg",
+          "byteSize": 134983,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 152709,
+      "bestBytes": 63476,
+      "savingsPercent": 58.4,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-dailyhub-cover",
+      "sourceRelPath": "projects/dailyhub-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/dailyhub-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/dailyhub-cover.webp",
+          "byteSize": 120700,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/dailyhub-cover.avif",
+          "byteSize": 104262,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/dailyhub-cover.jpg",
+          "byteSize": 188272,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 214776,
+      "bestBytes": 104262,
+      "savingsPercent": 51.5,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-agentify-cover",
+      "sourceRelPath": "projects/agentify-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/agentify-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/agentify-cover.webp",
+          "byteSize": 81544,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/agentify-cover.avif",
+          "byteSize": 52683,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/agentify-cover.jpg",
+          "byteSize": 154300,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 180514,
+      "bestBytes": 52683,
+      "savingsPercent": 70.8,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-protify-cover",
+      "sourceRelPath": "projects/protify-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/protify-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/protify-cover.webp",
+          "byteSize": 77076,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/protify-cover.avif",
+          "byteSize": 63704,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/protify-cover.jpg",
+          "byteSize": 109280,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 129151,
+      "bestBytes": 63704,
+      "savingsPercent": 50.7,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-startify-cover",
+      "sourceRelPath": "projects/startify-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/startify-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/startify-cover.webp",
+          "byteSize": 63644,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/startify-cover.avif",
+          "byteSize": 51281,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/startify-cover.jpg",
+          "byteSize": 101857,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 118637,
+      "bestBytes": 51281,
+      "savingsPercent": 56.8,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-flowboard-cover",
+      "sourceRelPath": "projects/flowboard-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/flowboard-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/flowboard-cover.webp",
+          "byteSize": 124080,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/flowboard-cover.avif",
+          "byteSize": 104145,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/flowboard-cover.jpg",
+          "byteSize": 194911,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 226039,
+      "bestBytes": 104145,
+      "savingsPercent": 53.9,
+      "hasAlpha": false
+    },
+    {
+      "id": "project-platify-cover",
+      "sourceRelPath": "projects/platify-cover.jpg",
+      "publicPrimaryPath": "/assets/images/projects/platify-cover.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/platify-cover.webp",
+          "byteSize": 74932,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/platify-cover.avif",
+          "byteSize": 60655,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/platify-cover.jpg",
+          "byteSize": 102211,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 121445,
+      "bestBytes": 60655,
+      "savingsPercent": 50.1,
+      "hasAlpha": false
+    },
+    {
+      "id": "brand-omnira-logo-nav",
+      "sourceRelPath": "brand/omnira-logo-nav.svg",
+      "publicPrimaryPath": "/assets/brand/omnira-logo-nav.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/brand/omnira-logo-nav.svg",
+          "byteSize": 384,
+          "width": 21,
+          "height": 24
+        }
+      ],
+      "originalBytes": 384,
+      "bestBytes": 384,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "textures-omnira-dark-grain",
+      "sourceRelPath": "textures/omnira-dark-grain.jpg",
+      "publicPrimaryPath": "/assets/textures/omnira-dark-grain.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/textures/omnira-dark-grain.webp",
+          "byteSize": 939268,
+          "width": 4736,
+          "height": 3136
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/textures/omnira-dark-grain.avif",
+          "byteSize": 455783,
+          "width": 4736,
+          "height": 3136
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/textures/omnira-dark-grain.jpg",
+          "byteSize": 1393797,
+          "width": 4736,
+          "height": 3136
+        }
+      ],
+      "originalBytes": 1808368,
+      "bestBytes": 455783,
+      "savingsPercent": 74.8,
+      "hasAlpha": false
+    },
+    {
+      "id": "icons-arrow-left",
+      "sourceRelPath": "icons/arrow-left.svg",
+      "publicPrimaryPath": "/assets/icons/arrow-left.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/icons/arrow-left.svg",
+          "byteSize": 214,
+          "width": 40,
+          "height": 40
+        }
+      ],
+      "originalBytes": 214,
+      "bestBytes": 214,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "icons-arrow-right",
+      "sourceRelPath": "icons/arrow-right.svg",
+      "publicPrimaryPath": "/assets/icons/arrow-right.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/icons/arrow-right.svg",
+          "byteSize": 215,
+          "width": 40,
+          "height": 40
+        }
+      ],
+      "originalBytes": 215,
+      "bestBytes": 215,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "icons-rating-star",
+      "sourceRelPath": "icons/rating-star.svg",
+      "publicPrimaryPath": "/assets/icons/rating-star.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/icons/rating-star.svg",
+          "byteSize": 836,
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "originalBytes": 836,
+      "bestBytes": 836,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "logos-partner-logo-01",
+      "sourceRelPath": "logos/partner-logo-01.svg",
+      "publicPrimaryPath": "/assets/images/logos/partner-logo-01.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/images/logos/partner-logo-01.svg",
+          "byteSize": 1665,
+          "width": 108,
+          "height": 26
+        }
+      ],
+      "originalBytes": 1665,
+      "bestBytes": 1665,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "logos-partner-logo-02",
+      "sourceRelPath": "logos/partner-logo-02.svg",
+      "publicPrimaryPath": "/assets/images/logos/partner-logo-02.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/images/logos/partner-logo-02.svg",
+          "byteSize": 2244,
+          "width": 106,
+          "height": 26
+        }
+      ],
+      "originalBytes": 2244,
+      "bestBytes": 2244,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "logos-partner-logo-03",
+      "sourceRelPath": "logos/partner-logo-03.svg",
+      "publicPrimaryPath": "/assets/images/logos/partner-logo-03.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/images/logos/partner-logo-03.svg",
+          "byteSize": 2894,
+          "width": 124,
+          "height": 24
+        }
+      ],
+      "originalBytes": 2894,
+      "bestBytes": 2894,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "logos-partner-logo-04",
+      "sourceRelPath": "logos/partner-logo-04.svg",
+      "publicPrimaryPath": "/assets/images/logos/partner-logo-04.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/images/logos/partner-logo-04.svg",
+          "byteSize": 2279,
+          "width": 133,
+          "height": 26
+        }
+      ],
+      "originalBytes": 2279,
+      "bestBytes": 2279,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "logos-partner-logo-05",
+      "sourceRelPath": "logos/partner-logo-05.svg",
+      "publicPrimaryPath": "/assets/images/logos/partner-logo-05.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/images/logos/partner-logo-05.svg",
+          "byteSize": 3371,
+          "width": 153,
+          "height": 26
+        }
+      ],
+      "originalBytes": 3371,
+      "bestBytes": 3371,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "logos-partner-logo-06",
+      "sourceRelPath": "logos/partner-logo-06.svg",
+      "publicPrimaryPath": "/assets/images/logos/partner-logo-06.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/images/logos/partner-logo-06.svg",
+          "byteSize": 2216,
+          "width": 113,
+          "height": 26
+        }
+      ],
+      "originalBytes": 2216,
+      "bestBytes": 2216,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "logos-partner-logo-07",
+      "sourceRelPath": "logos/partner-logo-07.svg",
+      "publicPrimaryPath": "/assets/images/logos/partner-logo-07.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/images/logos/partner-logo-07.svg",
+          "byteSize": 2472,
+          "width": 106,
+          "height": 26
+        }
+      ],
+      "originalBytes": 2472,
+      "bestBytes": 2472,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "logos-partner-logo-08",
+      "sourceRelPath": "logos/partner-logo-08.svg",
+      "publicPrimaryPath": "/assets/images/logos/partner-logo-08.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/images/logos/partner-logo-08.svg",
+          "byteSize": 2009,
+          "width": 109,
+          "height": 26
+        }
+      ],
+      "originalBytes": 2009,
+      "bestBytes": 2009,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "brand-omnira-logo-footer",
+      "sourceRelPath": "brand/omnira-logo-footer.svg",
+      "publicPrimaryPath": "/assets/brand/omnira-logo-footer.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/brand/omnira-logo-footer.svg",
+          "byteSize": 381,
+          "width": 21,
+          "height": 24
+        }
+      ],
+      "originalBytes": 381,
+      "bestBytes": 381,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "brand-omnira-favicon",
+      "sourceRelPath": "brand/omnira-favicon.svg",
+      "publicPrimaryPath": "/assets/brand/omnira-favicon.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/brand/omnira-favicon.svg",
+          "byteSize": 253,
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "originalBytes": 253,
+      "bestBytes": 253,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "brand-omnira-apple-touch-icon",
+      "sourceRelPath": "brand/omnira-apple-touch-icon.svg",
+      "publicPrimaryPath": "/assets/brand/omnira-apple-touch-icon.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/brand/omnira-apple-touch-icon.svg",
+          "byteSize": 253,
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "originalBytes": 253,
+      "bestBytes": 253,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "brand-omnira-og-image",
+      "sourceRelPath": "brand/omnira-og-image.jpg",
+      "publicPrimaryPath": "/assets/brand/omnira-og-image.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/brand/omnira-og-image.webp",
+          "byteSize": 84034,
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/brand/omnira-og-image.avif",
+          "byteSize": 69332,
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/brand/omnira-og-image.jpg",
+          "byteSize": 110230,
+          "width": 1200,
+          "height": 630
+        }
+      ],
+      "originalBytes": 137944,
+      "bestBytes": 69332,
+      "savingsPercent": 49.7,
+      "hasAlpha": false
+    },
+    {
+      "id": "portraits-about-profile-portrait",
+      "sourceRelPath": "portraits/about-profile-portrait.png",
+      "publicPrimaryPath": "/assets/images/about/about-profile-portrait.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/about/about-profile-portrait.webp",
+          "byteSize": 128058,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/about/about-profile-portrait.avif",
+          "byteSize": 109856,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/about/about-profile-portrait.png",
+          "byteSize": 459757,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 215483,
+      "bestBytes": 109856,
+      "savingsPercent": 49,
+      "hasAlpha": true
+    },
+    {
+      "id": "brand-profile-signature",
+      "sourceRelPath": "brand/profile-signature.svg",
+      "publicPrimaryPath": "/assets/brand/profile-signature.svg",
+      "derivatives": [
+        {
+          "format": "svg",
+          "publicPath": "/assets/brand/profile-signature.svg",
+          "byteSize": 3982,
+          "width": 95,
+          "height": 29
+        }
+      ],
+      "originalBytes": 3982,
+      "bestBytes": 3982,
+      "savingsPercent": 0,
+      "hasAlpha": true
+    },
+    {
+      "id": "services-service-stack-about-layer-1",
+      "sourceRelPath": "services/service-stack-about-layer-1.png",
+      "publicPrimaryPath": "/assets/images/services/service-stack-about-layer-1.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/services/service-stack-about-layer-1.webp",
+          "byteSize": 52514,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/services/service-stack-about-layer-1.avif",
+          "byteSize": 32865,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/services/service-stack-about-layer-1.png",
+          "byteSize": 75076,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 34103,
+      "bestBytes": 32865,
+      "savingsPercent": 3.6,
+      "hasAlpha": false
+    },
+    {
+      "id": "services-service-stack-about-layer-2",
+      "sourceRelPath": "services/service-stack-about-layer-2.png",
+      "publicPrimaryPath": "/assets/images/services/service-stack-about-layer-2.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/services/service-stack-about-layer-2.webp",
+          "byteSize": 43924,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/services/service-stack-about-layer-2.avif",
+          "byteSize": 33641,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/services/service-stack-about-layer-2.png",
+          "byteSize": 86695,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 38174,
+      "bestBytes": 33641,
+      "savingsPercent": 11.9,
+      "hasAlpha": false
+    },
+    {
+      "id": "services-service-stack-about-layer-3",
+      "sourceRelPath": "services/service-stack-about-layer-3.png",
+      "publicPrimaryPath": "/assets/images/services/service-stack-about-layer-3.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/services/service-stack-about-layer-3.webp",
+          "byteSize": 36688,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/services/service-stack-about-layer-3.avif",
+          "byteSize": 24546,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/services/service-stack-about-layer-3.png",
+          "byteSize": 58745,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 33002,
+      "bestBytes": 24546,
+      "savingsPercent": 25.6,
+      "hasAlpha": false
+    },
+    {
+      "id": "services-service-stack-about-layer-4",
+      "sourceRelPath": "services/service-stack-about-layer-4.png",
+      "publicPrimaryPath": "/assets/images/services/service-stack-about-layer-4.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/services/service-stack-about-layer-4.webp",
+          "byteSize": 33230,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/services/service-stack-about-layer-4.avif",
+          "byteSize": 24853,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/services/service-stack-about-layer-4.png",
+          "byteSize": 58450,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 29684,
+      "bestBytes": 24853,
+      "savingsPercent": 16.3,
+      "hasAlpha": false
+    },
+    {
+      "id": "services-service-stack-about-layer-5",
+      "sourceRelPath": "services/service-stack-about-layer-5.png",
+      "publicPrimaryPath": "/assets/images/services/service-stack-about-layer-5.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/services/service-stack-about-layer-5.webp",
+          "byteSize": 64628,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/services/service-stack-about-layer-5.avif",
+          "byteSize": 42297,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/services/service-stack-about-layer-5.png",
+          "byteSize": 117532,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 50448,
+      "bestBytes": 42297,
+      "savingsPercent": 16.2,
+      "hasAlpha": false
+    },
+    {
+      "id": "timeline-timeline-2020",
+      "sourceRelPath": "timeline/timeline-2020.png",
+      "publicPrimaryPath": "/assets/images/timeline/timeline-2020.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/timeline/timeline-2020.webp",
+          "byteSize": 81286,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/timeline/timeline-2020.avif",
+          "byteSize": 72201,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/timeline/timeline-2020.png",
+          "byteSize": 295293,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 127493,
+      "bestBytes": 72201,
+      "savingsPercent": 43.4,
+      "hasAlpha": false
+    },
+    {
+      "id": "timeline-timeline-2021",
+      "sourceRelPath": "timeline/timeline-2021.png",
+      "publicPrimaryPath": "/assets/images/timeline/timeline-2021.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/timeline/timeline-2021.webp",
+          "byteSize": 121456,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/timeline/timeline-2021.avif",
+          "byteSize": 115316,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/timeline/timeline-2021.png",
+          "byteSize": 327406,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 155880,
+      "bestBytes": 115316,
+      "savingsPercent": 26,
+      "hasAlpha": false
+    },
+    {
+      "id": "timeline-timeline-2022",
+      "sourceRelPath": "timeline/timeline-2022.png",
+      "publicPrimaryPath": "/assets/images/timeline/timeline-2022.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/timeline/timeline-2022.webp",
+          "byteSize": 122266,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/timeline/timeline-2022.avif",
+          "byteSize": 103244,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/timeline/timeline-2022.png",
+          "byteSize": 368564,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 149447,
+      "bestBytes": 103244,
+      "savingsPercent": 30.9,
+      "hasAlpha": false
+    },
+    {
+      "id": "timeline-timeline-2023",
+      "sourceRelPath": "timeline/timeline-2023.png",
+      "publicPrimaryPath": "/assets/images/timeline/timeline-2023.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/timeline/timeline-2023.webp",
+          "byteSize": 93554,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/timeline/timeline-2023.avif",
+          "byteSize": 82732,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/timeline/timeline-2023.png",
+          "byteSize": 303369,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 133269,
+      "bestBytes": 82732,
+      "savingsPercent": 37.9,
+      "hasAlpha": false
+    },
+    {
+      "id": "timeline-timeline-2024",
+      "sourceRelPath": "timeline/timeline-2024.png",
+      "publicPrimaryPath": "/assets/images/timeline/timeline-2024.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/timeline/timeline-2024.webp",
+          "byteSize": 98952,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/timeline/timeline-2024.avif",
+          "byteSize": 83974,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/timeline/timeline-2024.png",
+          "byteSize": 294870,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 123344,
+      "bestBytes": 83974,
+      "savingsPercent": 31.9,
+      "hasAlpha": false
+    },
+    {
+      "id": "timeline-timeline-2025",
+      "sourceRelPath": "timeline/timeline-2025.png",
+      "publicPrimaryPath": "/assets/images/timeline/timeline-2025.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/timeline/timeline-2025.webp",
+          "byteSize": 70804,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/timeline/timeline-2025.avif",
+          "byteSize": 72192,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/timeline/timeline-2025.png",
+          "byteSize": 194412,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 97138,
+      "bestBytes": 70804,
+      "savingsPercent": 27.1,
+      "hasAlpha": false
+    },
+    {
+      "id": "timeline-timeline-2026",
+      "sourceRelPath": "timeline/timeline-2026.png",
+      "publicPrimaryPath": "/assets/images/timeline/timeline-2026.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/timeline/timeline-2026.webp",
+          "byteSize": 79164,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/timeline/timeline-2026.avif",
+          "byteSize": 88096,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/timeline/timeline-2026.png",
+          "byteSize": 290075,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 140252,
+      "bestBytes": 79164,
+      "savingsPercent": 43.6,
+      "hasAlpha": false
+    },
+    {
+      "id": "testimonials-testimonial-01-default",
+      "sourceRelPath": "testimonials/testimonial-01-default.jpg",
+      "publicPrimaryPath": "/assets/images/testimonials/testimonial-01-default.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/testimonials/testimonial-01-default.webp",
+          "byteSize": 193390,
+          "width": 2244,
+          "height": 2244
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/testimonials/testimonial-01-default.avif",
+          "byteSize": 170900,
+          "width": 2244,
+          "height": 2244
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/testimonials/testimonial-01-default.jpg",
+          "byteSize": 354442,
+          "width": 2244,
+          "height": 2244
+        }
+      ],
+      "originalBytes": 423912,
+      "bestBytes": 170900,
+      "savingsPercent": 59.7,
+      "hasAlpha": false
+    },
+    {
+      "id": "testimonials-testimonial-02-daniel-kim",
+      "sourceRelPath": "testimonials/testimonial-02-daniel-kim.png",
+      "publicPrimaryPath": "/assets/images/testimonials/testimonial-02-daniel-kim.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/testimonials/testimonial-02-daniel-kim.webp",
+          "byteSize": 6348,
+          "width": 288,
+          "height": 288
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/testimonials/testimonial-02-daniel-kim.avif",
+          "byteSize": 6497,
+          "width": 288,
+          "height": 288
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/testimonials/testimonial-02-daniel-kim.png",
+          "byteSize": 33337,
+          "width": 288,
+          "height": 288
+        }
+      ],
+      "originalBytes": 15006,
+      "bestBytes": 6348,
+      "savingsPercent": 57.7,
+      "hasAlpha": false
+    },
+    {
+      "id": "testimonials-testimonial-03-sarah-chen",
+      "sourceRelPath": "testimonials/testimonial-03-sarah-chen.jpg",
+      "publicPrimaryPath": "/assets/images/testimonials/testimonial-03-sarah-chen.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/testimonials/testimonial-03-sarah-chen.webp",
+          "byteSize": 20790,
+          "width": 555,
+          "height": 555
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/testimonials/testimonial-03-sarah-chen.avif",
+          "byteSize": 18132,
+          "width": 555,
+          "height": 555
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/testimonials/testimonial-03-sarah-chen.jpg",
+          "byteSize": 27937,
+          "width": 555,
+          "height": 555
+        }
+      ],
+      "originalBytes": 30396,
+      "bestBytes": 18132,
+      "savingsPercent": 40.3,
+      "hasAlpha": false
+    },
+    {
+      "id": "testimonials-testimonial-04-leon-hart",
+      "sourceRelPath": "testimonials/testimonial-04-leon-hart.jpg",
+      "publicPrimaryPath": "/assets/images/testimonials/testimonial-04-leon-hart.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/testimonials/testimonial-04-leon-hart.webp",
+          "byteSize": 36822,
+          "width": 541,
+          "height": 541
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/testimonials/testimonial-04-leon-hart.avif",
+          "byteSize": 28097,
+          "width": 541,
+          "height": 541
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/testimonials/testimonial-04-leon-hart.jpg",
+          "byteSize": 40060,
+          "width": 541,
+          "height": 541
+        }
+      ],
+      "originalBytes": 41468,
+      "bestBytes": 28097,
+      "savingsPercent": 32.2,
+      "hasAlpha": false
+    },
+    {
+      "id": "testimonials-testimonial-05-sofia-brand",
+      "sourceRelPath": "testimonials/testimonial-05-sofia-brand.png",
+      "publicPrimaryPath": "/assets/images/testimonials/testimonial-05-sofia-brand.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/testimonials/testimonial-05-sofia-brand.webp",
+          "byteSize": 10570,
+          "width": 288,
+          "height": 288
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/testimonials/testimonial-05-sofia-brand.avif",
+          "byteSize": 8886,
+          "width": 288,
+          "height": 288
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/testimonials/testimonial-05-sofia-brand.png",
+          "byteSize": 44254,
+          "width": 288,
+          "height": 288
+        }
+      ],
+      "originalBytes": 18539,
+      "bestBytes": 8886,
+      "savingsPercent": 52.1,
+      "hasAlpha": false
+    },
+    {
+      "id": "testimonials-testimonial-06-mira-klein",
+      "sourceRelPath": "testimonials/testimonial-06-mira-klein.jpg",
+      "publicPrimaryPath": "/assets/images/testimonials/testimonial-06-mira-klein.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/testimonials/testimonial-06-mira-klein.webp",
+          "byteSize": 18666,
+          "width": 504,
+          "height": 504
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/testimonials/testimonial-06-mira-klein.avif",
+          "byteSize": 16130,
+          "width": 504,
+          "height": 504
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/testimonials/testimonial-06-mira-klein.jpg",
+          "byteSize": 25322,
+          "width": 504,
+          "height": 504
+        }
+      ],
+      "originalBytes": 26166,
+      "bestBytes": 16130,
+      "savingsPercent": 38.4,
+      "hasAlpha": false
+    },
+    {
+      "id": "services-service-stack-home-layer-1",
+      "sourceRelPath": "services/service-stack-home-layer-1.png",
+      "publicPrimaryPath": "/assets/images/services/service-stack-home-layer-1.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/services/service-stack-home-layer-1.webp",
+          "byteSize": 141304,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/services/service-stack-home-layer-1.avif",
+          "byteSize": 111396,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/services/service-stack-home-layer-1.png",
+          "byteSize": 270840,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 132707,
+      "bestBytes": 111396,
+      "savingsPercent": 16.1,
+      "hasAlpha": false
+    },
+    {
+      "id": "services-service-stack-home-layer-2",
+      "sourceRelPath": "services/service-stack-home-layer-2.png",
+      "publicPrimaryPath": "/assets/images/services/service-stack-home-layer-2.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/services/service-stack-home-layer-2.webp",
+          "byteSize": 86058,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/services/service-stack-home-layer-2.avif",
+          "byteSize": 59049,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/services/service-stack-home-layer-2.png",
+          "byteSize": 170828,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 73412,
+      "bestBytes": 59049,
+      "savingsPercent": 19.6,
+      "hasAlpha": false
+    },
+    {
+      "id": "services-service-stack-home-layer-3",
+      "sourceRelPath": "services/service-stack-home-layer-3.png",
+      "publicPrimaryPath": "/assets/images/services/service-stack-home-layer-3.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/services/service-stack-home-layer-3.webp",
+          "byteSize": 80772,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/services/service-stack-home-layer-3.avif",
+          "byteSize": 62191,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/services/service-stack-home-layer-3.png",
+          "byteSize": 168398,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 68031,
+      "bestBytes": 62191,
+      "savingsPercent": 8.6,
+      "hasAlpha": false
+    },
+    {
+      "id": "services-service-stack-home-layer-4",
+      "sourceRelPath": "services/service-stack-home-layer-4.png",
+      "publicPrimaryPath": "/assets/images/services/service-stack-home-layer-4.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/services/service-stack-home-layer-4.webp",
+          "byteSize": 80186,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/services/service-stack-home-layer-4.avif",
+          "byteSize": 61596,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/services/service-stack-home-layer-4.png",
+          "byteSize": 223900,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 95773,
+      "bestBytes": 61596,
+      "savingsPercent": 35.7,
+      "hasAlpha": false
+    },
+    {
+      "id": "services-service-stack-home-layer-5",
+      "sourceRelPath": "services/service-stack-home-layer-5.png",
+      "publicPrimaryPath": "/assets/images/services/service-stack-home-layer-5.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/services/service-stack-home-layer-5.webp",
+          "byteSize": 66444,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/services/service-stack-home-layer-5.avif",
+          "byteSize": 45244,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/services/service-stack-home-layer-5.png",
+          "byteSize": 114966,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 51113,
+      "bestBytes": 45244,
+      "savingsPercent": 11.5,
+      "hasAlpha": false
+    },
+    {
+      "id": "hero-hero-portrait-dotmatrix",
+      "sourceRelPath": "hero/hero-portrait-dotmatrix.png",
+      "publicPrimaryPath": "/assets/images/hero/hero-portrait-dotmatrix.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/hero/hero-portrait-dotmatrix.webp",
+          "byteSize": 195528,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/hero/hero-portrait-dotmatrix.avif",
+          "byteSize": 133816,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/images/hero/hero-portrait-dotmatrix.png",
+          "byteSize": 461006,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "originalBytes": 224625,
+      "bestBytes": 133816,
+      "savingsPercent": 40.4,
+      "hasAlpha": false
+    },
+    {
+      "id": "brand-framer-fallback-favicon",
+      "sourceRelPath": "brand/framer-fallback-favicon.png",
+      "publicPrimaryPath": "/assets/brand/framer-fallback-favicon.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/brand/framer-fallback-favicon.webp",
+          "byteSize": 962,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/brand/framer-fallback-favicon.avif",
+          "byteSize": 1120,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/brand/framer-fallback-favicon.png",
+          "byteSize": 1941,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "originalBytes": 2058,
+      "bestBytes": 962,
+      "savingsPercent": 53.3,
+      "hasAlpha": true
+    },
+    {
+      "id": "textures-omnira-panel-grain",
+      "sourceRelPath": "textures/omnira-panel-grain.png",
+      "publicPrimaryPath": "/assets/textures/omnira-panel-grain.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/textures/omnira-panel-grain.webp",
+          "byteSize": 168546,
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/textures/omnira-panel-grain.avif",
+          "byteSize": 138466,
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "format": "png",
+          "publicPath": "/assets/textures/omnira-panel-grain.png",
+          "byteSize": 343924,
+          "width": 1448,
+          "height": 1086
+        }
+      ],
+      "originalBytes": 173465,
+      "bestBytes": 138466,
+      "savingsPercent": 20.2,
+      "hasAlpha": false
+    },
+    {
+      "id": "projects-project-card-default-fallback",
+      "sourceRelPath": "projects/project-card-default-fallback.jpg",
+      "publicPrimaryPath": "/assets/images/projects/project-card-default-fallback.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/images/projects/project-card-default-fallback.webp",
+          "byteSize": 130644,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/images/projects/project-card-default-fallback.avif",
+          "byteSize": 73132,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/images/projects/project-card-default-fallback.jpg",
+          "byteSize": 179677,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "originalBytes": 213727,
+      "bestBytes": 73132,
+      "savingsPercent": 65.8,
+      "hasAlpha": false
+    },
+    {
+      "id": "brand-cdn-assets-omnira-og-image",
+      "sourceRelPath": "brand/cdn-assets-omnira-og-image.jpg",
+      "publicPrimaryPath": "/assets/brand/cdn-assets-omnira-og-image.webp",
+      "derivatives": [
+        {
+          "format": "webp",
+          "publicPath": "/assets/brand/cdn-assets-omnira-og-image.webp",
+          "byteSize": 83426,
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "format": "avif",
+          "publicPath": "/assets/brand/cdn-assets-omnira-og-image.avif",
+          "byteSize": 64363,
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "format": "jpg",
+          "publicPath": "/assets/brand/cdn-assets-omnira-og-image.jpg",
+          "byteSize": 106760,
+          "width": 1200,
+          "height": 630
+        }
+      ],
+      "originalBytes": 450855,
+      "bestBytes": 64363,
+      "savingsPercent": 85.7,
+      "hasAlpha": false
+    }
+  ]
+}

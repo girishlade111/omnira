@@ -149,8 +149,8 @@ async function captureHomeScrollScenes(page: Page) {
 
 async function investigateProcessAndServices(page: Page) {
   console.log("[2/3] Deep-diving Process & Services scroll-driven transitions + dark region cause...");
-  const servicesDir = path.join(OUT_SCREENSHOTS, "animation-frames/services");
-  const processDir = path.join(OUT_SCREENSHOTS, "animation-frames/process");
+  const servicesDir = path.join(OUT_SCREENSHOTS, "services");
+  const processDir = path.join(OUT_SCREENSHOTS, "process");
   ensureDir(servicesDir);
   ensureDir(processDir);
 

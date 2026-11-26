@@ -1,0 +1,261 @@
+{
+  "url": "https://omnira.framer.website/about",
+  "scrollHeight": 7265,
+  "innerHeight": 900,
+  "maxScroll": 6365,
+  "increments": [
+    {
+      "pct": 0,
+      "targetY": 0,
+      "file": "about-scroll-000.png",
+      "scrollY": 0,
+      "stickyCount": 1,
+      "sticky": [
+        {
+          "framerName": null,
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78,
+            "top": 822,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "pct": 10,
+      "targetY": 637,
+      "file": "about-scroll-010.png",
+      "scrollY": 637,
+      "stickyCount": 1,
+      "sticky": [
+        {
+          "framerName": null,
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78,
+            "top": 822,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "pct": 20,
+      "targetY": 1273,
+      "file": "about-scroll-020.png",
+      "scrollY": 1273,
+      "stickyCount": 1,
+      "sticky": [
+        {
+          "framerName": null,
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78,
+            "top": 822,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "pct": 30,
+      "targetY": 1910,
+      "file": "about-scroll-030.png",
+      "scrollY": 1910,
+      "stickyCount": 1,
+      "sticky": [
+        {
+          "framerName": null,
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78,
+            "top": 822,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "pct": 40,
+      "targetY": 2546,
+      "file": "about-scroll-040.png",
+      "scrollY": 2546,
+      "stickyCount": 1,
+      "sticky": [
+        {
+          "framerName": null,
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78,
+            "top": 822,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "pct": 50,
+      "targetY": 3183,
+      "file": "about-scroll-050.png",
+      "scrollY": 3183,
+      "stickyCount": 1,
+      "sticky": [
+        {
+          "framerName": null,
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78,
+            "top": 822,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "pct": 60,
+      "targetY": 3819,
+      "file": "about-scroll-060.png",
+      "scrollY": 3819,
+      "stickyCount": 1,
+      "sticky": [
+        {
+          "framerName": null,
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78,
+            "top": 822,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "pct": 70,
+      "targetY": 4456,
+      "file": "about-scroll-070.png",
+      "scrollY": 4456,
+      "stickyCount": 1,
+      "sticky": [
+        {
+          "framerName": null,
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78,
+            "top": 822,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "pct": 80,
+      "targetY": 5092,
+      "file": "about-scroll-080.png",
+      "scrollY": 5092,
+      "stickyCount": 1,
+      "sticky": [
+        {
+          "framerName": null,
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78,
+            "top": 822,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "pct": 90,
+      "targetY": 5729,
+      "file": "about-scroll-090.png",
+      "scrollY": 5729,
+      "stickyCount": 1,
+      "sticky": [
+        {
+          "framerName": null,
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78,
+            "top": 822,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "pct": 100,
+      "targetY": 6365,
+      "file": "about-scroll-100.png",
+      "scrollY": 6365,
+      "stickyCount": 1,
+      "sticky": [
+        {
+          "framerName": null,
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78,
+            "top": 822,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          }
+        }
+      ]
+    }
+  ]
+}
