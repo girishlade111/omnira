@@ -1,5 +1,5 @@
 {
-  "extractedAt": "2026-11-26T20:44:49.550Z",
+  "extractedAt": "2026-11-26T20:49:54.086Z",
   "baseUrl": "https://omnira.framer.website",
   "home": {
     "hero": {
@@ -34,7 +34,7 @@
         "EXPERIENCE"
       ],
       "activeWordTransitions": [],
-      "samplesCount": 49
+      "samplesCount": 59
     },
     "selectedProjects": {
       "sectionText": "SELECTED WORK CRAFTED DIGITAL EXPERIENCES A curated collection of digital experiences shaped with strong visual direction, clean interaction, and futuristic design systems.",
@@ -210,7 +210,7 @@
             "Consistent layouts"
           ],
           "hasActiveName": true,
-          "height": 222,
+          "height": 227,
           "svgCount": 37,
           "sectionImages": []
         }
@@ -233,14 +233,14 @@
             "Visual storytelling"
           ],
           "hasActiveName": true,
-          "height": 180,
+          "height": 227,
           "svgCount": 37,
           "sectionImages": []
         }
       }
     ],
     "testimonials": {
-      "mechanism": "carousel",
+      "mechanism": "carousel-with-previous-next-buttons",
       "controlsFound": [
         {
           "tag": "BUTTON",
@@ -253,7 +253,7 @@
           "text": ""
         }
       ],
-      "uniqueTestimonialsCount": 5,
+      "uniqueTestimonialsCount": 6,
       "testimonials": [
         {
           "quote": "A clean system, strong direction, and excellent Framer execution. Everything felt intentional and launch-ready.",
@@ -280,6 +280,14 @@
           "score": ""
         },
         {
+          "quote": "We needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.",
+          "fullName": "MIRA KLEIN",
+          "role": "Product Lead, Statik",
+          "linkHref": "https://x.com/Dmytri_Design",
+          "avatar": null,
+          "score": ""
+        },
+        {
           "quote": "Omnira delivered a sharp website with clear structure, strong visuals, and smooth execution from start to finish.",
           "fullName": "MARKO IVANOV",
           "role": "Director, Vanta",
@@ -296,27 +304,10 @@
           "score": ""
         }
       ],
-      "sectionHeaderLines": [
-        "A clean system, strong direction, and excellent Framer execution. Everything felt intentional and launch-ready.",
-        "SARAH CHEN",
-        "Product Lead, Statik",
-        "X LINK",
-        "Omnira turned our rough direction into a polished website with strong structure, smooth motion, and memorable visual impact.",
-        "LEON HART",
-        "Director, Vanta",
-        "X LINK",
-        "We needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.",
-        "SOFIA BRAND",
-        "Founder, Lumen",
-        "X LINK",
-        "We needed a bold digital presence, and Omnira delivered a clean, futuristic experience that felt instantly premium.",
-        "MIRA KLEIN",
-        "Product Lead, Statik",
-        "X LINK",
-        "Omnira delivered a sharp website with clear structure, strong visuals, and smooth execution from start to finish.",
-        "MARKO IVANOV",
-        "Director, Vanta",
-        "X LINK"
+      "clientSatisfactionLines": [
+        "CLIENT SATISFACTION",
+        "4.8",
+        "FROM 24 CLIENT PROJECTS"
       ],
       "uniquePartnerLogosCount": 8,
       "partnerLogos": [
@@ -1010,23 +1001,58 @@
       {
         "step": 2,
         "scrollY": 2789,
-        "height": 4321,
-        "cardCount": 24,
+        "height": 2789,
+        "cardCount": 12,
         "hasSpinner": true
       },
       {
         "step": 3,
-        "scrollY": 4321,
-        "height": 4704,
-        "cardCount": 27,
-        "hasSpinner": false
+        "scrollY": 2789,
+        "height": 2789,
+        "cardCount": 12,
+        "hasSpinner": true
       },
       {
         "step": 4,
-        "scrollY": 4704,
-        "height": 4704,
-        "cardCount": 27,
-        "hasSpinner": false
+        "scrollY": 2789,
+        "height": 2789,
+        "cardCount": 12,
+        "hasSpinner": true
+      },
+      {
+        "step": 5,
+        "scrollY": 2789,
+        "height": 2789,
+        "cardCount": 12,
+        "hasSpinner": true
+      },
+      {
+        "step": 6,
+        "scrollY": 2789,
+        "height": 2789,
+        "cardCount": 12,
+        "hasSpinner": true
+      },
+      {
+        "step": 7,
+        "scrollY": 2789,
+        "height": 2789,
+        "cardCount": 12,
+        "hasSpinner": true
+      },
+      {
+        "step": 8,
+        "scrollY": 2789,
+        "height": 2789,
+        "cardCount": 12,
+        "hasSpinner": true
+      },
+      {
+        "step": 9,
+        "scrollY": 2789,
+        "height": 4321,
+        "cardCount": 24,
+        "hasSpinner": true
       }
     ],
     "byFilter": {
@@ -2245,7 +2271,7 @@
     ]
   },
   "footer": {
-    "clockText": "LOCAL TIME: 09:44:47 PM",
+    "clockText": "LOCAL TIME: 09:49:52 PM",
     "footerLines": [
       "OMNIRA",
       "HOME",
@@ -2294,18 +2320,18 @@
       "STATUS:"
     ],
     "timezoneComparison": {
-      "capturedAtIso": "2026-11-26T20:44:48.139Z",
-      "renderedClockText": "LOCAL TIME: 09:44:47 PM",
+      "capturedAtIso": "2026-11-26T20:49:52.835Z",
+      "renderedClockText": "LOCAL TIME: 09:49:52 PM",
       "localZone": "America/Los_Angeles",
       "zones": {
-        "local": "12:44:48 PM",
-        "UTC": "08:44:48 PM",
-        "Europe/Berlin": "09:44:48 PM",
-        "Europe/London": "08:44:48 PM",
-        "Europe/Kyiv": "10:44:48 PM",
-        "America/New_York": "03:44:48 PM",
-        "America/Los_Angeles": "12:44:48 PM",
-        "Asia/Kolkata": "02:14:48 AM"
+        "local": "12:49:52 PM",
+        "UTC": "08:49:52 PM",
+        "Europe/Berlin": "09:49:52 PM",
+        "Europe/London": "08:49:52 PM",
+        "Europe/Kyiv": "10:49:52 PM",
+        "America/New_York": "03:49:52 PM",
+        "America/Los_Angeles": "12:49:52 PM",
+        "Asia/Kolkata": "02:19:52 AM"
       }
     }
   }

@@ -1,0 +1,632 @@
+[
+  {
+    "viewport": "1440x900",
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "%",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 23,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "∞",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 22,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "FRAMER DESIGNER & DEVELOPER",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 420,
+        "height": 64,
+        "lines": 2
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "K",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 29,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "4.8",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 43,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$1,200",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 140,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$2,400",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 153,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$4,800",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 153,
+        "height": 44,
+        "lines": 1
+      }
+    ]
+  },
+  {
+    "viewport": "1280x800",
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "%",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 23,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "∞",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 22,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "FRAMER DESIGNER & DEVELOPER",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 420,
+        "height": 64,
+        "lines": 2
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "K",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 29,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "4.8",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 43,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$1,200",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 140,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$2,400",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 153,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$4,800",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 153,
+        "height": 44,
+        "lines": 1
+      }
+    ]
+  },
+  {
+    "viewport": "1024x768",
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "%",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 23,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "∞",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 22,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "FRAMER DESIGNER & DEVELOPER",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 420,
+        "height": 64,
+        "lines": 2
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "K",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 29,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "4.8",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 43,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$1,200",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 140,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$2,400",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 153,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$4,800",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 153,
+        "height": 44,
+        "lines": 1
+      }
+    ]
+  },
+  {
+    "viewport": "768x1024",
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "%",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 23,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "∞",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 22,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "FRAMER DESIGNER & DEVELOPER",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 420,
+        "height": 64,
+        "lines": 2
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "4.8",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 43,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$1,200",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 140,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$2,400",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 153,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$4,800",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 153,
+        "height": 44,
+        "lines": 1
+      }
+    ]
+  },
+  {
+    "viewport": "390x844",
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "%",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 23,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "∞",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 22,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "FRAMER DESIGNER & DEVELOPER",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 294,
+        "height": 64,
+        "lines": 2
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "4.8",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 43,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$1,200",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 140,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$2,400",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 153,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$4,800",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 153,
+        "height": 44,
+        "lines": 1
+      }
+    ]
+  },
+  {
+    "viewport": "320x700",
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "%",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 23,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "∞",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 22,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "FRAMER DESIGNER & DEVELOPER",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 224,
+        "height": 96,
+        "lines": 3
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "+",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 16,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h3",
+        "text": "4.8",
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "width": 43,
+        "height": 32,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$1,200",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 140,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$2,400",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 153,
+        "height": 44,
+        "lines": 1
+      },
+      {
+        "tag": "h2",
+        "text": "$4,800",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "width": 153,
+        "height": 44,
+        "lines": 1
+      }
+    ]
+  }
+]
