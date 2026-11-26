@@ -1,0 +1,1215 @@
+{
+  "faqsByFile": {
+    "aspL4zAAs.4wUx_Cd_.mjs": {
+      "items": [],
+      "rawSamples": [
+        ":`XJuCHPu3v`},Ye=h.create(i),Xe=({answer:e,height:t,id:n,number:r,question:i,width:a,...o})=>({...o,DABQLcCyU:i??o.DABQLcCyU??`CAN I REQUEST CUSTOM PAGE?`,ja0eKgI2I:r??o.ja0eKgI2I,uvsuVV3P3:e??o.uvsuVV3P3??`Yes, Every project is tailored to your goals. You can request custom pages, layouts, and features that fit your brand and user experience.`,variant:Je[o.variant]??o.variant??`fOfzGnvNZ`}),Ze=(e,t)=>e.lay",
+        "utDependency:t.join(`-`),J=O(o(function(e,t){let n=r(null),o=t??n,s=d(),{activeLocale:l,setLocale:u}=te();ne();let{style:f,className:m,layoutId:g,variant:_,ja0eKgI2I:v,DABQLcCyU:y,uvsuVV3P3:b,...S}=Xe(e),{baseVariant:C,classNames:w,clearLoadingGesture:O,gestureHandlers:k,gestureVariant:A,isLoading:M,setGestureState:N,setVariant:P,variants:F}=ee({cycleOrder:Be,defaultVariant:`fOfzGnvNZ`,enabledGestures:ze,re",
+        "ChangeHandler},DABQLcCyU:{defaultValue:`CAN I REQUEST CUSTOM PAGE?`,displayTextArea:!0,title:`Question`,type:k.String},onDABQLcCyUChange:{changes:`DABQLcCyU`,type:k.ChangeHandler},uvsuVV3P3:{defaultValue:`Yes, Every project is tailored to your goals. You can request custom pages, layouts, and features that fit your brand and user experience.`,displayTextArea:!0,title:`Answer`,type:k.String},onuvsuVV3P3Chang",
+        "QtdkS`,rendersWithMotion:!0,scopeId:`aspL4zAAs`,children:a(J,{DABQLcCyU:`How long does it take?`,height:`100%`,id:`RyFaQtdkS`,ja0eKgI2I:1,layoutId:`RyFaQtdkS`,style:{width:`100%`},uvsuVV3P3:`Most projects take 2–4 weeks, depending on page count, content readiness, and interaction complexity.`,variant:Q(`fOfzGnvNZ`),width:`100%`})})}),a(T,{height:56,width:`max((min(max(${f?.width||`100vw`}, 1px), 1400px) - 2",
+        "3Bui`,rendersWithMotion:!0,scopeId:`aspL4zAAs`,children:a(J,{DABQLcCyU:`Do you build in Framer?`,height:`100%`,id:`oIq3m3Bui`,ja0eKgI2I:2,layoutId:`oIq3m3Bui`,style:{width:`100%`},uvsuVV3P3:`Yes. I design and build polished Framer websites with responsive layouts, CMS setup, and clean interactions.`,variant:Q(`fOfzGnvNZ`),width:`100%`})})}),a(T,{height:56,width:`max((min(max(${f?.width||`100vw`}, 1px), 1400",
+        "JHnt`,rendersWithMotion:!0,scopeId:`aspL4zAAs`,children:a(J,{DABQLcCyU:`Is it fully responsive?`,height:`100%`,id:`v4zuLJHnt`,ja0eKgI2I:3,layoutId:`v4zuLJHnt`,style:{width:`100%`},uvsuVV3P3:`Yes. Every page is designed and tested across desktop, tablet, and mobile breakpoints.`,variant:Q(`fOfzGnvNZ`),width:`100%`})})}),a(T,{height:56,width:`max((min(max(${f?.width||`100vw`}, 1px), 1400px) - 288px) / 2, 1px)",
+        ":`aenNSH3v3`,rendersWithMotion:!0,scopeId:`aspL4zAAs`,children:a(J,{DABQLcCyU:`Can I add pages?`,height:`100%`,id:`aenNSH3v3`,ja0eKgI2I:4,layoutId:`aenNSH3v3`,style:{width:`100%`},uvsuVV3P3:`Yes. Extra pages can be added based on your project scope, content needs, and final structure.`,variant:Q(`fOfzGnvNZ`),width:`100%`})})}),a(T,{height:56,width:`max((min(max(${f?.width||`100vw`}, 1px), 1400px) - 288px) /",
+        "qXa7T`,rendersWithMotion:!0,scopeId:`aspL4zAAs`,children:a(J,{DABQLcCyU:`Do you support launch?`,height:`100%`,id:`nRnNqXa7T`,ja0eKgI2I:5,layoutId:`nRnNqXa7T`,style:{width:`100%`},uvsuVV3P3:`Yes. I help with final checks, basic SEO setup, performance review, and publishing support.`,variant:Q(`fOfzGnvNZ`),width:`100%`})})}),a(T,{height:56,width:`max((min(max(${f?.width||`100vw`}, 1px), 1400px) - 288px) / 2,",
+        "`WajJKbV_P`,rendersWithMotion:!0,scopeId:`aspL4zAAs`,children:a(J,{DABQLcCyU:`Can I edit later?`,height:`100%`,id:`WajJKbV_P`,ja0eKgI2I:6,layoutId:`WajJKbV_P`,style:{width:`100%`},uvsuVV3P3:`Yes. The site is built with clean structure, reusable components, and easy-to-edit Framer sections.`,variant:Q(`fOfzGnvNZ`),width:`100%`})})}),a(T,{height:56,width:`max((min(max(${f?.width||`100vw`}, 1px), 1400px) - 288",
+        "VlvHQs2O`,rendersWithMotion:!0,scopeId:`aspL4zAAs`,children:a(J,{DABQLcCyU:`Do you include CMS?`,height:`100%`,id:`xVlvHQs2O`,ja0eKgI2I:7,layoutId:`xVlvHQs2O`,style:{width:`100%`},uvsuVV3P3:`Yes. CMS can be included for blogs, projects, updates, or repeatable content sections.`,variant:Q(`fOfzGnvNZ`),width:`100%`})})}),a(T,{height:56,width:`max((min(max(${f?.width||`100vw`}, 1px), 1400px) - 288px) / 2, 1px)",
+        "xEUYP4s5y`,rendersWithMotion:!0,scopeId:`aspL4zAAs`,children:a(J,{DABQLcCyU:`Can we add motion?`,height:`100%`,id:`xEUYP4s5y`,ja0eKgI2I:8,layoutId:`xEUYP4s5y`,style:{width:`100%`},uvsuVV3P3:`Yes. Subtle motion and interactions can be added to make the site feel more polished.`,variant:Q(`fOfzGnvNZ`),width:`100%`})})})]})]})]})})})})}),[`@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: a"
+      ]
+    }
+  },
+  "toolsCount": 24,
+  "toolsDetailed": [
+    "{d322GaZya:`GSAP`,mmV149xBp:`Advanced timeline animations`,o3btSiFHp:`https://gsap.com/`,YkCi_epKr:pi}",
+    "{d322GaZya:`FRAMER`,mmV149xBp:`Fast interactive website builds`,o3btSiFHp:`https://www.framer.com/?via=dmytri_design`,YkCi_epKr:Be}",
+    "{d322GaZya:`Spline`,mmV149xBp:`Interactive 3D web scenes`,o3btSiFHp:`https://spline.design/`,YkCi_epKr:ai}",
+    "{d322GaZya:`Motion`,mmV149xBp:`Smooth interface transitions`,o3btSiFHp:`https://motion.dev/`,YkCi_epKr:yr}",
+    "{d322GaZya:`React`,mmV149xBp:`Component-based interface logic`,o3btSiFHp:`https://react.dev/`,YkCi_epKr:Zr}",
+    "{d322GaZya:`Blender`,mmV149xBp:`High-quality 3D visuals`,o3btSiFHp:`https://www.blender.org/`,YkCi_epKr:Gi}",
+    "{d322GaZya:`After Effects`,mmV149xBp:`Cinematic motion direction`,o3btSiFHp:`https://www.adobe.com/products/aftereffects.html`,YkCi_epKr:Li}",
+    "{d322GaZya:`TypeScript`,mmV149xBp:`Safer scalable code structure`,o3btSiFHp:`https://www.typescriptlang.org/`,YkCi_epKr:$i}",
+    "{d322GaZya:`Three.js`,mmV149xBp:`Custom web-based 3D`,o3btSiFHp:`https://threejs.org/`,YkCi_epKr:$i}",
+    "{d322GaZya:`LottieFiles`,mmV149xBp:`Web animation delivery`,o3btSiFHp:`https://lottiefiles.com/`,YkCi_epKr:ha}",
+    "{d322GaZya:`Storybook`,mmV149xBp:`UI component documentation`,o3btSiFHp:`https://storybook.js.org/`,YkCi_epKr:ai}",
+    "{d322GaZya:`Rive`,mmV149xBp:`Interactive animated graphics`,o3btSiFHp:`https://rive.app/`,YkCi_epKr:ki}"
+  ],
+  "contactInputs": [
+    "<input type=\"text\" name=\"Name\" placeholder=\"Jane Smith\" class=\"framer-form-input framer-form-input-empty\" value>",
+    "<input type=\"email\" name=\"Email\" placeholder=\"Enter your email\" class=\"framer-form-input framer-form-input-empty\" value>",
+    "<select name=\"Location\" required class=\"framer-form-input\">",
+    "<select name=\"Location\" required class=\"framer-form-input\">",
+    "<select name=\"Location\" required class=\"framer-form-input\">",
+    "<textarea name=\"Email\" placeholder=\"Tell me about your project, goals, and any details.\" class=\"framer-form-input\">",
+    "<input type=\"text\" name=\"website\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position:absolute;transform:scale(0)\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value>",
+    "<input type=\"text\" name=\"company\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position:absolute;transform:scale(0)\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value>",
+    "<input type=\"text\" name=\"message\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position:absolute;transform:scale(0)\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value>",
+    "<input type=\"text\" name=\"subject\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position:absolute;transform:scale(0)\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value>",
+    "<input type=\"text\" name=\"title\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position:absolute;transform:scale(0)\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value>",
+    "<input type=\"text\" name=\"description\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position:absolute;transform:scale(0)\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value>",
+    "<input type=\"text\" name=\"feedback\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position:absolute;transform:scale(0)\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value>",
+    "<input type=\"text\" name=\"notes\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position:absolute;transform:scale(0)\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value>",
+    "<input type=\"text\" name=\"details\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position:absolute;transform:scale(0)\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value>",
+    "<input type=\"text\" name=\"remarks\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position:absolute;transform:scale(0)\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value>",
+    "<input type=\"text\" name=\"comments\" tabindex=\"-1\" autocomplete=\"one-time-code\" aria-hidden=\"true\" style=\"position:absolute;transform:scale(0)\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" data-bwignore=\"true\" value>"
+  ],
+  "contactSelectOptions": [
+    {
+      "value": "design",
+      "label": "Design"
+    },
+    {
+      "value": "development",
+      "label": "Development"
+    },
+    {
+      "value": "visual_system",
+      "label": "Visual system"
+    },
+    {
+      "value": "creative",
+      "label": "Creative"
+    },
+    {
+      "value": "1k-3k",
+      "label": "$1k - $3K"
+    },
+    {
+      "value": "3k-5k",
+      "label": "$3k - $5k"
+    },
+    {
+      "value": "5k-10k",
+      "label": "$5k - $10k"
+    },
+    {
+      "value": "10k-plus",
+      "label": "$10k+"
+    },
+    {
+      "value": "not-sure-yet",
+      "label": "Not suire yet"
+    },
+    {
+      "value": "asap",
+      "label": "ASAP"
+    },
+    {
+      "value": "2-weeks",
+      "label": "2 weeks"
+    },
+    {
+      "value": "2-4-weeks",
+      "label": "2-4 weeks"
+    },
+    {
+      "value": "1-2-months",
+      "label": "1-2 months"
+    },
+    {
+      "value": "3-plus-months",
+      "label": "3+ months"
+    },
+    {
+      "value": "flexible",
+      "label": "Flexible"
+    }
+  ],
+  "allCounters": [
+    {
+      "file": "1jPVe6ELA2ogP4sSWf7-XeWzR8AJzutT3-_cFNcY6sI.D66oSexm.mjs",
+      "snippet": "F:!1,e8LWuPJ_Y:0,height:`100%`,id:`IeYUaO1uq`,kOtGAGzKG:`+`,layoutId:`IeYUaO1uq`,rxzTWt3KO:`YEARS`,style:{width:`100%`},v3f1I_oEQ:6,width:`100%`,yJTYjyt1x:`+`})})})})]}),c(`div`,{className:`framer-r7yz1r`,\"data-framer-name\":`Stats item`,children:[a("
+    },
+    {
+      "file": "1jPVe6ELA2ogP4sSWf7-XeWzR8AJzutT3-_cFNcY6sI.D66oSexm.mjs",
+      "snippet": "1,e8LWuPJ_Y:0,height:`100%`,id:`TRNZPLO6X`,kOtGAGzKG:`+`,layoutId:`TRNZPLO6X`,rxzTWt3KO:`PROJECTS`,style:{width:`100%`},v3f1I_oEQ:40,width:`100%`,yJTYjyt1x:`+`})})})})]}),c(`div`,{className:`framer-1jviu0z`,\"data-framer-name\":`Stats item`,children:["
+    },
+    {
+      "file": "1jPVe6ELA2ogP4sSWf7-XeWzR8AJzutT3-_cFNcY6sI.D66oSexm.mjs",
+      "snippet": "!1,e8LWuPJ_Y:0,height:`100%`,id:`i1pLSlxoY`,kOtGAGzKG:`+`,layoutId:`i1pLSlxoY`,rxzTWt3KO:`CLIENTS`,style:{width:`100%`},v3f1I_oEQ:10,width:`100%`,yJTYjyt1x:`K+`})})})})]})]}),c(`div`,{className:`framer-12ywenj`,\"data-framer-name\":`Content`,children:"
+    },
+    {
+      "file": "AaRtvYy_c.Br4Q4bg5.mjs",
+      "snippet": "l,C9pUH8RTF:s??l.C9pUH8RTF??!0,e8LWuPJ_Y:i??l.e8LWuPJ_Y,kOtGAGzKG:o??l.kOtGAGzKG??`+`,rxzTWt3KO:a??l.rxzTWt3KO??`YEARS`,v3f1I_oEQ:r??l.v3f1I_oEQ??30,yJTYjyt1x:n??l.yJTYjyt1x??`+`}),Hi=(e,t)=>e.layoutDependency?t.join(`-`)+e.layoutDependency:t.join(`"
+    },
+    {
+      "file": "AaRtvYy_c.Br4Q4bg5.mjs",
+      "snippet": " n=o(null),r=t??n,i=x(),{activeLocale:a,setLocale:c}=de();fe();let{style:l,className:u,layoutId:f,variant:p,e8LWuPJ_Y:m,v3f1I_oEQ:h,yJTYjyt1x:_,rxzTWt3KO:v,C9pUH8RTF:y,kOtGAGzKG:b,...S}=Vi(e),{baseVariant:C,classNames:ee,clearLoadingGesture:w,gestur"
+    },
+    {
+      "file": "AaRtvYy_c.Br4Q4bg5.mjs",
+      "snippet": "tValue:0,max:1e5,min:0,step:1,title:`Start`,type:G.Number},one8LWuPJ_YChange:{changes:`e8LWuPJ_Y`,type:G.ChangeHandler},v3f1I_oEQ:{defaultValue:30,displayStepper:!0,max:1e5,min:0,step:1,title:`Number`,type:G.Number},onv3f1I_oEQChange:{changes:`v3f1I"
+    },
+    {
+      "file": "EobXXbbWfB7esIu9E9mR-oWYOkWOMjNJMoyb6HWc2Rw.B7tFxpIP.mjs",
+      "snippet": "F:!1,e8LWuPJ_Y:0,height:`100%`,id:`BVQEwDL77`,kOtGAGzKG:`+`,layoutId:`BVQEwDL77`,rxzTWt3KO:`YEARS`,style:{width:`100%`},v3f1I_oEQ:6,width:`100%`,yJTYjyt1x:`+`})})})}),u(`div`,{className:`framer-1lniw18`,\"data-framer-name\":`Divider`}),u(Y,{breakpoint"
+    },
+    {
+      "file": "EobXXbbWfB7esIu9E9mR-oWYOkWOMjNJMoyb6HWc2Rw.B7tFxpIP.mjs",
+      "snippet": "1,e8LWuPJ_Y:0,height:`100%`,id:`BPVuiJ7KP`,kOtGAGzKG:`+`,layoutId:`BPVuiJ7KP`,rxzTWt3KO:`PROJECTS`,style:{width:`100%`},v3f1I_oEQ:40,width:`100%`,yJTYjyt1x:`+`})})})}),u(`div`,{className:`framer-14621o9`,\"data-framer-name\":`Divider`}),N()&&u(Y,{brea"
+    },
+    {
+      "file": "EobXXbbWfB7esIu9E9mR-oWYOkWOMjNJMoyb6HWc2Rw.B7tFxpIP.mjs",
+      "snippet": "!0,e8LWuPJ_Y:0,height:`100%`,id:`xAEIsUT3L`,kOtGAGzKG:`+`,layoutId:`xAEIsUT3L`,rxzTWt3KO:`CLIENTS`,style:{width:`100%`},v3f1I_oEQ:10,width:`100%`,yJTYjyt1x:`K`})})})})]}),u(`div`,{className:`framer-1dbq6cg`,\"data-framer-name\":`Divider`}),h(`div`,{cl"
+    }
+  ],
+  "worksHandover": [
+    {
+      "0": 1,
+      "1": 248
+    },
+    [
+      "Map",
+      2,
+      3,
+      33,
+      34,
+      62,
+      63
+    ],
+    "{\"from\":\"59dbfb68-9e96-40fc-b517-f6505f5c2ee5\",\"select\":[{\"collection\":\"oFqfdO_i0\",\"name\":\"id\",\"type\":\"Identifier\"},{\"collection\":\"oFqfdO_i0\",\"name\":\"QAN3gAK7o\",\"type\":\"Identifier\"},{\"collection\":\"oFqfdO_i0\",\"name\":\"aGN8XKkXq\",\"type\":\"Identifier\"}]}default",
+    [
+      4,
+      12,
+      19,
+      26
+    ],
+    {
+      "id": 5,
+      "QAN3gAK7o": 8,
+      "aGN8XKkXq": 10
+    },
+    {
+      "type": 6,
+      "value": 7
+    },
+    "string",
+    "sCjTByVW3",
+    {
+      "type": 6,
+      "value": 9
+    },
+    "AI",
+    {
+      "type": 6,
+      "value": 11
+    },
+    "ai",
+    {
+      "id": 13,
+      "QAN3gAK7o": 15,
+      "aGN8XKkXq": 17
+    },
+    {
+      "type": 6,
+      "value": 14
+    },
+    "hPM5LXyjX",
+    {
+      "type": 6,
+      "value": 16
+    },
+    "BUSINESS",
+    {
+      "type": 6,
+      "value": 18
+    },
+    "business",
+    {
+      "id": 20,
+      "QAN3gAK7o": 22,
+      "aGN8XKkXq": 24
+    },
+    {
+      "type": 6,
+      "value": 21
+    },
+    "KuZC2UqsA",
+    {
+      "type": 6,
+      "value": 23
+    },
+    "ONE PAGE",
+    {
+      "type": 6,
+      "value": 25
+    },
+    "one-page",
+    {
+      "id": 27,
+      "QAN3gAK7o": 29,
+      "aGN8XKkXq": 31
+    },
+    {
+      "type": 6,
+      "value": 28
+    },
+    "uEcIAASIa",
+    {
+      "type": 6,
+      "value": 30
+    },
+    "PORTFOLIO",
+    {
+      "type": 6,
+      "value": 32
+    },
+    "portfolio",
+    "{\"from\":{\"constraint\":{\"left\":{\"collection\":\"ivkaXnSzj\",\"name\":\"O5iwyiTAI\",\"type\":\"Identifier\"},\"operator\":\"==\",\"right\":{\"collection\":\"O5iwyiTAI\",\"name\":\"id\",\"type\":\"Identifier\"},\"type\":\"BinaryOperation\"},\"left\":\"6861c96a-f5b2-49ab-998d-2cc51e06ffc1\",\"right\":\"59dbfb68-9e96-40fc-b517-f6505f5c2ee5\",\"type\":\"LeftJoin\"},\"select\":[],\"where\":{\"left\":{\"left\":{\"type\":\"LiteralValue\"},\"operator\":\"==\",\"right\":{\"type\":\"LiteralValue\",\"value\":null},\"type\":\"BinaryOperation\"},\"operator\":\"or\",\"right\":{\"left\":{\"collection\":\"O5iwyiTAI\",\"name\":\"id\",\"type\":\"Identifier\"},\"operator\":\"==\",\"right\":{\"type\":\"LiteralValue\"},\"type\":\"BinaryOperation\"},\"type\":\"BinaryOperation\"}}default",
+    [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    "{\"from\":{\"constraint\":{\"left\":{\"collection\":\"ivkaXnSzj\",\"name\":\"O5iwyiTAI\",\"type\":\"Identifier\"},\"operator\":\"==\",\"right\":{\"collection\":\"O5iwyiTAI\",\"name\":\"id\",\"type\":\"Identifier\"},\"type\":\"BinaryOperation\"},\"left\":\"6861c96a-f5b2-49ab-998d-2cc51e06ffc1\",\"right\":\"59dbfb68-9e96-40fc-b517-f6505f5c2ee5\",\"type\":\"LeftJoin\"},\"select\":[{\"collection\":\"ivkaXnSzj\",\"name\":\"dsL5yhyYV\",\"type\":\"Identifier\"},{\"collection\":\"ivkaXnSzj\",\"name\":\"PU8bteqhK\",\"type\":\"Identifier\"},{\"collection\":\"ivkaXnSzj\",\"name\":\"wQuPbj7YZ\",\"type\":\"Identifier\"},{\"collection\":\"ivkaXnSzj\",\"name\":\"oWgNH1Iud\",\"type\":\"Identifier\"},{\"collection\":\"ivkaXnSzj\",\"name\":\"u8GCKzMS9\",\"type\":\"Identifier\"},{\"collection\":\"ivkaXnSzj\",\"name\":\"id\",\"type\":\"Identifier\"}],\"where\":{\"left\":{\"left\":{\"type\":\"LiteralValue\"},\"operator\":\"==\",\"right\":{\"type\":\"LiteralValue\",\"value\":null},\"type\":\"BinaryOperation\"},\"operator\":\"or\",\"right\":{\"left\":{\"collection\":\"O5iwyiTAI\",\"name\":\"id\",\"type\":\"Identifier\"},\"operator\":\"==\",\"right\":{\"type\":\"LiteralValue\"},\"type\":\"BinaryOperation\"},\"type\":\"BinaryOperation\"},\"limit\":{\"type\":\"LiteralValue\",\"value\":12}}default",
+    [
+      64,
+      83,
+      98,
+      113,
+      128,
+      143,
+      158,
+      173,
+      188,
+      203,
+      218,
+      233
+    ],
+    {
+      "dsL5yhyYV": 65,
+      "PU8bteqhK": 72,
+      "wQuPbj7YZ": 74,
+      "oWgNH1Iud": 76,
+      "u8GCKzMS9": 79,
+      "id": 81
+    },
+    {
+      "type": 66,
+      "value": 67
+    },
+    "responsiveimage",
+    {
+      "src": 68,
+      "srcSet": 69,
+      "pixelWidth": 70,
+      "pixelHeight": 71
+    },
+    "https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?width=1600&height=1200 1600w",
+    1600,
+    1200,
+    {
+      "type": 6,
+      "value": 73
+    },
+    "Brandora",
+    {
+      "type": 6,
+      "value": 75
+    },
+    "bradora.studio",
+    {
+      "type": 77,
+      "value": 78
+    },
+    "link",
+    "https://brandora.framer.website/",
+    {
+      "type": 6,
+      "value": 80
+    },
+    "brandora",
+    {
+      "type": 6,
+      "value": 82
+    },
+    "xBLzQ310r",
+    {
+      "dsL5yhyYV": 84,
+      "PU8bteqhK": 88,
+      "wQuPbj7YZ": 90,
+      "oWgNH1Iud": 92,
+      "u8GCKzMS9": 94,
+      "id": 96
+    },
+    {
+      "type": 66,
+      "value": 85
+    },
+    {
+      "src": 86,
+      "srcSet": 87,
+      "pixelWidth": 70,
+      "pixelHeight": 71
+    },
+    "https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 6,
+      "value": 89
+    },
+    "Nivora",
+    {
+      "type": 6,
+      "value": 91
+    },
+    "nivora.studio",
+    {
+      "type": 77,
+      "value": 93
+    },
+    "https://nivora.framer.website/",
+    {
+      "type": 6,
+      "value": 95
+    },
+    "nivora",
+    {
+      "type": 6,
+      "value": 97
+    },
+    "doFmNYbAn",
+    {
+      "dsL5yhyYV": 99,
+      "PU8bteqhK": 103,
+      "wQuPbj7YZ": 105,
+      "oWgNH1Iud": 107,
+      "u8GCKzMS9": 109,
+      "id": 111
+    },
+    {
+      "type": 66,
+      "value": 100
+    },
+    {
+      "src": 101,
+      "srcSet": 102,
+      "pixelWidth": 70,
+      "pixelHeight": 71
+    },
+    "https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 6,
+      "value": 104
+    },
+    "Codify",
+    {
+      "type": 6,
+      "value": 106
+    },
+    "codify.pro",
+    {
+      "type": 77,
+      "value": 108
+    },
+    "https://codify.framer.website/",
+    {
+      "type": 6,
+      "value": 110
+    },
+    "codify",
+    {
+      "type": 6,
+      "value": 112
+    },
+    "MrDMPzoiT",
+    {
+      "dsL5yhyYV": 114,
+      "PU8bteqhK": 118,
+      "wQuPbj7YZ": 120,
+      "oWgNH1Iud": 122,
+      "u8GCKzMS9": 124,
+      "id": 126
+    },
+    {
+      "type": 66,
+      "value": 115
+    },
+    {
+      "src": 116,
+      "srcSet": 117,
+      "pixelWidth": 70,
+      "pixelHeight": 71
+    },
+    "https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 6,
+      "value": 119
+    },
+    "Neutra",
+    {
+      "type": 6,
+      "value": 121
+    },
+    "neutra.studio",
+    {
+      "type": 77,
+      "value": 123
+    },
+    "https://neutra.framer.website/",
+    {
+      "type": 6,
+      "value": 125
+    },
+    "neutra",
+    {
+      "type": 6,
+      "value": 127
+    },
+    "SYepgO67U",
+    {
+      "dsL5yhyYV": 129,
+      "PU8bteqhK": 133,
+      "wQuPbj7YZ": 135,
+      "oWgNH1Iud": 137,
+      "u8GCKzMS9": 139,
+      "id": 141
+    },
+    {
+      "type": 66,
+      "value": 130
+    },
+    {
+      "src": 131,
+      "srcSet": 132,
+      "pixelWidth": 70,
+      "pixelHeight": 71
+    },
+    "https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?width=1600&height=1200",
+    "https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?width=1600&height=1200 1600w",
+    {
+      "type": 6,
+      "value": 134
+    },
+    "AI Nest",
+    {
+      "type": 6,
+      "value": 136
+    },
+    "ainest.io",
+    {
+      "type": 77,
+      "value": 138
+    },
+    "https://ainest.framer.website/",
+    {
+      "type": 6,
+      "value": 140
+    },
+    "ai-nest",
+    {
+      "type": 6,
+      "value": 142
+    },
+    "deeZ3a7X0",
+    {
+      "dsL5yhyYV": 144,
+      "PU8bteqhK": 148,
+      "wQuPbj7YZ": 150,
+      "oWgNH1Iud": 152,
+      "u8GCKzMS9": 154,
+      "id": 156
+    },
+    {
+      "type": 66,
+      "value": 145
+    },
+    {
+      "src": 146,
+      "srcSet": 147,
+      "pixelWidth": 70,
+      "pixelHeight": 71
+    },
+    "https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 6,
+      "value": 149
+    },
+    "Studyflow",
+    {
+      "type": 6,
+      "value": 151
+    },
+    "studyflow.com",
+    {
+      "type": 77,
+      "value": 153
+    },
+    "https://studyflow.framer.website/",
+    {
+      "type": 6,
+      "value": 155
+    },
+    "studyflow",
+    {
+      "type": 6,
+      "value": 157
+    },
+    "bkEWZVjqy",
+    {
+      "dsL5yhyYV": 159,
+      "PU8bteqhK": 163,
+      "wQuPbj7YZ": 165,
+      "oWgNH1Iud": 167,
+      "u8GCKzMS9": 169,
+      "id": 171
+    },
+    {
+      "type": 66,
+      "value": 160
+    },
+    {
+      "src": 161,
+      "srcSet": 162,
+      "pixelWidth": 70,
+      "pixelHeight": 71
+    },
+    "https://framerusercontent.com/images/1WDP6JNBEINfsxd5XfGn2yGGKk.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/1WDP6JNBEINfsxd5XfGn2yGGKk.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/1WDP6JNBEINfsxd5XfGn2yGGKk.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/1WDP6JNBEINfsxd5XfGn2yGGKk.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 6,
+      "value": 164
+    },
+    "Todofusion",
+    {
+      "type": 6,
+      "value": 166
+    },
+    "todofusion.io",
+    {
+      "type": 77,
+      "value": 168
+    },
+    "https://todofusion.framer.website/",
+    {
+      "type": 6,
+      "value": 170
+    },
+    "todofusion",
+    {
+      "type": 6,
+      "value": 172
+    },
+    "xbAHNKNlM",
+    {
+      "dsL5yhyYV": 174,
+      "PU8bteqhK": 178,
+      "wQuPbj7YZ": 180,
+      "oWgNH1Iud": 182,
+      "u8GCKzMS9": 184,
+      "id": 186
+    },
+    {
+      "type": 66,
+      "value": 175
+    },
+    {
+      "src": 176,
+      "srcSet": 177,
+      "pixelWidth": 70,
+      "pixelHeight": 71
+    },
+    "https://framerusercontent.com/images/FFLBzahmEMjxMWMzWWNqfJn2k.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/FFLBzahmEMjxMWMzWWNqfJn2k.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/FFLBzahmEMjxMWMzWWNqfJn2k.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/FFLBzahmEMjxMWMzWWNqfJn2k.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 6,
+      "value": 179
+    },
+    "Snapkit",
+    {
+      "type": 6,
+      "value": 181
+    },
+    "snapkit.co",
+    {
+      "type": 77,
+      "value": 183
+    },
+    "https://snapkit.framer.website/",
+    {
+      "type": 6,
+      "value": 185
+    },
+    "snapkit",
+    {
+      "type": 6,
+      "value": 187
+    },
+    "ivZEXC1Aq",
+    {
+      "dsL5yhyYV": 189,
+      "PU8bteqhK": 193,
+      "wQuPbj7YZ": 195,
+      "oWgNH1Iud": 197,
+      "u8GCKzMS9": 199,
+      "id": 201
+    },
+    {
+      "type": 66,
+      "value": 190
+    },
+    {
+      "src": 191,
+      "srcSet": 192,
+      "pixelWidth": 70,
+      "pixelHeight": 71
+    },
+    "https://framerusercontent.com/images/CI6nTUEhsyTRK5vYBMX1HvQ6Fg.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/CI6nTUEhsyTRK5vYBMX1HvQ6Fg.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/CI6nTUEhsyTRK5vYBMX1HvQ6Fg.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/CI6nTUEhsyTRK5vYBMX1HvQ6Fg.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 6,
+      "value": 194
+    },
+    "Grido",
+    {
+      "type": 6,
+      "value": 196
+    },
+    "girdo.studio",
+    {
+      "type": 77,
+      "value": 198
+    },
+    "https://grido.framer.website/",
+    {
+      "type": 6,
+      "value": 200
+    },
+    "grido",
+    {
+      "type": 6,
+      "value": 202
+    },
+    "tQgJglhyM",
+    {
+      "dsL5yhyYV": 204,
+      "PU8bteqhK": 208,
+      "wQuPbj7YZ": 210,
+      "oWgNH1Iud": 212,
+      "u8GCKzMS9": 214,
+      "id": 216
+    },
+    {
+      "type": 66,
+      "value": 205
+    },
+    {
+      "src": 206,
+      "srcSet": 207,
+      "pixelWidth": 70,
+      "pixelHeight": 71
+    },
+    "https://framerusercontent.com/images/k2wjUdBMurpCZgsR4JXVtuEwsqE.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/k2wjUdBMurpCZgsR4JXVtuEwsqE.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/k2wjUdBMurpCZgsR4JXVtuEwsqE.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/k2wjUdBMurpCZgsR4JXVtuEwsqE.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 6,
+      "value": 209
+    },
+    "Trainly",
+    {
+      "type": 6,
+      "value": 211
+    },
+    "trainly.com",
+    {
+      "type": 77,
+      "value": 213
+    },
+    "https://trainly.framer.website/",
+    {
+      "type": 6,
+      "value": 215
+    },
+    "trainly",
+    {
+      "type": 6,
+      "value": 217
+    },
+    "zYLgugeuj",
+    {
+      "dsL5yhyYV": 219,
+      "PU8bteqhK": 223,
+      "wQuPbj7YZ": 225,
+      "oWgNH1Iud": 227,
+      "u8GCKzMS9": 229,
+      "id": 231
+    },
+    {
+      "type": 66,
+      "value": 220
+    },
+    {
+      "src": 221,
+      "srcSet": 222,
+      "pixelWidth": 70,
+      "pixelHeight": 71
+    },
+    "https://framerusercontent.com/images/tbFBoq3VwCEUknOeRGY4OyHfkM.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/tbFBoq3VwCEUknOeRGY4OyHfkM.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/tbFBoq3VwCEUknOeRGY4OyHfkM.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/tbFBoq3VwCEUknOeRGY4OyHfkM.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 6,
+      "value": 224
+    },
+    "Stickify",
+    {
+      "type": 6,
+      "value": 226
+    },
+    "stickify.pro",
+    {
+      "type": 77,
+      "value": 228
+    },
+    "https://stickify.framer.website/",
+    {
+      "type": 6,
+      "value": 230
+    },
+    "stickify",
+    {
+      "type": 6,
+      "value": 232
+    },
+    "QRIAhA0et",
+    {
+      "dsL5yhyYV": 234,
+      "PU8bteqhK": 238,
+      "wQuPbj7YZ": 240,
+      "oWgNH1Iud": 242,
+      "u8GCKzMS9": 244,
+      "id": 246
+    },
+    {
+      "type": 66,
+      "value": 235
+    },
+    {
+      "src": 236,
+      "srcSet": 237,
+      "pixelWidth": 70,
+      "pixelHeight": 71
+    },
+    "https://framerusercontent.com/images/BnwhKq277QWV3q8O3QfKelDcRQo.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/BnwhKq277QWV3q8O3QfKelDcRQo.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/BnwhKq277QWV3q8O3QfKelDcRQo.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/BnwhKq277QWV3q8O3QfKelDcRQo.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 6,
+      "value": 239
+    },
+    "Landify",
+    {
+      "type": 6,
+      "value": 241
+    },
+    "landify.com",
+    {
+      "type": 77,
+      "value": 243
+    },
+    "https://landify.framer.website/",
+    {
+      "type": 6,
+      "value": 245
+    },
+    "landify",
+    {
+      "type": 6,
+      "value": 247
+    },
+    "OubmC1nSx",
+    [
+      "Map"
+    ]
+  ],
+  "homeHandover": [
+    {
+      "0": 1,
+      "1": 105
+    },
+    [
+      "Map",
+      2,
+      3,
+      99,
+      100
+    ],
+    "{\"from\":\"6861c96a-f5b2-49ab-998d-2cc51e06ffc1\",\"limit\":{\"type\":\"LiteralValue\",\"value\":6},\"select\":[{\"collection\":\"cTs771yCr\",\"name\":\"dsL5yhyYV\",\"type\":\"Identifier\"},{\"collection\":\"cTs771yCr\",\"name\":\"PU8bteqhK\",\"type\":\"Identifier\"},{\"collection\":\"cTs771yCr\",\"name\":\"wQuPbj7YZ\",\"type\":\"Identifier\"},{\"collection\":\"cTs771yCr\",\"name\":\"oWgNH1Iud\",\"type\":\"Identifier\"},{\"collection\":\"cTs771yCr\",\"name\":\"u8GCKzMS9\",\"type\":\"Identifier\"},{\"collection\":\"cTs771yCr\",\"name\":\"id\",\"type\":\"Identifier\"}]}default",
+    [
+      4,
+      24,
+      39,
+      54,
+      69,
+      84
+    ],
+    {
+      "dsL5yhyYV": 5,
+      "PU8bteqhK": 12,
+      "wQuPbj7YZ": 15,
+      "oWgNH1Iud": 17,
+      "u8GCKzMS9": 20,
+      "id": 22
+    },
+    {
+      "type": 6,
+      "value": 7
+    },
+    "responsiveimage",
+    {
+      "src": 8,
+      "srcSet": 9,
+      "pixelWidth": 10,
+      "pixelHeight": 11
+    },
+    "https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/d8R2B3sHDpdN6n7BRQp9KHyqHGY.jpg?width=1600&height=1200 1600w",
+    1600,
+    1200,
+    {
+      "type": 13,
+      "value": 14
+    },
+    "string",
+    "Brandora",
+    {
+      "type": 13,
+      "value": 16
+    },
+    "bradora.studio",
+    {
+      "type": 18,
+      "value": 19
+    },
+    "link",
+    "https://brandora.framer.website/",
+    {
+      "type": 13,
+      "value": 21
+    },
+    "brandora",
+    {
+      "type": 13,
+      "value": 23
+    },
+    "xBLzQ310r",
+    {
+      "dsL5yhyYV": 25,
+      "PU8bteqhK": 29,
+      "wQuPbj7YZ": 31,
+      "oWgNH1Iud": 33,
+      "u8GCKzMS9": 35,
+      "id": 37
+    },
+    {
+      "type": 6,
+      "value": 26
+    },
+    {
+      "src": 27,
+      "srcSet": 28,
+      "pixelWidth": 10,
+      "pixelHeight": 11
+    },
+    "https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 13,
+      "value": 30
+    },
+    "Nivora",
+    {
+      "type": 13,
+      "value": 32
+    },
+    "nivora.studio",
+    {
+      "type": 18,
+      "value": 34
+    },
+    "https://nivora.framer.website/",
+    {
+      "type": 13,
+      "value": 36
+    },
+    "nivora",
+    {
+      "type": 13,
+      "value": 38
+    },
+    "doFmNYbAn",
+    {
+      "dsL5yhyYV": 40,
+      "PU8bteqhK": 44,
+      "wQuPbj7YZ": 46,
+      "oWgNH1Iud": 48,
+      "u8GCKzMS9": 50,
+      "id": 52
+    },
+    {
+      "type": 6,
+      "value": 41
+    },
+    {
+      "src": 42,
+      "srcSet": 43,
+      "pixelWidth": 10,
+      "pixelHeight": 11
+    },
+    "https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/7QxGoDMJWaaRq1T7JRmeeSVnfE.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 13,
+      "value": 45
+    },
+    "Codify",
+    {
+      "type": 13,
+      "value": 47
+    },
+    "codify.pro",
+    {
+      "type": 18,
+      "value": 49
+    },
+    "https://codify.framer.website/",
+    {
+      "type": 13,
+      "value": 51
+    },
+    "codify",
+    {
+      "type": 13,
+      "value": 53
+    },
+    "MrDMPzoiT",
+    {
+      "dsL5yhyYV": 55,
+      "PU8bteqhK": 59,
+      "wQuPbj7YZ": 61,
+      "oWgNH1Iud": 63,
+      "u8GCKzMS9": 65,
+      "id": 67
+    },
+    {
+      "type": 6,
+      "value": 56
+    },
+    {
+      "src": 57,
+      "srcSet": 58,
+      "pixelWidth": 10,
+      "pixelHeight": 11
+    },
+    "https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/nhnjC6rTBDFsyqLXlzaJbquKfY.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 13,
+      "value": 60
+    },
+    "Neutra",
+    {
+      "type": 13,
+      "value": 62
+    },
+    "neutra.studio",
+    {
+      "type": 18,
+      "value": 64
+    },
+    "https://neutra.framer.website/",
+    {
+      "type": 13,
+      "value": 66
+    },
+    "neutra",
+    {
+      "type": 13,
+      "value": 68
+    },
+    "SYepgO67U",
+    {
+      "dsL5yhyYV": 70,
+      "PU8bteqhK": 74,
+      "wQuPbj7YZ": 76,
+      "oWgNH1Iud": 78,
+      "u8GCKzMS9": 80,
+      "id": 82
+    },
+    {
+      "type": 6,
+      "value": 71
+    },
+    {
+      "src": 72,
+      "srcSet": 73,
+      "pixelWidth": 10,
+      "pixelHeight": 11
+    },
+    "https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?width=1600&height=1200",
+    "https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/iZEy2ZAxWxtczASPvxcMhf4r96o.png?width=1600&height=1200 1600w",
+    {
+      "type": 13,
+      "value": 75
+    },
+    "AI Nest",
+    {
+      "type": 13,
+      "value": 77
+    },
+    "ainest.io",
+    {
+      "type": 18,
+      "value": 79
+    },
+    "https://ainest.framer.website/",
+    {
+      "type": 13,
+      "value": 81
+    },
+    "ai-nest",
+    {
+      "type": 13,
+      "value": 83
+    },
+    "deeZ3a7X0",
+    {
+      "dsL5yhyYV": 85,
+      "PU8bteqhK": 89,
+      "wQuPbj7YZ": 91,
+      "oWgNH1Iud": 93,
+      "u8GCKzMS9": 95,
+      "id": 97
+    },
+    {
+      "type": 6,
+      "value": 86
+    },
+    {
+      "src": 87,
+      "srcSet": 88,
+      "pixelWidth": 10,
+      "pixelHeight": 11
+    },
+    "https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?width=1600&height=1200",
+    "https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/57rLLWuP579puFm5jz6Z3vTJU.jpg?width=1600&height=1200 1600w",
+    {
+      "type": 13,
+      "value": 90
+    },
+    "Studyflow",
+    {
+      "type": 13,
+      "value": 92
+    },
+    "studyflow.com",
+    {
+      "type": 18,
+      "value": 94
+    },
+    "https://studyflow.framer.website/",
+    {
+      "type": 13,
+      "value": 96
+    },
+    "studyflow",
+    {
+      "type": 13,
+      "value": 98
+    },
+    "bkEWZVjqy",
+    "{\"from\":\"6861c96a-f5b2-49ab-998d-2cc51e06ffc1\",\"limit\":{\"type\":\"LiteralValue\",\"value\":4},\"select\":[{\"collection\":\"cTs771yCr\",\"name\":\"dsL5yhyYV\",\"type\":\"Identifier\"},{\"collection\":\"cTs771yCr\",\"name\":\"PU8bteqhK\",\"type\":\"Identifier\"},{\"collection\":\"cTs771yCr\",\"name\":\"wQuPbj7YZ\",\"type\":\"Identifier\"},{\"collection\":\"cTs771yCr\",\"name\":\"oWgNH1Iud\",\"type\":\"Identifier\"},{\"collection\":\"cTs771yCr\",\"name\":\"u8GCKzMS9\",\"type\":\"Identifier\"},{\"collection\":\"cTs771yCr\",\"name\":\"id\",\"type\":\"Identifier\"}]}default",
+    [
+      101,
+      102,
+      103,
+      104
+    ],
+    {
+      "dsL5yhyYV": 5,
+      "PU8bteqhK": 12,
+      "wQuPbj7YZ": 15,
+      "oWgNH1Iud": 17,
+      "u8GCKzMS9": 20,
+      "id": 22
+    },
+    {
+      "dsL5yhyYV": 25,
+      "PU8bteqhK": 29,
+      "wQuPbj7YZ": 31,
+      "oWgNH1Iud": 33,
+      "u8GCKzMS9": 35,
+      "id": 37
+    },
+    {
+      "dsL5yhyYV": 40,
+      "PU8bteqhK": 44,
+      "wQuPbj7YZ": 46,
+      "oWgNH1Iud": 48,
+      "u8GCKzMS9": 50,
+      "id": 52
+    },
+    {
+      "dsL5yhyYV": 55,
+      "PU8bteqhK": 59,
+      "wQuPbj7YZ": 61,
+      "oWgNH1Iud": 63,
+      "u8GCKzMS9": 65,
+      "id": 67
+    },
+    [
+      "Map"
+    ]
+  ]
+}
