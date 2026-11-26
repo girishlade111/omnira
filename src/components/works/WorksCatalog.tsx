@@ -1,7 +1,6 @@
 'use client';
 
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { useCallback, useMemo } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { ProjectCard } from '@/components/common';
 import { SectionHeading } from '@/components/primitives';
 import {
@@ -13,7 +12,7 @@ import type { ProjectCategoryLabel } from '@/types';
 import { WorksFilterBar } from './WorksFilterBar';
 import styles from './works.module.css';
 
-function resolveCategoryFromParam(param: string | null): ProjectCategoryLabel {
+function resolveCategoryFromParam(param: string | null | undefined): ProjectCategoryLabel {
   if (!param) return 'ALL PROJECTS';
   const match = projectCategoryFilters.find(
     (f) => f.slug.toLowerCase() === param.toLowerCase(),
@@ -21,15 +20,24 @@ function resolveCategoryFromParam(param: string | null): ProjectCategoryLabel {
   return match ? match.label : 'ALL PROJECTS';
 }
 
-export function WorksCatalog() {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
+export interface WorksCatalogProps {
+  initialCategoryParam?: string;
+}
 
-  const activeCategory = useMemo(
-    () => resolveCategoryFromParam(searchParams.get('category')),
-    [searchParams],
+export function WorksCatalog({ initialCategoryParam }: WorksCatalogProps) {
+  const [activeCategory, setActiveCategory] = useState<ProjectCategoryLabel>(() =>
+    resolveCategoryFromParam(initialCategoryParam),
   );
+
+  useEffect(() => {
+    const syncFromUrl = () => {
+      const params = new URLSearchParams(window.location.search);
+      setActiveCategory(resolveCategoryFromParam(params.get('category')));
+    };
+    syncFromUrl();
+    window.addEventListener('popstate', syncFromUrl);
+    return () => window.removeEventListener('popstate', syncFromUrl);
+  }, []);
 
   const filteredProjects = useMemo(() => {
     if (activeCategory === 'ALL PROJECTS') {
@@ -38,20 +46,19 @@ export function WorksCatalog() {
     return projects.filter((p) => p.categories.includes(activeCategory));
   }, [activeCategory]);
 
-  const handleSelectCategory = useCallback(
-    (label: ProjectCategoryLabel) => {
-      const target = projectCategoryFilters.find((f) => f.label === label);
-      const nextParams = new URLSearchParams(searchParams.toString());
-      if (!target || target.slug === 'all') {
-        nextParams.delete('category');
-      } else {
-        nextParams.set('category', target.slug);
-      }
-      const query = nextParams.toString();
-      router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false });
-    },
-    [pathname, router, searchParams],
-  );
+  const handleSelectCategory = useCallback((label: ProjectCategoryLabel) => {
+    setActiveCategory(label);
+    const target = projectCategoryFilters.find((f) => f.label === label);
+    const nextParams = new URLSearchParams(window.location.search);
+    if (!target || target.slug === 'all') {
+      nextParams.delete('category');
+    } else {
+      nextParams.set('category', target.slug);
+    }
+    const query = nextParams.toString();
+    const nextUrl = query ? `${window.location.pathname}?${query}` : window.location.pathname;
+    window.history.replaceState(null, '', nextUrl);
+  }, []);
 
   return (
     <div className={styles.catalogRoot}>

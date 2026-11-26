@@ -153,10 +153,12 @@
 
 .honeypotField {
   position: absolute;
-  left: -9999px;
+  left: 0;
+  top: 0;
   width: 1px;
   height: 1px;
   overflow: hidden;
+  clip-path: inset(50%);
   opacity: 0;
   pointer-events: none;
 }

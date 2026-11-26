@@ -1,0 +1,106 @@
+{
+  "DESIGN": [
+    {
+      "title": "FIGMA",
+      "href": "https://www.figma.com/",
+      "svg": "<svg class=\"framer-sGlZh framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1536110880\"></use></svg>",
+      "img": null
+    },
+    {
+      "title": "PHOTOSHOP",
+      "href": "https://www.adobe.com/products/photoshop.html",
+      "svg": "<svg class=\"framer-oSS26 framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#4083750824\"></use></svg>",
+      "img": null
+    },
+    {
+      "title": "ILLUSTRATOR",
+      "href": "https://www.adobe.com/products/illustrator.html",
+      "svg": "<svg class=\"framer-JHNxj framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1234996465\"></use></svg>",
+      "img": null
+    },
+    {
+      "title": "DESIGN SYSTEMS",
+      "href": "https://designsystemsrepo.com/",
+      "svg": "<svg class=\"framer-BqgIF framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1825464080\"></use></svg>",
+      "img": null
+    }
+  ],
+  "DEVELOPMENT": [
+    {
+      "title": "FIGMA",
+      "href": "https://www.figma.com/",
+      "svg": "<svg class=\"framer-sGlZh framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1536110880\"></use></svg>",
+      "img": null
+    },
+    {
+      "title": "PHOTOSHOP",
+      "href": "https://www.adobe.com/products/photoshop.html",
+      "svg": "<svg class=\"framer-oSS26 framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#4083750824\"></use></svg>",
+      "img": null
+    },
+    {
+      "title": "ILLUSTRATOR",
+      "href": "https://www.adobe.com/products/illustrator.html",
+      "svg": "<svg class=\"framer-JHNxj framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1234996465\"></use></svg>",
+      "img": null
+    },
+    {
+      "title": "DESIGN SYSTEMS",
+      "href": "https://designsystemsrepo.com/",
+      "svg": "<svg class=\"framer-BqgIF framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1825464080\"></use></svg>",
+      "img": null
+    }
+  ],
+  "MOTION": [
+    {
+      "title": "FIGMA",
+      "href": "https://www.figma.com/",
+      "svg": "<svg class=\"framer-sGlZh framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1536110880\"></use></svg>",
+      "img": null
+    },
+    {
+      "title": "PHOTOSHOP",
+      "href": "https://www.adobe.com/products/photoshop.html",
+      "svg": "<svg class=\"framer-oSS26 framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#4083750824\"></use></svg>",
+      "img": null
+    },
+    {
+      "title": "ILLUSTRATOR",
+      "href": "https://www.adobe.com/products/illustrator.html",
+      "svg": "<svg class=\"framer-JHNxj framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1234996465\"></use></svg>",
+      "img": null
+    },
+    {
+      "title": "DESIGN SYSTEMS",
+      "href": "https://designsystemsrepo.com/",
+      "svg": "<svg class=\"framer-BqgIF framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1825464080\"></use></svg>",
+      "img": null
+    }
+  ],
+  "3D / VISUAL": [
+    {
+      "title": "SPLINE",
+      "href": "https://spline.design/",
+      "svg": "<svg class=\"framer-I9Rlc framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#675728224\"></use></svg>",
+      "img": null
+    },
+    {
+      "title": "BLENDER",
+      "href": "https://www.blender.org/",
+      "svg": "<svg class=\"framer-vCaSg framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#2778612015\"></use></svg>",
+      "img": null
+    },
+    {
+      "title": "THREE.JS",
+      "href": "https://threejs.org/",
+      "svg": "<svg class=\"framer-E0uyB framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#2514536771\"></use></svg>",
+      "img": null
+    },
+    {
+      "title": "RIVE",
+      "href": "https://rive.app/",
+      "svg": "<svg class=\"framer-RjC7c framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); transform: none; transform-origin: 50% 50% 0px; opacity: 1;\"><use href=\"#3495547033\"></use></svg>",
+      "img": null
+    }
+  ]
+}

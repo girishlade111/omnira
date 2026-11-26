@@ -18,7 +18,7 @@ export function ClientRating() {
 
       <div className={styles.ratingScoreRow}>
         <p className={styles.ratingValue}>{rating}</p>
-        <div className={styles.ratingStars} aria-label="Rated 5 out of 5 stars">
+        <div className={styles.ratingStars} role="img" aria-label="Rated 5 out of 5 stars">
           {[0, 1, 2, 3, 4].map((idx) => (
             /* eslint-disable-next-line @next/next/no-img-element */
             <img

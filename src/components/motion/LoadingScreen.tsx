@@ -56,7 +56,8 @@ export function LoadingScreen({
 
     let alreadySeen = false;
     try {
-      alreadySeen = window.sessionStorage.getItem(sessionKey) === '1';
+      const stored = window.sessionStorage.getItem(sessionKey);
+      alreadySeen = stored === '1' || stored === 'true';
     } catch {
       alreadySeen = false;
     }

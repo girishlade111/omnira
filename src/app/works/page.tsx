@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Suspense } from 'react';
 import { SectionFrame } from '@/components/layout';
 import { WorksCatalog } from '@/components/works';
 
@@ -12,9 +11,7 @@ export const metadata: Metadata = {
 export default function WorksPage() {
   return (
     <SectionFrame ariaLabel="Works catalog" bottomBorder>
-      <Suspense fallback={null}>
-        <WorksCatalog />
-      </Suspense>
+      <WorksCatalog />
     </SectionFrame>
   );
 }

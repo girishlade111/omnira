@@ -25,7 +25,7 @@ async function main() {
       } catch {
         // ignore
       }
-      window.__perfMetrics = { lcp: 0, cls: 0 };
+      window.__perfMetrics = { lcp: 0, cls: 0, clsSources: [] as string[] };
       new PerformanceObserver((list) => {
         for (const entry of list.getEntries()) {
           window.__perfMetrics.lcp = entry.startTime;
@@ -36,9 +36,17 @@ async function main() {
           const layoutEntry = entry as PerformanceEntry & {
             hadRecentInput?: boolean;
             value?: number;
+            sources?: Array<{ node?: Element | null }>;
           };
           if (!layoutEntry.hadRecentInput && typeof layoutEntry.value === 'number') {
             window.__perfMetrics.cls += layoutEntry.value;
+            for (const s of layoutEntry.sources || []) {
+              if (s.node) {
+                window.__perfMetrics.clsSources.push(
+                  `${s.node.tagName}.${s.node.className}`.slice(0, 60),
+                );
+              }
+            }
           }
         }
       }).observe({ type: 'layout-shift', buffered: true });
@@ -80,6 +88,7 @@ async function main() {
         return {
           lcpMs: Math.round(window.__perfMetrics?.lcp ?? 0),
           cls: Number((window.__perfMetrics?.cls ?? 0).toFixed(4)),
+          clsSources: (window.__perfMetrics?.clsSources ?? []).slice(0, 6),
           ttfbMs: nav ? Math.round(nav.responseStart - nav.requestStart) : 0,
           domInteractiveMs: nav ? Math.round(nav.domInteractive - nav.startTime) : 0,
           loadEventMs: nav ? Math.round(nav.loadEventEnd - nav.startTime) : 0,
@@ -144,7 +153,7 @@ async function main() {
 
 declare global {
   interface Window {
-    __perfMetrics: { lcp: number; cls: number };
+    __perfMetrics: { lcp: number; cls: number; clsSources?: string[] };
   }
 }
 

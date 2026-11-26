@@ -136,7 +136,7 @@ export function TerminalPanel() {
                 type="button"
                 onClick={handleEnterCycle}
                 className={styles.terminalEnterBtn}
-                aria-label="Advance terminal workflow preview step"
+                aria-label="ENTER, advance terminal workflow preview step"
               >
                 {terminal.enterLabel}
               </button>

@@ -387,11 +387,12 @@
 .sectionHeadingTitle {
   margin: 0;
   font-family: var(--heading-font);
-  font-size: 28px;
-  line-height: 36px;
+  font-size: clamp(22px, 6.2vw, 32px);
+  line-height: 1.22;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0;
+  overflow-wrap: break-word;
 }
 
 @media (min-width: 810px) {
@@ -402,8 +403,8 @@
 }
 
 .sectionHeadingTitleH1 {
-  font-size: 40px;
-  line-height: 46px;
+  font-size: clamp(24px, 7vw, 40px);
+  line-height: 1.15;
   font-weight: 600;
 }
 

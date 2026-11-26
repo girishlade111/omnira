@@ -26,9 +26,9 @@
 
   /* Palette: Text & Borders */
   --color-text-primary: #ffffff;
-  --color-text-secondary: rgba(255, 255, 255, 0.7);
-  --color-text-muted: rgba(255, 255, 255, 0.45);
-  --color-text-dim: rgba(255, 255, 255, 0.3);
+  --color-text-secondary: rgba(255, 255, 255, 0.72);
+  --color-text-muted: rgba(255, 255, 255, 0.58);
+  --color-text-dim: rgba(255, 255, 255, 0.54);
   --color-border-hairline: rgba(255, 255, 255, 0.1);
   --color-border-strong: rgba(255, 255, 255, 0.3);
   --color-border-button: rgba(255, 255, 255, 0.7);

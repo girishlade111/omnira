@@ -22,7 +22,6 @@ export function ProjectCard({
       href={project.externalUrl}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={`${project.name} (${project.displayDomain}) - opens external showcase in new tab`}
       className={className ? `${styles.projectCardLink} ${className}` : styles.projectCardLink}
     >
       <ChamferedPanel
@@ -53,6 +52,7 @@ export function ProjectCard({
           <div className={styles.projectTextStack}>
             <h3 className={styles.projectTitle}>{project.name}</h3>
             <p className={styles.projectDomain}>{project.displayDomain}</p>
+            <span className="sr-only"> (opens external showcase in new tab)</span>
           </div>
           <span className={styles.projectArrowWrap} aria-hidden="true">
             <ExternalLinkIndicator size={16} />

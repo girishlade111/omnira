@@ -14,8 +14,7 @@ export interface MobileNavigationProps {
 }
 
 function isRouteActive(currentPath: string, href: string): boolean {
-  if (href === '/') return currentPath === '/';
-  return currentPath === href || currentPath.startsWith(`${href}/`);
+  return currentPath === href;
 }
 
 export function MobileNavigation({

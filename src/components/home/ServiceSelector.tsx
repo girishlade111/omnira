@@ -55,9 +55,10 @@ export function ServiceSelector() {
         />
 
         <div className={styles.servicesSplit}>
-          <div className={styles.servicesAccordionCol} role="tablist" aria-label="Services">
+          <div className={styles.servicesAccordionCol}>
             {servicesContent.items.map((service, idx) => {
               const isOpen = idx === activeIndex;
+              const panelId = `service-panel-${service.id}`;
               return (
                 <ChamferedPanel
                   key={service.id}
@@ -72,9 +73,8 @@ export function ServiceSelector() {
                 >
                   <button
                     type="button"
-                    role="tab"
-                    aria-selected={isOpen}
                     aria-expanded={isOpen}
+                    aria-controls={panelId}
                     onClick={() => setActiveIndex(idx)}
                     className={styles.serviceTabBtn}
                   >
@@ -95,7 +95,7 @@ export function ServiceSelector() {
                   </button>
 
                   {isOpen ? (
-                    <div className={styles.serviceTabBody} role="tabpanel">
+                    <div id={panelId} className={styles.serviceTabBody}>
                       <p className={styles.serviceTabDesc}>{service.description}</p>
                       <ul className={styles.serviceDeliverableList}>
                         {service.deliverables.map((del) => (

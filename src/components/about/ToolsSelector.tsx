@@ -11,9 +11,12 @@ import {
 import { toolsContent } from '@/content/tools';
 import styles from './about.module.css';
 
-function resolveToolIconPath(rawRef: string): string {
-  const filename = rawRef.split('/').pop() || '';
-  return `/assets/icons/tools/${filename}`;
+function resolveToolIconPath(toolName: string): string {
+  const slug = toolName
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+  return `/assets/icons/tools/${slug}.svg`;
 }
 
 function CategoryIcon({ slug }: { slug: string }) {
@@ -131,7 +134,7 @@ export function ToolsSelector() {
                     <div className={styles.toolCardTop}>
                       <span className={styles.toolIconBox}>
                         <Image
-                          src={resolveToolIconPath(tool.iconInlineSvgRef)}
+                          src={resolveToolIconPath(tool.name)}
                           alt=""
                           width={16}
                           height={16}

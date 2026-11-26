@@ -397,9 +397,9 @@
 .terminalStepBtn {
   appearance: none;
   display: grid;
-  grid-template-columns: 20px 104px 1fr;
+  grid-template-columns: 20px 1fr;
   align-items: center;
-  gap: 10px;
+  gap: 6px 10px;
   width: 100%;
   text-align: left;
   padding: 10px 8px;
@@ -411,6 +411,14 @@
     background-color var(--duration-fast) ease,
     border-color var(--duration-fast) ease,
     color var(--duration-fast) ease;
+}
+
+.terminalStepDesc {
+  grid-column: 2;
+  font-family: var(--body-font);
+  font-size: 12px;
+  line-height: 17px;
+  color: var(--color-text-muted);
 }
 
 .terminalStepBtn:hover {
@@ -1016,6 +1024,15 @@
 }
 
 @media (min-width: 810px) {
+  .terminalStepBtn {
+    grid-template-columns: 20px 104px 1fr;
+    gap: 10px;
+  }
+
+  .terminalStepDesc {
+    grid-column: auto;
+  }
+
   .heroTitle {
     font-size: 48px;
     line-height: 54px;

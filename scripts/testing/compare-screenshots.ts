@@ -209,8 +209,8 @@ async function main() {
       const context = await browser.newContext({
         viewport: { width: vp.width, height: vp.height },
         deviceScaleFactor: 1,
+        reducedMotion: "reduce",
       });
-      await context.emulateMedia({ reducedMotion: "reduce" });
       await context.addInitScript(() => {
         try {
           window.sessionStorage.setItem("stylokit-initial-loader-seen", "true");

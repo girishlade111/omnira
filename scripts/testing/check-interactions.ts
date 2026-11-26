@@ -258,7 +258,7 @@ async function checkMobileDrawer(browser: Awaited<ReturnType<typeof chromium.lau
     opened = (await openBtn.getAttribute("aria-expanded")) === "true" || (await page.getByRole("link", { name: "LET'S TALK" }).count()) > 0;
     const dialogOrNav = page.locator('[role="dialog"], nav[aria-label*="mobile" i]');
     hasLinks = (await dialogOrNav.getByRole("link", { name: "WORKS" }).count()) > 0 || (await page.getByRole("link", { name: "WORKS" }).count()) > 0;
-    const closeBtn = page.locator('button[aria-label*="close" i], header button[aria-expanded="true"]').first();
+    const closeBtn = page.locator('[role="dialog"] button[aria-label*="close" i]').first();
     if ((await closeBtn.count()) > 0) {
       await closeBtn.click();
       await page.waitForTimeout(250);
