@@ -60,6 +60,7 @@ export function TestimonialsSection() {
             aria-label="Previous testimonial"
             onClick={handlePrev}
           >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={testimonialsContent.controls.arrowLeftSvg}
               alt=""
@@ -74,6 +75,7 @@ export function TestimonialsSection() {
             aria-label="Next testimonial"
             onClick={handleNext}
           >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={testimonialsContent.controls.arrowRightSvg}
               alt=""

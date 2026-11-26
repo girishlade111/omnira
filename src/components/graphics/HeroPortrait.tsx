@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import NextImage from 'next/image';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { PUBLIC_ASSETS } from '@/lib/assets';
 import styles from './graphics.module.css';
@@ -372,7 +372,7 @@ export function HeroPortrait({ className }: HeroPortraitProps) {
     >
       <canvas ref={canvasRef} className={styles.heroPortraitCanvas} aria-hidden="true" />
       {failed ? (
-        <Image
+        <NextImage
           src={PUBLIC_ASSETS.hero.portraitDotMatrix.fallback}
           alt=""
           fill

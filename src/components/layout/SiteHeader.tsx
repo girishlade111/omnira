@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useRef, useState } from 'react';
 import { OmniraLogo } from '@/components/graphics';
 import { ChamferedButton } from '@/components/primitives';
 import { DesktopNavigation } from './DesktopNavigation';
@@ -11,19 +11,16 @@ import styles from './layout.module.css';
 
 export function SiteHeader() {
   const pathname = usePathname() || '/';
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [openForPath, setOpenForPath] = useState<string | null>(null);
+  const menuOpen = openForPath === pathname;
   const toggleBtnRef = useRef<HTMLButtonElement>(null);
 
   const closeMenu = useCallback(() => {
-    setMenuOpen(false);
+    setOpenForPath(null);
     requestAnimationFrame(() => {
       toggleBtnRef.current?.focus();
     });
   }, []);
-
-  useEffect(() => {
-    setMenuOpen(false);
-  }, [pathname]);
 
   return (
     <header className={styles.siteHeader}>
@@ -55,7 +52,7 @@ export function SiteHeader() {
             aria-label="Open navigation menu"
             aria-expanded={menuOpen}
             aria-controls="mobile-nav-drawer"
-            onClick={() => setMenuOpen(true)}
+            onClick={() => setOpenForPath(pathname)}
           >
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
               <path

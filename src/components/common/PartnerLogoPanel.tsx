@@ -12,6 +12,7 @@ export function PartnerLogoPanel() {
     >
       {testimonialsContent.partnerLogos.map((logo) => (
         <div key={logo.id} className={styles.partnerLogoSlot}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={logo.svgPath}
             alt={logo.name}

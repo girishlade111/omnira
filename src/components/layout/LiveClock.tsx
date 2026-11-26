@@ -25,21 +25,23 @@ export function LiveClock({
   overrideIso,
   className,
 }: LiveClockProps) {
-  const [timeText, setTimeText] = useState<string>(() =>
-    overrideIso ? formatBerlinTime(new Date(overrideIso), timeZone) : '--:--:-- --',
-  );
+  const [liveText, setLiveText] = useState<string>('--:--:-- --');
 
   useEffect(() => {
-    if (overrideIso) {
-      setTimeText(formatBerlinTime(new Date(overrideIso), timeZone));
-      return;
-    }
+    if (overrideIso) return;
 
-    const update = () => setTimeText(formatBerlinTime(new Date(), timeZone));
-    update();
-    const timer = window.setInterval(update, 1000);
-    return () => window.clearInterval(timer);
+    const update = () => setLiveText(formatBerlinTime(new Date(), timeZone));
+    const initialTimer = window.setTimeout(update, 0);
+    const interval = window.setInterval(update, 1000);
+    return () => {
+      window.clearTimeout(initialTimer);
+      window.clearInterval(interval);
+    };
   }, [overrideIso, timeZone]);
+
+  const timeText = overrideIso
+    ? formatBerlinTime(new Date(overrideIso), timeZone)
+    : liveText;
 
   return (
     <div className={className ? `${styles.liveClockWrap} ${className}` : styles.liveClockWrap}>
