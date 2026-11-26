@@ -41,7 +41,6 @@ export function LoadingScreen({
     let cancelled = false;
     let exitTimerId: number | undefined;
     let doneTimerId: number | undefined;
-    let maxWaitTimerId: number | undefined;
 
     const finishImmediately = () => {
       if (cancelled) {
@@ -111,7 +110,7 @@ export function LoadingScreen({
       startExit();
     });
 
-    maxWaitTimerId = window.setTimeout(() => {
+    const maxWaitTimerId = window.setTimeout(() => {
       startExit();
     }, maxWaitMs);
 
@@ -125,9 +124,7 @@ export function LoadingScreen({
       if (doneTimerId !== undefined) {
         window.clearTimeout(doneTimerId);
       }
-      if (maxWaitTimerId !== undefined) {
-        window.clearTimeout(maxWaitTimerId);
-      }
+      window.clearTimeout(maxWaitTimerId);
     };
   }, [fadeDurationMs, gridSizePx, maxWaitMs, minDurationMs, sessionKey]);
 

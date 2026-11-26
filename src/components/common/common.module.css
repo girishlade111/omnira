@@ -1,0 +1,542 @@
+/* ProjectCard */
+.projectCardLink {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.projectCardPanel {
+  width: 100%;
+  transition: transform 0.25s ease;
+}
+
+.projectCardInner {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 14px;
+}
+
+.projectMediaWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background-color: #0d0d0d;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.projectPicture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.projectImg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.projectCardLink:hover .projectImg,
+.projectCardLink:focus-visible .projectImg {
+  transform: scale(1.04);
+}
+
+.projectMetaRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 2px 4px 4px;
+}
+
+.projectTextStack {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.projectTitle {
+  margin: 0;
+  font-family: var(--heading-font, 'Orbitron', sans-serif);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--color-text-primary, #ffffff);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.projectDomain {
+  margin: 0;
+  font-family: var(--body-font, 'Chakra Petch', sans-serif);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-text-secondary, rgba(255, 255, 255, 0.65));
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.projectArrowWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  color: var(--color-text-secondary, rgba(255, 255, 255, 0.65));
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.projectCardLink:hover .projectArrowWrap,
+.projectCardLink:focus-visible .projectArrowWrap {
+  color: var(--color-accent, #ff9800);
+  transform: translate(2px, -2px);
+}
+
+/* Testimonials Section */
+.testimonialsHeaderRow {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.carouselControls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.carouselButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background-color: rgba(255, 255, 255, 0.03);
+  color: #ffffff;
+  cursor: pointer;
+  clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
+  transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.carouselButton:hover,
+.carouselButton:focus-visible {
+  border-color: var(--color-accent, #ff9800);
+  background-color: rgba(255, 152, 0, 0.1);
+  color: var(--color-accent, #ff9800);
+}
+
+.carouselViewport {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.carouselGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+}
+
+.testimonialCardPanel {
+  height: 100%;
+}
+
+.testimonialCardInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  height: 100%;
+  min-height: 240px;
+  padding: 24px;
+}
+
+.testimonialQuote {
+  margin: 0;
+  font-family: var(--body-font, 'Chakra Petch', sans-serif);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-text-primary, #ffffff);
+}
+
+.testimonialAuthorRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border-hairline, rgba(255, 255, 255, 0.1));
+}
+
+.testimonialAuthorLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.testimonialAvatarFrame {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  overflow: hidden;
+  background-color: #121218;
+  clip-path: polygon(5px 0, 100% 0, 100% calc(100% - 5px), calc(100% - 5px) 100%, 0 100%, 0 5px);
+}
+
+.testimonialAvatarImg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonialAuthorMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.testimonialAuthorName {
+  margin: 0;
+  font-family: var(--body-font, 'Chakra Petch', sans-serif);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-text-primary, #ffffff);
+}
+
+.testimonialAuthorRole {
+  margin: 0;
+  font-family: var(--body-font, 'Chakra Petch', sans-serif);
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--color-text-muted, rgba(255, 255, 255, 0.55));
+}
+
+.testimonialExternalLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  color: var(--color-text-muted, rgba(255, 255, 255, 0.55));
+  transition: color 0.2s ease;
+}
+
+.testimonialExternalLink:hover,
+.testimonialExternalLink:focus-visible {
+  color: var(--color-accent, #ff9800);
+}
+
+.slideDots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.slideDot {
+  width: 20px;
+  height: 4px;
+  padding: 0;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  transition: background-color 0.2s ease, width 0.2s ease;
+}
+
+.slideDotActive {
+  width: 32px;
+  background-color: var(--color-accent, #ff9800);
+}
+
+/* Client Rating + Partner Logo Bento */
+.testimonialsBentoRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+}
+
+.ratingPanelInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 24px;
+  height: 100%;
+}
+
+.ratingTopRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.ratingCaption {
+  margin: 0;
+  font-family: var(--body-font, 'Chakra Petch', sans-serif);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-secondary, rgba(255, 255, 255, 0.7));
+}
+
+.ratingScoreRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ratingValue {
+  margin: 0;
+  font-family: var(--heading-font, 'Orbitron', sans-serif);
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+  color: var(--color-text-primary, #ffffff);
+}
+
+.ratingStars {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ratingSubcaption {
+  margin: 0;
+  font-family: var(--body-font, 'Chakra Petch', sans-serif);
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted, rgba(255, 255, 255, 0.45));
+}
+
+.partnerLogoPanelInner {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  align-items: center;
+  padding: 24px;
+  height: 100%;
+}
+
+.partnerLogoSlot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  opacity: 0.65;
+  transition: opacity 0.2s ease;
+}
+
+.partnerLogoSlot:hover {
+  opacity: 1;
+}
+
+.partnerLogoImg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* FAQ Section */
+.faqLayoutGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.supportCardPanel {
+  height: fit-content;
+}
+
+.supportCardInner {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 28px 24px;
+}
+
+.supportCardTitle {
+  margin: 0;
+  font-family: var(--heading-font, 'Orbitron', sans-serif);
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--color-text-primary, #ffffff);
+}
+
+.supportCardCopy {
+  margin: 0;
+  font-family: var(--body-font, 'Chakra Petch', sans-serif);
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--color-text-secondary, rgba(255, 255, 255, 0.7));
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faqItemPanel {
+  width: 100%;
+}
+
+.faqTrigger {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 44px 1px minmax(0, 1fr) 28px;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  border: none;
+  background: transparent;
+  color: var(--color-text-primary, #ffffff);
+  text-align: left;
+  cursor: pointer;
+}
+
+.faqNumber {
+  font-family: var(--heading-font, 'Orbitron', sans-serif);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--color-text-muted, rgba(255, 255, 255, 0.5));
+  transition: color 0.2s ease;
+}
+
+.faqNumberOpen {
+  color: var(--color-accent, #ff9800);
+}
+
+.faqVerticalDivider {
+  width: 1px;
+  height: 20px;
+  background-color: var(--color-border-hairline, rgba(255, 255, 255, 0.14));
+}
+
+.faqQuestion {
+  font-family: var(--body-font, 'Chakra Petch', sans-serif);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--color-text-primary, #ffffff);
+}
+
+.faqPlusMinus {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: var(--color-text-secondary, rgba(255, 255, 255, 0.7));
+}
+
+.faqBarHorizontal,
+.faqBarVertical {
+  position: absolute;
+  background-color: currentColor;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.faqBarHorizontal {
+  width: 12px;
+  height: 1.5px;
+}
+
+.faqBarVertical {
+  width: 1.5px;
+  height: 12px;
+}
+
+.faqBarVerticalOpen {
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+.faqAnswerCollapse {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition: grid-template-rows 0.28s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.22s ease;
+}
+
+.faqAnswerCollapseOpen {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.faqAnswerInner {
+  overflow: hidden;
+}
+
+.faqAnswerText {
+  margin: 0;
+  padding: 0 18px 18px 77px;
+  font-family: var(--body-font, 'Chakra Petch', sans-serif);
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--color-text-secondary, rgba(255, 255, 255, 0.7));
+}
+
+/* Tablet >= 810px */
+@media (min-width: 810px) {
+  .carouselGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .testimonialsBentoRow {
+    grid-template-columns: 320px minmax(0, 1fr);
+  }
+
+  .partnerLogoPanelInner {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Desktop >= 1200px */
+@media (min-width: 1200px) {
+  .carouselGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .faqLayoutGrid {
+    grid-template-columns: 360px minmax(0, 1fr);
+    gap: 32px;
+    align-items: start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .projectImg,
+  .projectArrowWrap,
+  .faqAnswerCollapse,
+  .faqBarHorizontal,
+  .faqBarVertical {
+    transition: none;
+  }
+}
