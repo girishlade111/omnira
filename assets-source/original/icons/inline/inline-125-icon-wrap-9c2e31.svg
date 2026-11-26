@@ -1,0 +1,17 @@
+<svg width="100%" height="100%" viewBox="0 0 36 36" preserveAspectRatio="none" style="position: absolute; inset: 0px; overflow: visible; display: block;"><defs><filter id="corner-glow-R1laisujlelp" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2" result="blur"></feGaussianBlur><feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><g><path d="
+                                        M 0.25 4
+                                        L 0.25 0.25
+                                        L 4 0.25
+                                    " stroke="var(--token-9532276e-e0f6-48ef-aa02-0100b8fa5f98, rgba(255, 255, 255, 0.7))" stroke-width="0.5" stroke-linecap="square" stroke-linejoin="miter" fill="none" opacity="1" vector-effect="non-scaling-stroke"></path><path d="
+                                        M 32 0.25
+                                        L 35.75 0.25
+                                        L 35.75 4
+                                    " stroke="var(--token-9532276e-e0f6-48ef-aa02-0100b8fa5f98, rgba(255, 255, 255, 0.7))" stroke-width="0.5" stroke-linecap="square" stroke-linejoin="miter" fill="none" opacity="1" vector-effect="non-scaling-stroke"></path><path d="
+                                        M 35.75 32
+                                        L 35.75 35.75
+                                        L 32 35.75
+                                    " stroke="var(--token-9532276e-e0f6-48ef-aa02-0100b8fa5f98, rgba(255, 255, 255, 0.7))" stroke-width="0.5" stroke-linecap="square" stroke-linejoin="miter" fill="none" opacity="1" vector-effect="non-scaling-stroke"></path><path d="
+                                        M 4 35.75
+                                        L 0.25 35.75
+                                        L 0.25 32
+                                    " stroke="var(--token-9532276e-e0f6-48ef-aa02-0100b8fa5f98, rgba(255, 255, 255, 0.7))" stroke-width="0.5" stroke-linecap="square" stroke-linejoin="miter" fill="none" opacity="1" vector-effect="non-scaling-stroke"></path></g></svg>

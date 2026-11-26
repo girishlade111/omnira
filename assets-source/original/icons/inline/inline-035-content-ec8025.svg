@@ -1,0 +1,21 @@
+<svg width="100%" height="100%" viewBox="0 0 692 563" preserveAspectRatio="none" style="position: absolute; inset: 0px; overflow: visible; display: block;"><defs><filter id="corner-glow-Rmaltsl6lelp" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2" result="blur"></feGaussianBlur><feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><g><path d="
+                                        M 13 13
+                                        L 17 13
+                                        L 13 17
+                                        Z
+                                    " fill="var(--token-cb86c361-33be-47d3-86fd-5eb54d5dcd37, rgb(255, 212, 0))" opacity="1"></path><path d="
+                                        M 679 13
+                                        L 675 13
+                                        L 679 17
+                                        Z
+                                    " fill="var(--token-cb86c361-33be-47d3-86fd-5eb54d5dcd37, rgb(255, 212, 0))" opacity="1"></path><path d="
+                                        M 679 550
+                                        L 675 550
+                                        L 679 546
+                                        Z
+                                    " fill="var(--token-cb86c361-33be-47d3-86fd-5eb54d5dcd37, rgb(255, 212, 0))" opacity="1"></path><path d="
+                                        M 13 550
+                                        L 17 550
+                                        L 13 546
+                                        Z
+                                    " fill="var(--token-cb86c361-33be-47d3-86fd-5eb54d5dcd37, rgb(255, 212, 0))" opacity="1"></path></g></svg>

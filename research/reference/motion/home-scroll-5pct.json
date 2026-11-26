@@ -1,0 +1,4727 @@
+{
+  "url": "https://omnira.framer.website/",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "scrollHeight": 15683,
+  "innerHeight": 900,
+  "maxScroll": 14783,
+  "increments": [
+    {
+      "pct": 0,
+      "targetY": 0,
+      "file": "scroll-000.png",
+      "scrollY": 0,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": 2048,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 8239,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 14934,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 689,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 9,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 550,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 116,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 116,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 116,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 5,
+      "targetY": 739,
+      "file": "scroll-005.png",
+      "scrollY": 739,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": 1309,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 7500,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 14195,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 1428,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 8,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 933,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 933,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 933,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 10,
+      "targetY": 1478,
+      "file": "scroll-010.png",
+      "scrollY": 1478,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": 570,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 6761,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": "Leading content",
+          "rect": {
+            "x": 116,
+            "y": 666,
+            "width": 1208,
+            "height": 128
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0767451)",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning "
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 13456,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 2167,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 8,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 702,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 702,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 702,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 15,
+      "targetY": 2217,
+      "file": "scroll-015.png",
+      "scrollY": 2217,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": 0,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 6022,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 12717,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 2906,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 9,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 0,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 470,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 470,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 470,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 20,
+      "targetY": 2957,
+      "file": "scroll-020.png",
+      "scrollY": 2957,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": 0,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 5282,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 11977,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 3646,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 8,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 159,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 159,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 159,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 25,
+      "targetY": 3696,
+      "file": "scroll-025.png",
+      "scrollY": 3696,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": 0,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 4543,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 11238,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 4385,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 8,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 150,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 150,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 150,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 30,
+      "targetY": 4435,
+      "file": "scroll-030.png",
+      "scrollY": 4435,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": 0,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 3804,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 10499,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 5124,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 8,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 950,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 950,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 950,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 35,
+      "targetY": 5174,
+      "file": "scroll-035.png",
+      "scrollY": 5174,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": 0,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 3065,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 9760,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 5863,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 9,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 433,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 651,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 651,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 651,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 40,
+      "targetY": 5913,
+      "file": "scroll-040.png",
+      "scrollY": 5913,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": 0,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 2326,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 9021,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 6602,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 8,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 412,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 412,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 412,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 45,
+      "targetY": 6652,
+      "file": "scroll-045.png",
+      "scrollY": 6652,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": -374,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 1587,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": "Section header",
+          "rect": {
+            "x": 116,
+            "y": 622,
+            "width": 1208,
+            "height": 128
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.198382)",
+          "textPreview": "ABOUT MESharp design Clean flowI create high-impact websites"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 764,
+            "y": 812,
+            "width": 560,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 5.56392)",
+          "textPreview": "Interface design01Clear interfaces with strong hierarchy"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 764,
+            "y": 978,
+            "width": 560,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 56)",
+          "textPreview": "System thinking02Scalable systems built for growth"
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 8282,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 7341,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 16,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 559,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 559,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 559,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 559,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 559,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 559,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 559,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 559,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 262,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 262,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 262,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 50,
+      "targetY": 7392,
+      "file": "scroll-050.png",
+      "scrollY": 7392,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": -1114,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 847,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 764,
+            "y": 66,
+            "width": 560,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.008)",
+          "textPreview": "Interface design01Clear interfaces with strong hierarchy"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 764,
+            "y": 182,
+            "width": 560,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0815715)",
+          "textPreview": "System thinking02Scalable systems built for growth"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 764,
+            "y": 298,
+            "width": 560,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0815715)",
+          "textPreview": "Framer execution03Fast builds with polished interactions"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 764,
+            "y": 414,
+            "width": 560,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0815715)",
+          "textPreview": "Visual direction04Distinct visuals with future energy"
+        },
+        {
+          "tag": "div",
+          "framerName": "Divider",
+          "rect": {
+            "x": 764,
+            "y": 534,
+            "width": 560,
+            "height": 57
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0815715)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": "Trailing content",
+          "rect": {
+            "x": 764,
+            "y": 607,
+            "width": 560,
+            "height": 48
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0815715)",
+          "textPreview": "WORKING WORLDWIDE"
+        },
+        {
+          "tag": "div",
+          "framerName": "Section header",
+          "rect": {
+            "x": 116,
+            "y": 880,
+            "width": 1208,
+            "height": 128
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 32.8463)",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact serv"
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 7542,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 8081,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 8,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 24,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 24,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 24,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 55,
+      "targetY": 8131,
+      "file": "scroll-055.png",
+      "scrollY": 8131,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": -1853,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 108,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": "Section header",
+          "rect": {
+            "x": 116,
+            "y": 108,
+            "width": 1208,
+            "height": 128
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0337519)",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact serv"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 116,
+            "y": 292,
+            "width": 420,
+            "height": 227
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0575678)",
+          "textPreview": "DesignWebsites, landing pages, and product interfaces.UX str"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 116,
+            "y": 527,
+            "width": 420,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0575678)",
+          "textPreview": "Development"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 116,
+            "y": 639,
+            "width": 420,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0575678)",
+          "textPreview": "VISUAL SYSTEM"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 116,
+            "y": 751,
+            "width": 420,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0575678)",
+          "textPreview": "CREATIVE"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "rect": {
+            "x": 632,
+            "y": 292,
+            "width": 692,
+            "height": 563
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0575678)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 713,
+            "y": 364,
+            "width": 531,
+            "height": 212
+          },
+          "opacity": "1",
+          "transform": "matrix(1.03, 0, 0, 1.03, -257.594, -104)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 713,
+            "y": 364,
+            "width": 531,
+            "height": 212
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 445,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 445,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 522,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 522,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 599,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 599,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 6803,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 8820,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 10,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 874,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 874,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 874,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 742,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 742,
+          "targetFramerName": null,
+          "targetTag": "span"
+        }
+      ]
+    },
+    {
+      "pct": 60,
+      "targetY": 8870,
+      "file": "scroll-060.png",
+      "scrollY": 8870,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": -2592,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 96,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 713,
+            "y": 351,
+            "width": 531,
+            "height": 212
+          },
+          "opacity": "1",
+          "transform": "matrix(1.03, 0, 0, 1.03, -257.594, -104)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 713,
+            "y": 351,
+            "width": 531,
+            "height": 212
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 433,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 433,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 510,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 510,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 587,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 587,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 6064,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 9559,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 8,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 600,
+          "targetFramerName": "List",
+          "targetTag": "ul"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 674,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 674,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 674,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 65,
+      "targetY": 9609,
+      "file": "scroll-065.png",
+      "scrollY": 9609,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": -3331,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 96,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 356,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 356,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 713,
+            "y": 429,
+            "width": 531,
+            "height": 212
+          },
+          "opacity": "1",
+          "transform": "matrix(1.03, 0, 0, 1.03, -257.594, -104)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 713,
+            "y": 429,
+            "width": 531,
+            "height": 212
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 510,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 510,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 587,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 587,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 5325,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 10298,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 6,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 358,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 358,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 358,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 70,
+      "targetY": 10348,
+      "file": "scroll-070.png",
+      "scrollY": 10348,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": -4070,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 96,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 356,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 356,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 433,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 433,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 713,
+            "y": 506,
+            "width": 531,
+            "height": 212
+          },
+          "opacity": "1",
+          "transform": "matrix(1.03, 0, 0, 1.03, -257.594, -104)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 713,
+            "y": 506,
+            "width": 531,
+            "height": 212
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 587,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 587,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 4586,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 11037,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 7,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 417,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 328,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 328,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 328,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 75,
+      "targetY": 11087,
+      "file": "scroll-075.png",
+      "scrollY": 11087,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": -4809,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": 96,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 356,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 356,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 433,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 433,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 510,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 510,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 713,
+            "y": 583,
+            "width": 531,
+            "height": 212
+          },
+          "opacity": "1",
+          "transform": "matrix(1.03, 0, 0, 1.03, -257.594, -104)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 713,
+            "y": 583,
+            "width": 531,
+            "height": 212
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 3847,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 11776,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 6,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 408,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 408,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 408,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 80,
+      "targetY": 11826,
+      "file": "scroll-080.png",
+      "scrollY": 11826,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": -5548,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": -257,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 3,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 3,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 80,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 80,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 157,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.2",
+          "transform": "matrix(1, 0, 0, 1, -257.594, -103)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 720,
+            "y": 157,
+            "width": 515,
+            "height": 206
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 713,
+            "y": 230,
+            "width": 531,
+            "height": 212
+          },
+          "opacity": "1",
+          "transform": "matrix(1.03, 0, 0, 1.03, -257.594, -104)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 713,
+            "y": 230,
+            "width": 531,
+            "height": 212
+          },
+          "opacity": "0.45",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": "Section header",
+          "rect": {
+            "x": 116,
+            "y": 682,
+            "width": 1208,
+            "height": 128
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0395794)",
+          "textPreview": "TESTIMONIALSTrusted by bold teamsFeedback from founders and "
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": -2332,
+            "y": 916,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 49.9017)",
+          "textPreview": "Omnira delivered a sharp website with clear structure, stron"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": -1924,
+            "y": 966,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 99.8035)",
+          "textPreview": "The process felt focused and fast, with polished details tha"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 116,
+            "y": 916,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 49.9017)",
+          "textPreview": "Omnira delivered a sharp website with clear structure, stron"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 524,
+            "y": 966,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 99.8035)",
+          "textPreview": "The process felt focused and fast, with polished details tha"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 2564,
+            "y": 916,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 49.9017)",
+          "textPreview": "Omnira delivered a sharp website with clear structure, stron"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 2972,
+            "y": 966,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 99.8035)",
+          "textPreview": "The process felt focused and fast, with polished details tha"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 5012,
+            "y": 916,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 49.9017)",
+          "textPreview": "Omnira delivered a sharp website with clear structure, stron"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 5420,
+            "y": 966,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 99.8035)",
+          "textPreview": "The process felt focused and fast, with polished details tha"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 48,
+            "y": 798,
+            "width": 1344,
+            "height": 448
+          },
+          "opacity": "0",
+          "transform": "none",
+          "textPreview": ""
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 3108,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 12515,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 6,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 288,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 288,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 288,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 85,
+      "targetY": 12566,
+      "file": "scroll-085.png",
+      "scrollY": 12566,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": -6288,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": -997,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": -2332,
+            "y": 126,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0799974)",
+          "textPreview": "Omnira delivered a sharp website with clear structure, stron"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": -1924,
+            "y": 126,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.159995)",
+          "textPreview": "The process felt focused and fast, with polished details tha"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": -1516,
+            "y": 126,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.239992)",
+          "textPreview": "A clean system, strong direction, and excellent Framer execu"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 116,
+            "y": 126,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0799974)",
+          "textPreview": "Omnira delivered a sharp website with clear structure, stron"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 524,
+            "y": 126,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.159995)",
+          "textPreview": "The process felt focused and fast, with polished details tha"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 932,
+            "y": 126,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.239992)",
+          "textPreview": "A clean system, strong direction, and excellent Framer execu"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 2564,
+            "y": 126,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0799974)",
+          "textPreview": "Omnira delivered a sharp website with clear structure, stron"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 2972,
+            "y": 126,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.159995)",
+          "textPreview": "The process felt focused and fast, with polished details tha"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 3380,
+            "y": 126,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.239992)",
+          "textPreview": "A clean system, strong direction, and excellent Framer execu"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 5012,
+            "y": 126,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0799974)",
+          "textPreview": "Omnira delivered a sharp website with clear structure, stron"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 5420,
+            "y": 126,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.159995)",
+          "textPreview": "The process felt focused and fast, with polished details tha"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 5828,
+            "y": 126,
+            "width": 392,
+            "height": 312
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.239992)",
+          "textPreview": "A clean system, strong direction, and excellent Framer execu"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 48,
+            "y": 58,
+            "width": 1344,
+            "height": 448
+          },
+          "opacity": "0",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 116,
+            "y": 454,
+            "width": 572,
+            "height": 116
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0897764)",
+          "textPreview": "CLIENT SATISFACTION4.8FROM 24 CLIENT PROJECTS"
+        },
+        {
+          "tag": "div",
+          "framerName": "Logo cloud",
+          "rect": {
+            "x": 704,
+            "y": 454,
+            "width": 620,
+            "height": 116
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0897764)",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": "Section header",
+          "rect": {
+            "x": 116,
+            "y": 762,
+            "width": 1208,
+            "height": 128
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0897764)",
+          "textPreview": "PRICINGBuilt for every project stageChoose a focused package"
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 2368,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 13255,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 7,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 317,
+          "targetFramerName": null,
+          "targetTag": "span"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 58,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 58,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 58,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 90,
+      "targetY": 13305,
+      "file": "scroll-090.png",
+      "scrollY": 13305,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": -7027,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": -1736,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 116,
+            "y": 207,
+            "width": 387,
+            "height": 486
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.128944)",
+          "textPreview": "STARTERFor focused landing pages$1,200USDLanding pogeFramer "
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 527,
+            "y": 207,
+            "width": 387,
+            "height": 486
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.064472)",
+          "textPreview": "PROComplete website system$2,400USDMulti-page websiteDesign "
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 937,
+            "y": 207,
+            "width": 387,
+            "height": 486
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.128944)",
+          "textPreview": "CustomAdvanced systems and CMS$4,800USDCustom page structure"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "rect": {
+            "x": 116,
+            "y": 717,
+            "width": 1208,
+            "height": 92
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.064472)",
+          "textPreview": "SECURESafe project handlingFAST DELIVERYOn-time, every timeP"
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 1629,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 13994,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 6,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 892,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 892,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 892,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 95,
+      "targetY": 14044,
+      "file": "scroll-095.png",
+      "scrollY": 14044,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": -7766,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": -2475,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": "Header",
+          "rect": {
+            "x": 116,
+            "y": 262,
+            "width": 440,
+            "height": 218
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0801624)",
+          "textPreview": "FAQsCLEAR ANSWERS Pre-buildEverthing you need to know about "
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 116,
+            "y": 651,
+            "width": 556,
+            "height": 143
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0801624)",
+          "textPreview": "STILL HAVE QUESTIONS?Lets talk about your projectCONTACT US"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 768,
+            "y": 262,
+            "width": 556,
+            "height": 56
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0801624)",
+          "textPreview": "01How long does it take?"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 768,
+            "y": 330,
+            "width": 556,
+            "height": 56
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0801624)",
+          "textPreview": "02Do you build in Framer?"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 768,
+            "y": 398,
+            "width": 556,
+            "height": 56
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0801624)",
+          "textPreview": "03Is it fully responsive?"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 768,
+            "y": 466,
+            "width": 556,
+            "height": 56
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0801624)",
+          "textPreview": "04Can I add pages?"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 768,
+            "y": 534,
+            "width": 556,
+            "height": 56
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0801624)",
+          "textPreview": "05Do you support launch?"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 768,
+            "y": 602,
+            "width": 556,
+            "height": 56
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0801624)",
+          "textPreview": "06Can I edit later?"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 768,
+            "y": 670,
+            "width": 556,
+            "height": 56
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0801624)",
+          "textPreview": "07Do you include CMS?"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 768,
+            "y": 738,
+            "width": 556,
+            "height": 56
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0801624)",
+          "textPreview": "08Can we add motion?"
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 890,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 14733,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 6,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 686,
+          "targetFramerName": "Down arrow 3",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 686,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 686,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    },
+    {
+      "pct": 100,
+      "targetY": 14783,
+      "file": "scroll-100.png",
+      "scrollY": 14783,
+      "stickyElements": [
+        {
+          "tag": "div",
+          "framerName": "Content (Sticky)",
+          "position": "sticky",
+          "topStyle": "0px",
+          "rect": {
+            "x": 20,
+            "y": -8505,
+            "width": 1400,
+            "height": 900
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "PROCESSFROM CONCEPT TO LAUNCHA focused workflow for turning early idea"
+        },
+        {
+          "tag": "div",
+          "framerName": "Content",
+          "position": "sticky",
+          "topStyle": "96px",
+          "rect": {
+            "x": 116,
+            "y": -3214,
+            "width": 1208,
+            "height": 747
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "WHAT I CREATEDIGITAL SYSTEMS FOR BOLD BRANDSHigh-impact services for s"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "689px",
+          "rect": {
+            "x": 1281,
+            "y": 689,
+            "width": 138,
+            "height": 104
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": ""
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "position": "fixed",
+          "topStyle": "822px",
+          "rect": {
+            "x": 0,
+            "y": 822,
+            "width": 1440,
+            "height": 78
+          },
+          "opacity": "1",
+          "transform": "none",
+          "textPreview": "Create a free website with Framer, the website builder loved by startu"
+        }
+      ],
+      "animatedOrTransformed": [
+        {
+          "tag": "div",
+          "framerName": "Header",
+          "rect": {
+            "x": 116,
+            "y": 295,
+            "width": 556,
+            "height": 202
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0496423)",
+          "textPreview": "Let's Build somethingI'm currently available for select proj"
+        },
+        {
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "x": 768,
+            "y": 295,
+            "width": 556,
+            "height": 342
+          },
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0992847)",
+          "textPreview": "LET'S CONNECThello@omniro.studio@omnira_designlinkedin.com/i"
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 151,
+            "yDoc": 14934,
+            "height": 749
+          },
+          "position": "relative",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": "Let's Build somethingI'm currently available for select projects and collaborati"
+        },
+        {
+          "index": 1,
+          "tag": "div",
+          "framerName": null,
+          "rect": {
+            "yViewport": 689,
+            "yDoc": 15472,
+            "height": 104
+          },
+          "position": "fixed",
+          "opacity": "1",
+          "overflow": "visible",
+          "textPreview": ""
+        }
+      ],
+      "activeAnimationsCount": 6,
+      "activeAnimations": [
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 500,
+          "targetFramerName": "Content",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 700,
+          "targetFramerName": "Hero image (Absolute)",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "finished",
+          "currentTime": 1460,
+          "targetFramerName": "Show",
+          "targetTag": "a"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 511,
+          "targetFramerName": "Down arrow 1",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 511,
+          "targetFramerName": "Down arrow 2",
+          "targetTag": "div"
+        },
+        {
+          "name": "waapi",
+          "playState": "running",
+          "currentTime": 511,
+          "targetFramerName": "Down arrow 4",
+          "targetTag": "div"
+        }
+      ]
+    }
+  ]
+}
