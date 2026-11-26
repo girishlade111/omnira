@@ -179,27 +179,6 @@
   height: 2px;
   background-color: var(--color-accent);
 }
-  color: var(--color-text-secondary, rgba(255, 255, 255, 0.7));
-  transition: color 0.2s ease;
-}
-
-.desktopNavLink:hover,
-.desktopNavLink:focus-visible {
-  color: var(--color-text-primary, #ffffff);
-}
-
-.desktopNavLinkActive {
-  color: var(--color-accent, #ff9800);
-}
-
-.navActiveMarker {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: var(--color-accent, #ff9800);
-  box-shadow: 0 0 8px rgba(255, 152, 0, 0.7);
-  flex-shrink: 0;
-}
 
 .headerCtaDesktop {
   display: none;
@@ -551,6 +530,8 @@
   .desktopNavWrap {
     display: flex;
     align-items: center;
+    margin-left: auto;
+    margin-right: 12px;
   }
 
   .headerCtaDesktop {
@@ -610,7 +591,7 @@
   }
 
   .headerInner {
-    padding: 0 32px;
+    padding: 0 48px;
   }
 
   .footerCtaInner {
