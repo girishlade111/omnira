@@ -1,0 +1,673 @@
+{
+  "portraitTarget": {
+    "kind": "canvas",
+    "x": 616,
+    "y": 98,
+    "width": 756,
+    "height": 752
+  },
+  "heroInspection": {
+    "heroCandidateNames": [
+      {
+        "tag": "section",
+        "framerName": "Hero section",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 906,
+          "top": 0,
+          "right": 1440,
+          "bottom": 906,
+          "left": 0
+        }
+      },
+      {
+        "tag": "div",
+        "framerName": "Container",
+        "rect": {
+          "x": 20,
+          "y": 0,
+          "width": 1400,
+          "height": 906,
+          "top": 0,
+          "right": 1420,
+          "bottom": 906,
+          "left": 20
+        }
+      },
+      {
+        "tag": "div",
+        "framerName": "BG Border",
+        "rect": {
+          "x": 20,
+          "y": 0,
+          "width": 1400,
+          "height": 906,
+          "top": 0,
+          "right": 1420,
+          "bottom": 906,
+          "left": 20
+        }
+      },
+      {
+        "tag": "div",
+        "framerName": "Side padding",
+        "rect": {
+          "x": 20,
+          "y": 9,
+          "width": 1400,
+          "height": 897,
+          "top": 9,
+          "right": 1420,
+          "bottom": 906,
+          "left": 20
+        }
+      },
+      {
+        "tag": "div",
+        "framerName": "Container",
+        "rect": {
+          "x": 20,
+          "y": 9,
+          "width": 1400,
+          "height": 897,
+          "top": 9,
+          "right": 1420,
+          "bottom": 906,
+          "left": 20
+        }
+      },
+      {
+        "tag": "div",
+        "framerName": "Left",
+        "rect": {
+          "x": 20,
+          "y": 9,
+          "width": 96,
+          "height": 897,
+          "top": 9,
+          "right": 116,
+          "bottom": 906,
+          "left": 20
+        }
+      },
+      {
+        "tag": "div",
+        "framerName": "Right  Line",
+        "rect": {
+          "x": 116,
+          "y": 9,
+          "width": 1,
+          "height": 897,
+          "top": 9,
+          "right": 117,
+          "bottom": 906,
+          "left": 116
+        }
+      },
+      {
+        "tag": "div",
+        "framerName": "Right",
+        "rect": {
+          "x": 1324,
+          "y": 9,
+          "width": 96,
+          "height": 897,
+          "top": 9,
+          "right": 1420,
+          "bottom": 906,
+          "left": 1324
+        }
+      },
+      {
+        "tag": "div",
+        "framerName": "Left line",
+        "rect": {
+          "x": 1323,
+          "y": 9,
+          "width": 1,
+          "height": 897,
+          "top": 9,
+          "right": 1324,
+          "bottom": 906,
+          "left": 1323
+        }
+      },
+      {
+        "tag": "div",
+        "framerName": "Content",
+        "rect": {
+          "x": 116,
+          "y": 239,
+          "width": 560,
+          "height": 428,
+          "top": 239,
+          "right": 676,
+          "bottom": 667,
+          "left": 116
+        }
+      },
+      {
+        "tag": "div",
+        "framerName": "Hero image (Absolute)",
+        "rect": {
+          "x": 616,
+          "y": 98,
+          "width": 756,
+          "height": 800,
+          "top": 98,
+          "right": 1372,
+          "bottom": 898,
+          "left": 616
+        }
+      }
+    ],
+    "canvases": [
+      {
+        "widthAttr": 756,
+        "heightAttr": 752,
+        "rect": {
+          "x": 616,
+          "y": 98,
+          "width": 756,
+          "height": 752
+        },
+        "style": {
+          "position": "absolute",
+          "transform": "none",
+          "opacity": "1",
+          "mixBlendMode": "normal",
+          "filter": "none",
+          "pointerEvents": "auto"
+        },
+        "parentFramerName": null,
+        "grandParentFramerName": null,
+        "webglInfo": null
+      },
+      {
+        "widthAttr": 360,
+        "heightAttr": 360,
+        "rect": {
+          "x": 713,
+          "y": 8550,
+          "width": 531,
+          "height": 212
+        },
+        "style": {
+          "position": "absolute",
+          "transform": "none",
+          "opacity": "1",
+          "mixBlendMode": "normal",
+          "filter": "none",
+          "pointerEvents": "none"
+        },
+        "parentFramerName": null,
+        "grandParentFramerName": null,
+        "webglInfo": null
+      },
+      {
+        "widthAttr": 360,
+        "heightAttr": 360,
+        "rect": {
+          "x": 720,
+          "y": 8632,
+          "width": 515,
+          "height": 206
+        },
+        "style": {
+          "position": "absolute",
+          "transform": "none",
+          "opacity": "1",
+          "mixBlendMode": "normal",
+          "filter": "none",
+          "pointerEvents": "none"
+        },
+        "parentFramerName": null,
+        "grandParentFramerName": null,
+        "webglInfo": null
+      },
+      {
+        "widthAttr": 360,
+        "heightAttr": 360,
+        "rect": {
+          "x": 720,
+          "y": 8709,
+          "width": 515,
+          "height": 206
+        },
+        "style": {
+          "position": "absolute",
+          "transform": "none",
+          "opacity": "1",
+          "mixBlendMode": "normal",
+          "filter": "none",
+          "pointerEvents": "none"
+        },
+        "parentFramerName": null,
+        "grandParentFramerName": null,
+        "webglInfo": null
+      },
+      {
+        "widthAttr": 360,
+        "heightAttr": 360,
+        "rect": {
+          "x": 720,
+          "y": 8786,
+          "width": 515,
+          "height": 206
+        },
+        "style": {
+          "position": "absolute",
+          "transform": "none",
+          "opacity": "1",
+          "mixBlendMode": "normal",
+          "filter": "none",
+          "pointerEvents": "none"
+        },
+        "parentFramerName": null,
+        "grandParentFramerName": null,
+        "webglInfo": null
+      }
+    ],
+    "videos": [],
+    "heroImages": [],
+    "heroSvgs": [
+      {
+        "viewBox": "0 0 103.03125 36",
+        "rect": {
+          "x": 1221,
+          "y": 42,
+          "width": 103,
+          "height": 36
+        },
+        "childCount": 3,
+        "parentFramerName": null
+      },
+      {
+        "viewBox": "0 0 103.03125 36",
+        "rect": {
+          "x": 1221,
+          "y": 42,
+          "width": 103,
+          "height": 36
+        },
+        "childCount": 2,
+        "parentFramerName": null
+      },
+      {
+        "viewBox": "0 0 1400 906",
+        "rect": {
+          "x": 20,
+          "y": 0,
+          "width": 1400,
+          "height": 906
+        },
+        "childCount": 388,
+        "parentFramerName": null
+      },
+      {
+        "viewBox": "0 0 163.078125 28",
+        "rect": {
+          "x": 116,
+          "y": 239,
+          "width": 163,
+          "height": 28
+        },
+        "childCount": 2,
+        "parentFramerName": null
+      },
+      {
+        "viewBox": "0 0 137.765625 44",
+        "rect": {
+          "x": 116,
+          "y": 623,
+          "width": 138,
+          "height": 44
+        },
+        "childCount": 3,
+        "parentFramerName": null
+      },
+      {
+        "viewBox": "0 0 137.765625 44",
+        "rect": {
+          "x": 116,
+          "y": 623,
+          "width": 138,
+          "height": 44
+        },
+        "childCount": 2,
+        "parentFramerName": null
+      },
+      {
+        "viewBox": "0 0 184 44",
+        "rect": {
+          "x": 266,
+          "y": 623,
+          "width": 184,
+          "height": 44
+        },
+        "childCount": 3,
+        "parentFramerName": null
+      },
+      {
+        "viewBox": "0 0 184 44",
+        "rect": {
+          "x": 266,
+          "y": 623,
+          "width": 184,
+          "height": 44
+        },
+        "childCount": 2,
+        "parentFramerName": null
+      },
+      {
+        "viewBox": "0 0 138 36",
+        "rect": {
+          "x": 1281,
+          "y": 800,
+          "width": 138,
+          "height": 36
+        },
+        "childCount": 3,
+        "parentFramerName": null
+      },
+      {
+        "viewBox": "0 0 138 36",
+        "rect": {
+          "x": 1281,
+          "y": 800,
+          "width": 138,
+          "height": 36
+        },
+        "childCount": 2,
+        "parentFramerName": null
+      },
+      {
+        "viewBox": "0 0 138 104",
+        "rect": {
+          "x": 1281,
+          "y": 689,
+          "width": 138,
+          "height": 104
+        },
+        "childCount": 4,
+        "parentFramerName": null
+      }
+    ],
+    "heroHeadings": [
+      {
+        "tag": "p",
+        "text": "OMNIRA",
+        "rect": {
+          "x": 143,
+          "y": 49,
+          "width": 85,
+          "height": 24
+        },
+        "fontSize": "16px",
+        "fontFamily": "Orbitron, \"Orbitron Placeholder\", sans-serif",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "text": "INTERFACE DESIGNER",
+        "rect": {
+          "x": 128,
+          "y": 243,
+          "width": 139,
+          "height": 20
+        },
+        "fontSize": "14px",
+        "fontFamily": "\"Chakra Petch\", \"Chakra Petch Placeholder\", sans-serif",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "text": "experience",
+        "rect": {
+          "x": 116,
+          "y": 413,
+          "width": 471,
+          "height": 64
+        },
+        "fontSize": "64px",
+        "fontFamily": "Orbitron, \"Orbitron Placeholder\", sans-serif",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "text": "interface",
+        "rect": {
+          "x": 132,
+          "y": 415,
+          "width": 439,
+          "height": 60
+        },
+        "fontSize": "64px",
+        "fontFamily": "Orbitron, \"Orbitron Placeholder\", sans-serif",
+        "opacity": "1",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 22, 1)"
+      },
+      {
+        "tag": "span",
+        "text": "system",
+        "rect": {
+          "x": 112,
+          "y": 465,
+          "width": 479,
+          "height": 2
+        },
+        "fontSize": "64px",
+        "fontFamily": "Orbitron, \"Orbitron Placeholder\", sans-serif",
+        "opacity": "1",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, -22, 0, 1)"
+      },
+      {
+        "tag": "span",
+        "text": "product",
+        "rect": {
+          "x": 116,
+          "y": 413,
+          "width": 471,
+          "height": 64
+        },
+        "fontSize": "64px",
+        "fontFamily": "Orbitron, \"Orbitron Placeholder\", sans-serif",
+        "opacity": "1",
+        "transform": "matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, -22, 1)"
+      },
+      {
+        "tag": "span",
+        "text": "experience",
+        "rect": {
+          "x": 112,
+          "y": 423,
+          "width": 479,
+          "height": 2
+        },
+        "fontSize": "64px",
+        "fontFamily": "Orbitron, \"Orbitron Placeholder\", sans-serif",
+        "opacity": "1",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 22, 0, 1)"
+      },
+      {
+        "tag": "p",
+        "text": "I design and build futuristic digital experiences with cinematic visuals, sharp layouts, and high-tech interactions. My work blends strategy, creativity, and clean execution to create portfolios that feel bold, immersive, and unforgettable.",
+        "rect": {
+          "x": 116,
+          "y": 495,
+          "width": 480,
+          "height": 96
+        },
+        "fontSize": "16px",
+        "fontFamily": "\"Chakra Petch\", \"Chakra Petch Placeholder\", sans-serif",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "text": "AVAILABLE FOR HIRE",
+        "rect": {
+          "x": 194,
+          "y": 836,
+          "width": 131,
+          "height": 20
+        },
+        "fontSize": "14px",
+        "fontFamily": "\"Chakra Petch\", \"Chakra Petch Placeholder\", sans-serif",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "text": "SCROLL TO EXPLORE",
+        "rect": {
+          "x": 1156,
+          "y": 836,
+          "width": 134,
+          "height": 20
+        },
+        "fontSize": "14px",
+        "fontFamily": "\"Chakra Petch\", \"Chakra Petch Placeholder\", sans-serif",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+        "rect": {
+          "x": 1350,
+          "y": 861,
+          "width": 0,
+          "height": 0
+        },
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "opacity": "1",
+        "transform": "matrix(0.001, 0, 0, 0.001, 0, 0)"
+      }
+    ]
+  },
+  "pointerStates": [
+    {
+      "name": "center",
+      "px": 994,
+      "py": 474,
+      "file": "hero-pointer-center.png",
+      "transforms": [
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -22, 1)"
+        },
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 22, 1)"
+        },
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, -22, 1)"
+        }
+      ],
+      "canvasDataUrlPrefix": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvQAAALwCAYAAAD4TeEAAAAQAElEQVR4AeydBZw1R5X2e3CCBAmBQEKCxCAQCBpcF13c3e1j0Y"
+    },
+    {
+      "name": "top-left",
+      "px": 707,
+      "py": 188,
+      "file": "hero-pointer-top-left.png",
+      "transforms": [
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.850685, -0.525677, 0, 0, 0.525677, 0.850685, 0, 0, 0, -22, 1)"
+        },
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 22, 1)"
+        },
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, -22, 1)"
+        }
+      ],
+      "canvasDataUrlPrefix": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvQAAALwCAYAAAD4TeEAAAAQAElEQVR4AeydB5y0VXX/5429K02qgNKlCCJFQcXeG/auWGKLLR"
+    },
+    {
+      "name": "top-right",
+      "px": 1281,
+      "py": 188,
+      "file": "hero-pointer-top-right.png",
+      "transforms": [
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, -22, 0, 1)"
+        },
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 22, 0, 1)"
+        }
+      ],
+      "canvasDataUrlPrefix": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvQAAALwCAYAAAD4TeEAAAAQAElEQVR4Aey9B7x1V1nnf18CCYQkEFIhlRDSSYP00EEECwqIoq"
+    },
+    {
+      "name": "bottom-left",
+      "px": 707,
+      "py": 760,
+      "file": "hero-pointer-bottom-left.png",
+      "transforms": [
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, -22, 0, 1)"
+        },
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 22, 0, 1)"
+        }
+      ],
+      "canvasDataUrlPrefix": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvQAAALwCAYAAAD4TeEAAAAQAElEQVR4AeydCb8sRZXtKQcmFQRlUpllEJBZZtTu97lfv1YQZB"
+    },
+    {
+      "name": "bottom-right",
+      "px": 1281,
+      "py": 760,
+      "file": "hero-pointer-bottom-right.png",
+      "transforms": [
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, -22, 1)"
+        },
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 22, 1)"
+        },
+        {
+          "framerName": null,
+          "tag": "span",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, -22, 1)"
+        }
+      ],
+      "canvasDataUrlPrefix": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvQAAALwCAYAAAD4TeEAAAAQAElEQVR4Aex9hffkRpL0yMxeMzPDGsbMd3t/9+13Zh7jmJlpzU"
+    }
+  ],
+  "pixelDiffs": {
+    "center_vs_top-left_changedPixels": 63613,
+    "center_vs_top-right_changedPixels": 63398,
+    "center_vs_bottom-left_changedPixels": 73765,
+    "center_vs_bottom-right_changedPixels": 67014
+  }
+}
