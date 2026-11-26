@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-11-26T20:56:00Z",
+  "source": "https://omnira.framer.website/",
+  "viewportReference": "1440x900",
+  "animations": [
+    {
+      "id": "initial-preloader",
+      "route": "all",
+      "component": "InitialLoader",
+      "trigger": "onMount (first visit per sessionStorage; resets on browser reload)",
+      "timing": {
+        "minDurationMs": 1200,
+        "maxWaitMs": 4000,
+        "exitDurationMs": 750,
+        "staggerMaxMs": 520
+      },
+      "easing": {
+        "opacity": "ease-out",
+        "transform": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      "properties": {
+        "overlay": "fixed inset-0 z-max #000000",
+        "gridSizePx": 80,
+        "tileFrom": { "opacity": 1, "scale": 1 },
+        "tileTo": { "opacity": 0, "scale": 0.15 },
+        "staggerFormula": "((row + col) / (rows + cols)) * 0.52s"
+      }
+    },
+    {
+      "id": "hero-rotating-headline",
+      "route": "/",
+      "component": "AnimatedTextBlock",
+      "trigger": "interval",
+      "timing": {
+        "intervalMs": 3000,
+        "durationMs": 650
+      },
+      "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+      "properties": {
+        "words": ["interface", "system", "product", "experience"],
+        "perspectivePx": 600,
+        "translateZPx": 22,
+        "stepAngleDeg": 90,
+        "gradient": "linear-gradient(0deg, #ff6600, #ffe14a)"
+      }
+    },
+    {
+      "id": "hero-halftone-portrait",
+      "route": "/",
+      "component": "HalftonePortraitCanvas",
+      "trigger": "pointermove + requestAnimationFrame + IntersectionObserver(0.01)",
+      "properties": {
+        "renderer": "canvas-2d",
+        "sourceImage": "Sy1FOpVGp8D2UAJSvei3zr08s.png",
+        "dotSpacingPx": 3,
+        "dotSizePx": 1,
+        "threshold": 32,
+        "contrast": 2,
+        "sizeVariation": 0.01,
+        "mouseRadiusPx": 300,
+        "repulsionStrength": 64,
+        "returnSpeed": 0.2,
+        "responsiveHiddenBelowPx": 810
+      }
+    },
+    {
+      "id": "status-indicator-pulse",
+      "route": "/, /about, /contact, footer",
+      "component": "StatusIndicator",
+      "trigger": "infinite loop",
+      "timing": { "durationMs": 750 },
+      "properties": {
+        "dotColor": "#6d9d27 / #80b82c",
+        "haloColor": "rgba(109, 157, 39, 0.20)"
+      }
+    },
+    {
+      "id": "cta-corner-hover",
+      "route": "all",
+      "component": "ChamferButton",
+      "trigger": "hover",
+      "timing": { "springStiffness": 220, "springDamping": 24 },
+      "properties": {
+        "cornerSizePx": 6,
+        "effect": "4 corner triangle fills animate opacity 0 -> 1 and inset"
+      }
+    },
+    {
+      "id": "process-sticky-scroll-scene",
+      "route": "/",
+      "component": "ProcessSection",
+      "trigger": "scroll (sticky top: 0px, 4 scroll-section triggers: 100vh x3 + 70vh)",
+      "scrollRange1440": { "stickyStartY": 2217, "stickyEndY": 5913 },
+      "properties": {
+        "phases": ["DISCOVER", "DESIGN", "BUILD", "REFINE"],
+        "activePhaseEffect": "amber #ff9800 notched border + glowStrength 8 + inner/outer glow",
+        "progressBar": "horizontal track illuminates across 4 milestone dots",
+        "animatedCounters": ["PHASES: 1 -> 4", "PRECISION: 0% -> 100%"]
+      }
+    },
+    {
+      "id": "services-sticky-scroll-scene",
+      "route": "/",
+      "component": "ServicesSection",
+      "trigger": "scroll on desktop (>= 1200px, sticky top: 96px, threshold: 0.5) + click on all breakpoints",
+      "scrollRange1440": { "stickyStartY": 8870, "stickyEndY": 11087 },
+      "timing": { "type": "spring", "bounce": 0, "durationMs": 400 },
+      "properties": {
+        "tabs": ["DESIGN", "DEVELOPMENT", "VISUAL SYSTEM", "CREATIVE"],
+        "isometricLayers": 4,
+        "effect": "active accordion expands 2x2 checklist; matching isometric diamond plane highlights in #ff9800 while other 3 layers dim"
+      }
+    },
+    {
+      "id": "section-scroll-reveal",
+      "route": "all",
+      "component": "ScrollReveal",
+      "trigger": "whileInView",
+      "timing": { "type": "spring", "stiffness": 500, "damping": 60, "mass": 0.3, "durationMs": 300 },
+      "properties": {
+        "from": { "opacity": 0, "y": 56 },
+        "to": { "opacity": 1, "y": 0 }
+      }
+    },
+    {
+      "id": "pricing-digit-blur-in",
+      "route": "/",
+      "component": "PricingSection",
+      "trigger": "whileInView",
+      "properties": {
+        "targets": ["$1,200", "$2,400", "$4,800"],
+        "effect": "per-character blur-in & upward settle"
+      }
+    },
+    {
+      "id": "testimonials-carousel",
+      "route": "/",
+      "component": "TestimonialsCarousel",
+      "trigger": "click Previous / Next controls",
+      "properties": {
+        "slideCount": 6,
+        "effect": "horizontal card transition + active avatar highlight"
+      }
+    },
+    {
+      "id": "faq-accordion",
+      "route": "/, /contact",
+      "component": "FaqAccordion",
+      "trigger": "click question row",
+      "properties": {
+        "items": 8,
+        "effect": "plus/minus indicator toggle + smooth height/opacity expansion"
+      }
+    },
+    {
+      "id": "about-timeline-sticky",
+      "route": "/about",
+      "component": "TimelineSection",
+      "trigger": "scroll",
+      "properties": {
+        "years": ["2020", "2021", "2022", "2023", "2024", "2025", "2026"],
+        "effect": "sticky year header/indicator + progressive card illumination"
+      }
+    },
+    {
+      "id": "about-system-stack-tabs",
+      "route": "/about",
+      "component": "SystemStackSection",
+      "trigger": "click category tab",
+      "properties": {
+        "tabs": ["DESIGN", "DEVELOPMENT", "MOTION", "3D / VISUAL"],
+        "itemsPerTab": 4
+      }
+    },
+    {
+      "id": "works-filter-and-load-more",
+      "route": "/works",
+      "component": "WorksGrid",
+      "trigger": "click filter pill + scroll bottom",
+      "properties": {
+        "filters": ["ALL PROJECTS", "AI", "BUSINESS", "ONE PAGE", "PORTFOLIO"],
+        "initialCount": 12,
+        "totalCount": 27,
+        "cardHover": "chamfered frame highlight + preview lift + domain arrow reveal"
+      }
+    },
+    {
+      "id": "footer-live-clock",
+      "route": "all",
+      "component": "LiveClock",
+      "trigger": "1000ms interval",
+      "properties": {
+        "timeZone": "Europe/Berlin",
+        "format": "12-hour with seconds (Intl.DateTimeFormat)"
+      }
+    }
+  ]
+}
