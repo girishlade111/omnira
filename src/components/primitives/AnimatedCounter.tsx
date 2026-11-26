@@ -57,13 +57,10 @@ export function AnimatedCounter({
 }: AnimatedCounterProps) {
   const parsed = useMemo(() => parseCounterInput(value, suffix), [value, suffix]);
   const spanRef = useRef<HTMLSpanElement | null>(null);
-  const hasAnimatedRef = useRef(false);
-  const [displayValue, setDisplayValue] = useState<string>(parsed.finalDisplay);
+  const animatedKeyRef = useRef<string | null>(null);
+  const [animatedState, setAnimatedState] = useState<{ key: string; text: string } | null>(null);
 
   useEffect(() => {
-    setDisplayValue(parsed.finalDisplay);
-    hasAnimatedRef.current = false;
-
     if (parsed.isInfinity || typeof window === 'undefined') {
       return;
     }
@@ -82,10 +79,10 @@ export function AnimatedCounter({
     const observer = new IntersectionObserver(
       (entries) => {
         const entry = entries[0];
-        if (!entry?.isIntersecting || hasAnimatedRef.current) {
+        if (!entry?.isIntersecting || animatedKeyRef.current === parsed.finalDisplay) {
           return;
         }
-        hasAnimatedRef.current = true;
+        animatedKeyRef.current = parsed.finalDisplay;
         observer.disconnect();
 
         const start = performance.now();
@@ -93,11 +90,10 @@ export function AnimatedCounter({
           const progress = Math.min(1, (now - start) / durationMs);
           const eased = 1 - Math.pow(1 - progress, 3);
           const current = Math.round(parsed.target * eased);
-          setDisplayValue(`${current}${parsed.suffix}`);
+          const nextText = progress < 1 ? `${current}${parsed.suffix}` : parsed.finalDisplay;
+          setAnimatedState({ key: parsed.finalDisplay, text: nextText });
           if (progress < 1) {
             rafId = window.requestAnimationFrame(step);
-          } else {
-            setDisplayValue(parsed.finalDisplay);
           }
         };
 
@@ -115,6 +111,11 @@ export function AnimatedCounter({
       }
     };
   }, [parsed, durationMs]);
+
+  const displayValue =
+    animatedState && animatedState.key === parsed.finalDisplay
+      ? animatedState.text
+      : parsed.finalDisplay;
 
   return (
     <span ref={spanRef} className={className}>
