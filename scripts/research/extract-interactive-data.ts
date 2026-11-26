@@ -1079,9 +1079,9 @@ type WorksCard = Awaited<ReturnType<typeof extractWorksCards>>[number];
         observedTransitionsOver15s: activeWordSequence,
       },
       worksFilters: Object.fromEntries(
-        Object.entries(worksByFilter).map(([k, v]: [string, any]) => [
+        Object.entries(worksByFilter).map(([k, v]) => [
           k,
-          { count: v.cards?.length ?? 0, titles: (v.cards ?? []).map((c: any) => c.title) },
+          { count: v.cards?.length ?? 0, titles: (v.cards ?? []).map((c) => c.title) },
         ])
       ),
       servicesTabs: {
@@ -1092,9 +1092,9 @@ type WorksCard = Awaited<ReturnType<typeof extractWorksCards>>[number];
       faqAccordions: homeFaqs,
       aboutTerminal,
       aboutSystemStackTabs: Object.fromEntries(
-        Object.entries(aboutSystemStack).map(([k, v]: [string, any]) => [
+        Object.entries(aboutSystemStack).map(([k, v]) => [
           k,
-          { count: Array.isArray(v) ? v.length : 0, tools: v },
+          { count: v.length, tools: v },
         ])
       ),
       contactDropdowns: dropdownInteractionCheck,
