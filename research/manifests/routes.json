@@ -1,0 +1,1249 @@
+{
+  "generatedAt": "2026-11-26T20:39:52.967Z",
+  "baseUrl": "https://omnira.framer.website",
+  "sitemapUrls": [
+    "https://omnira.framer.website/",
+    "https://omnira.framer.website/about",
+    "https://omnira.framer.website/works",
+    "https://omnira.framer.website/contact",
+    "https://omnira.framer.website/404"
+  ],
+  "hasInternalProjectDetailRoutes": false,
+  "projectDetailPattern": "External links to *.framer.website / *.framer.ai",
+  "routes": [
+    {
+      "route": "/",
+      "requestedUrl": "https://omnira.framer.website/",
+      "finalUrl": "https://omnira.framer.website/",
+      "status": 200,
+      "contentType": "text/html",
+      "title": "Omnira",
+      "canonical": "https://omnira.framer.website/",
+      "description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+      "robots": "max-image-preview:large",
+      "og": {
+        "og:type": "website",
+        "og:title": "Omnira",
+        "og:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "og:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Omnira",
+        "twitter:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "twitter:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "og:url": "https://omnira.framer.website/"
+      },
+      "h1": [],
+      "internalLinks": [
+        {
+          "href": "./",
+          "text": "OMNIRA"
+        },
+        {
+          "href": "./",
+          "text": "HOME"
+        },
+        {
+          "href": "./about",
+          "text": "ABOUT"
+        },
+        {
+          "href": "./works",
+          "text": "WORKS"
+        },
+        {
+          "href": "./contact",
+          "text": "CONTACT"
+        },
+        {
+          "href": "./contact",
+          "text": "LET'S TALK"
+        },
+        {
+          "href": "./#content-1",
+          "text": "DISCOVERDefine the goal, audience, visual direction, and project structure before moving into focused design.PHASES 01"
+        },
+        {
+          "href": "./#content-2",
+          "text": "DesignCreate high-impact interface concepts with strong hierarchy, futuristic detail, and responsive.PHASES 02"
+        },
+        {
+          "href": "./#content-3",
+          "text": "BuildTurn the approved direction into a clean Framer experience with interaction, motion, and precision.PHASES 03"
+        },
+        {
+          "href": "./#content-4",
+          "text": "RefinePolish spacing, performance, responsiveness, and final details to make the experience launch ready.PHASES 04"
+        },
+        {
+          "href": "./#section-1",
+          "text": "DesignWebsites, landing pages, and product interfaces.UX structureVisual hierarchyResponsive layoutsInteraction-ready"
+        },
+        {
+          "href": "./#section-2",
+          "text": "Development"
+        },
+        {
+          "href": "./#section-3",
+          "text": "VISUAL SYSTEM"
+        },
+        {
+          "href": "./#section-4",
+          "text": "CREATIVE"
+        },
+        {
+          "href": "./contact",
+          "text": "START A PROJECT"
+        },
+        {
+          "href": "./",
+          "text": "OMNIRA"
+        },
+        {
+          "href": "./",
+          "text": "HOME"
+        },
+        {
+          "href": "./about",
+          "text": "ABOUT"
+        },
+        {
+          "href": "./works",
+          "text": "WORKS"
+        },
+        {
+          "href": "./contact",
+          "text": "CONTACT"
+        }
+      ],
+      "externalLinks": [
+        {
+          "href": "https://brandora.framer.website/",
+          "text": "Brandorabradora.studiobradora.studio",
+          "target": "_blank"
+        },
+        {
+          "href": "https://nivora.framer.website/",
+          "text": "Nivoranivora.studionivora.studio",
+          "target": "_blank"
+        },
+        {
+          "href": "https://codify.framer.website/",
+          "text": "Codifycodify.procodify.pro",
+          "target": "_blank"
+        },
+        {
+          "href": "https://neutra.framer.website/",
+          "text": "Neutraneutra.studioneutra.studio",
+          "target": "_blank"
+        },
+        {
+          "href": "https://ainest.framer.website/",
+          "text": "AI Nestainest.ioainest.io",
+          "target": "_blank"
+        },
+        {
+          "href": "https://studyflow.framer.website/",
+          "text": "Studyflowstudyflow.comstudyflow.com",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "@omnira_design",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dmytri-design/",
+          "text": "linkedin.com/in/omnira",
+          "target": "_blank"
+        },
+        {
+          "href": "https://stylokit.lemonsqueezy.com/checkout/buy/2f9c0adb-b559-41e0-98d8-e7d3f1ed923a",
+          "text": "Remix Template",
+          "target": "_blank"
+        },
+        {
+          "href": "https://framer.link/bFVcS5o",
+          "text": "",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.framer.com",
+          "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+          "target": null
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "requestedUrl": "https://omnira.framer.website/about",
+      "finalUrl": "https://omnira.framer.website/about",
+      "status": 200,
+      "contentType": "text/html",
+      "title": "Omnira",
+      "canonical": "https://omnira.framer.website/about",
+      "description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+      "robots": "max-image-preview:large",
+      "og": {
+        "og:type": "website",
+        "og:title": "Omnira",
+        "og:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "og:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Omnira",
+        "twitter:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "twitter:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "og:url": "https://omnira.framer.website/about"
+      },
+      "h1": [],
+      "internalLinks": [
+        {
+          "href": "./",
+          "text": "OMNIRA"
+        },
+        {
+          "href": "./",
+          "text": "HOME"
+        },
+        {
+          "href": "./about",
+          "text": "ABOUT"
+        },
+        {
+          "href": "./works",
+          "text": "WORKS"
+        },
+        {
+          "href": "./contact",
+          "text": "CONTACT"
+        },
+        {
+          "href": "./contact",
+          "text": "LET'S TALK"
+        },
+        {
+          "href": "./contact",
+          "text": "START A PROJECT"
+        },
+        {
+          "href": "./",
+          "text": "OMNIRA"
+        },
+        {
+          "href": "./",
+          "text": "HOME"
+        },
+        {
+          "href": "./about",
+          "text": "ABOUT"
+        },
+        {
+          "href": "./works",
+          "text": "WORKS"
+        },
+        {
+          "href": "./contact",
+          "text": "CONTACT"
+        }
+      ],
+      "externalLinks": [
+        {
+          "href": "https://www.figma.com/",
+          "text": "FIGMAInterface design and prototyping",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.adobe.com/products/photoshop.html",
+          "text": "PhotoshopImage editing and refinement",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.adobe.com/products/illustrator.html",
+          "text": "IllustratorVector graphics and icons",
+          "target": "_blank"
+        },
+        {
+          "href": "https://designsystemsrepo.com/",
+          "text": "Design systemsDesign system examples and resources",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "X LINK",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "@omnira_design",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dmytri-design/",
+          "text": "linkedin.com/in/omnira",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.framer.com",
+          "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+          "target": null
+        }
+      ]
+    },
+    {
+      "route": "/works",
+      "requestedUrl": "https://omnira.framer.website/works",
+      "finalUrl": "https://omnira.framer.website/works",
+      "status": 200,
+      "contentType": "text/html",
+      "title": "Omnira",
+      "canonical": "https://omnira.framer.website/works",
+      "description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+      "robots": "max-image-preview:large",
+      "og": {
+        "og:type": "website",
+        "og:title": "Omnira",
+        "og:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "og:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Omnira",
+        "twitter:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "twitter:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "og:url": "https://omnira.framer.website/works"
+      },
+      "h1": [],
+      "internalLinks": [
+        {
+          "href": "./",
+          "text": "OMNIRA"
+        },
+        {
+          "href": "./",
+          "text": "HOME"
+        },
+        {
+          "href": "./about",
+          "text": "ABOUT"
+        },
+        {
+          "href": "./works",
+          "text": "WORKS"
+        },
+        {
+          "href": "./contact",
+          "text": "CONTACT"
+        },
+        {
+          "href": "./contact",
+          "text": "LET'S TALK"
+        },
+        {
+          "href": "./contact",
+          "text": "START A PROJECT"
+        },
+        {
+          "href": "./",
+          "text": "OMNIRA"
+        },
+        {
+          "href": "./",
+          "text": "HOME"
+        },
+        {
+          "href": "./about",
+          "text": "ABOUT"
+        },
+        {
+          "href": "./works",
+          "text": "WORKS"
+        },
+        {
+          "href": "./contact",
+          "text": "CONTACT"
+        }
+      ],
+      "externalLinks": [
+        {
+          "href": "https://brandora.framer.website/",
+          "text": "Brandorabradora.studiobradora.studio",
+          "target": "_blank"
+        },
+        {
+          "href": "https://nivora.framer.website/",
+          "text": "Nivoranivora.studionivora.studio",
+          "target": "_blank"
+        },
+        {
+          "href": "https://codify.framer.website/",
+          "text": "Codifycodify.procodify.pro",
+          "target": "_blank"
+        },
+        {
+          "href": "https://neutra.framer.website/",
+          "text": "Neutraneutra.studioneutra.studio",
+          "target": "_blank"
+        },
+        {
+          "href": "https://ainest.framer.website/",
+          "text": "AI Nestainest.ioainest.io",
+          "target": "_blank"
+        },
+        {
+          "href": "https://studyflow.framer.website/",
+          "text": "Studyflowstudyflow.comstudyflow.com",
+          "target": "_blank"
+        },
+        {
+          "href": "https://todofusion.framer.website/",
+          "text": "Todofusiontodofusion.iotodofusion.io",
+          "target": "_blank"
+        },
+        {
+          "href": "https://snapkit.framer.website/",
+          "text": "Snapkitsnapkit.cosnapkit.co",
+          "target": "_blank"
+        },
+        {
+          "href": "https://grido.framer.website/",
+          "text": "Gridogirdo.studiogirdo.studio",
+          "target": "_blank"
+        },
+        {
+          "href": "https://trainly.framer.website/",
+          "text": "Trainlytrainly.comtrainly.com",
+          "target": "_blank"
+        },
+        {
+          "href": "https://stickify.framer.website/",
+          "text": "Stickifystickify.prostickify.pro",
+          "target": "_blank"
+        },
+        {
+          "href": "https://landify.framer.website/",
+          "text": "Landifylandify.comlandify.com",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "@omnira_design",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dmytri-design/",
+          "text": "linkedin.com/in/omnira",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.framer.com",
+          "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+          "target": null
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "requestedUrl": "https://omnira.framer.website/contact",
+      "finalUrl": "https://omnira.framer.website/contact",
+      "status": 200,
+      "contentType": "text/html",
+      "title": "Omnira",
+      "canonical": "https://omnira.framer.website/contact",
+      "description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+      "robots": "max-image-preview:large",
+      "og": {
+        "og:type": "website",
+        "og:title": "Omnira",
+        "og:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "og:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Omnira",
+        "twitter:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "twitter:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "og:url": "https://omnira.framer.website/contact"
+      },
+      "h1": [],
+      "internalLinks": [
+        {
+          "href": "./",
+          "text": "OMNIRA"
+        },
+        {
+          "href": "./",
+          "text": "HOME"
+        },
+        {
+          "href": "./about",
+          "text": "ABOUT"
+        },
+        {
+          "href": "./works",
+          "text": "WORKS"
+        },
+        {
+          "href": "./contact",
+          "text": "CONTACT"
+        },
+        {
+          "href": "./contact",
+          "text": "LET'S TALK"
+        },
+        {
+          "href": "./contact",
+          "text": "START A PROJECT"
+        },
+        {
+          "href": "./",
+          "text": "OMNIRA"
+        },
+        {
+          "href": "./",
+          "text": "HOME"
+        },
+        {
+          "href": "./about",
+          "text": "ABOUT"
+        },
+        {
+          "href": "./works",
+          "text": "WORKS"
+        },
+        {
+          "href": "./contact",
+          "text": "CONTACT"
+        }
+      ],
+      "externalLinks": [
+        {
+          "href": "https://www.google.com/maps",
+          "text": "Berlin, Germany",
+          "target": "_blank"
+        },
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "@omnira_design",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dmytri-design/",
+          "text": "linkedin.com/in/omnira",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.framer.com",
+          "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+          "target": null
+        }
+      ]
+    },
+    {
+      "route": "/404",
+      "requestedUrl": "https://omnira.framer.website/404",
+      "finalUrl": "https://omnira.framer.website/404",
+      "status": 404,
+      "contentType": "text/html",
+      "title": "Omnira",
+      "canonical": "https://omnira.framer.website/404",
+      "description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+      "robots": "max-image-preview:large",
+      "og": {
+        "og:type": "website",
+        "og:title": "Omnira",
+        "og:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "og:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Omnira",
+        "twitter:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "twitter:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "og:url": "https://omnira.framer.website/404"
+      },
+      "h1": [
+        "404"
+      ],
+      "internalLinks": [
+        {
+          "href": "./",
+          "text": "OMNIRA"
+        },
+        {
+          "href": "./",
+          "text": "HOME"
+        },
+        {
+          "href": "./about",
+          "text": "ABOUT"
+        },
+        {
+          "href": "./works",
+          "text": "WORKS"
+        },
+        {
+          "href": "./contact",
+          "text": "CONTACT"
+        },
+        {
+          "href": "./contact",
+          "text": "LET'S TALK"
+        },
+        {
+          "href": "./",
+          "text": "BACK TO HOME"
+        },
+        {
+          "href": "./contact",
+          "text": "Contact me"
+        },
+        {
+          "href": "./contact",
+          "text": "START A PROJECT"
+        },
+        {
+          "href": "./",
+          "text": "OMNIRA"
+        },
+        {
+          "href": "./",
+          "text": "HOME"
+        },
+        {
+          "href": "./about",
+          "text": "ABOUT"
+        },
+        {
+          "href": "./works",
+          "text": "WORKS"
+        },
+        {
+          "href": "./contact",
+          "text": "CONTACT"
+        }
+      ],
+      "externalLinks": [
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "@omnira_design",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dmytri-design/",
+          "text": "linkedin.com/in/omnira",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.framer.com",
+          "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+          "target": null
+        }
+      ]
+    },
+    {
+      "route": "/does-not-exist-404",
+      "requestedUrl": "https://omnira.framer.website/does-not-exist-404",
+      "finalUrl": "https://omnira.framer.website/does-not-exist-404",
+      "status": 404,
+      "contentType": "text/html",
+      "title": "Omnira",
+      "canonical": "https://omnira.framer.website/404",
+      "description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+      "robots": "max-image-preview:large",
+      "og": {
+        "og:type": "website",
+        "og:title": "Omnira",
+        "og:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "og:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Omnira",
+        "twitter:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "twitter:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "og:url": "https://omnira.framer.website/404"
+      },
+      "h1": [
+        "404"
+      ],
+      "internalLinks": [
+        {
+          "href": "./",
+          "text": "OMNIRA"
+        },
+        {
+          "href": "./",
+          "text": "HOME"
+        },
+        {
+          "href": "./about",
+          "text": "ABOUT"
+        },
+        {
+          "href": "./works",
+          "text": "WORKS"
+        },
+        {
+          "href": "./contact",
+          "text": "CONTACT"
+        },
+        {
+          "href": "./contact",
+          "text": "LET'S TALK"
+        },
+        {
+          "href": "./",
+          "text": "BACK TO HOME"
+        },
+        {
+          "href": "./contact",
+          "text": "Contact me"
+        },
+        {
+          "href": "./contact",
+          "text": "START A PROJECT"
+        },
+        {
+          "href": "./",
+          "text": "OMNIRA"
+        },
+        {
+          "href": "./",
+          "text": "HOME"
+        },
+        {
+          "href": "./about",
+          "text": "ABOUT"
+        },
+        {
+          "href": "./works",
+          "text": "WORKS"
+        },
+        {
+          "href": "./contact",
+          "text": "CONTACT"
+        }
+      ],
+      "externalLinks": [
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "@omnira_design",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dmytri-design/",
+          "text": "linkedin.com/in/omnira",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.framer.com",
+          "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+          "target": null
+        }
+      ]
+    },
+    {
+      "route": "/works/brandora",
+      "requestedUrl": "https://omnira.framer.website/works/brandora",
+      "finalUrl": "https://omnira.framer.website/works/brandora",
+      "status": 404,
+      "contentType": "text/html",
+      "title": "Omnira",
+      "canonical": "https://omnira.framer.website/404",
+      "description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+      "robots": "max-image-preview:large",
+      "og": {
+        "og:type": "website",
+        "og:title": "Omnira",
+        "og:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "og:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Omnira",
+        "twitter:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "twitter:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "og:url": "https://omnira.framer.website/404"
+      },
+      "h1": [
+        "404"
+      ],
+      "internalLinks": [],
+      "externalLinks": [
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "@omnira_design",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dmytri-design/",
+          "text": "linkedin.com/in/omnira",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.framer.com",
+          "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+          "target": null
+        }
+      ]
+    },
+    {
+      "route": "/projects/brandora",
+      "requestedUrl": "https://omnira.framer.website/projects/brandora",
+      "finalUrl": "https://omnira.framer.website/projects/brandora",
+      "status": 404,
+      "contentType": "text/html",
+      "title": "Omnira",
+      "canonical": "https://omnira.framer.website/404",
+      "description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+      "robots": "max-image-preview:large",
+      "og": {
+        "og:type": "website",
+        "og:title": "Omnira",
+        "og:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "og:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Omnira",
+        "twitter:description": "Omnira is a dark futuristic portfolio with cinematic visuals, sharp typography, and high-tech interface details.",
+        "twitter:image": "https://framerusercontent.com/images/DKiwUEdtILCqS2R0ETztXd7tHY.jpg",
+        "og:url": "https://omnira.framer.website/404"
+      },
+      "h1": [
+        "404"
+      ],
+      "internalLinks": [],
+      "externalLinks": [
+        {
+          "href": "https://x.com/Dmytri_Design",
+          "text": "@omnira_design",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dmytri-design/",
+          "text": "linkedin.com/in/omnira",
+          "target": "_blank"
+        },
+        {
+          "href": "https://www.framer.com",
+          "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+          "target": null
+        }
+      ]
+    },
+    {
+      "route": "/sitemap.xml",
+      "requestedUrl": "https://omnira.framer.website/sitemap.xml",
+      "finalUrl": "https://omnira.framer.website/sitemap.xml",
+      "status": 200,
+      "contentType": "text/xml",
+      "bodyPreview": "This XML file does not appear to have any style information associated with it. The document tree is shown below.\n\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://omnira.framer.website/</loc>\n</url>\n<url>\n<loc>https://omnira.framer.website/about</loc>\n</url>\n<url>\n<loc>https://omnira.framer.website/works</loc>\n</url>\n<url>\n<loc>https://omnira.framer.website/contact</loc>\n</url>\n<url>\n<loc>https://omnira.framer.website/404</loc>\n</url>\n</urlset>"
+    },
+    {
+      "route": "/robots.txt",
+      "requestedUrl": "https://omnira.framer.website/robots.txt",
+      "finalUrl": "https://omnira.framer.website/robots.txt",
+      "status": 200,
+      "contentType": "text/plain",
+      "bodyPreview": "User-agent: *\nAllow: /\n\nSitemap: https://omnira.framer.website/sitemap.xml"
+    }
+  ],
+  "uniqueInternalLinks": [
+    "./",
+    "./about",
+    "./works",
+    "./contact",
+    "./#content-1",
+    "./#content-2",
+    "./#content-3",
+    "./#content-4",
+    "./#section-1",
+    "./#section-2",
+    "./#section-3",
+    "./#section-4"
+  ],
+  "uniqueExternalLinks": [
+    {
+      "href": "https://brandora.framer.website/",
+      "foundOn": [
+        "/",
+        "/works"
+      ]
+    },
+    {
+      "href": "https://nivora.framer.website/",
+      "foundOn": [
+        "/",
+        "/works"
+      ]
+    },
+    {
+      "href": "https://codify.framer.website/",
+      "foundOn": [
+        "/",
+        "/works"
+      ]
+    },
+    {
+      "href": "https://neutra.framer.website/",
+      "foundOn": [
+        "/",
+        "/works"
+      ]
+    },
+    {
+      "href": "https://ainest.framer.website/",
+      "foundOn": [
+        "/",
+        "/works"
+      ]
+    },
+    {
+      "href": "https://studyflow.framer.website/",
+      "foundOn": [
+        "/",
+        "/works"
+      ]
+    },
+    {
+      "href": "https://x.com/Dmytri_Design",
+      "foundOn": [
+        "/",
+        "/about",
+        "/works",
+        "/contact",
+        "/404",
+        "/does-not-exist-404",
+        "/works/brandora",
+        "/projects/brandora"
+      ]
+    },
+    {
+      "href": "https://www.linkedin.com/in/dmytri-design/",
+      "foundOn": [
+        "/",
+        "/about",
+        "/works",
+        "/contact",
+        "/404",
+        "/does-not-exist-404",
+        "/works/brandora",
+        "/projects/brandora"
+      ]
+    },
+    {
+      "href": "https://stylokit.lemonsqueezy.com/checkout/buy/2f9c0adb-b559-41e0-98d8-e7d3f1ed923a",
+      "foundOn": [
+        "/"
+      ]
+    },
+    {
+      "href": "https://framer.link/bFVcS5o",
+      "foundOn": [
+        "/"
+      ]
+    },
+    {
+      "href": "https://www.framer.com",
+      "foundOn": [
+        "/",
+        "/about",
+        "/works",
+        "/contact",
+        "/404",
+        "/does-not-exist-404",
+        "/works/brandora",
+        "/projects/brandora"
+      ]
+    },
+    {
+      "href": "https://www.figma.com/",
+      "foundOn": [
+        "/about"
+      ]
+    },
+    {
+      "href": "https://www.adobe.com/products/photoshop.html",
+      "foundOn": [
+        "/about"
+      ]
+    },
+    {
+      "href": "https://www.adobe.com/products/illustrator.html",
+      "foundOn": [
+        "/about"
+      ]
+    },
+    {
+      "href": "https://designsystemsrepo.com/",
+      "foundOn": [
+        "/about"
+      ]
+    },
+    {
+      "href": "https://todofusion.framer.website/",
+      "foundOn": [
+        "/works"
+      ]
+    },
+    {
+      "href": "https://snapkit.framer.website/",
+      "foundOn": [
+        "/works"
+      ]
+    },
+    {
+      "href": "https://grido.framer.website/",
+      "foundOn": [
+        "/works"
+      ]
+    },
+    {
+      "href": "https://trainly.framer.website/",
+      "foundOn": [
+        "/works"
+      ]
+    },
+    {
+      "href": "https://stickify.framer.website/",
+      "foundOn": [
+        "/works"
+      ]
+    },
+    {
+      "href": "https://landify.framer.website/",
+      "foundOn": [
+        "/works"
+      ]
+    },
+    {
+      "href": "https://www.google.com/maps",
+      "foundOn": [
+        "/contact"
+      ]
+    }
+  ]
+}
