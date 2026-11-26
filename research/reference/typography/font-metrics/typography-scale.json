@@ -1,0 +1,38 @@
+{
+  "fonts": {
+    "display": {
+      "family": "Orbitron",
+      "source": "Google Fonts (SIL OFL 1.1)",
+      "weights": [400, 500, 600, 700],
+      "fallbackStack": "sans-serif"
+    },
+    "body": {
+      "family": "Chakra Petch",
+      "source": "Google Fonts (SIL OFL 1.1)",
+      "weights": [400, 500, 600, 700],
+      "styles": ["normal", "italic"],
+      "fallbackStack": "sans-serif"
+    },
+    "runtimeFallbackOnly": {
+      "family": "Inter",
+      "source": "Framer CDN (SIL OFL 1.1)",
+      "weights": [400, 700],
+      "note": "Loaded by Framer runtime presets; not primary rendered font on Omnira headings or body."
+    }
+  },
+  "scale": [
+    { "token": "display-hero", "family": "Orbitron", "sizePx": 64, "lineHeightPx": 64, "weight": 600, "letterSpacing": "0em", "textTransform": "uppercase" },
+    { "token": "display-about-hero", "family": "Orbitron", "sizePx": 64, "lineHeightPx": 68, "weight": 600, "letterSpacing": "0em", "textTransform": "uppercase" },
+    { "token": "heading-section", "family": "Orbitron", "sizePx": 36, "lineHeightPx": 44, "weight": 500, "letterSpacing": "0em", "textTransform": "uppercase" },
+    { "token": "heading-kpi-price", "family": "Orbitron", "sizePx": 36, "lineHeightPx": 44, "weight": 600, "letterSpacing": "0em", "textTransform": "none" },
+    { "token": "heading-sub", "family": "Orbitron", "sizePx": 24, "lineHeightPx": 32, "weight": 600, "letterSpacing": "0em", "textTransform": "uppercase" },
+    { "token": "heading-card", "family": "Orbitron", "sizePx": 18, "lineHeightPx": 24, "weight": 600, "letterSpacing": "0em", "textTransform": "none" },
+    { "token": "brand-wordmark", "family": "Orbitron", "sizePx": 16, "lineHeightPx": 24, "weight": 500, "letterSpacing": "2.24px", "textTransform": "uppercase" },
+    { "token": "faq-index", "family": "Orbitron", "sizePx": 16, "lineHeightPx": 24, "weight": 600, "letterSpacing": "0em", "textTransform": "none" },
+    { "token": "body-md", "family": "Chakra Petch", "sizePx": 16, "lineHeightPx": 24, "weight": 400, "letterSpacing": "0em", "textTransform": "none" },
+    { "token": "faq-question", "family": "Chakra Petch", "sizePx": 16, "lineHeightPx": 24, "weight": 600, "letterSpacing": "0em", "textTransform": "none" },
+    { "token": "body-sm-relaxed", "family": "Chakra Petch", "sizePx": 14, "lineHeightPx": 22, "weight": 400, "letterSpacing": "0em", "textTransform": "none" },
+    { "token": "label-tech", "family": "Chakra Petch", "sizePx": 14, "lineHeightPx": 20, "weight": 400, "letterSpacing": "0em", "textTransform": "uppercase" },
+    { "token": "button-nav", "family": "Chakra Petch", "sizePx": 14, "lineHeightPx": 20, "weight": 500, "letterSpacing": "0em", "textTransform": "uppercase" }
+  ]
+}

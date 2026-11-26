@@ -1,0 +1,109 @@
+{
+  "renderer": "SVG vector path (`G` / NotchBox) with ResizeObserver pixel sizing, optional SVG <clipPath> grain <image>, optional outerGlow/innerGlow/glow SVG filters, and optional Corner hover triangles (`Q`)",
+  "panels": [
+    {
+      "role": "outer-hero-frame",
+      "dimensionsSample1440": "1400x906",
+      "cornerCutPx": 12,
+      "notches": { "top": 1, "right": 1, "bottom": 1, "left": 1, "notchDepthPx": 8 },
+      "strokeColor": "rgba(255, 152, 0, 0.30)",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "grain": true
+    },
+    {
+      "role": "large-cards-pricing-process-projects-form-footer",
+      "cornerCutPx": 12,
+      "processActive": {
+        "cornerCutPx": 12,
+        "leftNotches": 1,
+        "rightNotches": 1,
+        "notchDepthPx": 8,
+        "strokeColor": "#ff9800",
+        "glow": true,
+        "glowStrength": 8,
+        "innerGlow": true,
+        "innerGlowOpacity": 0.2,
+        "outerGlow": true,
+        "outerGlowOpacity": 0.1
+      },
+      "processInactive": {
+        "cornerCutPx": 12,
+        "notchDepthPx": 8,
+        "strokeColor": "rgba(255, 255, 255, 0.30)",
+        "fillColor": "rgba(255, 255, 255, 0.03)"
+      },
+      "featuredCard": {
+        "cornerCutPx": 11,
+        "fillColor": "rgba(255, 255, 255, 0.01)"
+      },
+      "asymmetricCornerVariant": {
+        "cornerMode": "custom",
+        "cornerTopLeft": 0,
+        "cornerTopRight": 12,
+        "cornerBottomRight": 12,
+        "cornerBottomLeft": 12
+      }
+    },
+    {
+      "role": "cta-button-primary",
+      "dimensionsSample": "138x44",
+      "padding": "10px 20px",
+      "cornerCutPx": 6,
+      "fillColor": "#ff9800",
+      "textColor": "#000000",
+      "aboutCtaCornerCutPx": 9,
+      "hoverCornerTriangles": { "sizePx": 6, "styleType": "triangle" }
+    },
+    {
+      "role": "cta-button-secondary-md",
+      "dimensionsSample": "184x44",
+      "padding": "10px 20px",
+      "cornerCutPx": 6,
+      "strokeWidthPx": 0.5,
+      "strokeColor": "rgba(255, 255, 255, 0.70)",
+      "fillColor": "rgba(255, 255, 255, 0)",
+      "hoverCornerTriangles": { "sizePx": 6, "styleType": "triangle" }
+    },
+    {
+      "role": "cta-button-secondary-sm-nav",
+      "dimensionsSample": "103x36",
+      "padding": "6px 16px",
+      "cornerCutPx": 6
+    },
+    {
+      "role": "medium-panels-stack-nav-footer-strip",
+      "cornerCutPx": 8,
+      "fillColor": "rgba(255, 255, 255, 0.03) | rgba(255, 255, 255, 0.05)"
+    },
+    {
+      "role": "small-pills-inputs-steps-footer-bar",
+      "cornerCutPx": 4,
+      "fillColor": "rgba(255, 255, 255, 0.01) | rgba(255, 255, 255, 0.03) | #000000",
+      "avatarCornerCutPx": 5
+    },
+    {
+      "role": "technical-badge",
+      "dimensionsSample": "163x28",
+      "padding": "4px 12px",
+      "variants": {
+        "yellow": {
+          "backgroundColor": "rgba(255, 152, 0, 0.03)",
+          "bracketColor": "#ff9800",
+          "textColor": "#ff9800"
+        },
+        "white": {
+          "backgroundColor": "rgba(255, 255, 255, 0.03)",
+          "bracketColor": "#ffffff",
+          "textColor": "#ffffff"
+        }
+      },
+      "cornerBrackets": {
+        "renderer": "SVG 4 L-shaped corner paths",
+        "cornerSizePx": 4,
+        "thicknessPx": 1,
+        "insetPx": 1,
+        "glow": false
+      }
+    }
+  ]
+}

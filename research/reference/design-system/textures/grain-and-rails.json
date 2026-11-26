@@ -1,0 +1,50 @@
+{
+  "sideRails": {
+    "renderer": "CSS repeating-linear-gradient inside left/right fixed-width rail columns bounded by a 1px solid rgba(255, 255, 255, 0.10) divider",
+    "angleDeg": 145,
+    "stripeColor": "rgba(255, 255, 255, 0.05)",
+    "stripeThicknessPx": 1,
+    "stripePeriodPx": 4,
+    "transparentGapPx": 3,
+    "cssBackgroundImage": "repeating-linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 4px)",
+    "opacity": 1,
+    "dividerBorder": "1px solid rgba(255, 255, 255, 0.10)",
+    "widthsByBreakpoint": {
+      "desktop_ge_1200": { "railTotalPx": 96, "stripeAreaPx": 95, "dividerPx": 1 },
+      "tablet_810_to_1199": { "railTotalPx": 48, "stripeAreaPx": 47, "dividerPx": 1 },
+      "mobile_le_809": { "railTotalPx": 16, "stripeAreaPx": 15, "dividerPx": 1 }
+    }
+  },
+  "hudProgressHatch": {
+    "renderer": "CSS repeating-linear-gradient inside Status/Footer divider bars",
+    "angleDeg": 72,
+    "stripeThicknessPx": 1,
+    "stripePeriodPx": 2,
+    "heightPx": 2,
+    "opacity": 0.55,
+    "heroColor": "rgba(255, 255, 255, 0.30)",
+    "footerColor": "rgba(255, 255, 255, 0.10)",
+    "cssBackgroundImage": "repeating-linear-gradient(72deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 1px, rgba(255, 255, 255, 0.3) 1px, rgba(255, 255, 255, 0.3) 2px)"
+  },
+  "darkGrainTexture": {
+    "assetUrl": "https://framerusercontent.com/images/clI6TcTdwfgaDLeA7qOuGlEUTCY.jpg?width=4736&height=3136",
+    "intrinsicDimensions": { "width": 4736, "height": 3136 },
+    "usageModes": [
+      {
+        "mode": "SVG Panel Grain Layer",
+        "element": "svg > image[clip-path]",
+        "opacity": 0.8,
+        "mixBlendMode": "screen",
+        "preserveAspectRatio": "xMidYMid slice",
+        "scale": 1
+      },
+      {
+        "mode": "About/Section Full-bleed Image Backdrop",
+        "element": "img",
+        "opacity": 1,
+        "mixBlendMode": "normal",
+        "fit": "fill"
+      }
+    ]
+  }
+}
