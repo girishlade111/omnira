@@ -1,14 +1,113 @@
 :root {
-  /* Surface & text tokens — refined during design-system extraction */
-  --color-bg-primary: #07080a;
-  --color-bg-surface: #0f1116;
-  --color-border-subtle: rgba(255, 255, 255, 0.12);
-  --color-text-primary: #f5f7fa;
-  --color-text-secondary: #a1a7b3;
-  --color-accent-primary: #3b82f6;
+  /* Palette: Backgrounds & Surfaces */
+  --color-bg-canvas: #000000;
+  --color-bg-void: #080808;
+  --color-bg-panel: #0d0d0d;
+  --color-bg-panel-alt: #0e0e0e;
+  --color-bg-elevated: #121218;
+  --color-bg-slate: #242734;
+  --color-bg-slate-50: rgba(36, 39, 52, 0.5);
 
-  /* Spacing & geometry tokens */
-  --space-unit: 8px;
-  --container-max-width: 1440px;
-  --chamfer-size: 16px;
+  /* Palette: Translucent Surface Fills */
+  --color-surface-subtle: rgba(255, 255, 255, 0.01);
+  --color-surface-card: rgba(255, 255, 255, 0.03);
+  --color-surface-card-hover: rgba(255, 255, 255, 0.05);
+  --color-surface-scrim: rgba(0, 0, 0, 0.2);
+
+  /* Palette: Brand Accents */
+  --color-accent: #ff9800;
+  --color-accent-50: rgba(255, 152, 0, 0.5);
+  --color-accent-30: rgba(255, 152, 0, 0.3);
+  --color-accent-10: rgba(255, 152, 0, 0.1);
+  --color-accent-03: rgba(255, 152, 0, 0.03);
+  --color-gradient-start: #ff6600;
+  --color-gradient-end: #ffe14a;
+  --gradient-accent-vertical: linear-gradient(0deg, #ff6600 0%, #ffe14a 100%);
+
+  /* Palette: Text & Borders */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: rgba(255, 255, 255, 0.7);
+  --color-text-muted: rgba(255, 255, 255, 0.45);
+  --color-text-dim: rgba(255, 255, 255, 0.3);
+  --color-border-hairline: rgba(255, 255, 255, 0.1);
+  --color-border-strong: rgba(255, 255, 255, 0.3);
+  --color-border-button: rgba(255, 255, 255, 0.7);
+  --color-rail-stripe: rgba(255, 255, 255, 0.05);
+
+  /* Palette: Status & Feedback */
+  --color-status-green: #80b82c;
+  --color-status-pulse-outer: rgba(109, 157, 39, 0.2);
+  --color-status-pulse-inner: rgba(109, 157, 39, 0.05);
+  --color-error: #ff2f24;
+
+  /* Backward-compatible semantic aliases */
+  --color-bg-primary: var(--color-bg-canvas);
+  --color-bg-surface: var(--color-bg-elevated);
+  --color-border-subtle: var(--color-border-hairline);
+  --color-accent-primary: var(--color-accent);
+
+  /* Typography Families */
+  --heading-font: 'Orbitron', sans-serif;
+  --body-font: 'Chakra Petch', sans-serif;
+  --ui-font: 'Inter', sans-serif;
+
+  /* Type Scale */
+  --text-hero-size: 64px;
+  --text-hero-line: 64px;
+  --text-about-hero-line: 68px;
+  --text-section-size: 36px;
+  --text-section-line: 44px;
+  --text-sub-size: 24px;
+  --text-sub-line: 32px;
+  --text-card-size: 18px;
+  --text-card-line: 24px;
+  --text-body-size: 16px;
+  --text-body-line: 24px;
+  --text-sm-size: 14px;
+  --text-sm-line: 22px;
+  --text-label-size: 14px;
+  --text-label-line: 20px;
+
+  /* Chamfered Geometry */
+  --chamfer-xs: 4px;
+  --chamfer-avatar: 5px;
+  --chamfer-small: 6px;
+  --chamfer-medium: 8px;
+  --chamfer-cta: 9px;
+  --chamfer-featured: 11px;
+  --chamfer-large: 12px;
+  --notch-depth: 8px;
+
+  /* Layout & Breakpoint Framing */
+  --outer-frame-width: 1400px;
+  --rail-width: 16px;
+  --section-pad-y: 64px;
+  --section-pad-x: 16px;
+  --header-height: 64px;
+
+  /* Motion & Timing */
+  --ease-barrel: cubic-bezier(0.76, 0, 0.24, 1);
+  --ease-standard: cubic-bezier(0.44, 0, 0.56, 1);
+  --duration-fast: 180ms;
+  --duration-medium: 400ms;
+  --duration-barrel: 650ms;
+  --duration-loader: 750ms;
+}
+
+@media (min-width: 810px) {
+  :root {
+    --rail-width: 48px;
+    --section-pad-y: 80px;
+    --section-pad-x: 48px;
+    --header-height: 72px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --rail-width: 96px;
+    --section-pad-y: 96px;
+    --section-pad-x: 96px;
+    --header-height: 80px;
+  }
 }
