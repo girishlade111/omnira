@@ -1,0 +1,21 @@
+{
+  "url": "https://stylokit.com/templates/omnira",
+  "finalUrl": "https://stylokit.com/templates/omnira",
+  "redirected": false,
+  "status": 200,
+  "statusText": "",
+  "contentLength": 34896,
+  "headers": {
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "no-store, must-revalidate",
+    "cf-ray": "a60b9e167d55f884-SIN",
+    "content-encoding": "br",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Thu, 26 Nov 2026 20:24:36 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Nfxeo%2BOSajkCGatPrFmP%2BEFku4p2D2QRb36kZ28HiCHHx%2FS%2B8xWMmixxyIibnTTuflMu3Z6DYzIZ9SNVEgSWR6H4Tuys33vQduLhz1aMTL9LbLctl2bWx5Frhhpmuas%3D\"}]}",
+    "server": "cloudflare",
+    "server-timing": "cfEdge;dur=96,cfOrigin;dur=0,cfWorker;dur=1147",
+    "vary": "RSC, Accept, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "url": "https://omnira.framer.website/404",
+  "finalUrl": "https://omnira.framer.website/404",
+  "redirected": false,
+  "status": 404,
+  "statusText": "",
+  "contentLength": 245983,
+  "headers": {
+    "alt-svc": "h3=\":443\"; ma=2592000",
+    "cache-control": "public, max-age=0, must-revalidate",
+    "content-encoding": "br",
+    "content-length": "26597",
+    "content-type": "text/html",
+    "date": "Thu, 26 Nov 2026 20:24:31 GMT",
+    "etag": "\"524ce2743c15be615f90d6bf37504240\"",
+    "framer-site-id": "59dc3cfd307e41b058ddf6dbe59b9b8286491d87a5d9eed583c08d6aaf1b76e1",
+    "last-modified": "Mon, 10 Aug 2026 14:29:53 GMT",
+    "link": "<https://framerusercontent.com>; rel=\"preconnect\", <https://framerusercontent.com>; rel=\"preconnect\"; crossorigin=\"\"",
+    "server": "Framer/0a675d1",
+    "server-timing": "region;desc=\"ap-south-1\", cache;desc=\"not-cached\", ssg-status;desc=\"optimized\", version;desc=\"0a675d1\", instance;desc=\"e1af8c1\", route;desc=\"id=NnF42aByW&locale=default\", country;desc=\"IN\"",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "Accept-Encoding, Accept",
+    "x-content-type-options": "nosniff"
+  }
+}

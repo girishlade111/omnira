@@ -1,0 +1,29 @@
+{
+  "url": "https://www.framer.com/marketplace/templates/omnira/",
+  "finalUrl": "https://www.framer.com/marketplace/templates/omnira/",
+  "redirected": false,
+  "status": 200,
+  "statusText": "",
+  "contentLength": 122291,
+  "headers": {
+    "age": "8013",
+    "alt-svc": "h3=\":443\"; ma=2592000",
+    "cache-control": "public, max-age=0, must-revalidate",
+    "content-encoding": "br",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Thu, 26 Nov 2026 20:24:33 GMT",
+    "link": "</creators-assets/_next/static/immutable/media/GT_Walsheim_Medium-s.p.16euuzc__2r_-.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </creators-assets/_next/static/immutable/media/Inter_Variable-s.p.2v4uvb3i5caxn.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "server": "Framer/0a675d1",
+    "server-timing": "rewrite;desc=\"external\", region;desc=\"ap-south-1\", version;desc=\"0a675d1\", instance;desc=\"54fe505\", country;desc=\"IN\"",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-matched-path": "/00010101100.82ThVuxs3-Xk5zdFlpBJKF/marketplace/templates/[slug]",
+    "x-nextjs-stale-time": "300",
+    "x-vercel-cache": "HIT",
+    "x-vercel-id": "bom1::iad1::tpk2g-1795724673896-c98ce0ad8087",
+    "x-xss-protection": "0"
+  }
+}

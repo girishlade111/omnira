@@ -1,0 +1,24 @@
+{
+  "url": "https://omnira.framer.website/sitemap.xml",
+  "finalUrl": "https://omnira.framer.website/sitemap.xml",
+  "redirected": false,
+  "status": 200,
+  "statusText": "",
+  "contentLength": 394,
+  "headers": {
+    "alt-svc": "h3=\":443\"; ma=2592000",
+    "cache-control": "public, max-age=0, must-revalidate",
+    "content-encoding": "br",
+    "content-length": "136",
+    "content-type": "text/xml",
+    "date": "Thu, 26 Nov 2026 20:24:32 GMT",
+    "etag": "\"8ddda99c2555c73f275c1603fe062883\"",
+    "framer-site-id": "59dc3cfd307e41b058ddf6dbe59b9b8286491d87a5d9eed583c08d6aaf1b76e1",
+    "last-modified": "Mon, 10 Aug 2026 14:29:53 GMT",
+    "server": "Framer/0a675d1",
+    "server-timing": "region;desc=\"ap-south-1\", cache;desc=\"not-cached\", ssg-status;desc=\"optimized\", version;desc=\"0a675d1\", instance;desc=\"e1af8c1\", route;desc=\"id=SITEMAP&locale=\", country;desc=\"IN\"",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff"
+  }
+}

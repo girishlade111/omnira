@@ -1,0 +1,25 @@
+{
+  "url": "https://framplates.com/omnira",
+  "finalUrl": "https://framplates.com/omnira",
+  "redirected": false,
+  "status": 200,
+  "statusText": "",
+  "contentLength": 102773,
+  "headers": {
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "public, max-age=14400, s-maxage=3600, stale-while-revalidate=86400",
+    "cf-cache-status": "MISS",
+    "cf-ray": "a60b9e204d50d47b-SIN",
+    "content-encoding": "br",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Thu, 26 Nov 2026 20:24:38 GMT",
+    "last-modified": "Thu, 26 Nov 2026 20:24:38 GMT",
+    "link": "<./_app/immutable/assets/0.DynPFHLS.css>; rel=\"preload\";as=\"style\"; nopush, <./_app/immutable/assets/3.BmsqEGrC.css>; rel=\"preload\";as=\"style\"; nopush, <./_app/immutable/entry/start.D4hQF9mG.js>; rel=\"modulepreload\"; nopush, <./_app/immutable/chunks/entry.BZMGhk5G.js>; rel=\"modulepreload\"; nopush, <./_app/immutable/chunks/scheduler.BiIb2Ump.js>; rel=\"modulepreload\"; nopush, <./_app/immutable/entry/app.DQGsr8-Y.js>; rel=\"modulepreload\"; nopush, <./_app/immutable/chunks/preload-helper.C1FmrZbK.js>; rel=\"modulepreload\"; nopush, <./_app/immutable/chunks/index.BbnwF3O0.js>; rel=\"modulepreload\"; nopush, <./_app/immutable/nodes/0.CnjsumMm.js>; rel=\"modulepreload\"; nopush, <./_app/immutable/chunks/_constants.UAkYvr3O.js>; rel=\"modulepreload\"; nopush, <./_app/immutable/chunks/stores.CZP5BG7p.js>; rel=\"modulepreload\"; nopush, <./_app/immutable/chunks/stores.CNDcWArV.js>; rel=\"modulepreload\"; nopush, <./_app/immutable/nodes/3.CSxvAJu6.js>; rel=\"modulepreload\"; nopush, <./_app/immutable/chunks/CreatorLinks.Bms7tlPw.js>; rel=\"modulepreload\"; nopush, <./_app/immutable/chunks/img.CFcD0g1n.js>; rel=\"modulepreload\"; nopush",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=VmZPYaqjOQnN2x%2Bnk2M7J7WsC3KqLKxNhl1bSPZkj%2FwC9E5Ro4jMQk%2FDmq18g2DaeF9t60%2FfXbd1jwV3RDA55aIKN34MjVTduAAJ74%2FRi8Bp4Zkm1Y4PjCxt%2BHBxfOLhYw%3D%3D\"}]}",
+    "server": "cloudflare",
+    "server-timing": "cfCacheStatus;desc=\"MISS\", cfEdge;dur=23,cfOrigin;dur=1466",
+    "vary": "accept-encoding",
+    "x-sveltekit-page": "true"
+  }
+}

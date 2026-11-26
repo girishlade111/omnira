@@ -1,34 +1,29 @@
 {
   "name": "omnira",
   "version": "1.0.0",
-  "description": "Omnira — a modular Node.js application framework for building scalable, production-ready services.",
-  "main": "src/index.js",
+  "description": "Omnira — AI Engineering Studio & Product Design Partner web application built with Next.js App Router, TypeScript, and CSS Modules.",
+  "private": true,
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "jest --coverage",
-    "lint": "eslint src/**/*.js",
-    "format": "prettier --write src/**/*.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,md}\" \"tests/**/*.{ts,tsx}\" \"scripts/**/*.{ts,mjs,js}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css,md}\" \"tests/**/*.{ts,tsx}\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
   },
   "keywords": [
-    "nodejs",
-    "framework",
-    "api",
-    "modular",
-    "scalable"
+    "omnira",
+    "nextjs",
+    "typescript",
+    "ai-studio",
+    "app-router"
   ],
   "author": "girishlade111",
   "license": "MIT",
-  "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
-  },
-  "devDependencies": {
-    "eslint": "^9.9.0",
-    "jest": "^29.7.0",
-    "nodemon": "^3.1.4",
-    "prettier": "^3.3.3"
-  },
   "engines": {
     "node": ">=18.0.0"
   }
