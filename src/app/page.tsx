@@ -1,15 +1,29 @@
-import styles from './page.module.css';
+import type { Metadata } from 'next';
+import { FAQSection, TestimonialsSection } from '@/components/common';
+import {
+  AboutPreview,
+  Hero,
+  PricingSection,
+  ProcessSection,
+  SelectedWorks,
+  ServiceSelector,
+} from '@/components/home';
+
+export const metadata: Metadata = {
+  title: 'Omnira | Futuristic Portfolio & Digital Systems',
+};
 
 export default function HomePage() {
   return (
-    <main className={styles.main}>
-      <section className={styles.card}>
-        <h1 className={styles.title}>Omnira</h1>
-        <p className={styles.subtitle}>
-          Next.js App Router workspace scaffolded with TypeScript, CSS Modules, and design token
-          custom properties.
-        </p>
-      </section>
-    </main>
+    <>
+      <Hero />
+      <SelectedWorks />
+      <ProcessSection />
+      <AboutPreview />
+      <ServiceSelector />
+      <TestimonialsSection />
+      <PricingSection />
+      <FAQSection mode="home" />
+    </>
   );
 }

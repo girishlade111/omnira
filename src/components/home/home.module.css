@@ -1,0 +1,796 @@
+.sectionStack {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.panelDots {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.panelDots span {
+  width: 4px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.28);
+}
+
+/* Hero */
+.heroWrap {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 16px 28px;
+  gap: 36px;
+}
+
+.heroMainGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.heroLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.heroDesc {
+  margin: 0;
+  max-width: 46ch;
+  font-family: var(--body-font);
+  font-size: var(--text-sm-size);
+  line-height: var(--text-sm-line);
+  color: var(--color-text-muted);
+}
+
+.heroCtas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.heroRight {
+  display: none;
+}
+
+.heroPortraitBox {
+  width: 100%;
+}
+
+.heroBottomBar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 12px;
+}
+
+.heroRuleWrap {
+  display: none;
+}
+
+.scrollHintLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--body-font);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}
+
+.scrollHintLink:hover {
+  color: var(--color-accent);
+}
+
+/* Selected Works */
+.selectedGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.selectedFooterRow {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Process */
+.processGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.phaseButton {
+  appearance: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  display: flex;
+}
+
+.phaseCard {
+  width: 100%;
+}
+
+.phaseCardInner {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  height: 100%;
+}
+
+.phaseTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.phaseIconBox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: var(--color-text-secondary);
+}
+
+.phaseIconBoxActive {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.phaseTitle {
+  margin: 0;
+  font-family: var(--heading-font);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.phaseDesc {
+  margin: 0;
+  font-family: var(--body-font);
+  font-size: 13px;
+  line-height: 19px;
+  color: var(--color-text-muted);
+  flex: 1;
+}
+
+.phaseFoot {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.phaseCode {
+  font-family: var(--body-font);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+
+.phaseCodeActive {
+  color: var(--color-accent);
+}
+
+.phaseBarTrack {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.phaseBarFill {
+  display: block;
+  width: 28%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: width var(--duration-medium) ease, background-color var(--duration-fast) ease;
+}
+
+.phaseBarFillActive {
+  width: 100%;
+  background-color: var(--color-accent);
+}
+
+.processMetricsRow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  padding: 20px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.processMetricItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+}
+
+.processMetricValue {
+  font-family: var(--heading-font);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  color: var(--color-accent);
+}
+
+.processMetricLabel {
+  font-family: var(--body-font);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+
+/* About Preview */
+.aboutPreviewGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.aboutProfilePanel {
+  width: 100%;
+}
+
+.aboutProfileInner {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.aboutStatusTop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.aboutRoleLabel {
+  font-family: var(--body-font);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+
+.aboutStatsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.aboutStatBox {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.aboutStatNum {
+  font-family: var(--heading-font);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  color: var(--color-accent);
+}
+
+.aboutStatLabel {
+  font-family: var(--body-font);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+
+.aboutChipsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.aboutChip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-family: var(--body-font);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--color-text-secondary);
+}
+
+.aboutChipDot {
+  width: 5px;
+  height: 5px;
+  background-color: var(--color-accent);
+}
+
+.aboutPanelFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.aboutTagline {
+  margin: 0;
+  font-family: var(--body-font);
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.aboutPanelLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--body-font);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--color-accent);
+}
+
+.capabilitiesColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.capabilityCard {
+  width: 100%;
+}
+
+.capabilityInner {
+  padding: 16px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.capabilityLeft {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.capabilityIconBox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.capabilityTextGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.capabilityTitle {
+  margin: 0;
+  font-family: var(--heading-font);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.capabilityDesc {
+  margin: 0;
+  font-family: var(--body-font);
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.capabilityCode {
+  font-family: var(--heading-font);
+  font-size: 12px;
+  color: var(--color-accent);
+}
+
+.worldwidePanel {
+  width: 100%;
+}
+
+.worldwideInner {
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--body-font);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+}
+
+.worldwideDot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+}
+
+/* Interactive Services */
+.servicesSplit {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.servicesAccordionCol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.serviceAccordionCard {
+  width: 100%;
+}
+
+.serviceAccordionInner {
+  padding: 0;
+}
+
+.serviceTabBtn {
+  appearance: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 20px;
+  background: transparent;
+  border: none;
+  text-align: left;
+  color: var(--color-text-primary);
+}
+
+.serviceTabLeft {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.serviceTabIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--color-text-secondary);
+}
+
+.serviceTabIconActive {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.serviceTabTitle {
+  font-family: var(--heading-font);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.serviceTabArrow {
+  font-family: var(--heading-font);
+  font-size: 16px;
+  color: var(--color-text-muted);
+}
+
+.serviceTabBody {
+  padding: 0 20px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.serviceTabDesc {
+  margin: 0;
+  font-family: var(--body-font);
+  font-size: 13px;
+  line-height: 19px;
+  color: var(--color-text-muted);
+}
+
+.serviceDeliverableList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 14px;
+}
+
+.serviceDeliverableItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--body-font);
+  font-size: 12px;
+  color: var(--color-text-secondary);
+}
+
+.serviceCheckIcon {
+  display: inline-flex;
+  color: var(--color-accent);
+}
+
+.servicesGraphicCol {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Pricing */
+.pricingGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  align-items: stretch;
+}
+
+.pricingCard {
+  width: 100%;
+}
+
+.pricingCardInner {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+
+.pricingHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pricingHeaderLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pricingIconBox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: var(--color-text-secondary);
+}
+
+.pricingIconBoxFeatured {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.pricingPlanName {
+  margin: 0;
+  font-family: var(--heading-font);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.pricingPlanDesc {
+  margin: 2px 0 0;
+  font-family: var(--body-font);
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.pricingPriceRow {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 14px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pricingAmount {
+  font-family: var(--heading-font);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42px;
+  color: var(--color-text-primary);
+}
+
+.pricingCurrency {
+  font-family: var(--body-font);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+
+.pricingFeatures {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.pricingFeatureItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--body-font);
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.pricingCheck {
+  display: inline-flex;
+  color: var(--color-accent);
+}
+
+.pricingCtaWrap {
+  margin-top: 4px;
+}
+
+.assurancePanel {
+  width: 100%;
+}
+
+.assuranceGrid {
+  padding: 16px 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.assuranceItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.assuranceDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.assuranceTitle {
+  margin: 0;
+  font-family: var(--heading-font);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.assuranceSubtitle {
+  margin: 2px 0 0;
+  font-family: var(--body-font);
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 810px) {
+  .heroWrap {
+    padding: 56px 48px 32px;
+  }
+
+  .heroRight {
+    display: block;
+  }
+
+  .heroMainGrid {
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 32px;
+  }
+
+  .heroRuleWrap {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 0 12px;
+  }
+
+  .heroRuleAccent {
+    width: 64px;
+    height: 1px;
+    background-color: var(--color-accent);
+  }
+
+  .heroRuleLine {
+    flex: 1;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+
+  .selectedGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .processGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .assuranceGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1200px) {
+  .sectionStack {
+    gap: 44px;
+  }
+
+  .heroWrap {
+    padding: 72px 96px 36px;
+  }
+
+  .heroMainGrid {
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 48px;
+  }
+
+  .selectedGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .processGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .aboutPreviewGrid {
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 20px;
+  }
+
+  .servicesSplit {
+    grid-template-columns: 0.95fr 1.05fr;
+    gap: 40px;
+  }
+
+  .pricingGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .assuranceGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
