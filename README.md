@@ -1,262 +1,45 @@
-# Omnira
+# Omnira Portfolio Reconstruction
 
-> A modular, scalable Node.js application framework for building production-ready REST APIs and backend services.
+Independent Next.js App Router + TypeScript reconstruction of the [Omnira](https://omnira.framer.website/) portfolio website, built from controlled browser forensics, decoded CMS schemas, verified typography (`Orbitron`, `Chakra Petch`, `Inter`), local optimized assets, and automated visual/geometry/accessibility verification.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+## Routes
 
----
-
-## Table of Contents
-
-- [About](#about)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Environment Setup](#environment-setup)
-  - [Running the App](#running-the-app)
-- [API Endpoints](#api-endpoints)
-- [Scripts](#scripts)
-- [Testing](#testing)
-- [Environment Variables](#environment-variables)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
-## About
-
-**Omnira** is a clean, opinionated Node.js backend framework designed for speed and maintainability. It provides a structured project layout, pre-configured tooling (ESLint, Prettier, Jest), and an Express-based HTTP server out of the box — so you can focus on writing business logic rather than setup.
-
-The name *Omnira* derives from the concept of an all-encompassing, omnidirectional flow — representing a backend that seamlessly handles requests from every direction.
-
----
-
-## Features
-
-- **Express.js** HTTP server with JSON middleware
-- **Modular architecture** — easy to extend with routes, controllers, and services
-- **Environment variable management** via `dotenv`
-- **Developer experience** — hot-reload with `nodemon`, linting with ESLint, formatting with Prettier
-- **Testing** — Jest with coverage reporting
-- **Production-ready defaults** — proper `.gitignore`, `.env.example`, and engine constraints
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Runtime | Node.js >= 18 |
-| Framework | Express.js 4.x |
-| Testing | Jest 29.x |
-| Linting | ESLint 9.x |
-| Formatting | Prettier 3.x |
-| Dev Server | Nodemon 3.x |
-| Config | dotenv 16.x |
-
----
-
-## Project Structure
-
-```
-omnira/
-├── src/
-│   └── index.js          # Application entry point
-├── tests/                # Unit and integration tests
-├── .env.example          # Template for environment variables
-├── .gitignore            # Files excluded from version control
-├── package.json          # Project manifest and scripts
-└── README.md             # Project documentation
-```
-
-As the project grows, the recommended structure is:
-
-```
-omnira/
-├── src/
-│   ├── config/           # Configuration loaders (db, app settings)
-│   ├── controllers/      # Route handler logic
-│   ├── middleware/        # Custom Express middleware
-│   ├── models/           # Database schemas / models
-│   ├── routes/           # Express router definitions
-│   ├── services/         # Business logic layer
-│   ├── utils/            # Shared utility functions
-│   └── index.js          # App bootstrap
-├── tests/
-│   ├── unit/
-│   └── integration/
-├── .env.example
-├── .gitignore
-├── package.json
-└── README.md
-```
-
----
-
-## Getting Started
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) >= 18.0.0
-- [npm](https://www.npmjs.com/) >= 9.0.0 (bundled with Node.js)
-- [Git](https://git-scm.com/)
-
-Verify your versions:
-
-```bash
-node --version
-npm --version
-git --version
-```
-
-### Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/girishlade111/omnira.git
-   cd omnira
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-### Environment Setup
-
-1. Copy the example environment file:
-
-   ```bash
-   cp .env.example .env
-   ```
-
-2. Open `.env` and fill in your values:
-
-   ```env
-   PORT=3000
-   NODE_ENV=development
-   DATABASE_URL=mongodb://localhost:27017/omnira
-   JWT_SECRET=your_super_secret_key_here
-   ```
-
-   > **Never commit your `.env` file.** It is listed in `.gitignore` to prevent accidental exposure of secrets.
-
-### Running the App
-
-**Development mode** (with hot-reload via nodemon):
-
-```bash
-npm run dev
-```
-
-**Production mode:**
-
-```bash
-npm start
-```
-
-The server starts at `http://localhost:3000` by default.
-
----
-
-## API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/` | Welcome message and version info |
-| GET | `/health` | Server health check with uptime |
-
-**Example responses:**
-
-```bash
-# GET /
-curl http://localhost:3000/
-# {"message":"Welcome to Omnira","version":"1.0.0","status":"running"}
-
-# GET /health
-curl http://localhost:3000/health
-# {"status":"ok","uptime":42.153}
-```
-
----
+- `/` : Homepage (Loading dissolve, asymmetric Hero with Canvas 2D dot-matrix halftone portrait and 3D `rotateX` barrel headline, 6 featured projects, 4-phase Process section, About preview, click-only Services selector with 4-layer isometric stack, 6-slide Testimonials carousel + 8 partner logos, 3 Pricing tiers, 8-item FAQ, and technical Footer).
+- `/works` : Complete 27-project portfolio catalog reconciled across SSR (`12`) and client-side CMS (`27`) with URL-synced category filters (`ALL PROJECTS`, `AI`, `BUSINESS`, `ONE PAGE`, `PORTFOLIO`).
+- `/about` : Profile System hero with monochrome portrait frame, biography + signature + `ProfileDetails`, 5-step interactive `TerminalPanel` with 5-layer isometric stack and safe demonstration runner, 4-column `ServicesGrid`, 7-year `CareerTimeline` (`2020`-`2026`), 4-category `ToolsSelector` (`16` tools), and Testimonials.
+- `/contact` : Contact channel status, Email and Location cards, `ProjectInquiryForm` with custom ARIA `TechnicalSelect` dropdowns (zero native `<select>`), and 8-item FAQ.
+- `/_not-found` : Custom 404 page returning HTTP 404 for unknown routes.
+- `/api/contact` : Zod-validated `POST` endpoint with honeypot filtering, sliding-window rate limiting, and explicit `demo` vs `webhook` delivery modes.
+- `/sitemap.xml` and `/robots.txt` : Dynamic Next.js metadata routes.
 
 ## Scripts
 
-| Command | Description |
-|---------|-------------|
-| `npm start` | Start the server in production mode |
-| `npm run dev` | Start with hot-reload (nodemon) |
-| `npm test` | Run all tests with Jest |
-| `npm run lint` | Lint source files with ESLint |
-| `npm run format` | Auto-format source files with Prettier |
-
----
-
-## Testing
-
-Omnira uses [Jest](https://jestjs.io/) for testing.
-
-Run tests:
-
 ```bash
-npm test
+npm run dev         # Start development server
+npm run build       # Production build (Next.js App Router)
+npm run start       # Start production preview server
+npm run typecheck   # TypeScript type checking (tsc --noEmit)
+npm run lint        # ESLint across repository
+npx vitest run      # Unit and API route integration tests
 ```
 
-Run tests with coverage:
+## Verification Suite (`scripts/testing/`)
 
-```bash
-npm test -- --coverage
-```
+- `scripts/testing/run-all.ts` : Boots a production preview server and runs:
+  - `check-routes.ts` : HTTP statuses (200/404), console/page errors.
+  - `check-assets.ts` : Image decoding, WOFF2 font loading (`Orbitron`, `Chakra Petch`), zero-size SVG checks.
+  - `check-overflow.ts` : Horizontal overflow audit at `1440`, `1024`, `768`, `390`, `320px`.
+  - `check-interactions.ts` : Works filters, Services tabs, Testimonials carousel, FAQ accordions, Terminal steps, System Stack tabs, Contact validation + custom dropdowns + demo submit, Mobile drawer.
+  - `compare-geometry.ts` : Computed typography, rail widths, and frame geometry vs live reference measurements.
+  - `compare-screenshots.ts` : Pixelmatch and SSIM visual regression (`research/comparisons/`).
+  - `check-a11y-perf.ts` : `@axe-core/playwright` WCAG 2.1 AA audit and LCP/CLS measurement.
 
-Coverage reports are generated in the `coverage/` directory (excluded from git).
+## Environment Setup
 
----
+Copy `.env.example` to `.env.local` and configure as needed. By default, `CONTACT_FORM_MODE=demo` validates and simulates form submissions locally without transmitting external emails.
 
-## Environment Variables
+## Documentation
 
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `PORT` | `3000` | Port the HTTP server listens on |
-| `NODE_ENV` | `development` | Application environment (`development`, `test`, `production`) |
-| `DATABASE_URL` | — | MongoDB (or other DB) connection string |
-| `JWT_SECRET` | — | Secret key for JWT signing |
-
-Always use `.env.example` as the reference template and never commit actual secrets.
-
----
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -m "feat: add your feature"`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Open a Pull Request
-
-Please follow the [Conventional Commits](https://www.conventionalcommits.org/) specification for commit messages.
-
----
-
-## License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Contact
-
-**girishlade111** — [@girishlade111](https://github.com/girishlade111)
-
-Project link: [https://github.com/girishlade111/omnira](https://github.com/girishlade111/omnira)
+- Research findings: `docs/research/`
+- Implementation guides: `docs/implementation/`
+- Verification reports: `docs/testing/`
