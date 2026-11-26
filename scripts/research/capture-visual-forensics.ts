@@ -54,7 +54,11 @@ async function waitForPageReady(page: Page, settleMs = 3400) {
       })
     );
   });
-  await page.waitForTimeout(settleMs);
+  await page.waitForFunction(
+    () => !document.querySelector('[style*="2147483647"]'),
+    { timeout: 10000 }
+  ).catch(() => {});
+  await page.waitForTimeout(Math.min(settleMs, 900));
 }
 
 async function triggerAllReveals(page: Page) {
@@ -567,18 +571,14 @@ async function captureScreenshotsAcrossViewports(context: BrowserContext) {
 
       // Mobile menu open state capture on home
       if (vp.checkMenu && r.name === "home") {
-        const menuTrigger = page.locator("header button, nav button, [aria-label*='menu' i], [data-framer-name*='Menu' i], [data-framer-name*='Hamburger' i]").first();
+        const menuTrigger = page.locator('[data-framer-name="Open"], header button, nav button, [aria-label*="menu" i]').first();
         if ((await menuTrigger.count()) > 0) {
           await menuTrigger.click({ force: true }).catch(() => {});
-          await page.waitForTimeout(500);
+          await page.waitForTimeout(600);
           await page.screenshot({ path: path.join(dir, `home-mobile-menu-open.png`), fullPage: false });
-          await menuTrigger.click({ force: true }).catch(() => {});
+          const closeTrigger = page.locator('[data-framer-name="Close"], [data-framer-name="Open"]').first();
+          await closeTrigger.click({ force: true }).catch(() => {});
           await page.waitForTimeout(300);
-        } else {
-          // fallback: click top-right area of header where hamburger icon sits
-          await page.mouse.click(vp.width - 36, 36);
-          await page.waitForTimeout(500);
-          await page.screenshot({ path: path.join(dir, `home-mobile-menu-open-fallback.png`), fullPage: false });
         }
       }
     }
