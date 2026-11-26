@@ -1,6 +1,6 @@
 {
   "baseUrl": "http://localhost:3050",
-  "generatedAt": "2026-11-26T21:38:40.387Z",
+  "generatedAt": "2026-11-26T21:52:19.340Z",
   "allOverflowFree": true,
   "implCustomFontsOk": true,
   "referenceKeyTypography": {
@@ -74,7 +74,7 @@
       "measured": {
         "scrollWidth": 1440,
         "clientWidth": 1440,
-        "scrollHeight": 7420,
+        "scrollHeight": 7394,
         "overflowX": false,
         "outerFrameWidth": 1398,
         "mainContentWidth": 1398,
@@ -89,7 +89,7 @@
         ]
       },
       "referenceHeight": 15683,
-      "heightDeltaPx": -8263,
+      "heightDeltaPx": -8289,
       "passed": true
     },
     {
@@ -204,7 +204,7 @@
       "measured": {
         "scrollWidth": 1024,
         "clientWidth": 1024,
-        "scrollHeight": 9805,
+        "scrollHeight": 9804,
         "overflowX": false,
         "outerFrameWidth": 1022,
         "mainContentWidth": 1022,
@@ -219,7 +219,7 @@
         ]
       },
       "referenceHeight": 11073,
-      "heightDeltaPx": -1268,
+      "heightDeltaPx": -1269,
       "passed": true
     },
     {
@@ -230,7 +230,7 @@
       "measured": {
         "scrollWidth": 1024,
         "clientWidth": 1024,
-        "scrollHeight": 8718,
+        "scrollHeight": 8762,
         "overflowX": false,
         "outerFrameWidth": 1022,
         "mainContentWidth": 1022,
@@ -245,7 +245,7 @@
         ]
       },
       "referenceHeight": 11091,
-      "heightDeltaPx": -2373,
+      "heightDeltaPx": -2329,
       "passed": true
     },
     {
@@ -493,7 +493,7 @@
       "fontSize": "14px",
       "lineHeight": "20px",
       "fontWeight": "500",
-      "color": "rgba(255, 255, 255, 0.72)",
+      "color": "rgba(255, 255, 255, 0.88)",
       "platformFonts": [
         {
           "familyName": "Chakra Petch Medium",
@@ -509,7 +509,7 @@
       "fontSize": "14px",
       "lineHeight": "20px",
       "fontWeight": "500",
-      "color": "rgba(255, 255, 255, 0.72)",
+      "color": "rgba(255, 255, 255, 0.88)",
       "platformFonts": [
         {
           "familyName": "Chakra Petch Medium",
@@ -525,7 +525,7 @@
       "fontSize": "14px",
       "lineHeight": "20px",
       "fontWeight": "500",
-      "color": "rgba(255, 255, 255, 0.72)",
+      "color": "rgba(255, 255, 255, 0.88)",
       "platformFonts": [
         {
           "familyName": "Chakra Petch Medium",
@@ -555,7 +555,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -619,7 +619,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -651,7 +651,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -683,7 +683,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -715,7 +715,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -747,7 +747,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -779,7 +779,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -843,7 +843,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -875,7 +875,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -907,7 +907,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -939,7 +939,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -1019,7 +1019,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -1051,7 +1051,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]
@@ -1083,7 +1083,7 @@
       "color": "rgb(255, 255, 255)",
       "platformFonts": [
         {
-          "familyName": "Orbitron Black",
+          "familyName": "Orbitron",
           "isCustomFont": true
         }
       ]

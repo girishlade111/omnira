@@ -1,6 +1,6 @@
 {
   "baseUrl": "http://localhost:3050",
-  "generatedAt": "2026-11-26T21:39:23.951Z",
+  "generatedAt": "2026-11-26T21:53:01.816Z",
   "results": [
     {
       "route": "home",
@@ -23,10 +23,10 @@
             "height": 900
           },
           "heightDeltaPx": 0,
-          "mismatchedPixels": 129259,
+          "mismatchedPixels": 121367,
           "totalPixels": 1296000,
-          "diffPercent": 9.974,
-          "ssimScore": 0.4834
+          "diffPercent": 9.365,
+          "ssimScore": 0.4846
         },
         {
           "kind": "fullpage",
@@ -36,17 +36,17 @@
           },
           "implementationDimensions": {
             "width": 1440,
-            "height": 7420
+            "height": 7394
           },
           "matchedDimensions": {
             "width": 1440,
-            "height": 7420
+            "height": 7394
           },
-          "heightDeltaPx": -8263,
-          "mismatchedPixels": 638533,
-          "totalPixels": 10684800,
-          "diffPercent": 5.976,
-          "ssimScore": 0.5651
+          "heightDeltaPx": -8289,
+          "mismatchedPixels": 620919,
+          "totalPixels": 10647360,
+          "diffPercent": 5.832,
+          "ssimScore": 0.5557
         }
       ]
     },
@@ -71,10 +71,10 @@
             "height": 900
           },
           "heightDeltaPx": 0,
-          "mismatchedPixels": 173433,
+          "mismatchedPixels": 170043,
           "totalPixels": 1296000,
-          "diffPercent": 13.382,
-          "ssimScore": 0.528
+          "diffPercent": 13.121,
+          "ssimScore": 0.53
         },
         {
           "kind": "fullpage",
@@ -91,10 +91,10 @@
             "height": 6592
           },
           "heightDeltaPx": -673,
-          "mismatchedPixels": 532321,
+          "mismatchedPixels": 525116,
           "totalPixels": 9492480,
-          "diffPercent": 5.608,
-          "ssimScore": 0.3976
+          "diffPercent": 5.532,
+          "ssimScore": 0.3975
         }
       ]
     },
@@ -119,10 +119,10 @@
             "height": 900
           },
           "heightDeltaPx": 0,
-          "mismatchedPixels": 360248,
+          "mismatchedPixels": 355221,
           "totalPixels": 1296000,
-          "diffPercent": 27.797,
-          "ssimScore": 0.4957
+          "diffPercent": 27.409,
+          "ssimScore": 0.5018
         },
         {
           "kind": "fullpage",
@@ -139,10 +139,10 @@
             "height": 4411
           },
           "heightDeltaPx": -293,
-          "mismatchedPixels": 1435460,
+          "mismatchedPixels": 1429227,
           "totalPixels": 6351840,
-          "diffPercent": 22.599,
-          "ssimScore": 0.4651
+          "diffPercent": 22.501,
+          "ssimScore": 0.465
         }
       ]
     },
@@ -167,10 +167,10 @@
             "height": 900
           },
           "heightDeltaPx": 0,
-          "mismatchedPixels": 68702,
+          "mismatchedPixels": 66442,
           "totalPixels": 1296000,
-          "diffPercent": 5.301,
-          "ssimScore": 0.6703
+          "diffPercent": 5.127,
+          "ssimScore": 0.6706
         },
         {
           "kind": "fullpage",
@@ -187,9 +187,9 @@
             "height": 2328
           },
           "heightDeltaPx": -19,
-          "mismatchedPixels": 184187,
+          "mismatchedPixels": 180753,
           "totalPixels": 3352320,
-          "diffPercent": 5.494,
+          "diffPercent": 5.392,
           "ssimScore": 0.554
         }
       ]
@@ -215,10 +215,10 @@
             "height": 900
           },
           "heightDeltaPx": 0,
-          "mismatchedPixels": 118866,
+          "mismatchedPixels": 69464,
           "totalPixels": 1296000,
-          "diffPercent": 9.172,
-          "ssimScore": 0.696
+          "diffPercent": 5.36,
+          "ssimScore": 0.7643
         },
         {
           "kind": "fullpage",
@@ -235,10 +235,10 @@
             "height": 1420
           },
           "heightDeltaPx": -145,
-          "mismatchedPixels": 181097,
+          "mismatchedPixels": 130704,
           "totalPixels": 2044800,
-          "diffPercent": 8.856,
-          "ssimScore": 0.6458
+          "diffPercent": 6.392,
+          "ssimScore": 0.6786
         }
       ]
     },
@@ -263,10 +263,10 @@
             "height": 844
           },
           "heightDeltaPx": 0,
-          "mismatchedPixels": 60080,
+          "mismatchedPixels": 58984,
           "totalPixels": 329160,
-          "diffPercent": 18.253,
-          "ssimScore": 0.4157
+          "diffPercent": 17.92,
+          "ssimScore": 0.4185
         },
         {
           "kind": "fullpage",
@@ -283,10 +283,10 @@
             "height": 11901
           },
           "heightDeltaPx": -1310,
-          "mismatchedPixels": 771440,
+          "mismatchedPixels": 767290,
           "totalPixels": 4641390,
-          "diffPercent": 16.621,
-          "ssimScore": 0.3341
+          "diffPercent": 16.531,
+          "ssimScore": 0.3344
         }
       ]
     },
@@ -311,10 +311,10 @@
             "height": 844
           },
           "heightDeltaPx": 0,
-          "mismatchedPixels": 30272,
+          "mismatchedPixels": 29058,
           "totalPixels": 329160,
-          "diffPercent": 9.197,
-          "ssimScore": 0.4246
+          "diffPercent": 8.828,
+          "ssimScore": 0.4236
         },
         {
           "kind": "fullpage",
@@ -331,9 +331,9 @@
             "height": 11003
           },
           "heightDeltaPx": 346,
-          "mismatchedPixels": 385537,
+          "mismatchedPixels": 381547,
           "totalPixels": 4291170,
-          "diffPercent": 8.984,
+          "diffPercent": 8.891,
           "ssimScore": 0.3785
         }
       ]
@@ -359,10 +359,10 @@
             "height": 844
           },
           "heightDeltaPx": 0,
-          "mismatchedPixels": 89097,
+          "mismatchedPixels": 88547,
           "totalPixels": 329160,
-          "diffPercent": 27.068,
-          "ssimScore": 0.4425
+          "diffPercent": 26.901,
+          "ssimScore": 0.4435
         },
         {
           "kind": "fullpage",
@@ -379,9 +379,9 @@
             "height": 10403
           },
           "heightDeltaPx": -804,
-          "mismatchedPixels": 1478443,
+          "mismatchedPixels": 1477863,
           "totalPixels": 4057170,
-          "diffPercent": 36.44,
+          "diffPercent": 36.426,
           "ssimScore": 0.2536
         }
       ]
@@ -407,10 +407,10 @@
             "height": 844
           },
           "heightDeltaPx": 0,
-          "mismatchedPixels": 28142,
+          "mismatchedPixels": 27969,
           "totalPixels": 329160,
-          "diffPercent": 8.55,
-          "ssimScore": 0.4626
+          "diffPercent": 8.497,
+          "ssimScore": 0.4616
         },
         {
           "kind": "fullpage",
@@ -427,10 +427,10 @@
             "height": 3565
           },
           "heightDeltaPx": 59,
-          "mismatchedPixels": 137124,
+          "mismatchedPixels": 136203,
           "totalPixels": 1390350,
-          "diffPercent": 9.863,
-          "ssimScore": 0.4168
+          "diffPercent": 9.796,
+          "ssimScore": 0.4169
         }
       ]
     },
@@ -455,10 +455,10 @@
             "height": 844
           },
           "heightDeltaPx": 0,
-          "mismatchedPixels": 72211,
+          "mismatchedPixels": 70166,
           "totalPixels": 329160,
-          "diffPercent": 21.938,
-          "ssimScore": 0.4644
+          "diffPercent": 21.317,
+          "ssimScore": 0.4843
         },
         {
           "kind": "fullpage",
@@ -475,10 +475,10 @@
             "height": 1722
           },
           "heightDeltaPx": -343,
-          "mismatchedPixels": 114647,
+          "mismatchedPixels": 111726,
           "totalPixels": 671580,
-          "diffPercent": 17.071,
-          "ssimScore": 0.3921
+          "diffPercent": 16.636,
+          "ssimScore": 0.4015
         }
       ]
     }

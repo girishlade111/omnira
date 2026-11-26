@@ -1,6 +1,6 @@
 {
   "baseUrl": "http://localhost:3050",
-  "generatedAt": "2026-11-26T21:39:39.829Z",
+  "generatedAt": "2026-11-26T21:53:16.901Z",
   "firstSkipFocus": "Skip to content",
   "routes": [
     {
@@ -12,28 +12,10 @@
     },
     {
       "route": "/about",
-      "violationCount": 1,
-      "criticalAndSeriousCount": 1,
+      "violationCount": 0,
+      "criticalAndSeriousCount": 0,
       "passesCount": 29,
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "nodes": 4,
-          "targets": [
-            [
-              "._65-7Xq_timelineRow:nth-child(2) > ._65-7Xq_timelineYearCol > ._65-7Xq_timelineYearBtn"
-            ],
-            [
-              "._65-7Xq_timelineRow:nth-child(3) > ._65-7Xq_timelineYearCol > ._65-7Xq_timelineYearBtn"
-            ],
-            [
-              "._65-7Xq_timelineRow:nth-child(5) > ._65-7Xq_timelineYearCol > ._65-7Xq_timelineYearBtn"
-            ]
-          ]
-        }
-      ]
+      "violations": []
     },
     {
       "route": "/works",

@@ -1,6 +1,6 @@
 {
   "baseUrl": "http://localhost:3050",
-  "generatedAt": "2026-11-26T21:37:33.538Z",
+  "generatedAt": "2026-11-26T21:51:13.059Z",
   "totalFailures": 0,
   "routeReports": [
     {
@@ -15,9 +15,9 @@
       ],
       "canvases": [
         {
-          "width": 413,
+          "width": 459,
           "height": 460,
-          "attrW": 413,
+          "attrW": 459,
           "attrH": 460
         }
       ],

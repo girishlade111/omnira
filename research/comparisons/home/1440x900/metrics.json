@@ -19,10 +19,10 @@
         "height": 900
       },
       "heightDeltaPx": 0,
-      "mismatchedPixels": 129259,
+      "mismatchedPixels": 121367,
       "totalPixels": 1296000,
-      "diffPercent": 9.974,
-      "ssimScore": 0.4834
+      "diffPercent": 9.365,
+      "ssimScore": 0.4846
     },
     {
       "kind": "fullpage",
@@ -32,17 +32,17 @@
       },
       "implementationDimensions": {
         "width": 1440,
-        "height": 7420
+        "height": 7394
       },
       "matchedDimensions": {
         "width": 1440,
-        "height": 7420
+        "height": 7394
       },
-      "heightDeltaPx": -8263,
-      "mismatchedPixels": 638533,
-      "totalPixels": 10684800,
-      "diffPercent": 5.976,
-      "ssimScore": 0.5651
+      "heightDeltaPx": -8289,
+      "mismatchedPixels": 620919,
+      "totalPixels": 10647360,
+      "diffPercent": 5.832,
+      "ssimScore": 0.5557
     }
   ]
 }

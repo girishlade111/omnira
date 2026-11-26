@@ -1,6 +1,6 @@
 {
   "baseUrl": "http://localhost:3050",
-  "generatedAt": "2026-11-26T21:38:00.201Z",
+  "generatedAt": "2026-11-26T21:51:39.878Z",
   "failures": 0,
   "checks": [
     {
@@ -221,78 +221,7 @@
       "scrollWidth": 320,
       "clientWidth": 320,
       "overflowX": false,
-      "offenders": [
-        {
-          "tag": "div",
-          "text": "TERMINALSTATUS:IN PROGRESSINPUTUnderstan",
-          "left": 33,
-          "right": 323,
-          "width": 290
-        },
-        {
-          "tag": "svg",
-          "text": "",
-          "left": 33,
-          "right": 323,
-          "width": 290
-        },
-        {
-          "tag": "path",
-          "text": "",
-          "left": 33,
-          "right": 322,
-          "width": 289
-        },
-        {
-          "tag": "image",
-          "text": "",
-          "left": 33,
-          "right": 323,
-          "width": 290
-        },
-        {
-          "tag": "div",
-          "text": "TERMINALSTATUS:IN PROGRESSINPUTUnderstan",
-          "left": 33,
-          "right": 323,
-          "width": 290
-        },
-        {
-          "tag": "div",
-          "text": "TERMINALSTATUS:IN PROGRESS",
-          "left": 33,
-          "right": 323,
-          "width": 290
-        },
-        {
-          "tag": "div",
-          "text": "INPUTUnderstand your goals, audience and",
-          "left": 33,
-          "right": 323,
-          "width": 290
-        },
-        {
-          "tag": "div",
-          "text": "omnira@terminal: -$purpose + structure +",
-          "left": 33,
-          "right": 323,
-          "width": 290
-        },
-        {
-          "tag": "div",
-          "text": "OUTPUTREADY TO LAUNCHPolished interface ",
-          "left": 33,
-          "right": 323,
-          "width": 290
-        },
-        {
-          "tag": "svg",
-          "text": "",
-          "left": 33,
-          "right": 323,
-          "width": 290
-        }
-      ]
+      "offenders": []
     },
     {
       "route": "/works",

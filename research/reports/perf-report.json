@@ -1,52 +1,52 @@
 {
   "baseUrl": "http://localhost:3050",
-  "generatedAt": "2026-11-26T21:39:39.831Z",
+  "generatedAt": "2026-11-26T21:53:16.903Z",
   "viewport": "1440x900",
   "routes": [
     {
       "route": "/",
-      "lcpMs": 640,
+      "lcpMs": 636,
       "cls": 0,
       "clsSources": [],
-      "ttfbMs": 6,
-      "domInteractiveMs": 68,
-      "loadEventMs": 219
+      "ttfbMs": 4,
+      "domInteractiveMs": 54,
+      "loadEventMs": 117
     },
     {
       "route": "/about",
-      "lcpMs": 176,
+      "lcpMs": 152,
       "cls": 0,
       "clsSources": [],
-      "ttfbMs": 7,
-      "domInteractiveMs": 39,
-      "loadEventMs": 91
+      "ttfbMs": 5,
+      "domInteractiveMs": 33,
+      "loadEventMs": 76
     },
     {
       "route": "/works",
-      "lcpMs": 120,
-      "cls": 0,
-      "clsSources": [],
-      "ttfbMs": 3,
-      "domInteractiveMs": 34,
-      "loadEventMs": 78
-    },
-    {
-      "route": "/contact",
-      "lcpMs": 300,
+      "lcpMs": 124,
       "cls": 0,
       "clsSources": [],
       "ttfbMs": 2,
-      "domInteractiveMs": 21,
-      "loadEventMs": 96
+      "domInteractiveMs": 31,
+      "loadEventMs": 72
     },
     {
-      "route": "/nonexistent-check-404",
-      "lcpMs": 132,
+      "route": "/contact",
+      "lcpMs": 312,
       "cls": 0,
       "clsSources": [],
       "ttfbMs": 2,
       "domInteractiveMs": 24,
-      "loadEventMs": 70
+      "loadEventMs": 65
+    },
+    {
+      "route": "/nonexistent-check-404",
+      "lcpMs": 128,
+      "cls": 0,
+      "clsSources": [],
+      "ttfbMs": 3,
+      "domInteractiveMs": 35,
+      "loadEventMs": 90
     }
   ]
 }

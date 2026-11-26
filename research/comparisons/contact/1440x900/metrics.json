@@ -19,10 +19,10 @@
         "height": 900
       },
       "heightDeltaPx": 0,
-      "mismatchedPixels": 68702,
+      "mismatchedPixels": 66442,
       "totalPixels": 1296000,
-      "diffPercent": 5.301,
-      "ssimScore": 0.6703
+      "diffPercent": 5.127,
+      "ssimScore": 0.6706
     },
     {
       "kind": "fullpage",
@@ -39,9 +39,9 @@
         "height": 2328
       },
       "heightDeltaPx": -19,
-      "mismatchedPixels": 184187,
+      "mismatchedPixels": 180753,
       "totalPixels": 3352320,
-      "diffPercent": 5.494,
+      "diffPercent": 5.392,
       "ssimScore": 0.554
     }
   ]

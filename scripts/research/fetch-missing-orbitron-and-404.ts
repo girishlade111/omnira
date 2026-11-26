@@ -31,7 +31,6 @@ async function main() {
   console.log('404 Portal DOM:', JSON.stringify(portalInfo, null, 2));
 
   // Capture clean crop of portal if it's canvas/video/img, or download img/poster
-  const targetMedia = portalInfo.videos[0] || portalInfo.imgs[0];
   if (portalInfo.imgs[0]?.src) {
     const r = await fetch(portalInfo.imgs[0].src);
     const buf = Buffer.from(await r.arrayBuffer());
