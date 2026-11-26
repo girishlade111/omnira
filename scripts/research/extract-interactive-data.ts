@@ -457,58 +457,93 @@ async function main() {
     });
   }
 
-  // 3g. Testimonials (Ticker vs Carousel) + Client Satisfaction + Partner logos
-  const testimonialsData = await page.evaluate(() => {
-    const logoCloud = document.querySelector('[data-framer-name="Logo cloud"]');
-    const reviewEls = [...document.querySelectorAll('[data-framer-name="Review"]')];
-    // Find testimonial section root
-    const sec = reviewEls[0]?.closest('section') || reviewEls[0]?.parentElement?.parentElement?.parentElement?.parentElement?.parentElement;
-    const cardsMap = new Map<string, { quote: string; fullName: string; role: string; linkHref: string | null; avatar: string | null; score: string }>();
+  // 3g. Testimonials (Carousel Next/Prev + Client Satisfaction + Partner logos)
+  const testimonialsData = await (async () => {
+    const firstRev = page.locator('[data-framer-name="Review"]').first();
+    if ((await firstRev.count()) > 0) {
+      await firstRev.scrollIntoViewIfNeeded();
+      await page.waitForTimeout(500);
+    }
 
-    for (const rev of reviewEls) {
-      const card = rev.parentElement?.parentElement || rev;
-      const quote = ((rev as HTMLElement).innerText ?? '').replace(/\s+/g, ' ').trim();
-      if (!quote) continue;
-      const fullName = ((card.querySelector('[data-framer-name="Full name"]') as HTMLElement | null)?.innerText ?? '').trim();
-      const role = ((card.querySelector('[data-framer-name="Role"]') as HTMLElement | null)?.innerText ?? '').trim();
-      const linkHref = card.querySelector('a[href]')?.getAttribute('href') || null;
-      const avatar = card.querySelector('[data-framer-name="Avatar"] img')?.getAttribute('src') || null;
-      const score = ((card.querySelector('[data-framer-name="Score"]') as HTMLElement | null)?.innerText ?? '').trim();
-      if (!cardsMap.has(quote)) {
-        cardsMap.set(quote, { quote, fullName, role, linkHref, avatar, score });
+    // Click Next arrow 6 times to make sure all slides hydrate
+    const nextBtn = page.locator('button[aria-label="Next"]').first();
+    for (let k = 0; k < 6; k++) {
+      if ((await nextBtn.count()) > 0) {
+        await nextBtn.click({ force: true }).catch(() => {});
+        await page.waitForTimeout(350);
       }
     }
 
-    // Check if there are any Next/Back arrow controls near testimonials
-    const ticker = sec?.querySelector('[data-framer-name="Ticker"]');
-    const controls = [...(sec?.querySelectorAll('button, [role="button"], [aria-label*="next" i], [aria-label*="prev" i]') ?? [])].map((el) => ({
-      tag: el.tagName,
-      ariaLabel: el.getAttribute('aria-label'),
-      text: ((el as HTMLElement).innerText ?? '').trim(),
-    }));
+    return page.evaluate(() => {
+      const logoCloud = document.querySelector('[data-framer-name="Logo cloud"]');
+      const reviewEls = [...document.querySelectorAll('[data-framer-name="Review"]')];
+      const sec =
+        reviewEls[0]?.closest('[data-framer-name="Testimonials"]') ||
+        reviewEls[0]?.closest('section') ||
+        reviewEls[0]?.parentElement?.parentElement?.parentElement?.parentElement?.parentElement?.parentElement;
 
-    // Client satisfaction / section header
-    const secTextLines = ((sec as HTMLElement | null)?.innerText ?? '')
-      .split('\n')
-      .map((s) => s.trim())
-      .filter(Boolean);
+      const cardsMap = new Map<
+        string,
+        {
+          quote: string;
+          fullName: string;
+          role: string;
+          linkHref: string | null;
+          avatar: string | null;
+          score: string;
+        }
+      >();
 
-    const logos = [...(logoCloud?.querySelectorAll('img') ?? [])].map((img) => ({
-      src: img.getAttribute('src') || '',
-      alt: img.getAttribute('alt') || '',
-    }));
-    const uniqueLogos = [...new Map(logos.map((l) => [l.src, l])).values()];
+      for (const rev of reviewEls) {
+        const card = rev.closest('li') || rev.parentElement?.parentElement?.parentElement || rev;
+        const quote = ((rev as HTMLElement).innerText ?? '').replace(/\s+/g, ' ').trim();
+        if (!quote) continue;
+        const fullName = ((card.querySelector('[data-framer-name="Full name"]') as HTMLElement | null)?.innerText ?? '').trim();
+        const role = ((card.querySelector('[data-framer-name="Role"]') as HTMLElement | null)?.innerText ?? '').trim();
+        const linkHref = card.querySelector('a[href]')?.getAttribute('href') || null;
+        const avatarImg = card.querySelector('[data-framer-name="Avatar"] img, img');
+        const avatar = avatarImg?.getAttribute('src') || null;
+        const score = ((card.querySelector('[data-framer-name="Score"]') as HTMLElement | null)?.innerText ?? '').trim();
+        const key = `${fullName}|${quote}`;
+        if (!cardsMap.has(key)) {
+          cardsMap.set(key, { quote, fullName, role, linkHref, avatar, score });
+        }
+      }
 
-    return {
-      mechanism: ticker ? 'continuous-marquee-ticker' : 'carousel',
-      controlsFound: controls,
-      uniqueTestimonialsCount: cardsMap.size,
-      testimonials: [...cardsMap.values()],
-      sectionHeaderLines: secTextLines.slice(0, 20),
-      uniquePartnerLogosCount: uniqueLogos.length,
-      partnerLogos: uniqueLogos,
-    };
-  });
+      const controls = [
+        ...(sec?.querySelectorAll('button, [role="button"], [aria-label*="next" i], [aria-label*="prev" i]') ?? []),
+      ].map((el) => ({
+        tag: el.tagName,
+        ariaLabel: el.getAttribute('aria-label'),
+        text: ((el as HTMLElement).innerText ?? '').trim(),
+      }));
+
+      // Find Client Satisfaction block anywhere in page text/DOM
+      const satisfactionEl = [...document.querySelectorAll('div, section')].find((el) => {
+        const t = (el as HTMLElement).innerText ?? '';
+        return t.includes('CLIENT SATISFACTION') && t.length < 350;
+      }) as HTMLElement | undefined;
+
+      const logos = [...(logoCloud?.querySelectorAll('img') ?? [])].map((img) => ({
+        src: img.getAttribute('src') || '',
+        alt: img.getAttribute('alt') || '',
+      }));
+      const uniqueLogos = [...new Map(logos.map((l) => [l.src, l])).values()];
+
+      return {
+        mechanism: 'carousel-with-previous-next-buttons',
+        controlsFound: controls,
+        uniqueTestimonialsCount: cardsMap.size,
+        testimonials: [...cardsMap.values()],
+        clientSatisfactionLines: (satisfactionEl?.innerText ?? '')
+          .split('\n')
+          .map((s) => s.trim())
+          .filter(Boolean),
+        uniquePartnerLogosCount: uniqueLogos.length,
+        partnerLogos: uniqueLogos,
+      };
+    });
+  })();
 
   // 3h. Pricing 3 packages + assurance strip
   const homePricing = await page.evaluate(() => {
