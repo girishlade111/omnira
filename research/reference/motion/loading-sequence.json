@@ -1,0 +1,393 @@
+{
+  "url": "https://omnira.framer.website/",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "frames": [
+    {
+      "elapsedMs": 429,
+      "file": "loading-0000ms.png",
+      "overlays": [
+        {
+          "tag": "div",
+          "text": ".stylokit-loader-content { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; overflow: hidden !important; } .",
+          "zIndex": "2147483647",
+          "opacity": "1",
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "zIndex": "54",
+          "opacity": "1",
+          "position": "absolute",
+          "rect": {
+            "x": 713,
+            "y": 8550,
+            "width": 531,
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "elapsedMs": 1290,
+      "file": "loading-0200ms.png",
+      "overlays": [
+        {
+          "tag": "div",
+          "text": ".stylokit-loader-content { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; overflow: hidden !important; } .",
+          "zIndex": "2147483647",
+          "opacity": "1",
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "zIndex": "54",
+          "opacity": "1",
+          "position": "absolute",
+          "rect": {
+            "x": 713,
+            "y": 8550,
+            "width": 531,
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "elapsedMs": 1452,
+      "file": "loading-0450ms.png",
+      "overlays": [
+        {
+          "tag": "div",
+          "text": ".stylokit-loader-content { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; overflow: hidden !important; } .",
+          "zIndex": "2147483647",
+          "opacity": "1",
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "zIndex": "54",
+          "opacity": "1",
+          "position": "absolute",
+          "rect": {
+            "x": 713,
+            "y": 8550,
+            "width": 531,
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "elapsedMs": 1601,
+      "file": "loading-0700ms.png",
+      "overlays": [
+        {
+          "tag": "div",
+          "text": ".stylokit-loader-content { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; overflow: hidden !important; } .",
+          "zIndex": "2147483647",
+          "opacity": "1",
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "zIndex": "54",
+          "opacity": "1",
+          "position": "absolute",
+          "rect": {
+            "x": 713,
+            "y": 8550,
+            "width": 531,
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "elapsedMs": 1812,
+      "file": "loading-1000ms.png",
+      "overlays": [
+        {
+          "tag": "div",
+          "text": ".stylokit-loader-content { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; overflow: hidden !important; } .",
+          "zIndex": "2147483647",
+          "opacity": "1",
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "zIndex": "54",
+          "opacity": "1",
+          "position": "absolute",
+          "rect": {
+            "x": 713,
+            "y": 8550,
+            "width": 531,
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "elapsedMs": 1972,
+      "file": "loading-1300ms.png",
+      "overlays": [
+        {
+          "tag": "div",
+          "text": ".stylokit-loader-content { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; overflow: hidden !important; } .",
+          "zIndex": "2147483647",
+          "opacity": "1",
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "zIndex": "54",
+          "opacity": "1",
+          "position": "absolute",
+          "rect": {
+            "x": 713,
+            "y": 8550,
+            "width": 531,
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "elapsedMs": 2128,
+      "file": "loading-1600ms.png",
+      "overlays": [
+        {
+          "tag": "div",
+          "text": ".stylokit-loader-content { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; overflow: hidden !important; } .",
+          "zIndex": "2147483647",
+          "opacity": "1",
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "zIndex": "54",
+          "opacity": "1",
+          "position": "absolute",
+          "rect": {
+            "x": 713,
+            "y": 8550,
+            "width": 531,
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "elapsedMs": 2300,
+      "file": "loading-1900ms.png",
+      "overlays": [
+        {
+          "tag": "div",
+          "text": ".stylokit-loader-content { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; overflow: hidden !important; } .",
+          "zIndex": "2147483647",
+          "opacity": "1",
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "zIndex": "54",
+          "opacity": "1",
+          "position": "absolute",
+          "rect": {
+            "x": 713,
+            "y": 8550,
+            "width": 531,
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "elapsedMs": 2434,
+      "file": "loading-2200ms.png",
+      "overlays": [
+        {
+          "tag": "div",
+          "text": ".stylokit-loader-content { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; overflow: hidden !important; } .",
+          "zIndex": "2147483647",
+          "opacity": "1",
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "zIndex": "54",
+          "opacity": "1",
+          "position": "absolute",
+          "rect": {
+            "x": 713,
+            "y": 8550,
+            "width": 531,
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "elapsedMs": 2982,
+      "file": "loading-2600ms.png",
+      "overlays": [
+        {
+          "tag": "div",
+          "text": ".stylokit-loader-content { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; overflow: hidden !important; } .",
+          "zIndex": "2147483647",
+          "opacity": "1",
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "zIndex": "54",
+          "opacity": "1",
+          "position": "absolute",
+          "rect": {
+            "x": 713,
+            "y": 8550,
+            "width": 531,
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "elapsedMs": 3252,
+      "file": "loading-3000ms.png",
+      "overlays": [
+        {
+          "tag": "div",
+          "text": ".stylokit-loader-content { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; overflow: hidden !important; } .",
+          "zIndex": "2147483647",
+          "opacity": "1",
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "zIndex": "54",
+          "opacity": "1",
+          "position": "absolute",
+          "rect": {
+            "x": 713,
+            "y": 8550,
+            "width": 531,
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "elapsedMs": 3490,
+      "file": "loading-3400ms.png",
+      "overlays": [
+        {
+          "tag": "div",
+          "text": ".stylokit-loader-content { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; overflow: hidden !important; } .",
+          "zIndex": "2147483647",
+          "opacity": "1",
+          "position": "fixed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "zIndex": "54",
+          "opacity": "1",
+          "position": "absolute",
+          "rect": {
+            "x": 713,
+            "y": 8550,
+            "width": 531,
+            "height": 212
+          }
+        }
+      ]
+    }
+  ]
+}
