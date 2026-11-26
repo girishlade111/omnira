@@ -223,8 +223,17 @@ async function main() {
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.waitForTimeout(600);
 
+type WorksCard = Awaited<ReturnType<typeof extractWorksCards>>[number];
+  interface WorksFilterState {
+    clicked: boolean;
+    totalDomCards?: number;
+    visibleCount?: number;
+    cards?: WorksCard[];
+    error?: string;
+  }
+
   const filterLabels = ['ALL PROJECTS', 'AI', 'BUSINESS', 'ONE PAGE', 'PORTFOLIO'];
-  const worksByFilter: Record<string, unknown> = {};
+  const worksByFilter: Record<string, WorksFilterState> = {};
 
   for (const label of filterLabels) {
     const filterLoc = page
@@ -719,9 +728,16 @@ async function main() {
   });
 
   // 4d. System Stack all 4 tabs (DESIGN, DEVELOPMENT, MOTION, 3D / VISUAL)
+  interface ToolEntry {
+    title: string;
+    description: string;
+    href: string;
+    iconSrc: string | null;
+    hasSvgIcon: boolean;
+  }
   const aboutSystemStack = await (async () => {
     const tabLabels = ['DESIGN', 'DEVELOPMENT', 'MOTION', '3D / VISUAL'];
-    const tabsData: Record<string, unknown> = {};
+    const tabsData: Record<string, ToolEntry[]> = {};
 
     const toolsHeader = page.locator('text=/SYSTEM STACK|TOOLS/i').first();
     if ((await toolsHeader.count()) > 0) {
@@ -913,12 +929,31 @@ async function main() {
   // =========================================================================
   // RECONCILE PROJECTS (12 INITIAL vs 27 SCROLL-LOADED / CMS / USER SCREENSHOT)
   // =========================================================================
+  interface CmsProjectRaw {
+    id: string;
+    O5iwyiTAI: string;
+    u8GCKzMS9: string;
+    PU8bteqhK: string;
+    wQuPbj7YZ: string;
+    oWgNH1Iud: string;
+    dsL5yhyYV?: {
+      src?: string;
+      pixelWidth?: number;
+      pixelHeight?: number;
+    };
+  }
+  interface CmsCategoryRaw {
+    id: string;
+    QAN3gAK7o: string;
+    aGN8XKkXq: string;
+  }
+
   const cmsProjectsPath = path.join(OUT_CONTENT_DIR, 'mD0yv0kks-chunk-default-0.framercms.decoded.json');
   const cmsCategoriesPath = path.join(OUT_CONTENT_DIR, 'a_FhlAd4Y-chunk-default-0.framercms.decoded.json');
-  const cmsProjectsRaw: any[] = fs.existsSync(cmsProjectsPath)
+  const cmsProjectsRaw: CmsProjectRaw[] = fs.existsSync(cmsProjectsPath)
     ? JSON.parse(fs.readFileSync(cmsProjectsPath, 'utf8'))
     : [];
-  const cmsCategoriesRaw: any[] = fs.existsSync(cmsCategoriesPath)
+  const cmsCategoriesRaw: CmsCategoryRaw[] = fs.existsSync(cmsCategoriesPath)
     ? JSON.parse(fs.readFileSync(cmsCategoriesPath, 'utf8'))
     : [];
   const catById = new Map<string, { label: string; slug: string }>(
@@ -926,8 +961,8 @@ async function main() {
   );
 
   const initialUrls = new Set(worksInitialCards.map((c) => c.externalUrl));
-  const liveAll = (worksByFilter['ALL PROJECTS'] as any)?.cards ?? worksAfterScrollCards;
-  const liveByUrl = new Map<string, any>(liveAll.map((c: any) => [c.externalUrl, c]));
+  const liveAll = worksByFilter['ALL PROJECTS']?.cards ?? worksAfterScrollCards;
+  const liveByUrl = new Map<string, WorksCard>(liveAll.map((c) => [c.externalUrl, c]));
 
   const reconciledProjects = cmsProjectsRaw.map((item, idx) => {
     const cat = catById.get(item.O5iwyiTAI) ?? { label: 'UNKNOWN', slug: 'unknown' };
@@ -1009,7 +1044,7 @@ async function main() {
         label: c.QAN3gAK7o,
         slug: c.aGN8XKkXq,
         cmsCount: cmsProjectsRaw.filter((p) => p.O5iwyiTAI === c.id).length,
-        liveFilterCount: ((worksByFilter[c.QAN3gAK7o] as any)?.cards ?? []).length,
+        liveFilterCount: (worksByFilter[c.QAN3gAK7o]?.cards ?? []).length,
       })),
     },
     projects: reconciledProjects,
