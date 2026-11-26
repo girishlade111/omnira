@@ -42,6 +42,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en">
+      <head>
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
+        <link rel="stylesheet" href="/assets/fonts/fonts.css" />
+      </head>
       <body>
         <LoadingScreen />
         <SiteFrame>{children}</SiteFrame>

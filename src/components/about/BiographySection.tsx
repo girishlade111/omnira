@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { SectionFrame } from '@/components/layout';
 import { ChamferedPanel, SectionHeading } from '@/components/primitives';
 import { profileContent } from '@/content/profile';
@@ -26,11 +27,12 @@ export function BiographySection() {
           </div>
 
           <div className={styles.signatureWrap}>
-            <img
+            <Image
               src={profileContent.signatureSvgPath}
               alt={`${profileContent.details[0]?.value ?? 'Adrian Voss'} signature`}
               width={95}
               height={29}
+              unoptimized
               className={styles.signatureImg}
             />
           </div>

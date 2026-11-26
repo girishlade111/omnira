@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type { ProfileDetailsItem } from '@/types';
 import styles from './about.module.css';
 
@@ -82,10 +83,10 @@ export function ProfileDetails({ details }: ProfileDetailsProps) {
             <span>TOOLS</span>
           </dt>
           <dd className={styles.detailToolsRow}>
-            <img src="/assets/icons/tools/inline-160-avatar-ccf185.svg" alt="Figma" width={14} height={14} />
-            <img src="/assets/icons/tools/inline-166-avatar-9cef2b.svg" alt="Framer" width={14} height={14} />
-            <img src="/assets/icons/tools/inline-172-avatar-cf00af.svg" alt="GSAP" width={14} height={14} />
-            <img src="/assets/icons/tools/inline-178-avatar-7d5e39.svg" alt="Spline" width={14} height={14} />
+            <Image src="/assets/icons/tools/inline-160-avatar-ccf185.svg" alt="Figma" width={14} height={14} unoptimized />
+            <Image src="/assets/icons/tools/inline-166-avatar-9cef2b.svg" alt="Framer" width={14} height={14} unoptimized />
+            <Image src="/assets/icons/tools/inline-172-avatar-cf00af.svg" alt="GSAP" width={14} height={14} unoptimized />
+            <Image src="/assets/icons/tools/inline-178-avatar-7d5e39.svg" alt="Spline" width={14} height={14} unoptimized />
           </dd>
         </div>
       </dl>

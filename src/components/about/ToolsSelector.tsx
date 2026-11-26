@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useState } from 'react';
 import { SectionFrame } from '@/components/layout';
 import {
@@ -129,11 +130,12 @@ export function ToolsSelector() {
                   >
                     <div className={styles.toolCardTop}>
                       <span className={styles.toolIconBox}>
-                        <img
+                        <Image
                           src={resolveToolIconPath(tool.iconInlineSvgRef)}
                           alt=""
                           width={16}
                           height={16}
+                          unoptimized
                           aria-hidden="true"
                         />
                       </span>

@@ -34,6 +34,7 @@ async function main() {
       try {
         window.sessionStorage.setItem("stylokit-initial-loader-seen", "true");
         window.sessionStorage.setItem("omnira-initial-loader-seen", "true");
+        window.sessionStorage.setItem("omnira_initial_loader_seen", "true");
       } catch {
         // ignore
       }

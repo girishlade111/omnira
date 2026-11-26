@@ -1,0 +1,123 @@
+{
+  "baseUrl": "http://localhost:3050",
+  "generatedAt": "2026-11-26T21:27:46.780Z",
+  "failures": 1,
+  "results": [
+    {
+      "path": "/",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Omnira | Futuristic Portfolio & Digital Systems",
+      "h1OrHeadingCount": 9,
+      "bodyLength": 5297,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "passed": true
+    },
+    {
+      "path": "/about",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "About | Omnira",
+      "h1OrHeadingCount": 8,
+      "bodyLength": 4891,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "passed": true
+    },
+    {
+      "path": "/works",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Works | Omnira",
+      "h1OrHeadingCount": 2,
+      "bodyLength": 1271,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "passed": true
+    },
+    {
+      "path": "/contact",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Contact | Omnira",
+      "h1OrHeadingCount": 3,
+      "bodyLength": 2127,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "passed": true
+    },
+    {
+      "path": "/404",
+      "expectedStatus": 404,
+      "actualStatus": 404,
+      "title": "404 - Page Not Found | Omnira",
+      "h1OrHeadingCount": 2,
+      "bodyLength": 554,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "passed": true
+    },
+    {
+      "path": "/nonexistent-check-404",
+      "expectedStatus": 404,
+      "actualStatus": 404,
+      "title": "404 - Page Not Found | Omnira",
+      "h1OrHeadingCount": 2,
+      "bodyLength": 554,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "passed": true
+    },
+    {
+      "path": "/works/brandora",
+      "expectedStatus": 404,
+      "actualStatus": 404,
+      "title": "404 - Page Not Found | Omnira",
+      "h1OrHeadingCount": 2,
+      "bodyLength": 554,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "pageErrors": [
+        "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+      ],
+      "failedRequests": [],
+      "passed": false
+    },
+    {
+      "path": "/sitemap.xml",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "",
+      "h1OrHeadingCount": 0,
+      "bodyLength": 719,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "passed": true
+    },
+    {
+      "path": "/robots.txt",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "",
+      "h1OrHeadingCount": 0,
+      "bodyLength": 67,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "passed": true
+    }
+  ]
+}
