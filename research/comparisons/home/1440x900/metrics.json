@@ -1,0 +1,48 @@
+{
+  "route": "home",
+  "path": "/",
+  "httpStatus": 200,
+  "viewport": "1440x900",
+  "comparisons": [
+    {
+      "kind": "viewport",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "implementationDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "matchedDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "heightDeltaPx": 0,
+      "mismatchedPixels": 129259,
+      "totalPixels": 1296000,
+      "diffPercent": 9.974,
+      "ssimScore": 0.4834
+    },
+    {
+      "kind": "fullpage",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 15683
+      },
+      "implementationDimensions": {
+        "width": 1440,
+        "height": 7420
+      },
+      "matchedDimensions": {
+        "width": 1440,
+        "height": 7420
+      },
+      "heightDeltaPx": -8263,
+      "mismatchedPixels": 638533,
+      "totalPixels": 10684800,
+      "diffPercent": 5.976,
+      "ssimScore": 0.5651
+    }
+  ]
+}

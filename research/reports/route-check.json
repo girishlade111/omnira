@@ -1,7 +1,7 @@
 {
   "baseUrl": "http://localhost:3050",
-  "generatedAt": "2026-11-26T21:27:46.780Z",
-  "failures": 1,
+  "generatedAt": "2026-11-26T21:37:01.245Z",
+  "failures": 0,
   "results": [
     {
       "path": "/",
@@ -9,7 +9,7 @@
       "actualStatus": 200,
       "title": "Omnira | Futuristic Portfolio & Digital Systems",
       "h1OrHeadingCount": 9,
-      "bodyLength": 5297,
+      "bodyLength": 5519,
       "consoleErrors": [],
       "pageErrors": [],
       "failedRequests": [],
@@ -21,7 +21,7 @@
       "actualStatus": 200,
       "title": "About | Omnira",
       "h1OrHeadingCount": 8,
-      "bodyLength": 4891,
+      "bodyLength": 4892,
       "consoleErrors": [],
       "pageErrors": [],
       "failedRequests": [],
@@ -33,7 +33,7 @@
       "actualStatus": 200,
       "title": "Works | Omnira",
       "h1OrHeadingCount": 2,
-      "bodyLength": 1271,
+      "bodyLength": 2270,
       "consoleErrors": [],
       "pageErrors": [],
       "failedRequests": [],
@@ -89,11 +89,9 @@
       "consoleErrors": [
         "Failed to load resource: the server responded with a status of 404 (Not Found)"
       ],
-      "pageErrors": [
-        "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
-      ],
+      "pageErrors": [],
       "failedRequests": [],
-      "passed": false
+      "passed": true
     },
     {
       "path": "/sitemap.xml",

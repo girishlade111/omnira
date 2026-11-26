@@ -1,0 +1,1092 @@
+{
+  "baseUrl": "http://localhost:3050",
+  "generatedAt": "2026-11-26T21:38:40.387Z",
+  "allOverflowFree": true,
+  "implCustomFontsOk": true,
+  "referenceKeyTypography": {
+    "hero": {
+      "route": "home",
+      "id": "home-t-8",
+      "role": "span",
+      "tag": "span",
+      "text": "experience",
+      "fontFamily": "Orbitron, \"Orbitron Placeholder\", sans-serif",
+      "fontSize": "64px",
+      "fontWeight": "600",
+      "lineHeight": "64px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "color": "rgba(0, 0, 0, 0)",
+      "whiteSpace": "pre",
+      "rect": {
+        "x": 116,
+        "y": 413,
+        "width": 471,
+        "height": 64
+      },
+      "lineCountEstimate": 1,
+      "platformFonts": [
+        {
+          "familyName": "Orbitron",
+          "postScriptName": "Orbitron-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 10
+        }
+      ]
+    },
+    "body": {
+      "route": "home",
+      "id": "home-t-1",
+      "role": "p",
+      "tag": "p",
+      "text": "OMNIRA",
+      "fontFamily": "Orbitron, \"Orbitron Placeholder\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "lineHeight": "24px",
+      "letterSpacing": "2.24px",
+      "textTransform": "none",
+      "color": "rgb(255, 255, 255)",
+      "whiteSpace": "pre",
+      "rect": {
+        "x": 143,
+        "y": 49,
+        "width": 85,
+        "height": 24
+      },
+      "lineCountEstimate": 1,
+      "platformFonts": [
+        {
+          "familyName": "Orbitron",
+          "postScriptName": "Orbitron-Medium",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ]
+    }
+  },
+  "viewportResults": [
+    {
+      "route": "home",
+      "viewport": "1440x900",
+      "expectedRailWidth": 96,
+      "expectedOuterMax": 1400,
+      "measured": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 7420,
+        "overflowX": false,
+        "outerFrameWidth": 1398,
+        "mainContentWidth": 1398,
+        "headerHeight": 73,
+        "footerHeight": 591,
+        "sectionCount": 8,
+        "railWidths": [
+          96,
+          96,
+          96,
+          96
+        ]
+      },
+      "referenceHeight": 15683,
+      "heightDeltaPx": -8263,
+      "passed": true
+    },
+    {
+      "route": "about",
+      "viewport": "1440x900",
+      "expectedRailWidth": 96,
+      "expectedOuterMax": 1400,
+      "measured": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 6592,
+        "overflowX": false,
+        "outerFrameWidth": 1398,
+        "mainContentWidth": 1398,
+        "headerHeight": 73,
+        "footerHeight": 591,
+        "sectionCount": 7,
+        "railWidths": [
+          96,
+          96,
+          96,
+          96
+        ]
+      },
+      "referenceHeight": 7265,
+      "heightDeltaPx": -673,
+      "passed": true
+    },
+    {
+      "route": "works",
+      "viewport": "1440x900",
+      "expectedRailWidth": 96,
+      "expectedOuterMax": 1400,
+      "measured": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 4411,
+        "overflowX": false,
+        "outerFrameWidth": 1398,
+        "mainContentWidth": 1398,
+        "headerHeight": 73,
+        "footerHeight": 591,
+        "sectionCount": 1,
+        "railWidths": [
+          96,
+          96,
+          96,
+          96
+        ]
+      },
+      "referenceHeight": 4704,
+      "heightDeltaPx": -293,
+      "passed": true
+    },
+    {
+      "route": "contact",
+      "viewport": "1440x900",
+      "expectedRailWidth": 96,
+      "expectedOuterMax": 1400,
+      "measured": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 2328,
+        "overflowX": false,
+        "outerFrameWidth": 1398,
+        "mainContentWidth": 1398,
+        "headerHeight": 73,
+        "footerHeight": 591,
+        "sectionCount": 2,
+        "railWidths": [
+          96,
+          96,
+          96,
+          96
+        ]
+      },
+      "referenceHeight": 2347,
+      "heightDeltaPx": -19,
+      "passed": true
+    },
+    {
+      "route": "not-found",
+      "viewport": "1440x900",
+      "expectedRailWidth": 96,
+      "expectedOuterMax": 1400,
+      "measured": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 1420,
+        "overflowX": false,
+        "outerFrameWidth": 1398,
+        "mainContentWidth": 1398,
+        "headerHeight": 73,
+        "footerHeight": 591,
+        "sectionCount": 1,
+        "railWidths": [
+          96,
+          96,
+          96,
+          96
+        ]
+      },
+      "referenceHeight": 1565,
+      "heightDeltaPx": -145,
+      "passed": true
+    },
+    {
+      "route": "home",
+      "viewport": "1024x768",
+      "expectedRailWidth": 48,
+      "expectedOuterMax": 1024,
+      "measured": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "scrollHeight": 9805,
+        "overflowX": false,
+        "outerFrameWidth": 1022,
+        "mainContentWidth": 1022,
+        "headerHeight": 73,
+        "footerHeight": 567,
+        "sectionCount": 8,
+        "railWidths": [
+          48,
+          48,
+          48,
+          48
+        ]
+      },
+      "referenceHeight": 11073,
+      "heightDeltaPx": -1268,
+      "passed": true
+    },
+    {
+      "route": "about",
+      "viewport": "1024x768",
+      "expectedRailWidth": 48,
+      "expectedOuterMax": 1024,
+      "measured": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "scrollHeight": 8718,
+        "overflowX": false,
+        "outerFrameWidth": 1022,
+        "mainContentWidth": 1022,
+        "headerHeight": 73,
+        "footerHeight": 567,
+        "sectionCount": 7,
+        "railWidths": [
+          48,
+          48,
+          48,
+          48
+        ]
+      },
+      "referenceHeight": 11091,
+      "heightDeltaPx": -2373,
+      "passed": true
+    },
+    {
+      "route": "works",
+      "viewport": "1024x768",
+      "expectedRailWidth": 48,
+      "expectedOuterMax": 1024,
+      "measured": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "scrollHeight": 6610,
+        "overflowX": false,
+        "outerFrameWidth": 1022,
+        "mainContentWidth": 1022,
+        "headerHeight": 73,
+        "footerHeight": 567,
+        "sectionCount": 1,
+        "railWidths": [
+          48,
+          48,
+          48,
+          48
+        ]
+      },
+      "referenceHeight": 7289,
+      "heightDeltaPx": -679,
+      "passed": true
+    },
+    {
+      "route": "contact",
+      "viewport": "1024x768",
+      "expectedRailWidth": 48,
+      "expectedOuterMax": 1024,
+      "measured": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "scrollHeight": 3110,
+        "overflowX": false,
+        "outerFrameWidth": 1022,
+        "mainContentWidth": 1022,
+        "headerHeight": 73,
+        "footerHeight": 567,
+        "sectionCount": 2,
+        "railWidths": [
+          48,
+          48,
+          48,
+          48
+        ]
+      },
+      "referenceHeight": 2997,
+      "heightDeltaPx": 113,
+      "passed": true
+    },
+    {
+      "route": "not-found",
+      "viewport": "1024x768",
+      "expectedRailWidth": 48,
+      "expectedOuterMax": 1024,
+      "measured": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "scrollHeight": 1204,
+        "overflowX": false,
+        "outerFrameWidth": 1022,
+        "mainContentWidth": 1022,
+        "headerHeight": 73,
+        "footerHeight": 567,
+        "sectionCount": 1,
+        "railWidths": [
+          48,
+          48,
+          48,
+          48
+        ]
+      },
+      "referenceHeight": 1333,
+      "heightDeltaPx": -129,
+      "passed": true
+    },
+    {
+      "route": "home",
+      "viewport": "390x844",
+      "expectedRailWidth": 16,
+      "expectedOuterMax": 390,
+      "measured": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 11901,
+        "overflowX": false,
+        "outerFrameWidth": 388,
+        "mainContentWidth": 388,
+        "headerHeight": 65,
+        "footerHeight": 913,
+        "sectionCount": 8,
+        "railWidths": [
+          16,
+          16,
+          16,
+          16
+        ]
+      },
+      "referenceHeight": 13211,
+      "heightDeltaPx": -1310,
+      "passed": true
+    },
+    {
+      "route": "about",
+      "viewport": "390x844",
+      "expectedRailWidth": 16,
+      "expectedOuterMax": 390,
+      "measured": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 11349,
+        "overflowX": false,
+        "outerFrameWidth": 388,
+        "mainContentWidth": 388,
+        "headerHeight": 65,
+        "footerHeight": 913,
+        "sectionCount": 7,
+        "railWidths": [
+          16,
+          16,
+          16,
+          16
+        ]
+      },
+      "referenceHeight": 11003,
+      "heightDeltaPx": 346,
+      "passed": true
+    },
+    {
+      "route": "works",
+      "viewport": "390x844",
+      "expectedRailWidth": 16,
+      "expectedOuterMax": 390,
+      "measured": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 10403,
+        "overflowX": false,
+        "outerFrameWidth": 388,
+        "mainContentWidth": 388,
+        "headerHeight": 65,
+        "footerHeight": 913,
+        "sectionCount": 1,
+        "railWidths": [
+          16,
+          16,
+          16,
+          16
+        ]
+      },
+      "referenceHeight": 11207,
+      "heightDeltaPx": -804,
+      "passed": true
+    },
+    {
+      "route": "contact",
+      "viewport": "390x844",
+      "expectedRailWidth": 16,
+      "expectedOuterMax": 390,
+      "measured": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 3624,
+        "overflowX": false,
+        "outerFrameWidth": 388,
+        "mainContentWidth": 388,
+        "headerHeight": 65,
+        "footerHeight": 913,
+        "sectionCount": 2,
+        "railWidths": [
+          16,
+          16,
+          16,
+          16
+        ]
+      },
+      "referenceHeight": 3565,
+      "heightDeltaPx": 59,
+      "passed": true
+    },
+    {
+      "route": "not-found",
+      "viewport": "390x844",
+      "expectedRailWidth": 16,
+      "expectedOuterMax": 390,
+      "measured": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 1722,
+        "overflowX": false,
+        "outerFrameWidth": 388,
+        "mainContentWidth": 388,
+        "headerHeight": 65,
+        "footerHeight": 913,
+        "sectionCount": 1,
+        "railWidths": [
+          16,
+          16,
+          16,
+          16
+        ]
+      },
+      "referenceHeight": 2065,
+      "heightDeltaPx": -343,
+      "passed": true
+    }
+  ],
+  "home1440TypographySample": [
+    {
+      "id": "geom-t-0",
+      "tag": "a",
+      "text": "OMNIRA",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": []
+    },
+    {
+      "id": "geom-t-1",
+      "tag": "a",
+      "text": "HOME",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": "500",
+      "color": "rgb(255, 152, 0)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch Medium",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-2",
+      "tag": "a",
+      "text": "ABOUT",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": "500",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch Medium",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-3",
+      "tag": "a",
+      "text": "WORKS",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": "500",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch Medium",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-4",
+      "tag": "a",
+      "text": "CONTACT",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": "500",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch Medium",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-5",
+      "tag": "a",
+      "text": "LET'S TALK",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": "500",
+      "color": "rgb(255, 152, 0)",
+      "platformFonts": []
+    },
+    {
+      "id": "geom-t-6",
+      "tag": "h1",
+      "text": "Design beyond the experienceDesign beyond theexperience",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "64px",
+      "lineHeight": "64px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-7",
+      "tag": "p",
+      "text": "I design and build futuristic digital experiences with cinem",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.58)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-8",
+      "tag": "h2",
+      "text": "CRAFTED DIGITAL EXPERIENCES",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "36px",
+      "lineHeight": "44px",
+      "fontWeight": "500",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-9",
+      "tag": "p",
+      "text": "A curated collection of digital experiences shaped with stro",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-10",
+      "tag": "h3",
+      "text": "Brandora",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "18px",
+      "lineHeight": "24px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-11",
+      "tag": "p",
+      "text": "bradora.studio",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-12",
+      "tag": "h3",
+      "text": "Nivora",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "18px",
+      "lineHeight": "24px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-13",
+      "tag": "p",
+      "text": "nivora.studio",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-14",
+      "tag": "h3",
+      "text": "Codify",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "18px",
+      "lineHeight": "24px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-15",
+      "tag": "p",
+      "text": "codify.pro",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-16",
+      "tag": "h3",
+      "text": "Neutra",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "18px",
+      "lineHeight": "24px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-17",
+      "tag": "p",
+      "text": "neutra.studio",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-18",
+      "tag": "h3",
+      "text": "AI Nest",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "18px",
+      "lineHeight": "24px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-19",
+      "tag": "p",
+      "text": "ainest.io",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-20",
+      "tag": "h3",
+      "text": "Studyflow",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "18px",
+      "lineHeight": "24px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-21",
+      "tag": "p",
+      "text": "studyflow.com",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-22",
+      "tag": "h2",
+      "text": "FROM CONCEPT TO LAUNCH",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "36px",
+      "lineHeight": "44px",
+      "fontWeight": "500",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-23",
+      "tag": "p",
+      "text": "A focused workflow for turning early ideas into polished dig",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-24",
+      "tag": "h3",
+      "text": "DISCOVER",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-25",
+      "tag": "p",
+      "text": "Define the goal, audience, visual direction, and project str",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "13px",
+      "lineHeight": "19px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.58)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-26",
+      "tag": "h3",
+      "text": "DESIGN",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-27",
+      "tag": "p",
+      "text": "Create high-impact interface concepts with strong hierarchy,",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "13px",
+      "lineHeight": "19px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.58)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-28",
+      "tag": "h3",
+      "text": "BUILD",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-29",
+      "tag": "p",
+      "text": "Turn the approved direction into a clean Framer experience w",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "13px",
+      "lineHeight": "19px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.58)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-30",
+      "tag": "h3",
+      "text": "REFINE",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-31",
+      "tag": "p",
+      "text": "Polish spacing, performance, responsiveness, and final detai",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "13px",
+      "lineHeight": "19px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.58)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-32",
+      "tag": "h2",
+      "text": "SHARP DESIGN CLEAN FLOW",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "36px",
+      "lineHeight": "44px",
+      "fontWeight": "500",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-33",
+      "tag": "p",
+      "text": "I create high-impact websites and product interfaces shaped ",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-34",
+      "tag": "p",
+      "text": "Built for bold digital experiences.",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "13px",
+      "lineHeight": "19.5px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.58)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-35",
+      "tag": "h3",
+      "text": "INTERFACE DESIGN",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "13px",
+      "lineHeight": "19.5px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-36",
+      "tag": "p",
+      "text": "Clear interfaces with strong hierarchy",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "12px",
+      "lineHeight": "18px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.58)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-37",
+      "tag": "h3",
+      "text": "SYSTEM THINKING",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "13px",
+      "lineHeight": "19.5px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-38",
+      "tag": "p",
+      "text": "Scalable systems built for growth",
+      "fontFamily": "\"Chakra Petch\", sans-serif",
+      "fontSize": "12px",
+      "lineHeight": "18px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.58)",
+      "platformFonts": [
+        {
+          "familyName": "Chakra Petch",
+          "isCustomFont": true
+        }
+      ]
+    },
+    {
+      "id": "geom-t-39",
+      "tag": "h3",
+      "text": "FRAMER EXECUTION",
+      "fontFamily": "Orbitron, sans-serif",
+      "fontSize": "13px",
+      "lineHeight": "19.5px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "platformFonts": [
+        {
+          "familyName": "Orbitron Black",
+          "isCustomFont": true
+        }
+      ]
+    }
+  ]
+}

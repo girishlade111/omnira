@@ -3,104 +3,88 @@
     {
       "title": "FIGMA",
       "href": "https://www.figma.com/",
-      "svg": "<svg class=\"framer-sGlZh framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1536110880\"></use></svg>",
-      "img": null
+      "svg": "<svg class=\"framer-sGlZh framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 9 6 L 6 6 M 9 6 C 10.657 6 12 4.657 12 3 C 12 1.343 10.657 0 9 0 L 6 0 M 9 6 C 7.343 6 6 7.343 6 9 C 6 10.657 7.343 12 9 12 C 10.657 12 12 10.657 12 9 C 12 7.343 10.657 6 9 6 Z M 6 6 L 6 0 M 6 6 L 3 6 M 6 6 L 6 12 M 6 0 L 3 0 C 1.343 0 0 1.343 0 3 C 0 4.657 1.343 6 3 6 M 3 6 C 1.343 6 0 7.343 0 9 C 0 10.657 1.343 12 3 12 M 6 12 L 3 12 M 6 12 L 6 15 C 6 16.657 4.657 18 3 18 C 1.343 18 0 16.657 0 15 C 0 13.343 1.343 12 3 12\" fill=\"transparent\" height=\"18px\" id=\"K3cgan8c9\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(6 3)\" width=\"12px\"></path></g></svg>"
     },
     {
       "title": "PHOTOSHOP",
       "href": "https://www.adobe.com/products/photoshop.html",
-      "svg": "<svg class=\"framer-oSS26 framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#4083750824\"></use></svg>",
-      "img": null
+      "svg": "<svg class=\"framer-oSS26 framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 0 7 L 4.5 7 C 6.433 7 8 5.433 8 3.5 C 8 1.567 6.433 0 4.5 0 L 0 0 Z M 0 7 L 0 12\" fill=\"transparent\" height=\"12px\" id=\"ZnnwtmucR\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(8 6)\" width=\"8px\"></path></g></svg>"
     },
     {
       "title": "ILLUSTRATOR",
       "href": "https://www.adobe.com/products/illustrator.html",
-      "svg": "<svg class=\"framer-JHNxj framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1234996465\"></use></svg>",
-      "img": null
+      "svg": "<svg class=\"framer-JHNxj framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 8 0 L 0 0 M 8 12 L 0 12 M 4 0 L 4 12\" fill=\"transparent\" height=\"12px\" id=\"gmxBoHZb6\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(8 6)\" width=\"8px\"></path></g></svg>"
     },
     {
       "title": "DESIGN SYSTEMS",
       "href": "https://designsystemsrepo.com/",
-      "svg": "<svg class=\"framer-BqgIF framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1825464080\"></use></svg>",
-      "img": null
+      "svg": "<svg class=\"framer-BqgIF framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 0 0 L 4 0 C 7.314 0 10 2.686 10 6 C 10 9.314 7.314 12 4 12 L 0 12 Z\" fill=\"transparent\" height=\"12px\" id=\"I0g2fXtn_\" stroke-dasharray=\"\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(7 6)\" width=\"10px\"></path></g></svg>"
     }
   ],
   "DEVELOPMENT": [
     {
-      "title": "FIGMA",
-      "href": "https://www.figma.com/",
-      "svg": "<svg class=\"framer-sGlZh framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1536110880\"></use></svg>",
-      "img": null
+      "title": "FRAMER",
+      "href": "https://www.framer.com/?via=dmytri_design",
+      "svg": "<svg class=\"framer-ejiYN framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 6 6 L 12 6 L 12 0 L 0 0 Z M 6 6 L 0 6 L 0 12 L 6 18 L 6 12 L 12 12 Z\" fill=\"transparent\" height=\"18px\" id=\"QqSJOQBrz\" stroke-dasharray=\"\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(6 3)\" width=\"12px\"></path></g></svg>"
     },
     {
-      "title": "PHOTOSHOP",
-      "href": "https://www.adobe.com/products/photoshop.html",
-      "svg": "<svg class=\"framer-oSS26 framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#4083750824\"></use></svg>",
-      "img": null
+      "title": "REACT",
+      "href": "https://react.dev/",
+      "svg": "<svg class=\"framer-8Sihc framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 13.104 4.619 C 17.4 8.915 18.983 14.297 16.64 16.639 C 14.297 18.983 8.915 17.4 4.62 13.104 C 0.323 8.809 -1.26 3.427 1.084 1.084 C 3.427 -1.26 8.809 0.324 13.104 4.619 Z M 4.619 4.619 C 0.323 8.915 -1.259 14.297 1.084 16.639 C 3.427 18.983 8.809 17.4 13.104 13.104 C 17.4 8.809 18.983 3.427 16.64 1.084 C 14.297 -1.26 8.915 0.324 4.62 4.619 Z M 8.86 7.86 C 9.412 7.86 9.86 8.308 9.86 8.86 C 9.86 9.412 9.412 9.86 8.86 9.86 C 8.308 9.86 7.86 9.412 7.86 8.86 C 7.86 8.308 8.308 7.86 8.86 7.86 Z M 8.86 8.86 L 8.87 8.86\" fill=\"transparent\" height=\"17.722945869031303px\" id=\"Rza1WIy0N\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(3.14 3.14)\" width=\"17.723440921767533px\"></path></g></svg>"
     },
     {
-      "title": "ILLUSTRATOR",
-      "href": "https://www.adobe.com/products/illustrator.html",
-      "svg": "<svg class=\"framer-JHNxj framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1234996465\"></use></svg>",
-      "img": null
+      "title": "TYPESCRIPT",
+      "href": "https://www.typescriptlang.org/",
+      "svg": "<svg class=\"framer-E0uyB framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 7 18 L 7 0 M 4 18 L 10 18 M 14 3 L 14 0 L 0 0 L 0 3\" fill=\"transparent\" height=\"18px\" id=\"BzWhChuSx\" stroke-dasharray=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(5 3)\" width=\"14px\"></path></g></svg>"
     },
     {
-      "title": "DESIGN SYSTEMS",
-      "href": "https://designsystemsrepo.com/",
-      "svg": "<svg class=\"framer-BqgIF framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1825464080\"></use></svg>",
-      "img": null
+      "title": "STORYBOOK",
+      "href": "https://storybook.js.org/",
+      "svg": "<svg class=\"framer-I9Rlc framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 0 10.667 L 1.033 11.183 C 2.107 11.72 3.292 12 4.493 12 L 4.715 12 C 6.205 11.998 7.451 10.868 7.598 9.386 C 7.745 7.903 6.744 6.551 5.284 6.257 L 2.716 5.743 C 1.256 5.449 0.255 4.097 0.402 2.614 C 0.549 1.132 1.795 0.002 3.285 0 L 3.506 0 C 4.707 0 5.892 0.28 6.967 0.817 L 8 1.333\" fill=\"transparent\" height=\"12px\" id=\"S4WErv7CO\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(8 6)\" width=\"8px\"></path></g></svg>"
     }
   ],
   "MOTION": [
     {
-      "title": "FIGMA",
-      "href": "https://www.figma.com/",
-      "svg": "<svg class=\"framer-sGlZh framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1536110880\"></use></svg>",
-      "img": null
+      "title": "GSAP",
+      "href": "https://gsap.com/",
+      "svg": "<svg class=\"framer-kFjMw framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 6.001 6.002 L 12.001 6.002 C 12 8.924 9.895 11.42 7.014 11.914 C 4.134 12.408 1.317 10.755 0.344 8 C -0.63 5.244 0.523 2.188 3.074 0.763 C 5.624 -0.663 8.831 -0.043 10.668 2.23\" fill=\"transparent\" height=\"12.000925909267316px\" id=\"oKOfM3X9K\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(6 6)\" width=\"12.000800112858997px\"></path></g></svg>"
     },
     {
-      "title": "PHOTOSHOP",
-      "href": "https://www.adobe.com/products/photoshop.html",
-      "svg": "<svg class=\"framer-oSS26 framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#4083750824\"></use></svg>",
-      "img": null
+      "title": "MOTION",
+      "href": "https://motion.dev/",
+      "svg": "<svg class=\"framer-upvsb framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 0 12 L 0 0 L 5 9 L 10 0 L 10 12\" fill=\"transparent\" height=\"12px\" id=\"bbBuCYJT_\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(7 6)\" width=\"10px\"></path></g></svg>"
     },
     {
-      "title": "ILLUSTRATOR",
-      "href": "https://www.adobe.com/products/illustrator.html",
-      "svg": "<svg class=\"framer-JHNxj framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1234996465\"></use></svg>",
-      "img": null
+      "title": "AFTER EFFECTS",
+      "href": "https://www.adobe.com/products/aftereffects.html",
+      "svg": "<svg class=\"framer-Zmuvj framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 0 12 L 1.667 8 M 10 12 L 8.333 8 M 1.667 8 L 8.333 8 M 1.667 8 L 5 0 L 8.333 8\" fill=\"transparent\" height=\"12px\" id=\"qPJGeEGyZ\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(7 6)\" width=\"10.000000183105469px\"></path></g></svg>"
     },
     {
-      "title": "DESIGN SYSTEMS",
-      "href": "https://designsystemsrepo.com/",
-      "svg": "<svg class=\"framer-BqgIF framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#1825464080\"></use></svg>",
-      "img": null
+      "title": "LOTTIEFILES",
+      "href": "https://lottiefiles.com/",
+      "svg": "<svg class=\"framer-tl0WH framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 0 0 L 0 12 L 8 12\" fill=\"transparent\" height=\"12px\" id=\"S1vRc3JvQ\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(8 6)\" width=\"8px\"></path></g></svg>"
     }
   ],
   "3D / VISUAL": [
     {
       "title": "SPLINE",
       "href": "https://spline.design/",
-      "svg": "<svg class=\"framer-I9Rlc framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#675728224\"></use></svg>",
-      "img": null
+      "svg": "<svg class=\"framer-I9Rlc framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 0 10.667 L 1.033 11.183 C 2.107 11.72 3.292 12 4.493 12 L 4.715 12 C 6.205 11.998 7.451 10.868 7.598 9.386 C 7.745 7.903 6.744 6.551 5.284 6.257 L 2.716 5.743 C 1.256 5.449 0.255 4.097 0.402 2.614 C 0.549 1.132 1.795 0.002 3.285 0 L 3.506 0 C 4.707 0 5.892 0.28 6.967 0.817 L 8 1.333\" fill=\"transparent\" height=\"12px\" id=\"S4WErv7CO\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(8 6)\" width=\"8px\"></path></g></svg>"
     },
     {
       "title": "BLENDER",
       "href": "https://www.blender.org/",
-      "svg": "<svg class=\"framer-vCaSg framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#2778612015\"></use></svg>",
-      "img": null
+      "svg": "<svg class=\"framer-vCaSg framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 0 5.333 L 4.667 5.333 M 0 5.333 L 0 12 L 4.667 12 C 6.508 12 8.001 10.508 8.001 8.667 C 8.001 6.825 6.508 5.333 4.667 5.333 M 0 5.333 L 0 0 L 4.667 0 C 6.12 0.028 7.282 1.214 7.282 2.667 C 7.282 4.119 6.12 5.305 4.667 5.333\" fill=\"transparent\" height=\"12.000000183105469px\" id=\"PEICsYGJF\" stroke-dasharray=\"\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(8 6)\" width=\"8.0005px\"></path></g></svg>"
     },
     {
       "title": "THREE.JS",
       "href": "https://threejs.org/",
-      "svg": "<svg class=\"framer-E0uyB framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); opacity: 1;\"><use href=\"#2514536771\"></use></svg>",
-      "img": null
+      "svg": "<svg class=\"framer-E0uyB framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 7 18 L 7 0 M 4 18 L 10 18 M 14 3 L 14 0 L 0 0 L 0 3\" fill=\"transparent\" height=\"18px\" id=\"BzWhChuSx\" stroke-dasharray=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(5 3)\" width=\"14px\"></path></g></svg>"
     },
     {
       "title": "RIVE",
       "href": "https://rive.app/",
-      "svg": "<svg class=\"framer-RjC7c framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--14lvtz6: 1; --1gwzuy8: var(--token-13b18929-c48d-4ed4-8752-b075d7d165c4, rgb(255, 255, 255)); transform: none; transform-origin: 50% 50% 0px; opacity: 1;\"><use href=\"#3495547033\"></use></svg>",
-      "img": null
+      "svg": "<svg class=\"framer-RjC7c framer-1rprnha\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><g><path d=\"M 0 0 L 4.5 0 C 6.433 0 8 1.567 8 3.5 L 8 3.5 C 8 5.433 6.433 7 4.5 7 L 0 7 Z M 0 7 L 0 12 M 4.98 6.97 L 8 12\" fill=\"transparent\" height=\"12px\" id=\"AEoqCW10z\" stroke-dasharray=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0,0,0)\" transform=\"translate(8 6)\" width=\"8.000000495910642px\"></path></g></svg>"
     }
   ]
 }

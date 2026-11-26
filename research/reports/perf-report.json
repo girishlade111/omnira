@@ -1,47 +1,52 @@
 {
   "baseUrl": "http://localhost:3050",
-  "generatedAt": "2026-11-26T21:30:07.032Z",
+  "generatedAt": "2026-11-26T21:39:39.831Z",
   "viewport": "1440x900",
   "routes": [
     {
       "route": "/",
-      "lcpMs": 792,
-      "cls": 0.8848,
-      "ttfbMs": 4,
-      "domInteractiveMs": 52,
-      "loadEventMs": 107
+      "lcpMs": 640,
+      "cls": 0,
+      "clsSources": [],
+      "ttfbMs": 6,
+      "domInteractiveMs": 68,
+      "loadEventMs": 219
     },
     {
       "route": "/about",
-      "lcpMs": 152,
-      "cls": 0.8857,
+      "lcpMs": 176,
+      "cls": 0,
+      "clsSources": [],
       "ttfbMs": 7,
-      "domInteractiveMs": 116,
-      "loadEventMs": 194
+      "domInteractiveMs": 39,
+      "loadEventMs": 91
     },
     {
       "route": "/works",
-      "lcpMs": 260,
-      "cls": 1.5238,
+      "lcpMs": 120,
+      "cls": 0,
+      "clsSources": [],
       "ttfbMs": 3,
-      "domInteractiveMs": 20,
-      "loadEventMs": 117
+      "domInteractiveMs": 34,
+      "loadEventMs": 78
     },
     {
       "route": "/contact",
-      "lcpMs": 368,
-      "cls": 0.8856,
-      "ttfbMs": 3,
-      "domInteractiveMs": 33,
-      "loadEventMs": 143
+      "lcpMs": 300,
+      "cls": 0,
+      "clsSources": [],
+      "ttfbMs": 2,
+      "domInteractiveMs": 21,
+      "loadEventMs": 96
     },
     {
       "route": "/nonexistent-check-404",
-      "lcpMs": 116,
-      "cls": 0.8852,
-      "ttfbMs": 3,
-      "domInteractiveMs": 29,
-      "loadEventMs": 139
+      "lcpMs": 132,
+      "cls": 0,
+      "clsSources": [],
+      "ttfbMs": 2,
+      "domInteractiveMs": 24,
+      "loadEventMs": 70
     }
   ]
 }

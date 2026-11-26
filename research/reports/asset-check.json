@@ -1,7 +1,7 @@
 {
   "baseUrl": "http://localhost:3050",
-  "generatedAt": "2026-11-26T21:28:20.483Z",
-  "totalFailures": 1,
+  "generatedAt": "2026-11-26T21:37:33.538Z",
+  "totalFailures": 0,
   "routeReports": [
     {
       "route": "/",
@@ -29,59 +29,10 @@
     },
     {
       "route": "/about",
-      "passed": false,
+      "passed": true,
       "failedAssets": [],
       "totalImages": 40,
-      "brokenImages": [
-        {
-          "src": "http://localhost:3050/assets/icons/tools/inline-160-avatar-ccf185.svg",
-          "alt": "Figma",
-          "complete": true,
-          "naturalWidth": 0
-        },
-        {
-          "src": "http://localhost:3050/assets/icons/tools/inline-166-avatar-9cef2b.svg",
-          "alt": "Framer",
-          "complete": true,
-          "naturalWidth": 0
-        },
-        {
-          "src": "http://localhost:3050/assets/icons/tools/inline-172-avatar-cf00af.svg",
-          "alt": "GSAP",
-          "complete": true,
-          "naturalWidth": 0
-        },
-        {
-          "src": "http://localhost:3050/assets/icons/tools/inline-178-avatar-7d5e39.svg",
-          "alt": "Spline",
-          "complete": true,
-          "naturalWidth": 0
-        },
-        {
-          "src": "http://localhost:3050/assets/icons/tools/inline-160-avatar-ccf185.svg",
-          "alt": "",
-          "complete": true,
-          "naturalWidth": 0
-        },
-        {
-          "src": "http://localhost:3050/assets/icons/tools/inline-161-avatar-35eac0.svg",
-          "alt": "",
-          "complete": true,
-          "naturalWidth": 0
-        },
-        {
-          "src": "http://localhost:3050/assets/icons/tools/inline-162-avatar-d8ac42.svg",
-          "alt": "",
-          "complete": true,
-          "naturalWidth": 0
-        },
-        {
-          "src": "http://localhost:3050/assets/icons/tools/inline-163-avatar-1ae614.svg",
-          "alt": "",
-          "complete": true,
-          "naturalWidth": 0
-        }
-      ],
+      "brokenImages": [],
       "loadedFontFamilies": [
         "Chakra Petch",
         "Orbitron"

@@ -1,0 +1,114 @@
+{
+  "baseUrl": "http://localhost:3050",
+  "generatedAt": "2026-11-26T21:38:21.525Z",
+  "failures": 0,
+  "results": [
+    {
+      "name": "works-filters-27-projects",
+      "passed": true,
+      "details": {
+        "expectedCounts": [
+          {
+            "label": "ALL PROJECTS",
+            "count": 27
+          },
+          {
+            "label": "AI",
+            "count": 3
+          },
+          {
+            "label": "BUSINESS",
+            "count": 12
+          },
+          {
+            "label": "ONE PAGE",
+            "count": 5
+          },
+          {
+            "label": "PORTFOLIO",
+            "count": 7
+          }
+        ],
+        "observed": {
+          "ALL PROJECTS": 27,
+          "AI": 3,
+          "BUSINESS": 12,
+          "ONE PAGE": 5,
+          "PORTFOLIO": 7
+        }
+      }
+    },
+    {
+      "name": "home-services-4-tabs",
+      "passed": true,
+      "details": {
+        "serviceStates": {
+          "DESIGN": true,
+          "DEVELOPMENT": true,
+          "VISUAL SYSTEM": true,
+          "CREATIVE": true
+        }
+      }
+    },
+    {
+      "name": "home-testimonials-carousel",
+      "passed": true,
+      "details": {
+        "carouselOk": true
+      }
+    },
+    {
+      "name": "home-faq-8-accordions",
+      "passed": true,
+      "details": {
+        "faqCount": 8,
+        "faqToggled": 8
+      }
+    },
+    {
+      "name": "about-terminal-5-steps",
+      "passed": true,
+      "details": {
+        "terminalClicked": [
+          "INPUT",
+          "STRATEGY",
+          "STRUCTURE",
+          "INTERFACE",
+          "LAUNCH"
+        ]
+      }
+    },
+    {
+      "name": "about-system-stack-4-tabs",
+      "passed": true,
+      "details": {
+        "stackObserved": {
+          "DESIGN": 4,
+          "DEVELOPMENT": 4,
+          "MOTION": 4,
+          "3D / VISUAL": 4
+        }
+      }
+    },
+    {
+      "name": "contact-validation-custom-dropdowns-submit",
+      "passed": true,
+      "details": {
+        "nativeSelectCount": 0,
+        "errorCountAfterEmptySubmit": 6,
+        "dropdownCount": 3,
+        "selectedDropdowns": 3,
+        "confirmationMatched": true
+      }
+    },
+    {
+      "name": "mobile-drawer-open-close",
+      "passed": true,
+      "details": {
+        "opened": true,
+        "hasLinks": true,
+        "closed": true
+      }
+    }
+  ]
+}

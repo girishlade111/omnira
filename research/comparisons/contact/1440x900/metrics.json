@@ -1,0 +1,48 @@
+{
+  "route": "contact",
+  "path": "/contact",
+  "httpStatus": 200,
+  "viewport": "1440x900",
+  "comparisons": [
+    {
+      "kind": "viewport",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "implementationDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "matchedDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "heightDeltaPx": 0,
+      "mismatchedPixels": 68702,
+      "totalPixels": 1296000,
+      "diffPercent": 5.301,
+      "ssimScore": 0.6703
+    },
+    {
+      "kind": "fullpage",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 2347
+      },
+      "implementationDimensions": {
+        "width": 1440,
+        "height": 2328
+      },
+      "matchedDimensions": {
+        "width": 1440,
+        "height": 2328
+      },
+      "heightDeltaPx": -19,
+      "mismatchedPixels": 184187,
+      "totalPixels": 3352320,
+      "diffPercent": 5.494,
+      "ssimScore": 0.554
+    }
+  ]
+}

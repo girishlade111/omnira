@@ -1,0 +1,486 @@
+{
+  "baseUrl": "http://localhost:3050",
+  "generatedAt": "2026-11-26T21:39:23.951Z",
+  "results": [
+    {
+      "route": "home",
+      "path": "/",
+      "httpStatus": 200,
+      "viewport": "1440x900",
+      "comparisons": [
+        {
+          "kind": "viewport",
+          "referenceDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "implementationDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "matchedDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "heightDeltaPx": 0,
+          "mismatchedPixels": 129259,
+          "totalPixels": 1296000,
+          "diffPercent": 9.974,
+          "ssimScore": 0.4834
+        },
+        {
+          "kind": "fullpage",
+          "referenceDimensions": {
+            "width": 1440,
+            "height": 15683
+          },
+          "implementationDimensions": {
+            "width": 1440,
+            "height": 7420
+          },
+          "matchedDimensions": {
+            "width": 1440,
+            "height": 7420
+          },
+          "heightDeltaPx": -8263,
+          "mismatchedPixels": 638533,
+          "totalPixels": 10684800,
+          "diffPercent": 5.976,
+          "ssimScore": 0.5651
+        }
+      ]
+    },
+    {
+      "route": "about",
+      "path": "/about",
+      "httpStatus": 200,
+      "viewport": "1440x900",
+      "comparisons": [
+        {
+          "kind": "viewport",
+          "referenceDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "implementationDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "matchedDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "heightDeltaPx": 0,
+          "mismatchedPixels": 173433,
+          "totalPixels": 1296000,
+          "diffPercent": 13.382,
+          "ssimScore": 0.528
+        },
+        {
+          "kind": "fullpage",
+          "referenceDimensions": {
+            "width": 1440,
+            "height": 7265
+          },
+          "implementationDimensions": {
+            "width": 1440,
+            "height": 6592
+          },
+          "matchedDimensions": {
+            "width": 1440,
+            "height": 6592
+          },
+          "heightDeltaPx": -673,
+          "mismatchedPixels": 532321,
+          "totalPixels": 9492480,
+          "diffPercent": 5.608,
+          "ssimScore": 0.3976
+        }
+      ]
+    },
+    {
+      "route": "works",
+      "path": "/works",
+      "httpStatus": 200,
+      "viewport": "1440x900",
+      "comparisons": [
+        {
+          "kind": "viewport",
+          "referenceDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "implementationDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "matchedDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "heightDeltaPx": 0,
+          "mismatchedPixels": 360248,
+          "totalPixels": 1296000,
+          "diffPercent": 27.797,
+          "ssimScore": 0.4957
+        },
+        {
+          "kind": "fullpage",
+          "referenceDimensions": {
+            "width": 1440,
+            "height": 4704
+          },
+          "implementationDimensions": {
+            "width": 1440,
+            "height": 4411
+          },
+          "matchedDimensions": {
+            "width": 1440,
+            "height": 4411
+          },
+          "heightDeltaPx": -293,
+          "mismatchedPixels": 1435460,
+          "totalPixels": 6351840,
+          "diffPercent": 22.599,
+          "ssimScore": 0.4651
+        }
+      ]
+    },
+    {
+      "route": "contact",
+      "path": "/contact",
+      "httpStatus": 200,
+      "viewport": "1440x900",
+      "comparisons": [
+        {
+          "kind": "viewport",
+          "referenceDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "implementationDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "matchedDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "heightDeltaPx": 0,
+          "mismatchedPixels": 68702,
+          "totalPixels": 1296000,
+          "diffPercent": 5.301,
+          "ssimScore": 0.6703
+        },
+        {
+          "kind": "fullpage",
+          "referenceDimensions": {
+            "width": 1440,
+            "height": 2347
+          },
+          "implementationDimensions": {
+            "width": 1440,
+            "height": 2328
+          },
+          "matchedDimensions": {
+            "width": 1440,
+            "height": 2328
+          },
+          "heightDeltaPx": -19,
+          "mismatchedPixels": 184187,
+          "totalPixels": 3352320,
+          "diffPercent": 5.494,
+          "ssimScore": 0.554
+        }
+      ]
+    },
+    {
+      "route": "404",
+      "path": "/nonexistent-check-404",
+      "httpStatus": 404,
+      "viewport": "1440x900",
+      "comparisons": [
+        {
+          "kind": "viewport",
+          "referenceDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "implementationDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "matchedDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "heightDeltaPx": 0,
+          "mismatchedPixels": 118866,
+          "totalPixels": 1296000,
+          "diffPercent": 9.172,
+          "ssimScore": 0.696
+        },
+        {
+          "kind": "fullpage",
+          "referenceDimensions": {
+            "width": 1440,
+            "height": 1565
+          },
+          "implementationDimensions": {
+            "width": 1440,
+            "height": 1420
+          },
+          "matchedDimensions": {
+            "width": 1440,
+            "height": 1420
+          },
+          "heightDeltaPx": -145,
+          "mismatchedPixels": 181097,
+          "totalPixels": 2044800,
+          "diffPercent": 8.856,
+          "ssimScore": 0.6458
+        }
+      ]
+    },
+    {
+      "route": "home",
+      "path": "/",
+      "httpStatus": 200,
+      "viewport": "390x844",
+      "comparisons": [
+        {
+          "kind": "viewport",
+          "referenceDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "implementationDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "matchedDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "heightDeltaPx": 0,
+          "mismatchedPixels": 60080,
+          "totalPixels": 329160,
+          "diffPercent": 18.253,
+          "ssimScore": 0.4157
+        },
+        {
+          "kind": "fullpage",
+          "referenceDimensions": {
+            "width": 390,
+            "height": 13211
+          },
+          "implementationDimensions": {
+            "width": 390,
+            "height": 11901
+          },
+          "matchedDimensions": {
+            "width": 390,
+            "height": 11901
+          },
+          "heightDeltaPx": -1310,
+          "mismatchedPixels": 771440,
+          "totalPixels": 4641390,
+          "diffPercent": 16.621,
+          "ssimScore": 0.3341
+        }
+      ]
+    },
+    {
+      "route": "about",
+      "path": "/about",
+      "httpStatus": 200,
+      "viewport": "390x844",
+      "comparisons": [
+        {
+          "kind": "viewport",
+          "referenceDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "implementationDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "matchedDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "heightDeltaPx": 0,
+          "mismatchedPixels": 30272,
+          "totalPixels": 329160,
+          "diffPercent": 9.197,
+          "ssimScore": 0.4246
+        },
+        {
+          "kind": "fullpage",
+          "referenceDimensions": {
+            "width": 390,
+            "height": 11003
+          },
+          "implementationDimensions": {
+            "width": 390,
+            "height": 11349
+          },
+          "matchedDimensions": {
+            "width": 390,
+            "height": 11003
+          },
+          "heightDeltaPx": 346,
+          "mismatchedPixels": 385537,
+          "totalPixels": 4291170,
+          "diffPercent": 8.984,
+          "ssimScore": 0.3785
+        }
+      ]
+    },
+    {
+      "route": "works",
+      "path": "/works",
+      "httpStatus": 200,
+      "viewport": "390x844",
+      "comparisons": [
+        {
+          "kind": "viewport",
+          "referenceDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "implementationDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "matchedDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "heightDeltaPx": 0,
+          "mismatchedPixels": 89097,
+          "totalPixels": 329160,
+          "diffPercent": 27.068,
+          "ssimScore": 0.4425
+        },
+        {
+          "kind": "fullpage",
+          "referenceDimensions": {
+            "width": 390,
+            "height": 11207
+          },
+          "implementationDimensions": {
+            "width": 390,
+            "height": 10403
+          },
+          "matchedDimensions": {
+            "width": 390,
+            "height": 10403
+          },
+          "heightDeltaPx": -804,
+          "mismatchedPixels": 1478443,
+          "totalPixels": 4057170,
+          "diffPercent": 36.44,
+          "ssimScore": 0.2536
+        }
+      ]
+    },
+    {
+      "route": "contact",
+      "path": "/contact",
+      "httpStatus": 200,
+      "viewport": "390x844",
+      "comparisons": [
+        {
+          "kind": "viewport",
+          "referenceDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "implementationDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "matchedDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "heightDeltaPx": 0,
+          "mismatchedPixels": 28142,
+          "totalPixels": 329160,
+          "diffPercent": 8.55,
+          "ssimScore": 0.4626
+        },
+        {
+          "kind": "fullpage",
+          "referenceDimensions": {
+            "width": 390,
+            "height": 3565
+          },
+          "implementationDimensions": {
+            "width": 390,
+            "height": 3624
+          },
+          "matchedDimensions": {
+            "width": 390,
+            "height": 3565
+          },
+          "heightDeltaPx": 59,
+          "mismatchedPixels": 137124,
+          "totalPixels": 1390350,
+          "diffPercent": 9.863,
+          "ssimScore": 0.4168
+        }
+      ]
+    },
+    {
+      "route": "404",
+      "path": "/nonexistent-check-404",
+      "httpStatus": 404,
+      "viewport": "390x844",
+      "comparisons": [
+        {
+          "kind": "viewport",
+          "referenceDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "implementationDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "matchedDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "heightDeltaPx": 0,
+          "mismatchedPixels": 72211,
+          "totalPixels": 329160,
+          "diffPercent": 21.938,
+          "ssimScore": 0.4644
+        },
+        {
+          "kind": "fullpage",
+          "referenceDimensions": {
+            "width": 390,
+            "height": 2065
+          },
+          "implementationDimensions": {
+            "width": 390,
+            "height": 1722
+          },
+          "matchedDimensions": {
+            "width": 390,
+            "height": 1722
+          },
+          "heightDeltaPx": -343,
+          "mismatchedPixels": 114647,
+          "totalPixels": 671580,
+          "diffPercent": 17.071,
+          "ssimScore": 0.3921
+        }
+      ]
+    }
+  ]
+}

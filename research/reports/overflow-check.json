@@ -1,6 +1,6 @@
 {
   "baseUrl": "http://localhost:3050",
-  "generatedAt": "2026-11-26T21:28:51.534Z",
+  "generatedAt": "2026-11-26T21:38:00.201Z",
   "failures": 0,
   "checks": [
     {
@@ -41,29 +41,7 @@
       "scrollWidth": 1440,
       "clientWidth": 1440,
       "overflowX": false,
-      "offenders": [
-        {
-          "tag": "div",
-          "text": "Website",
-          "left": -9075,
-          "right": -9074,
-          "width": 1
-        },
-        {
-          "tag": "label",
-          "text": "Website",
-          "left": -9075,
-          "right": -9017,
-          "width": 58
-        },
-        {
-          "tag": "input",
-          "text": "",
-          "left": -9075,
-          "right": -8887,
-          "width": 188
-        }
-      ]
+      "offenders": []
     },
     {
       "route": "/nonexistent-check-404",
@@ -113,29 +91,7 @@
       "scrollWidth": 1024,
       "clientWidth": 1024,
       "overflowX": false,
-      "offenders": [
-        {
-          "tag": "div",
-          "text": "Website",
-          "left": -9874,
-          "right": -9873,
-          "width": 1
-        },
-        {
-          "tag": "label",
-          "text": "Website",
-          "left": -9874,
-          "right": -9816,
-          "width": 58
-        },
-        {
-          "tag": "input",
-          "text": "",
-          "left": -9874,
-          "right": -9686,
-          "width": 188
-        }
-      ]
+      "offenders": []
     },
     {
       "route": "/nonexistent-check-404",
@@ -185,29 +141,7 @@
       "scrollWidth": 768,
       "clientWidth": 768,
       "overflowX": false,
-      "offenders": [
-        {
-          "tag": "div",
-          "text": "Website",
-          "left": -9942,
-          "right": -9941,
-          "width": 1
-        },
-        {
-          "tag": "label",
-          "text": "Website",
-          "left": -9942,
-          "right": -9884,
-          "width": 58
-        },
-        {
-          "tag": "input",
-          "text": "",
-          "left": -9942,
-          "right": -9754,
-          "width": 188
-        }
-      ]
+      "offenders": []
     },
     {
       "route": "/nonexistent-check-404",
@@ -257,29 +191,7 @@
       "scrollWidth": 390,
       "clientWidth": 390,
       "overflowX": false,
-      "offenders": [
-        {
-          "tag": "div",
-          "text": "Website",
-          "left": -9942,
-          "right": -9941,
-          "width": 1
-        },
-        {
-          "tag": "label",
-          "text": "Website",
-          "left": -9942,
-          "right": -9884,
-          "width": 58
-        },
-        {
-          "tag": "input",
-          "text": "",
-          "left": -9942,
-          "right": -9754,
-          "width": 188
-        }
-      ]
+      "offenders": []
     },
     {
       "route": "/nonexistent-check-404",
@@ -390,29 +302,7 @@
       "scrollWidth": 320,
       "clientWidth": 320,
       "overflowX": false,
-      "offenders": [
-        {
-          "tag": "div",
-          "text": "CRAFTED DIGITAL EXPERIENCES",
-          "left": 33,
-          "right": 361,
-          "width": 328
-        },
-        {
-          "tag": "h1",
-          "text": "CRAFTED DIGITAL EXPERIENCES",
-          "left": 33,
-          "right": 361,
-          "width": 328
-        },
-        {
-          "tag": "span",
-          "text": "EXPERIENCES",
-          "left": 33,
-          "right": 361,
-          "width": 328
-        }
-      ]
+      "offenders": []
     },
     {
       "route": "/contact",
@@ -422,29 +312,7 @@
       "scrollWidth": 320,
       "clientWidth": 320,
       "overflowX": false,
-      "offenders": [
-        {
-          "tag": "div",
-          "text": "Website",
-          "left": -9942,
-          "right": -9941,
-          "width": 1
-        },
-        {
-          "tag": "label",
-          "text": "Website",
-          "left": -9942,
-          "right": -9884,
-          "width": 58
-        },
-        {
-          "tag": "input",
-          "text": "",
-          "left": -9942,
-          "right": -9754,
-          "width": 188
-        }
-      ]
+      "offenders": []
     },
     {
       "route": "/nonexistent-check-404",

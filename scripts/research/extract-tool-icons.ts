@@ -11,13 +11,33 @@ async function main() {
   await page.waitForTimeout(800);
 
   const tabs = ['DESIGN', 'DEVELOPMENT', 'MOTION', '3D / VISUAL'];
-  const out: Record<string, Array<{ title: string; href: string; svg: string | null; img: string | null }>> = {};
+  const out: Record<string, Array<{ title: string; href: string; svg: string | null }>> = {};
 
   for (const t of tabs) {
-    const tabEl = page.locator('[data-framer-name]').filter({ hasText: t }).last();
-    await tabEl.scrollIntoViewIfNeeded().catch(() => {});
-    await page.getByText(t, { exact: true }).first().click({ force: true });
-    await page.waitForTimeout(450);
+    const stackHeading = page.getByText('TOOLS BEHIND', { exact: false }).first();
+    await stackHeading.scrollIntoViewIfNeeded();
+    await page.waitForTimeout(200);
+
+    const box = await page.evaluate((tabName) => {
+      const candidates = Array.from(document.querySelectorAll('p, span, div'))
+        .filter((el) => (el.textContent || '').trim() === tabName)
+        .map((el) => {
+          const r = el.getBoundingClientRect();
+          return { el, r };
+        })
+        .filter((x) => x.r.width > 10 && x.r.height > 10 && x.r.left < 600);
+      const target = candidates[candidates.length - 1];
+      if (!target) return null;
+      return {
+        x: target.r.left + target.r.width / 2,
+        y: target.r.top + target.r.height / 2,
+      };
+    }, t);
+
+    if (box) {
+      await page.mouse.click(box.x, box.y);
+      await page.waitForTimeout(550);
+    }
 
     const cards = await page.evaluate(() => {
       const anchors = Array.from(document.querySelectorAll('a'));
@@ -28,22 +48,45 @@ async function main() {
           ),
         )
         .map((a) => {
-          const svgs = Array.from(a.querySelectorAll('svg'))
-            .map((s) => s.outerHTML)
-            .filter(
-              (h) =>
-                !h.includes('sci-fi-clip') &&
-                !h.includes('corner-glow') &&
-                !h.includes('0 0 12 12') &&
-                !h.includes('M 4 8') &&
-                h.length > 40,
+          const svgs = Array.from(a.querySelectorAll('svg')).filter((s) => {
+            const h = s.outerHTML;
+            return (
+              !h.includes('sci-fi-clip') &&
+              !h.includes('corner-glow') &&
+              !h.includes('0 0 12 12') &&
+              !h.includes('M 4 8') &&
+              h.length > 40
             );
-          const imgs = Array.from(a.querySelectorAll('img')).map((i) => i.src);
+          });
+          const iconSvg = svgs[0];
+          let resolvedSvg: string | null = null;
+          if (iconSvg) {
+            const clone = iconSvg.cloneNode(true) as SVGElement;
+            clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+            clone.setAttribute('width', '24');
+            clone.setAttribute('height', '24');
+            clone.removeAttribute('style');
+            const uses = Array.from(clone.querySelectorAll('use'));
+            for (const u of uses) {
+              const ref = u.getAttribute('href') || u.getAttribute('xlink:href');
+              if (ref && ref.startsWith('#')) {
+                const tpl = document.getElementById(ref.slice(1));
+                if (tpl) {
+                  const wrapper = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+                  wrapper.innerHTML = tpl.innerHTML;
+                  u.replaceWith(wrapper);
+                }
+              }
+            }
+            resolvedSvg = clone.outerHTML
+              .replace(/var\(--[^,)]+,\s*([^)]+)\)/g, '$1')
+              .replace(/rgb\(255,\s*255,\s*255\)/g, '#ffffff')
+              .replace(/currentColor/g, '#ffffff');
+          }
           return {
             title: a.innerText.trim().split(/\n/)[0] || '',
             href: a.href,
-            svg: svgs[0] || null,
-            img: imgs[0] || null,
+            svg: resolvedSvg,
           };
         });
     });
@@ -55,23 +98,17 @@ async function main() {
   for (const [cat, items] of Object.entries(out)) {
     for (const item of items) {
       const slug = item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-      if (item.svg) {
-        let svg = item.svg;
-        if (!svg.includes('xmlns=')) {
-          svg = svg.replace('<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
-        }
-        fs.writeFileSync(path.join('public/assets/icons/tools', `${slug}.svg`), svg, 'utf8');
+      if (item.svg && !item.svg.includes('<use')) {
+        fs.writeFileSync(path.join('public/assets/icons/tools', `${slug}.svg`), item.svg, 'utf8');
         saved++;
-      } else if (item.img) {
-        console.log('IMG tool icon:', cat, slug, item.img);
       } else {
-        console.log('NO SVG/IMG:', cat, item.title, item.href);
+        console.log('FAILED RESOLVE:', cat, slug);
       }
     }
   }
 
   fs.writeFileSync('research/reference/assets/tool-icons-extracted.json', JSON.stringify(out, null, 2), 'utf8');
-  console.log('Saved tool SVGs:', saved);
+  console.log('Saved resolved tool SVGs:', saved, Object.entries(out).map(([k, v]) => `${k}=[${v.map((x) => x.title).join(',')}]`).join(' | '));
   await browser.close();
 }
 

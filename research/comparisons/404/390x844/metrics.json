@@ -1,0 +1,48 @@
+{
+  "route": "404",
+  "path": "/nonexistent-check-404",
+  "httpStatus": 404,
+  "viewport": "390x844",
+  "comparisons": [
+    {
+      "kind": "viewport",
+      "referenceDimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "implementationDimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "matchedDimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "heightDeltaPx": 0,
+      "mismatchedPixels": 72211,
+      "totalPixels": 329160,
+      "diffPercent": 21.938,
+      "ssimScore": 0.4644
+    },
+    {
+      "kind": "fullpage",
+      "referenceDimensions": {
+        "width": 390,
+        "height": 2065
+      },
+      "implementationDimensions": {
+        "width": 390,
+        "height": 1722
+      },
+      "matchedDimensions": {
+        "width": 390,
+        "height": 1722
+      },
+      "heightDeltaPx": -343,
+      "mismatchedPixels": 114647,
+      "totalPixels": 671580,
+      "diffPercent": 17.071,
+      "ssimScore": 0.3921
+    }
+  ]
+}

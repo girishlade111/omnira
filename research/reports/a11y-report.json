@@ -1,114 +1,35 @@
 {
   "baseUrl": "http://localhost:3050",
-  "generatedAt": "2026-11-26T21:30:07.030Z",
+  "generatedAt": "2026-11-26T21:39:39.829Z",
   "firstSkipFocus": "Skip to content",
   "routes": [
     {
       "route": "/",
-      "violationCount": 4,
-      "criticalAndSeriousCount": 4,
+      "violationCount": 0,
+      "criticalAndSeriousCount": 0,
       "passesCount": 28,
-      "violations": [
-        {
-          "id": "aria-prohibited-attr",
-          "impact": "serious",
-          "description": "Ensure ARIA attributes are not prohibited for an element's role",
-          "nodes": 1,
-          "targets": [
-            [
-              ".bgQbHG_ratingStars"
-            ]
-          ]
-        },
-        {
-          "id": "aria-required-children",
-          "impact": "critical",
-          "description": "Ensure elements with an ARIA role that require child roles contain them",
-          "nodes": 1,
-          "targets": [
-            [
-              "._06co2W_servicesAccordionCol"
-            ]
-          ]
-        },
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "nodes": 6,
-          "targets": [
-            [
-              "._06co2W_heroDesc"
-            ],
-            [
-              "._06co2W_heroBottomBar > .nUh8la_statusRoot.nUh8la_statusGreen > .nUh8la_statusLabel"
-            ],
-            [
-              "._06co2W_scrollHintLink > span"
-            ]
-          ]
-        },
-        {
-          "id": "label-content-name-mismatch",
-          "impact": "serious",
-          "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
-          "nodes": 6,
-          "targets": [
-            [
-              ".bgQbHG_projectCardLink[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
-            ],
-            [
-              "a[href$=\"nivora.framer.website/\"]"
-            ],
-            [
-              "a[href$=\"codify.framer.website/\"]"
-            ]
-          ]
-        }
-      ]
+      "violations": []
     },
     {
       "route": "/about",
-      "violationCount": 3,
-      "criticalAndSeriousCount": 3,
+      "violationCount": 1,
+      "criticalAndSeriousCount": 1,
       "passesCount": 29,
       "violations": [
-        {
-          "id": "aria-prohibited-attr",
-          "impact": "serious",
-          "description": "Ensure ARIA attributes are not prohibited for an element's role",
-          "nodes": 1,
-          "targets": [
-            [
-              ".bgQbHG_ratingStars"
-            ]
-          ]
-        },
         {
           "id": "color-contrast",
           "impact": "serious",
           "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "nodes": 12,
+          "nodes": 4,
           "targets": [
             [
-              "._65-7Xq_heroDescription"
+              "._65-7Xq_timelineRow:nth-child(2) > ._65-7Xq_timelineYearCol > ._65-7Xq_timelineYearBtn"
             ],
             [
-              "._65-7Xq_bioText:nth-child(1)"
+              "._65-7Xq_timelineRow:nth-child(3) > ._65-7Xq_timelineYearCol > ._65-7Xq_timelineYearBtn"
             ],
             [
-              "._65-7Xq_bioText:nth-child(2)"
-            ]
-          ]
-        },
-        {
-          "id": "label-content-name-mismatch",
-          "impact": "serious",
-          "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
-          "nodes": 1,
-          "targets": [
-            [
-              "._65-7Xq_terminalEnterBtn"
+              "._65-7Xq_timelineRow:nth-child(5) > ._65-7Xq_timelineYearCol > ._65-7Xq_timelineYearBtn"
             ]
           ]
         }
@@ -116,39 +37,10 @@
     },
     {
       "route": "/works",
-      "violationCount": 2,
-      "criticalAndSeriousCount": 2,
+      "violationCount": 0,
+      "criticalAndSeriousCount": 0,
       "passesCount": 26,
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "nodes": 1,
-          "targets": [
-            [
-              ".xNTL9q_countMeta"
-            ]
-          ]
-        },
-        {
-          "id": "label-content-name-mismatch",
-          "impact": "serious",
-          "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
-          "nodes": 27,
-          "targets": [
-            [
-              ".bgQbHG_projectCardLink[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
-            ],
-            [
-              "a[href$=\"nivora.framer.website/\"]"
-            ],
-            [
-              "a[href$=\"codify.framer.website/\"]"
-            ]
-          ]
-        }
-      ]
+      "violations": []
     },
     {
       "route": "/contact",
@@ -159,22 +51,10 @@
     },
     {
       "route": "/nonexistent-check-404",
-      "violationCount": 1,
-      "criticalAndSeriousCount": 1,
+      "violationCount": 0,
+      "criticalAndSeriousCount": 0,
       "passesCount": 22,
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "nodes": 1,
-          "targets": [
-            [
-              ".HS70Aa_description"
-            ]
-          ]
-        }
-      ]
+      "violations": []
     }
   ]
 }
