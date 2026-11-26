@@ -1,0 +1,1169 @@
+{
+  "generatedAt": "2026-11-26T20:44:57.754Z",
+  "global": {
+    "fontsCss": "/assets/fonts/fonts.css",
+    "fontFamilies": [
+      "Orbitron",
+      "Chakra Petch",
+      "Inter"
+    ],
+    "brand": {
+      "navLogo": {
+        "id": "brand-omnira-logo-nav",
+        "publicPath": "/assets/brand/omnira-logo-nav.svg",
+        "webp": "/assets/brand/omnira-logo-nav.svg",
+        "avif": "/assets/brand/omnira-logo-nav.svg",
+        "fallback": "/assets/brand/omnira-logo-nav.svg",
+        "width": 21,
+        "height": 24,
+        "hasAlpha": null,
+        "description": "Omnira navbar primary geometric mark"
+      },
+      "footerLogo": {
+        "id": "brand-omnira-logo-footer",
+        "publicPath": "/assets/brand/omnira-logo-footer.svg",
+        "webp": "/assets/brand/omnira-logo-footer.svg",
+        "avif": "/assets/brand/omnira-logo-footer.svg",
+        "fallback": "/assets/brand/omnira-logo-footer.svg",
+        "width": 21,
+        "height": 24,
+        "hasAlpha": null,
+        "description": "Omnira footer geometric mark"
+      },
+      "favicon": {
+        "id": "brand-omnira-favicon",
+        "publicPath": "/assets/brand/omnira-favicon.svg",
+        "webp": "/assets/brand/omnira-favicon.svg",
+        "avif": "/assets/brand/omnira-favicon.svg",
+        "fallback": "/assets/brand/omnira-favicon.svg",
+        "width": 24,
+        "height": 24,
+        "hasAlpha": null,
+        "description": "Omnira site favicon SVG"
+      },
+      "appleTouchIcon": {
+        "id": "brand-omnira-apple-touch-icon",
+        "publicPath": "/assets/brand/omnira-apple-touch-icon.svg",
+        "webp": "/assets/brand/omnira-apple-touch-icon.svg",
+        "avif": "/assets/brand/omnira-apple-touch-icon.svg",
+        "fallback": "/assets/brand/omnira-apple-touch-icon.svg",
+        "width": 24,
+        "height": 24,
+        "hasAlpha": null,
+        "description": "Omnira apple-touch-icon SVG"
+      },
+      "ogImage": {
+        "id": "brand-omnira-og-image",
+        "publicPath": "/assets/brand/omnira-og-image.webp",
+        "webp": "/assets/brand/omnira-og-image.webp",
+        "avif": "/assets/brand/omnira-og-image.avif",
+        "fallback": "/assets/brand/omnira-og-image.jpg",
+        "width": 1200,
+        "height": 630,
+        "hasAlpha": false,
+        "description": "Omnira Open Graph / Twitter social share card image"
+      }
+    },
+    "textures": {
+      "darkGrain": {
+        "id": "textures-omnira-dark-grain",
+        "publicPath": "/assets/textures/omnira-dark-grain.webp",
+        "webp": "/assets/textures/omnira-dark-grain.webp",
+        "avif": "/assets/textures/omnira-dark-grain.avif",
+        "fallback": "/assets/textures/omnira-dark-grain.jpg",
+        "width": 4736,
+        "height": 3136,
+        "hasAlpha": false,
+        "description": "Dark surface grain texture (screen blend mode, 4736x3136)"
+      },
+      "panelGrain": {
+        "id": "textures-omnira-panel-grain",
+        "publicPath": "/assets/textures/omnira-panel-grain.webp",
+        "webp": "/assets/textures/omnira-panel-grain.webp",
+        "avif": "/assets/textures/omnira-panel-grain.avif",
+        "fallback": "/assets/textures/omnira-panel-grain.png",
+        "width": 1448,
+        "height": 1086,
+        "hasAlpha": false,
+        "description": "Panel grain texture overlay (1448x1086)"
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "portraitParticleSource": {
+          "id": "hero-hero-portrait-dotmatrix",
+          "publicPath": "/assets/images/hero/hero-portrait-dotmatrix.webp",
+          "webp": "/assets/images/hero/hero-portrait-dotmatrix.webp",
+          "avif": "/assets/images/hero/hero-portrait-dotmatrix.avif",
+          "fallback": "/assets/images/hero/hero-portrait-dotmatrix.png",
+          "width": 1254,
+          "height": 1254,
+          "hasAlpha": false,
+          "description": "Hero interactive particle/dot-matrix portrait source image (1254x1254)"
+        },
+        "renderingMode": "HTML5 2D Canvas dot-matrix particle system sampling portrait luminance with pointer repulsion"
+      },
+      "process": {
+        "signalStripInlineSvgRef": "assets-source/original/icons/inline/inline-014-trailing-content-7bf8aa.svg",
+        "stepIconsNote": "4 inline 24x24 geometric step icons extracted under assets-source/original/icons/inline/"
+      },
+      "services": {
+        "homeIsometricStackLayers": [
+          {
+            "id": "services-service-stack-home-layer-1",
+            "publicPath": "/assets/images/services/service-stack-home-layer-1.webp",
+            "webp": "/assets/images/services/service-stack-home-layer-1.webp",
+            "avif": "/assets/images/services/service-stack-home-layer-1.avif",
+            "fallback": "/assets/images/services/service-stack-home-layer-1.png",
+            "width": 1254,
+            "height": 1254,
+            "hasAlpha": false,
+            "description": "Home Services Tab 4 / 3D isometric stack layer 1"
+          },
+          {
+            "id": "services-service-stack-home-layer-2",
+            "publicPath": "/assets/images/services/service-stack-home-layer-2.webp",
+            "webp": "/assets/images/services/service-stack-home-layer-2.webp",
+            "avif": "/assets/images/services/service-stack-home-layer-2.avif",
+            "fallback": "/assets/images/services/service-stack-home-layer-2.png",
+            "width": 1254,
+            "height": 1254,
+            "hasAlpha": false,
+            "description": "Home Services Tab 4 / 3D isometric stack layer 2"
+          },
+          {
+            "id": "services-service-stack-home-layer-3",
+            "publicPath": "/assets/images/services/service-stack-home-layer-3.webp",
+            "webp": "/assets/images/services/service-stack-home-layer-3.webp",
+            "avif": "/assets/images/services/service-stack-home-layer-3.avif",
+            "fallback": "/assets/images/services/service-stack-home-layer-3.png",
+            "width": 1254,
+            "height": 1254,
+            "hasAlpha": false,
+            "description": "Home Services Tab 4 / 3D isometric stack layer 3"
+          },
+          {
+            "id": "services-service-stack-home-layer-4",
+            "publicPath": "/assets/images/services/service-stack-home-layer-4.webp",
+            "webp": "/assets/images/services/service-stack-home-layer-4.webp",
+            "avif": "/assets/images/services/service-stack-home-layer-4.avif",
+            "fallback": "/assets/images/services/service-stack-home-layer-4.png",
+            "width": 1254,
+            "height": 1254,
+            "hasAlpha": false,
+            "description": "Home Services Tab 4 / 3D isometric stack layer 4"
+          },
+          {
+            "id": "services-service-stack-home-layer-5",
+            "publicPath": "/assets/images/services/service-stack-home-layer-5.webp",
+            "webp": "/assets/images/services/service-stack-home-layer-5.webp",
+            "avif": "/assets/images/services/service-stack-home-layer-5.avif",
+            "fallback": "/assets/images/services/service-stack-home-layer-5.png",
+            "width": 1254,
+            "height": 1254,
+            "hasAlpha": false,
+            "description": "Home Services Tab 4 / 3D isometric stack layer 5"
+          }
+        ],
+        "note": "Tabs 1-3 render vector schematics + canvas/SVG grids; Tab 4 renders the 5-layer interactive isometric stack."
+      },
+      "testimonials": {
+        "avatars": [
+          {
+            "slideIndex": 1,
+            "name": "Default / Slide 1",
+            "asset": {
+              "id": "testimonials-testimonial-01-default",
+              "publicPath": "/assets/images/testimonials/testimonial-01-default.webp",
+              "webp": "/assets/images/testimonials/testimonial-01-default.webp",
+              "avif": "/assets/images/testimonials/testimonial-01-default.avif",
+              "fallback": "/assets/images/testimonials/testimonial-01-default.jpg",
+              "width": 2244,
+              "height": 2244,
+              "hasAlpha": false,
+              "description": "Testimonials default / slide 1 client avatar"
+            }
+          },
+          {
+            "slideIndex": 2,
+            "name": "Daniel Kim",
+            "asset": {
+              "id": "testimonials-testimonial-02-daniel-kim",
+              "publicPath": "/assets/images/testimonials/testimonial-02-daniel-kim.webp",
+              "webp": "/assets/images/testimonials/testimonial-02-daniel-kim.webp",
+              "avif": "/assets/images/testimonials/testimonial-02-daniel-kim.avif",
+              "fallback": "/assets/images/testimonials/testimonial-02-daniel-kim.png",
+              "width": 288,
+              "height": 288,
+              "hasAlpha": false,
+              "description": "Testimonial avatar — Daniel Kim"
+            }
+          },
+          {
+            "slideIndex": 3,
+            "name": "Sarah Chen",
+            "asset": {
+              "id": "testimonials-testimonial-03-sarah-chen",
+              "publicPath": "/assets/images/testimonials/testimonial-03-sarah-chen.webp",
+              "webp": "/assets/images/testimonials/testimonial-03-sarah-chen.webp",
+              "avif": "/assets/images/testimonials/testimonial-03-sarah-chen.avif",
+              "fallback": "/assets/images/testimonials/testimonial-03-sarah-chen.jpg",
+              "width": 555,
+              "height": 555,
+              "hasAlpha": false,
+              "description": "Testimonial avatar — Sarah Chen"
+            }
+          },
+          {
+            "slideIndex": 4,
+            "name": "Leon Hart",
+            "asset": {
+              "id": "testimonials-testimonial-04-leon-hart",
+              "publicPath": "/assets/images/testimonials/testimonial-04-leon-hart.webp",
+              "webp": "/assets/images/testimonials/testimonial-04-leon-hart.webp",
+              "avif": "/assets/images/testimonials/testimonial-04-leon-hart.avif",
+              "fallback": "/assets/images/testimonials/testimonial-04-leon-hart.jpg",
+              "width": 541,
+              "height": 541,
+              "hasAlpha": false,
+              "description": "Testimonial avatar — Leon Hart"
+            }
+          },
+          {
+            "slideIndex": 5,
+            "name": "Sofia Brand",
+            "asset": {
+              "id": "testimonials-testimonial-05-sofia-brand",
+              "publicPath": "/assets/images/testimonials/testimonial-05-sofia-brand.webp",
+              "webp": "/assets/images/testimonials/testimonial-05-sofia-brand.webp",
+              "avif": "/assets/images/testimonials/testimonial-05-sofia-brand.avif",
+              "fallback": "/assets/images/testimonials/testimonial-05-sofia-brand.png",
+              "width": 288,
+              "height": 288,
+              "hasAlpha": false,
+              "description": "Testimonial avatar — Sofia Brand"
+            }
+          },
+          {
+            "slideIndex": 6,
+            "name": "Mira Klein",
+            "asset": {
+              "id": "testimonials-testimonial-06-mira-klein",
+              "publicPath": "/assets/images/testimonials/testimonial-06-mira-klein.webp",
+              "webp": "/assets/images/testimonials/testimonial-06-mira-klein.webp",
+              "avif": "/assets/images/testimonials/testimonial-06-mira-klein.avif",
+              "fallback": "/assets/images/testimonials/testimonial-06-mira-klein.jpg",
+              "width": 504,
+              "height": 504,
+              "hasAlpha": false,
+              "description": "Testimonial avatar — Mira Klein"
+            }
+          }
+        ],
+        "controls": {
+          "arrowLeft": {
+            "id": "icons-arrow-left",
+            "publicPath": "/assets/icons/arrow-left.svg",
+            "webp": "/assets/icons/arrow-left.svg",
+            "avif": "/assets/icons/arrow-left.svg",
+            "fallback": "/assets/icons/arrow-left.svg",
+            "width": 40,
+            "height": 40,
+            "hasAlpha": null,
+            "description": "Carousel back arrow icon"
+          },
+          "arrowRight": {
+            "id": "icons-arrow-right",
+            "publicPath": "/assets/icons/arrow-right.svg",
+            "webp": "/assets/icons/arrow-right.svg",
+            "avif": "/assets/icons/arrow-right.svg",
+            "fallback": "/assets/icons/arrow-right.svg",
+            "width": 40,
+            "height": 40,
+            "hasAlpha": null,
+            "description": "Carousel next arrow icon"
+          },
+          "ratingStar": {
+            "id": "icons-rating-star",
+            "publicPath": "/assets/icons/rating-star.svg",
+            "webp": "/assets/icons/rating-star.svg",
+            "avif": "/assets/icons/rating-star.svg",
+            "fallback": "/assets/icons/rating-star.svg",
+            "width": 24,
+            "height": 24,
+            "hasAlpha": null,
+            "description": "Testimonial 5-star rating icon"
+          }
+        },
+        "partnerLogos": [
+          {
+            "id": "logos-partner-logo-01",
+            "publicPath": "/assets/images/logos/partner-logo-01.svg",
+            "webp": "/assets/images/logos/partner-logo-01.svg",
+            "avif": "/assets/images/logos/partner-logo-01.svg",
+            "fallback": "/assets/images/logos/partner-logo-01.svg",
+            "width": 108,
+            "height": 26,
+            "hasAlpha": null,
+            "description": "Partner logo ticker item 01"
+          },
+          {
+            "id": "logos-partner-logo-02",
+            "publicPath": "/assets/images/logos/partner-logo-02.svg",
+            "webp": "/assets/images/logos/partner-logo-02.svg",
+            "avif": "/assets/images/logos/partner-logo-02.svg",
+            "fallback": "/assets/images/logos/partner-logo-02.svg",
+            "width": 106,
+            "height": 26,
+            "hasAlpha": null,
+            "description": "Partner logo ticker item 02"
+          },
+          {
+            "id": "logos-partner-logo-03",
+            "publicPath": "/assets/images/logos/partner-logo-03.svg",
+            "webp": "/assets/images/logos/partner-logo-03.svg",
+            "avif": "/assets/images/logos/partner-logo-03.svg",
+            "fallback": "/assets/images/logos/partner-logo-03.svg",
+            "width": 124,
+            "height": 24,
+            "hasAlpha": null,
+            "description": "Partner logo ticker item 03"
+          },
+          {
+            "id": "logos-partner-logo-04",
+            "publicPath": "/assets/images/logos/partner-logo-04.svg",
+            "webp": "/assets/images/logos/partner-logo-04.svg",
+            "avif": "/assets/images/logos/partner-logo-04.svg",
+            "fallback": "/assets/images/logos/partner-logo-04.svg",
+            "width": 133,
+            "height": 26,
+            "hasAlpha": null,
+            "description": "Partner logo ticker item 04"
+          },
+          {
+            "id": "logos-partner-logo-05",
+            "publicPath": "/assets/images/logos/partner-logo-05.svg",
+            "webp": "/assets/images/logos/partner-logo-05.svg",
+            "avif": "/assets/images/logos/partner-logo-05.svg",
+            "fallback": "/assets/images/logos/partner-logo-05.svg",
+            "width": 153,
+            "height": 26,
+            "hasAlpha": null,
+            "description": "Partner logo ticker item 05"
+          },
+          {
+            "id": "logos-partner-logo-06",
+            "publicPath": "/assets/images/logos/partner-logo-06.svg",
+            "webp": "/assets/images/logos/partner-logo-06.svg",
+            "avif": "/assets/images/logos/partner-logo-06.svg",
+            "fallback": "/assets/images/logos/partner-logo-06.svg",
+            "width": 113,
+            "height": 26,
+            "hasAlpha": null,
+            "description": "Partner logo ticker item 06"
+          },
+          {
+            "id": "logos-partner-logo-07",
+            "publicPath": "/assets/images/logos/partner-logo-07.svg",
+            "webp": "/assets/images/logos/partner-logo-07.svg",
+            "avif": "/assets/images/logos/partner-logo-07.svg",
+            "fallback": "/assets/images/logos/partner-logo-07.svg",
+            "width": 106,
+            "height": 26,
+            "hasAlpha": null,
+            "description": "Partner logo ticker item 07"
+          },
+          {
+            "id": "logos-partner-logo-08",
+            "publicPath": "/assets/images/logos/partner-logo-08.svg",
+            "webp": "/assets/images/logos/partner-logo-08.svg",
+            "avif": "/assets/images/logos/partner-logo-08.svg",
+            "fallback": "/assets/images/logos/partner-logo-08.svg",
+            "width": 109,
+            "height": 26,
+            "hasAlpha": null,
+            "description": "Partner logo ticker item 08"
+          }
+        ]
+      }
+    },
+    "about": {
+      "profileHero": {
+        "portrait": {
+          "id": "portraits-about-profile-portrait",
+          "publicPath": "/assets/images/about/about-profile-portrait.webp",
+          "webp": "/assets/images/about/about-profile-portrait.webp",
+          "avif": "/assets/images/about/about-profile-portrait.avif",
+          "fallback": "/assets/images/about/about-profile-portrait.png",
+          "width": 1254,
+          "height": 1254,
+          "hasAlpha": true,
+          "description": "About page profile hero portrait (1254x1254)"
+        },
+        "signature": {
+          "id": "brand-profile-signature",
+          "publicPath": "/assets/brand/profile-signature.svg",
+          "webp": "/assets/brand/profile-signature.svg",
+          "avif": "/assets/brand/profile-signature.svg",
+          "fallback": "/assets/brand/profile-signature.svg",
+          "width": 95,
+          "height": 29,
+          "hasAlpha": null,
+          "description": "Designer handwritten signature vector mark (95x29)"
+        }
+      },
+      "aboutIsometricStackLayers": [
+        {
+          "id": "services-service-stack-about-layer-1",
+          "publicPath": "/assets/images/services/service-stack-about-layer-1.webp",
+          "webp": "/assets/images/services/service-stack-about-layer-1.webp",
+          "avif": "/assets/images/services/service-stack-about-layer-1.avif",
+          "fallback": "/assets/images/services/service-stack-about-layer-1.png",
+          "width": 1254,
+          "height": 1254,
+          "hasAlpha": false,
+          "description": "About System Stack / 3D isometric stack layer 1"
+        },
+        {
+          "id": "services-service-stack-about-layer-2",
+          "publicPath": "/assets/images/services/service-stack-about-layer-2.webp",
+          "webp": "/assets/images/services/service-stack-about-layer-2.webp",
+          "avif": "/assets/images/services/service-stack-about-layer-2.avif",
+          "fallback": "/assets/images/services/service-stack-about-layer-2.png",
+          "width": 1254,
+          "height": 1254,
+          "hasAlpha": false,
+          "description": "About System Stack / 3D isometric stack layer 2"
+        },
+        {
+          "id": "services-service-stack-about-layer-3",
+          "publicPath": "/assets/images/services/service-stack-about-layer-3.webp",
+          "webp": "/assets/images/services/service-stack-about-layer-3.webp",
+          "avif": "/assets/images/services/service-stack-about-layer-3.avif",
+          "fallback": "/assets/images/services/service-stack-about-layer-3.png",
+          "width": 1254,
+          "height": 1254,
+          "hasAlpha": false,
+          "description": "About System Stack / 3D isometric stack layer 3"
+        },
+        {
+          "id": "services-service-stack-about-layer-4",
+          "publicPath": "/assets/images/services/service-stack-about-layer-4.webp",
+          "webp": "/assets/images/services/service-stack-about-layer-4.webp",
+          "avif": "/assets/images/services/service-stack-about-layer-4.avif",
+          "fallback": "/assets/images/services/service-stack-about-layer-4.png",
+          "width": 1254,
+          "height": 1254,
+          "hasAlpha": false,
+          "description": "About System Stack / 3D isometric stack layer 4"
+        },
+        {
+          "id": "services-service-stack-about-layer-5",
+          "publicPath": "/assets/images/services/service-stack-about-layer-5.webp",
+          "webp": "/assets/images/services/service-stack-about-layer-5.webp",
+          "avif": "/assets/images/services/service-stack-about-layer-5.avif",
+          "fallback": "/assets/images/services/service-stack-about-layer-5.png",
+          "width": 1254,
+          "height": 1254,
+          "hasAlpha": false,
+          "description": "About System Stack / 3D isometric stack layer 5"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "2020",
+          "asset": {
+            "id": "timeline-timeline-2020",
+            "publicPath": "/assets/images/timeline/timeline-2020.webp",
+            "webp": "/assets/images/timeline/timeline-2020.webp",
+            "avif": "/assets/images/timeline/timeline-2020.avif",
+            "fallback": "/assets/images/timeline/timeline-2020.png",
+            "width": 1254,
+            "height": 1254,
+            "hasAlpha": false,
+            "description": "Timeline milestone 2020 artwork (1254x1254)"
+          }
+        },
+        {
+          "year": "2021",
+          "asset": {
+            "id": "timeline-timeline-2021",
+            "publicPath": "/assets/images/timeline/timeline-2021.webp",
+            "webp": "/assets/images/timeline/timeline-2021.webp",
+            "avif": "/assets/images/timeline/timeline-2021.avif",
+            "fallback": "/assets/images/timeline/timeline-2021.png",
+            "width": 1254,
+            "height": 1254,
+            "hasAlpha": false,
+            "description": "Timeline milestone 2021 artwork (1254x1254)"
+          }
+        },
+        {
+          "year": "2022",
+          "asset": {
+            "id": "timeline-timeline-2022",
+            "publicPath": "/assets/images/timeline/timeline-2022.webp",
+            "webp": "/assets/images/timeline/timeline-2022.webp",
+            "avif": "/assets/images/timeline/timeline-2022.avif",
+            "fallback": "/assets/images/timeline/timeline-2022.png",
+            "width": 1254,
+            "height": 1254,
+            "hasAlpha": false,
+            "description": "Timeline milestone 2022 artwork (1254x1254)"
+          }
+        },
+        {
+          "year": "2023",
+          "asset": {
+            "id": "timeline-timeline-2023",
+            "publicPath": "/assets/images/timeline/timeline-2023.webp",
+            "webp": "/assets/images/timeline/timeline-2023.webp",
+            "avif": "/assets/images/timeline/timeline-2023.avif",
+            "fallback": "/assets/images/timeline/timeline-2023.png",
+            "width": 1254,
+            "height": 1254,
+            "hasAlpha": false,
+            "description": "Timeline milestone 2023 artwork (1254x1254)"
+          }
+        },
+        {
+          "year": "2024",
+          "asset": {
+            "id": "timeline-timeline-2024",
+            "publicPath": "/assets/images/timeline/timeline-2024.webp",
+            "webp": "/assets/images/timeline/timeline-2024.webp",
+            "avif": "/assets/images/timeline/timeline-2024.avif",
+            "fallback": "/assets/images/timeline/timeline-2024.png",
+            "width": 1254,
+            "height": 1254,
+            "hasAlpha": false,
+            "description": "Timeline milestone 2024 artwork (1254x1254)"
+          }
+        },
+        {
+          "year": "2025",
+          "asset": {
+            "id": "timeline-timeline-2025",
+            "publicPath": "/assets/images/timeline/timeline-2025.webp",
+            "webp": "/assets/images/timeline/timeline-2025.webp",
+            "avif": "/assets/images/timeline/timeline-2025.avif",
+            "fallback": "/assets/images/timeline/timeline-2025.png",
+            "width": 1254,
+            "height": 1254,
+            "hasAlpha": false,
+            "description": "Timeline milestone 2025 artwork (1254x1254)"
+          }
+        },
+        {
+          "year": "2026",
+          "asset": {
+            "id": "timeline-timeline-2026",
+            "publicPath": "/assets/images/timeline/timeline-2026.webp",
+            "webp": "/assets/images/timeline/timeline-2026.webp",
+            "avif": "/assets/images/timeline/timeline-2026.avif",
+            "fallback": "/assets/images/timeline/timeline-2026.png",
+            "width": 1254,
+            "height": 1254,
+            "hasAlpha": false,
+            "description": "Timeline milestone 2026 artwork (1254x1254)"
+          }
+        }
+      ],
+      "systemStack": {
+        "note": "24 tool icons across DESIGN, DEVELOPMENT, MOTION, and 3D / VISUAL are vector SVG marks captured in assets-source/original/icons/inline/."
+      }
+    },
+    "works": {
+      "totalProjects": 27,
+      "defaultFallbackCardImage": {
+        "id": "projects-project-card-default-fallback",
+        "publicPath": "/assets/images/projects/project-card-default-fallback.webp",
+        "webp": "/assets/images/projects/project-card-default-fallback.webp",
+        "avif": "/assets/images/projects/project-card-default-fallback.avif",
+        "fallback": "/assets/images/projects/project-card-default-fallback.jpg",
+        "width": 1600,
+        "height": 1200,
+        "hasAlpha": false,
+        "description": "ProjectCard component default fallback image prop"
+      },
+      "projects": [
+        {
+          "order": 1,
+          "id": "xBLzQ310r",
+          "title": "Brandora",
+          "slug": "brandora",
+          "category": "PORTFOLIO",
+          "categorySlug": "portfolio",
+          "displayDomain": "bradora.studio",
+          "externalUrl": "https://brandora.framer.website/",
+          "cover": {
+            "id": "project-brandora-cover",
+            "publicPath": "/assets/images/projects/brandora-cover.webp",
+            "webp": "/assets/images/projects/brandora-cover.webp",
+            "avif": "/assets/images/projects/brandora-cover.avif",
+            "fallback": "/assets/images/projects/brandora-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Brandora (bradora.studio)"
+          }
+        },
+        {
+          "order": 2,
+          "id": "doFmNYbAn",
+          "title": "Nivora",
+          "slug": "nivora",
+          "category": "PORTFOLIO",
+          "categorySlug": "portfolio",
+          "displayDomain": "nivora.studio",
+          "externalUrl": "https://nivora.framer.website/",
+          "cover": {
+            "id": "project-nivora-cover",
+            "publicPath": "/assets/images/projects/nivora-cover.webp",
+            "webp": "/assets/images/projects/nivora-cover.webp",
+            "avif": "/assets/images/projects/nivora-cover.avif",
+            "fallback": "/assets/images/projects/nivora-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Nivora (nivora.studio)"
+          }
+        },
+        {
+          "order": 3,
+          "id": "MrDMPzoiT",
+          "title": "Codify",
+          "slug": "codify",
+          "category": "PORTFOLIO",
+          "categorySlug": "portfolio",
+          "displayDomain": "codify.pro",
+          "externalUrl": "https://codify.framer.website/",
+          "cover": {
+            "id": "project-codify-cover",
+            "publicPath": "/assets/images/projects/codify-cover.webp",
+            "webp": "/assets/images/projects/codify-cover.webp",
+            "avif": "/assets/images/projects/codify-cover.avif",
+            "fallback": "/assets/images/projects/codify-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Codify (codify.pro)"
+          }
+        },
+        {
+          "order": 4,
+          "id": "SYepgO67U",
+          "title": "Neutra",
+          "slug": "neutra",
+          "category": "PORTFOLIO",
+          "categorySlug": "portfolio",
+          "displayDomain": "neutra.studio",
+          "externalUrl": "https://neutra.framer.website/",
+          "cover": {
+            "id": "project-neutra-cover",
+            "publicPath": "/assets/images/projects/neutra-cover.webp",
+            "webp": "/assets/images/projects/neutra-cover.webp",
+            "avif": "/assets/images/projects/neutra-cover.avif",
+            "fallback": "/assets/images/projects/neutra-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Neutra (neutra.studio)"
+          }
+        },
+        {
+          "order": 5,
+          "id": "deeZ3a7X0",
+          "title": "AI Nest",
+          "slug": "ai-nest",
+          "category": "AI",
+          "categorySlug": "ai",
+          "displayDomain": "ainest.io",
+          "externalUrl": "https://ainest.framer.website/",
+          "cover": {
+            "id": "project-ai-nest-cover",
+            "publicPath": "/assets/images/projects/ai-nest-cover.webp",
+            "webp": "/assets/images/projects/ai-nest-cover.webp",
+            "avif": "/assets/images/projects/ai-nest-cover.avif",
+            "fallback": "/assets/images/projects/ai-nest-cover.png",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for AI Nest (ainest.io)"
+          }
+        },
+        {
+          "order": 6,
+          "id": "bkEWZVjqy",
+          "title": "Studyflow",
+          "slug": "studyflow",
+          "category": "BUSINESS",
+          "categorySlug": "business",
+          "displayDomain": "studyflow.com",
+          "externalUrl": "https://studyflow.framer.website/",
+          "cover": {
+            "id": "project-studyflow-cover",
+            "publicPath": "/assets/images/projects/studyflow-cover.webp",
+            "webp": "/assets/images/projects/studyflow-cover.webp",
+            "avif": "/assets/images/projects/studyflow-cover.avif",
+            "fallback": "/assets/images/projects/studyflow-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Studyflow (studyflow.com)"
+          }
+        },
+        {
+          "order": 7,
+          "id": "xbAHNKNlM",
+          "title": "Todofusion",
+          "slug": "todofusion",
+          "category": "BUSINESS",
+          "categorySlug": "business",
+          "displayDomain": "todofusion.io",
+          "externalUrl": "https://todofusion.framer.website/",
+          "cover": {
+            "id": "project-todofusion-cover",
+            "publicPath": "/assets/images/projects/todofusion-cover.webp",
+            "webp": "/assets/images/projects/todofusion-cover.webp",
+            "avif": "/assets/images/projects/todofusion-cover.avif",
+            "fallback": "/assets/images/projects/todofusion-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Todofusion (todofusion.io)"
+          }
+        },
+        {
+          "order": 8,
+          "id": "ivZEXC1Aq",
+          "title": "Snapkit",
+          "slug": "snapkit",
+          "category": "BUSINESS",
+          "categorySlug": "business",
+          "displayDomain": "snapkit.co",
+          "externalUrl": "https://snapkit.framer.website/",
+          "cover": {
+            "id": "project-snapkit-cover",
+            "publicPath": "/assets/images/projects/snapkit-cover.webp",
+            "webp": "/assets/images/projects/snapkit-cover.webp",
+            "avif": "/assets/images/projects/snapkit-cover.avif",
+            "fallback": "/assets/images/projects/snapkit-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Snapkit (snapkit.co)"
+          }
+        },
+        {
+          "order": 9,
+          "id": "tQgJglhyM",
+          "title": "Grido",
+          "slug": "grido",
+          "category": "PORTFOLIO",
+          "categorySlug": "portfolio",
+          "displayDomain": "girdo.studio",
+          "externalUrl": "https://grido.framer.website/",
+          "cover": {
+            "id": "project-grido-cover",
+            "publicPath": "/assets/images/projects/grido-cover.webp",
+            "webp": "/assets/images/projects/grido-cover.webp",
+            "avif": "/assets/images/projects/grido-cover.avif",
+            "fallback": "/assets/images/projects/grido-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Grido (girdo.studio)"
+          }
+        },
+        {
+          "order": 10,
+          "id": "zYLgugeuj",
+          "title": "Trainly",
+          "slug": "trainly",
+          "category": "BUSINESS",
+          "categorySlug": "business",
+          "displayDomain": "trainly.com",
+          "externalUrl": "https://trainly.framer.website/",
+          "cover": {
+            "id": "project-trainly-cover",
+            "publicPath": "/assets/images/projects/trainly-cover.webp",
+            "webp": "/assets/images/projects/trainly-cover.webp",
+            "avif": "/assets/images/projects/trainly-cover.avif",
+            "fallback": "/assets/images/projects/trainly-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Trainly (trainly.com)"
+          }
+        },
+        {
+          "order": 11,
+          "id": "QRIAhA0et",
+          "title": "Stickify",
+          "slug": "stickify",
+          "category": "BUSINESS",
+          "categorySlug": "business",
+          "displayDomain": "stickify.pro",
+          "externalUrl": "https://stickify.framer.website/",
+          "cover": {
+            "id": "project-stickify-cover",
+            "publicPath": "/assets/images/projects/stickify-cover.webp",
+            "webp": "/assets/images/projects/stickify-cover.webp",
+            "avif": "/assets/images/projects/stickify-cover.avif",
+            "fallback": "/assets/images/projects/stickify-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Stickify (stickify.pro)"
+          }
+        },
+        {
+          "order": 12,
+          "id": "OubmC1nSx",
+          "title": "Landify",
+          "slug": "landify",
+          "category": "ONE PAGE",
+          "categorySlug": "one-page",
+          "displayDomain": "landify.com",
+          "externalUrl": "https://landify.framer.website/",
+          "cover": {
+            "id": "project-landify-cover",
+            "publicPath": "/assets/images/projects/landify-cover.webp",
+            "webp": "/assets/images/projects/landify-cover.webp",
+            "avif": "/assets/images/projects/landify-cover.avif",
+            "fallback": "/assets/images/projects/landify-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Landify (landify.com)"
+          }
+        },
+        {
+          "order": 13,
+          "id": "tl_CENBPk",
+          "title": "Thinkbot",
+          "slug": "thinkbot",
+          "category": "AI",
+          "categorySlug": "ai",
+          "displayDomain": "thinkbot.io",
+          "externalUrl": "https://thinkbot.framer.ai/",
+          "cover": {
+            "id": "project-thinkbot-cover",
+            "publicPath": "/assets/images/projects/thinkbot-cover.webp",
+            "webp": "/assets/images/projects/thinkbot-cover.webp",
+            "avif": "/assets/images/projects/thinkbot-cover.avif",
+            "fallback": "/assets/images/projects/thinkbot-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Thinkbot (thinkbot.io)"
+          }
+        },
+        {
+          "order": 14,
+          "id": "wpoEx1Tcf",
+          "title": "Groomix",
+          "slug": "groomix",
+          "category": "BUSINESS",
+          "categorySlug": "business",
+          "displayDomain": "groomix.co",
+          "externalUrl": "https://groomix.framer.website/",
+          "cover": {
+            "id": "project-groomix-cover",
+            "publicPath": "/assets/images/projects/groomix-cover.webp",
+            "webp": "/assets/images/projects/groomix-cover.webp",
+            "avif": "/assets/images/projects/groomix-cover.avif",
+            "fallback": "/assets/images/projects/groomix-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Groomix (groomix.co)"
+          }
+        },
+        {
+          "order": 15,
+          "id": "YlPQfvyFd",
+          "title": "Gradia",
+          "slug": "gradia",
+          "category": "ONE PAGE",
+          "categorySlug": "one-page",
+          "displayDomain": "gradia.com",
+          "externalUrl": "https://gradia.framer.website/",
+          "cover": {
+            "id": "project-gradia-cover",
+            "publicPath": "/assets/images/projects/gradia-cover.webp",
+            "webp": "/assets/images/projects/gradia-cover.webp",
+            "avif": "/assets/images/projects/gradia-cover.avif",
+            "fallback": "/assets/images/projects/gradia-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Gradia (gradia.com)"
+          }
+        },
+        {
+          "order": 16,
+          "id": "mvtl73ptN",
+          "title": "Designor",
+          "slug": "designor",
+          "category": "ONE PAGE",
+          "categorySlug": "one-page",
+          "displayDomain": "designer.com",
+          "externalUrl": "https://designor.framer.website/",
+          "cover": {
+            "id": "project-designor-cover",
+            "publicPath": "/assets/images/projects/designor-cover.webp",
+            "webp": "/assets/images/projects/designor-cover.webp",
+            "avif": "/assets/images/projects/designor-cover.avif",
+            "fallback": "/assets/images/projects/designor-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Designor (designer.com)"
+          }
+        },
+        {
+          "order": 17,
+          "id": "lDXhSXgyW",
+          "title": "Pixor",
+          "slug": "pixor",
+          "category": "ONE PAGE",
+          "categorySlug": "one-page",
+          "displayDomain": "pixor.com",
+          "externalUrl": "https://pixor.framer.website/",
+          "cover": {
+            "id": "project-pixor-cover",
+            "publicPath": "/assets/images/projects/pixor-cover.webp",
+            "webp": "/assets/images/projects/pixor-cover.webp",
+            "avif": "/assets/images/projects/pixor-cover.avif",
+            "fallback": "/assets/images/projects/pixor-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Pixor (pixor.com)"
+          }
+        },
+        {
+          "order": 18,
+          "id": "phC3zBHI5",
+          "title": "Kavro",
+          "slug": "kavro",
+          "category": "ONE PAGE",
+          "categorySlug": "one-page",
+          "displayDomain": "kavro.studio",
+          "externalUrl": "https://kavro.framer.website/",
+          "cover": {
+            "id": "project-kavro-cover",
+            "publicPath": "/assets/images/projects/kavro-cover.webp",
+            "webp": "/assets/images/projects/kavro-cover.webp",
+            "avif": "/assets/images/projects/kavro-cover.avif",
+            "fallback": "/assets/images/projects/kavro-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Kavro (kavro.studio)"
+          }
+        },
+        {
+          "order": 19,
+          "id": "vAJw5gdlm",
+          "title": "Taskify",
+          "slug": "taskify",
+          "category": "BUSINESS",
+          "categorySlug": "business",
+          "displayDomain": "taskify.com",
+          "externalUrl": "https://taskify.framer.website/",
+          "cover": {
+            "id": "project-taskify-cover",
+            "publicPath": "/assets/images/projects/taskify-cover.webp",
+            "webp": "/assets/images/projects/taskify-cover.webp",
+            "avif": "/assets/images/projects/taskify-cover.avif",
+            "fallback": "/assets/images/projects/taskify-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Taskify (taskify.com)"
+          }
+        },
+        {
+          "order": 20,
+          "id": "ALH21iIKv",
+          "title": "Flexify",
+          "slug": "flexify",
+          "category": "BUSINESS",
+          "categorySlug": "business",
+          "displayDomain": "flexify.com",
+          "externalUrl": "https://flexify.framer.website/",
+          "cover": {
+            "id": "project-flexify-cover",
+            "publicPath": "/assets/images/projects/flexify-cover.webp",
+            "webp": "/assets/images/projects/flexify-cover.webp",
+            "avif": "/assets/images/projects/flexify-cover.avif",
+            "fallback": "/assets/images/projects/flexify-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Flexify (flexify.com)"
+          }
+        },
+        {
+          "order": 21,
+          "id": "lrgtSZMqI",
+          "title": "Nexus AI",
+          "slug": "nexusai",
+          "category": "AI",
+          "categorySlug": "ai",
+          "displayDomain": "nexusai.io",
+          "externalUrl": "https://nexusai.framer.website/",
+          "cover": {
+            "id": "project-nexusai-cover",
+            "publicPath": "/assets/images/projects/nexusai-cover.webp",
+            "webp": "/assets/images/projects/nexusai-cover.webp",
+            "avif": "/assets/images/projects/nexusai-cover.avif",
+            "fallback": "/assets/images/projects/nexusai-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Nexus AI (nexusai.io)"
+          }
+        },
+        {
+          "order": 22,
+          "id": "CK3Kg9Vvx",
+          "title": "Dailyhub",
+          "slug": "dailyhub",
+          "category": "BUSINESS",
+          "categorySlug": "business",
+          "displayDomain": "dailyhub.supply",
+          "externalUrl": "https://dailyhub.framer.website/",
+          "cover": {
+            "id": "project-dailyhub-cover",
+            "publicPath": "/assets/images/projects/dailyhub-cover.webp",
+            "webp": "/assets/images/projects/dailyhub-cover.webp",
+            "avif": "/assets/images/projects/dailyhub-cover.avif",
+            "fallback": "/assets/images/projects/dailyhub-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Dailyhub (dailyhub.supply)"
+          }
+        },
+        {
+          "order": 23,
+          "id": "n4iBvtWcZ",
+          "title": "Agentify",
+          "slug": "agentify",
+          "category": "PORTFOLIO",
+          "categorySlug": "portfolio",
+          "displayDomain": "agentify.studio",
+          "externalUrl": "https://agentify.framer.website/",
+          "cover": {
+            "id": "project-agentify-cover",
+            "publicPath": "/assets/images/projects/agentify-cover.webp",
+            "webp": "/assets/images/projects/agentify-cover.webp",
+            "avif": "/assets/images/projects/agentify-cover.avif",
+            "fallback": "/assets/images/projects/agentify-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Agentify (agentify.studio)"
+          }
+        },
+        {
+          "order": 24,
+          "id": "C8XcBAbwW",
+          "title": "Protify",
+          "slug": "protify",
+          "category": "PORTFOLIO",
+          "categorySlug": "portfolio",
+          "displayDomain": "protify.studio",
+          "externalUrl": "https://protify.framer.website/",
+          "cover": {
+            "id": "project-protify-cover",
+            "publicPath": "/assets/images/projects/protify-cover.webp",
+            "webp": "/assets/images/projects/protify-cover.webp",
+            "avif": "/assets/images/projects/protify-cover.avif",
+            "fallback": "/assets/images/projects/protify-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Protify (protify.studio)"
+          }
+        },
+        {
+          "order": 25,
+          "id": "F32lunQf2",
+          "title": "Startify",
+          "slug": "startify",
+          "category": "BUSINESS",
+          "categorySlug": "business",
+          "displayDomain": "startify.com",
+          "externalUrl": "https://startify.framer.website/",
+          "cover": {
+            "id": "project-startify-cover",
+            "publicPath": "/assets/images/projects/startify-cover.webp",
+            "webp": "/assets/images/projects/startify-cover.webp",
+            "avif": "/assets/images/projects/startify-cover.avif",
+            "fallback": "/assets/images/projects/startify-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Startify (startify.com)"
+          }
+        },
+        {
+          "order": 26,
+          "id": "SdcouobK4",
+          "title": "Flowboard",
+          "slug": "flowboard",
+          "category": "BUSINESS",
+          "categorySlug": "business",
+          "displayDomain": "flowboard.com",
+          "externalUrl": "https://flowboard.framer.website/",
+          "cover": {
+            "id": "project-flowboard-cover",
+            "publicPath": "/assets/images/projects/flowboard-cover.webp",
+            "webp": "/assets/images/projects/flowboard-cover.webp",
+            "avif": "/assets/images/projects/flowboard-cover.avif",
+            "fallback": "/assets/images/projects/flowboard-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Flowboard (flowboard.com)"
+          }
+        },
+        {
+          "order": 27,
+          "id": "TCTTuikaP",
+          "title": "Platify",
+          "slug": "platify",
+          "category": "BUSINESS",
+          "categorySlug": "business",
+          "displayDomain": "platify.com",
+          "externalUrl": "https://platify.framer.website/",
+          "cover": {
+            "id": "project-platify-cover",
+            "publicPath": "/assets/images/projects/platify-cover.webp",
+            "webp": "/assets/images/projects/platify-cover.webp",
+            "avif": "/assets/images/projects/platify-cover.avif",
+            "fallback": "/assets/images/projects/platify-cover.jpg",
+            "width": 1600,
+            "height": 1200,
+            "hasAlpha": false,
+            "description": "Portfolio project cover thumbnail for Platify (platify.com)"
+          }
+        }
+      ]
+    },
+    "contact": {
+      "formSpinnerMaskUpstreamMissing": {
+        "id": "icons-spinner-mask",
+        "upstreamStatus": 404,
+        "replacement": "Use inline CSS/SVG spinner in ContactForm"
+      }
+    }
+  }
+}
