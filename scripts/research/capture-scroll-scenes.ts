@@ -330,6 +330,9 @@ async function main() {
       viewport: { width: 1440, height: 900 },
       deviceScaleFactor: 1,
     });
+    await context.addInitScript(() => {
+      (window as unknown as Record<string, unknown>).__name = (fn: unknown) => fn;
+    });
     const page = await context.newPage();
 
     await captureHomeScrollScenes(page);

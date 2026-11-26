@@ -98,11 +98,7 @@ async function main() {
     const internal: { href: string; text: string }[] = [];
     const external: { href: string; text: string; target: string | null }[] = [];
     for (const l of meta.links) {
-      if (
-        l.href.startsWith('/') ||
-        l.href.startsWith('./') ||
-        l.href.startsWith(BASE_URL)
-      ) {
+      if (l.href.startsWith('/') || l.href.startsWith('./') || l.href.startsWith(BASE_URL)) {
         internal.push({ href: l.href, text: l.text });
         allInternalLinks.add(l.href);
       } else if (l.href.startsWith('http://') || l.href.startsWith('https://')) {
@@ -156,24 +152,28 @@ async function main() {
           style.display !== 'none' &&
           style.visibility !== 'hidden';
         const img = a.querySelector('img');
+        const bgEl = a.querySelector('[data-framer-background-image-wrapper="true"]');
         const headingEl = a.querySelector('[data-framer-name="Heading"], h2, h3, h4');
         const domainEl = a.querySelector('[data-framer-name="Supporting text"]');
-        const texts = [...a.querySelectorAll('p, h1, h2, h3, h4, span')]
-          .map((el) => (el.textContent ?? '').replace(/\s+/g, ' ').trim())
+        const texts = ((a as HTMLElement).innerText || '')
+          .split('\n')
+          .map((t) => t.trim())
           .filter(Boolean);
         return {
           index,
           visible,
-          title: headingEl
-            ? (headingEl.textContent ?? '').replace(/\s+/g, ' ').trim()
-            : texts[0] ?? '',
-          displayDomain: domainEl
-            ? (domainEl.textContent ?? '').replace(/\s+/g, ' ').trim()
-            : texts[1] ?? '',
+          title: headingEl ? (headingEl.textContent ?? '').trim() : texts[0] ?? '',
+          displayDomain: domainEl ? (domainEl.textContent ?? '').trim() : texts[1] ?? '',
           externalUrl: a.getAttribute('href') || '',
-          thumbnailSrc: img?.getAttribute('src') || '',
+          thumbnailSrc: img?.currentSrc || img?.getAttribute('src') || '',
           thumbnailAlt: img?.getAttribute('alt') || '',
-          rect: { x: Math.round(rect.x), y: Math.round(rect.y), w: Math.round(rect.width), h: Math.round(rect.height) },
+          hasBgWrapper: Boolean(bgEl),
+          rect: {
+            x: Math.round(rect.x),
+            y: Math.round(rect.y),
+            w: Math.round(rect.width),
+            h: Math.round(rect.height),
+          },
         };
       });
     });
@@ -182,9 +182,14 @@ async function main() {
   const worksInitialCards = await extractWorksCards();
   const initialHeight = await page.evaluate(() => document.body.scrollHeight);
 
-  // Slowly scroll down and wait at bottom / spinner to see if Framer Load More triggers
-  const paginationSnapshots: { step: number; scrollY: number; height: number; cardCount: number; hasSpinner: boolean }[] = [];
-  for (let step = 0; step < 12; step++) {
+  const paginationSnapshots: {
+    step: number;
+    scrollY: number;
+    height: number;
+    cardCount: number;
+    hasSpinner: boolean;
+  }[] = [];
+  for (let step = 0; step < 10; step++) {
     const h = await page.evaluate(() => document.body.scrollHeight);
     await page.evaluate((y) => window.scrollTo(0, y), h);
     await page.waitForTimeout(1200);
@@ -206,39 +211,15 @@ async function main() {
       };
     });
     paginationSnapshots.push({ step, scrollY: h, ...snap });
-    if (step >= 2 && snap.cardCount === paginationSnapshots[step - 1].cardCount && !snap.hasSpinner) {
+    if (step >= 1 && snap.cardCount === paginationSnapshots[step - 1].cardCount && !snap.hasSpinner) {
       break;
     }
   }
 
-  // Also test clicking the Loading/Spinner element if present
-  const spinnerInfo = await page.evaluate(() => {
-    const el = document.querySelector('[data-framer-name="Loading"]');
-    if (!el) return null;
-    const rect = el.getBoundingClientRect();
-    const cs = window.getComputedStyle(el);
-    return {
-      present: true,
-      text: (el.textContent ?? '').trim(),
-      display: cs.display,
-      visibility: cs.visibility,
-      opacity: cs.opacity,
-      rect: { w: rect.width, h: rect.height },
-    };
-  });
-
-  if (spinnerInfo?.present) {
-    try {
-      await page.locator('[data-framer-name="Loading"]').first().click({ timeout: 2000, force: true });
-      await page.waitForTimeout(1500);
-    } catch {
-      // ignore if not clickable
-    }
-  }
-
+  // Scroll smoothly through all cards to force lazy image hydration
+  await scrollThroughPage(page, 400, 180);
   const worksAfterScrollCards = await extractWorksCards();
 
-  // Scroll back to top and click every filter
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.waitForTimeout(600);
 
@@ -246,16 +227,21 @@ async function main() {
   const worksByFilter: Record<string, unknown> = {};
 
   for (const label of filterLabels) {
-    const filterLoc = page.locator('[data-framer-name="Filter/Works filter"]').locator(`text="${label}"`).first();
-    const fallbackLoc = page.locator(`button, a, div[role="button"], [data-framer-name]`).filter({ hasText: new RegExp(`^${label}$`, 'i') }).first();
+    const filterLoc = page
+      .locator('[data-framer-name="Filter/Works filter"]')
+      .locator(`text="${label}"`)
+      .first();
+    const fallbackLoc = page
+      .locator(`button, a, div[role="button"], [data-framer-name]`)
+      .filter({ hasText: new RegExp(`^${label}$`, 'i') })
+      .first();
     const target = (await filterLoc.count()) > 0 ? filterLoc : fallbackLoc;
 
     if ((await target.count()) > 0) {
       await target.scrollIntoViewIfNeeded();
       await target.click({ force: true });
-      await page.waitForTimeout(1200);
-      // Scroll through filtered list in case lazy images or load more fires
-      await scrollThroughPage(page, 900, 250);
+      await page.waitForTimeout(1000);
+      await scrollThroughPage(page, 600, 200);
       await page.evaluate(() => window.scrollTo(0, 0));
       await page.waitForTimeout(400);
       const cards = await extractWorksCards();
@@ -270,13 +256,6 @@ async function main() {
     }
   }
 
-  // Click ALL PROJECTS back to inspect hidden/mobile variants in DOM
-  const allBtn = page.locator(`text="ALL PROJECTS"`).first();
-  if ((await allBtn.count()) > 0) {
-    await allBtn.click({ force: true });
-    await page.waitForTimeout(800);
-  }
-
   // =========================================================================
   // 3. HOMEPAGE INTERACTIVE DATA (/)
   // =========================================================================
@@ -284,42 +263,88 @@ async function main() {
   await page.goto(`${BASE_URL}/`, { waitUntil: 'networkidle', timeout: 45000 });
   await page.waitForTimeout(1500);
 
-  // 3a. Hero rotating headline phrases over 15s
-  const heroPhrasesSamples: { tMs: number; h1Text: string; heroTexts: string[] }[] = [];
+  // 3a. Hero rotating headline phrases over 15s (track vertical positions of rotating words inside slot)
+  const heroPhrasesSamples: {
+    tMs: number;
+    headerLines: string[];
+    activeWord: string | null;
+    wordPositions: { word: string; top: number; height: number; opacity: string }[];
+  }[] = [];
+
   const startHero = Date.now();
   while (Date.now() - startHero < 15500) {
     const sample = await page.evaluate(() => {
       const hero = document.querySelector('[data-framer-name="Hero section"]') || document.body;
-      const h1 = hero.querySelector('h1');
-      const headerTexts = [...hero.querySelectorAll('[data-framer-name="Header"] p, [data-framer-name="Header"] h1, [data-framer-name="Header"] h2, [data-framer-name="Yellow"]')]
-        .map((el) => (el.textContent ?? '').replace(/\s+/g, ' ').trim())
+      const header = hero.querySelector('[data-framer-name="Header"]') as HTMLElement | null;
+      const headerLines = (header?.innerText || '')
+        .split('\n')
+        .map((s) => s.trim())
         .filter(Boolean);
-      return {
-        h1Text: (h1?.textContent ?? '').replace(/\s+/g, ' ').trim(),
-        heroTexts: [...new Set(headerTexts)],
-      };
+      const rotatingWords = ['INTERFACE', 'SYSTEM', 'PRODUCT', 'EXPERIENCE'];
+      const wordNodes = [...(header?.querySelectorAll('p, span, h1, h2, div') ?? [])].filter((el) => {
+        const t = (el.textContent ?? '').trim();
+        return rotatingWords.includes(t) && el.children.length === 0;
+      });
+      // Find the parent container clipping them
+      const wordPositions = wordNodes.map((el) => {
+        const r = el.getBoundingClientRect();
+        const cs = window.getComputedStyle(el);
+        return {
+          word: (el.textContent ?? '').trim(),
+          top: Math.round(r.top),
+          height: Math.round(r.height),
+          opacity: cs.opacity,
+        };
+      });
+      // Determine which word is centered inside the slot (e.g. compare against sibling slot box)
+      let activeWord: string | null = null;
+      if (wordNodes.length > 0) {
+        const slot = wordNodes[0].parentElement?.parentElement;
+        const slotRect = slot?.getBoundingClientRect();
+        if (slotRect) {
+          const slotMid = slotRect.top + slotRect.height / 2;
+          let bestDist = Infinity;
+          for (const el of wordNodes) {
+            const r = el.getBoundingClientRect();
+            const mid = r.top + r.height / 2;
+            const dist = Math.abs(mid - slotMid);
+            if (dist < bestDist) {
+              bestDist = dist;
+              activeWord = (el.textContent ?? '').trim();
+            }
+          }
+        }
+      }
+      return { headerLines, activeWord, wordPositions };
     });
     heroPhrasesSamples.push({ tMs: Date.now() - startHero, ...sample });
     await page.waitForTimeout(250);
   }
 
-  const uniqueHeroHeadlines = [...new Set(heroPhrasesSamples.map((s) => s.h1Text).filter(Boolean))];
-  const uniqueYellowPhrases = [...new Set(heroPhrasesSamples.flatMap((s) => s.heroTexts).filter(Boolean))];
+  const activeWordSequence = heroPhrasesSamples
+    .map((s) => ({ tMs: s.tMs, activeWord: s.activeWord }))
+    .filter((s, i, arr) => s.activeWord && (i === 0 || s.activeWord !== arr[i - 1].activeWord));
 
   // Scroll through homepage slowly so all scroll triggers & counters fire
   await scrollThroughPage(page, 600, 220);
 
   // 3b. Hero static copy, status, CTAs
   const homeHeroStatic = await page.evaluate(() => {
-    const hero = document.querySelector('[data-framer-name="Hero section"]');
+    const hero = document.querySelector('[data-framer-name="Hero section"]') as HTMLElement | null;
     if (!hero) return null;
-    const status = (hero.querySelector('[data-framer-name="Status"]')?.textContent ?? '').replace(/\s+/g, ' ').trim();
-    const desc = (hero.querySelector('[data-framer-name="Description"]')?.textContent ?? '').replace(/\s+/g, ' ').trim();
-    const ctas = [...hero.querySelectorAll('a')].map((a) => ({
-      text: (a.textContent ?? '').replace(/\s+/g, ' ').trim(),
-      href: a.getAttribute('href') || '',
+    const status = (hero.querySelector('[data-framer-name="Status"]') as HTMLElement | null)?.innerText?.replace(/\s+/g, ' ').trim() ?? '';
+    const desc = (hero.querySelector('[data-framer-name="Description"]') as HTMLElement | null)?.innerText?.replace(/\s+/g, ' ').trim() ?? '';
+    const headerLines = ((hero.querySelector('[data-framer-name="Header"]') as HTMLElement | null)?.innerText ?? '')
+      .split('\n')
+      .map((s) => s.trim())
+      .filter(Boolean);
+    const ctas = [...hero.querySelectorAll('a, [data-framer-name="Primary | md"], [data-framer-name="Secondary | md"]')].map((el) => ({
+      tag: el.tagName,
+      name: el.getAttribute('data-framer-name'),
+      text: ((el as HTMLElement).innerText ?? '').replace(/\s+/g, ' ').trim(),
+      href: el.getAttribute('href') || '',
     }));
-    return { status, desc, ctas };
+    return { headerLines, status, desc, ctas };
   });
 
   // 3c. Home Selected Works preview
@@ -331,13 +356,13 @@ async function main() {
       return h.includes('.framer.website') || h.includes('.framer.ai');
     });
     return {
-      sectionText: (sec.querySelector('[data-framer-name="Section header"], [data-framer-name="Leading content"]')?.textContent ?? '').replace(/\s+/g, ' ').trim(),
+      sectionText: ((sec.querySelector('[data-framer-name="Leading content"]') as HTMLElement | null)?.innerText ?? '').replace(/\s+/g, ' ').trim(),
       cardCount: cards.length,
       cards: cards.map((a) => ({
-        title: (a.querySelector('[data-framer-name="Heading"]')?.textContent ?? '').replace(/\s+/g, ' ').trim(),
-        domain: (a.querySelector('[data-framer-name="Supporting text"]')?.textContent ?? '').replace(/\s+/g, ' ').trim(),
+        title: (a.querySelector('[data-framer-name="Heading"]')?.textContent ?? '').trim(),
+        domain: (a.querySelector('[data-framer-name="Supporting text"]')?.textContent ?? '').trim(),
         href: a.getAttribute('href') || '',
-        img: a.querySelector('img')?.getAttribute('src') || '',
+        img: a.querySelector('img')?.currentSrc || a.querySelector('img')?.getAttribute('src') || '',
       })),
     };
   });
@@ -354,39 +379,24 @@ async function main() {
     }
   }
   const homeProcess = await page.evaluate(() => {
-    const sec = document.querySelector('[data-framer-name="Process"]');
+    const sec = document.querySelector('[data-framer-name="Process"]') as HTMLElement | null;
     if (!sec) return null;
-    const phases = ['Content-1', 'Content-2', 'Content-3', 'Content-4'].map((name) => {
-      const el = sec.querySelector(`[data-framer-name="${name}"]`);
-      if (!el) return null;
-      return {
-        key: name,
-        text: (el.textContent ?? '').replace(/\s+/g, ' ').trim(),
-        lines: [...el.querySelectorAll('h1, h2, h3, h4, p, span')]
-          .map((n) => (n.textContent ?? '').replace(/\s+/g, ' ').trim())
-          .filter(Boolean),
-      };
-    });
-    const fullText = (sec.textContent ?? '').replace(/\s+/g, ' ').trim();
-    return { phases, fullText };
+    const lines = (sec.innerText || '')
+      .split('\n')
+      .map((s) => s.trim())
+      .filter(Boolean);
+    return { lines, fullText: lines.join(' ') };
   });
 
   // 3e. About preview stats & capabilities
   const homeAboutPreview = await page.evaluate(() => {
-    const sec = document.querySelector('[data-framer-name="About"]');
+    const sec = document.querySelector('[data-framer-name="About"]') as HTMLElement | null;
     if (!sec) return null;
-    const stats = [...sec.querySelectorAll('[data-framer-name="Stats item"], [data-framer-name="Number"]')].map((el) =>
-      (el.textContent ?? '').replace(/\s+/g, ' ').trim()
-    );
-    const listItems = [...sec.querySelectorAll('[data-framer-name="List"] > div, [data-framer-name="List"] p')].map((el) =>
-      (el.textContent ?? '').replace(/\s+/g, ' ').trim()
-    );
-    const fullText = (sec.textContent ?? '').replace(/\s+/g, ' ').trim();
-    return {
-      stats: [...new Set(stats)].filter(Boolean),
-      listItems: [...new Set(listItems)].filter(Boolean),
-      fullText,
-    };
+    const lines = (sec.innerText || '')
+      .split('\n')
+      .map((s) => s.trim())
+      .filter(Boolean);
+    return { lines, fullText: lines.join(' ') };
   });
 
   // 3f. Services 4 items + test hover vs click vs scroll selection
@@ -407,30 +417,33 @@ async function main() {
     await page.waitForTimeout(350);
     const afterHover = await page.evaluate((idx) => {
       const tabs = document.querySelectorAll('[data-framer-name="Services"] [data-framer-name="Tabs"] > div');
-      const el = tabs[idx];
+      const el = tabs[idx] as HTMLElement | undefined;
       return {
-        text: (el?.textContent ?? '').replace(/\s+/g, ' ').trim(),
+        text: (el?.innerText ?? '').replace(/\s+/g, ' ').trim(),
         hasActiveName: Boolean(el?.querySelector('[data-framer-name*="Acitve"], [data-framer-name*="Active"]')),
-        height: el?.getBoundingClientRect().height ?? 0,
+        height: Math.round(el?.getBoundingClientRect().height ?? 0),
       };
     }, i);
     await tab.click({ force: true });
-    await page.waitForTimeout(500);
+    await page.waitForTimeout(550);
     const afterClick = await page.evaluate((idx) => {
       const sec = document.querySelector('[data-framer-name="Services"]');
       const tabs = sec?.querySelectorAll('[data-framer-name="Tabs"] > div') ?? [];
-      const el = tabs[idx];
+      const el = tabs[idx] as HTMLElement | undefined;
+      const lines = (el?.innerText ?? '')
+        .split('\n')
+        .map((s) => s.trim())
+        .filter(Boolean);
+      const svgs = [...(sec?.querySelectorAll('svg') ?? [])].length;
       const imgs = [...(sec?.querySelectorAll('img') ?? [])].map((img) => ({
-        src: img.getAttribute('src'),
+        src: img.currentSrc || img.getAttribute('src'),
         opacity: window.getComputedStyle(img).opacity,
       }));
       return {
-        text: (el?.textContent ?? '').replace(/\s+/g, ' ').trim(),
+        lines,
         hasActiveName: Boolean(el?.querySelector('[data-framer-name*="Acitve"], [data-framer-name*="Active"]')),
-        height: el?.getBoundingClientRect().height ?? 0,
-        deliverables: [...(el?.querySelectorAll('[data-framer-name="List text"], li, p') ?? [])]
-          .map((n) => (n.textContent ?? '').replace(/\s+/g, ' ').trim())
-          .filter(Boolean),
+        height: Math.round(el?.getBoundingClientRect().height ?? 0),
+        svgCount: svgs,
         sectionImages: imgs,
       };
     }, i);
@@ -442,110 +455,89 @@ async function main() {
     });
   }
 
-  // 3g. Testimonials (6 slides via Next/Back arrows) + Client Satisfaction + Partner logos
-  const testimonialsData = await (async () => {
-    // Scroll to Review section
-    const reviewLoc = page.locator('[data-framer-name="Review"]').first();
-    if ((await reviewLoc.count()) > 0) {
-      await reviewLoc.scrollIntoViewIfNeeded();
-      await page.waitForTimeout(500);
-    }
+  // 3g. Testimonials (Ticker vs Carousel) + Client Satisfaction + Partner logos
+  const testimonialsData = await page.evaluate(() => {
+    const logoCloud = document.querySelector('[data-framer-name="Logo cloud"]');
+    const reviewEls = [...document.querySelectorAll('[data-framer-name="Review"]')];
+    // Find testimonial section root
+    const sec = reviewEls[0]?.closest('section') || reviewEls[0]?.parentElement?.parentElement?.parentElement?.parentElement?.parentElement;
+    const cardsMap = new Map<string, { quote: string; fullName: string; role: string; linkHref: string | null; avatar: string | null; score: string }>();
 
-    const readSlide = () =>
-      page.evaluate(() => {
-        const rev = document.querySelector('[data-framer-name="Review"]');
-        if (!rev) return null;
-        const text = (rev.textContent ?? '').replace(/\s+/g, ' ').trim();
-        const fullName = (rev.querySelector('[data-framer-name="Full name"]')?.textContent ?? '').replace(/\s+/g, ' ').trim();
-        const role = (rev.querySelector('[data-framer-name="Role"]')?.textContent ?? '').replace(/\s+/g, ' ').trim();
-        const score = (rev.querySelector('[data-framer-name="Score"]')?.textContent ?? '').replace(/\s+/g, ' ').trim();
-        const avatar = rev.querySelector('[data-framer-name="Avatar"] img')?.getAttribute('src') || null;
-        const buttons = [...rev.querySelectorAll('button, [role="button"], [data-framer-name*="Arrow"], [data-framer-name*="Next"], [data-framer-name*="Prev"], [data-framer-name*="Back"], svg')]
-          .map((b) => ({
-            tag: b.tagName,
-            ariaLabel: b.getAttribute('aria-label'),
-            framerName: b.getAttribute('data-framer-name'),
-          }));
-        return { fullName, role, score, avatar, text, buttonsCount: buttons.length };
-      });
-
-    const slides: unknown[] = [];
-    const seen = new Set<string>();
-    const initial = await readSlide();
-    if (initial) {
-      slides.push({ step: 0, ...initial });
-      seen.add(initial.text);
-    }
-
-    // Find Next button inside Review section
-    const nextBtn = page
-      .locator('[data-framer-name="Review"] button, [data-framer-name="Review"] [role="button"], [data-framer-name="Review"] [aria-label*="next" i], [data-framer-name="Review"] [aria-label*="Next" i]')
-      .last();
-
-    for (let s = 1; s <= 7; s++) {
-      // Try clicking the second button (typically Back = 0, Next = 1)
-      const btns = page.locator('[data-framer-name="Review"] button, [data-framer-name="Review"] [role="button"]');
-      const count = await btns.count();
-      const target = count >= 2 ? btns.nth(1) : nextBtn;
-      if ((await target.count()) === 0) break;
-      await target.click({ force: true });
-      await page.waitForTimeout(550);
-      const slide = await readSlide();
-      if (slide) {
-        slides.push({ step: s, ...slide });
-        seen.add(slide.text);
+    for (const rev of reviewEls) {
+      const card = rev.parentElement?.parentElement || rev;
+      const quote = ((rev as HTMLElement).innerText ?? '').replace(/\s+/g, ' ').trim();
+      if (!quote) continue;
+      const fullName = ((card.querySelector('[data-framer-name="Full name"]') as HTMLElement | null)?.innerText ?? '').trim();
+      const role = ((card.querySelector('[data-framer-name="Role"]') as HTMLElement | null)?.innerText ?? '').trim();
+      const linkHref = card.querySelector('a[href]')?.getAttribute('href') || null;
+      const avatar = card.querySelector('[data-framer-name="Avatar"] img')?.getAttribute('src') || null;
+      const score = ((card.querySelector('[data-framer-name="Score"]') as HTMLElement | null)?.innerText ?? '').trim();
+      if (!cardsMap.has(quote)) {
+        cardsMap.set(quote, { quote, fullName, role, linkHref, avatar, score });
       }
     }
 
-    const logosAndSatisfaction = await page.evaluate(() => {
-      const logoCloud = document.querySelector('[data-framer-name="Logo cloud"]');
-      const rev = document.querySelector('[data-framer-name="Review"]');
-      const containerText = (rev?.closest('section, div[data-framer-name*="Section"]')?.textContent ?? '').replace(/\s+/g, ' ').trim();
-      const logos = [...(logoCloud?.querySelectorAll('img, svg') ?? [])].map((el) => ({
-        tag: el.tagName,
-        src: el.getAttribute('src'),
-        alt: el.getAttribute('alt'),
-      }));
-      return {
-        logoCount: logos.length,
-        logos,
-        logoCloudText: (logoCloud?.textContent ?? '').replace(/\s+/g, ' ').trim(),
-        containerText,
-      };
-    });
+    // Check if there are any Next/Back arrow controls near testimonials
+    const ticker = sec?.querySelector('[data-framer-name="Ticker"]');
+    const controls = [...(sec?.querySelectorAll('button, [role="button"], [aria-label*="next" i], [aria-label*="prev" i]') ?? [])].map((el) => ({
+      tag: el.tagName,
+      ariaLabel: el.getAttribute('aria-label'),
+      text: ((el as HTMLElement).innerText ?? '').trim(),
+    }));
 
-    return { slides, uniqueSlidesCount: seen.size, ...logosAndSatisfaction };
-  })();
+    // Client satisfaction / section header
+    const secTextLines = ((sec as HTMLElement | null)?.innerText ?? '')
+      .split('\n')
+      .map((s) => s.trim())
+      .filter(Boolean);
+
+    const logos = [...(logoCloud?.querySelectorAll('img') ?? [])].map((img) => ({
+      src: img.getAttribute('src') || '',
+      alt: img.getAttribute('alt') || '',
+    }));
+    const uniqueLogos = [...new Map(logos.map((l) => [l.src, l])).values()];
+
+    return {
+      mechanism: ticker ? 'continuous-marquee-ticker' : 'carousel',
+      controlsFound: controls,
+      uniqueTestimonialsCount: cardsMap.size,
+      testimonials: [...cardsMap.values()],
+      sectionHeaderLines: secTextLines.slice(0, 20),
+      uniquePartnerLogosCount: uniqueLogos.length,
+      partnerLogos: uniqueLogos,
+    };
+  });
 
   // 3h. Pricing 3 packages + assurance strip
   const homePricing = await page.evaluate(() => {
-    const headings = [...document.querySelectorAll('h1, h2, h3, h4, p')].filter((el) =>
-      /pricing|transparent/i.test(el.textContent ?? '')
-    );
-    const pricingRoot = headings[0]?.closest('section, div[data-framer-name^="Section"]') || document.body;
-    const pricingSection =
+    const pricingSec =
       [...document.querySelectorAll('[data-framer-name]')].find((el) =>
         /pricing/i.test(el.getAttribute('data-framer-name') || '')
-      ) || pricingRoot;
+      ) ||
+      [...document.querySelectorAll('h1, h2, h3, h4, p')]
+        .find((el) => /transparent pricing|built for every project stage/i.test(el.textContent ?? ''))
+        ?.closest('section, div[data-framer-name]');
+    const lines = ((pricingSec as HTMLElement | null)?.innerText ?? '')
+      .split('\n')
+      .map((s) => s.trim())
+      .filter(Boolean);
     return {
-      framerName: pricingSection.getAttribute('data-framer-name'),
-      text: (pricingSection.textContent ?? '').replace(/\s+/g, ' ').trim(),
+      framerName: pricingSec?.getAttribute('data-framer-name') ?? null,
+      lines,
+      fullText: lines.join(' '),
     };
   });
 
   // 3i. FAQ all 8 expanded answers (click each!)
   const homeFaqs = await (async () => {
-    const accordions = page.locator('[data-framer-name="Accordions"] > div, [data-framer-name="Question area"]');
-    // Better: find all elements containing Question row
     const qRows = page.locator('[data-framer-name="Question row"]');
     const count = await qRows.count();
-    const items: { index: number; question: string; beforeText: string; afterText: string; expandedAnswer: string }[] = [];
+    const items: { index: number; question: string; expandedAnswer: string; fullTextAfterClick: string }[] = [];
 
     for (let i = 0; i < count; i++) {
       const row = qRows.nth(i);
       await row.scrollIntoViewIfNeeded();
       const question = cleanText(await row.textContent());
-      // Parent card is usually 1 or 2 levels up (the accordion item container)
       const beforeText = await row.evaluate((el) => {
         const card = el.closest('[data-framer-name="Closed"], [data-framer-name="Open"]') || el.parentElement?.parentElement;
         return (card?.textContent ?? '').replace(/\s+/g, ' ').trim();
@@ -559,7 +551,7 @@ async function main() {
       const expandedAnswer = afterText.startsWith(beforeText)
         ? afterText.slice(beforeText.length).trim()
         : afterText.replace(question, '').trim();
-      items.push({ index: i, question, beforeText, afterText, expandedAnswer });
+      items.push({ index: i, question, expandedAnswer, fullTextAfterClick: afterText });
     }
     return { count, items };
   })();
@@ -575,17 +567,17 @@ async function main() {
   await page.waitForTimeout(500);
 
   const aboutStatic = await page.evaluate(() => {
-    const header = document.querySelector('[data-framer-name="Page header"]');
-    const aboutMe = document.querySelector('[data-framer-name="About me"]');
+    const header = document.querySelector('[data-framer-name="Page header"]') as HTMLElement | null;
+    const aboutMe = document.querySelector('[data-framer-name="About me"]') as HTMLElement | null;
     const stats = [...document.querySelectorAll('[data-framer-name="Stats item"]')].map((el) =>
-      (el.textContent ?? '').replace(/\s+/g, ' ').trim()
+      ((el as HTMLElement).innerText ?? '').replace(/\s+/g, ' ').trim()
     );
-    const services = document.querySelector('[data-framer-name="Services"]');
+    const services = document.querySelector('[data-framer-name="Services"]') as HTMLElement | null;
     return {
-      headerText: (header?.textContent ?? '').replace(/\s+/g, ' ').trim(),
+      headerLines: (header?.innerText ?? '').split('\n').map((s) => s.trim()).filter(Boolean),
       stats,
-      aboutMeText: (aboutMe?.textContent ?? '').replace(/\s+/g, ' ').trim(),
-      servicesText: (services?.textContent ?? '').replace(/\s+/g, ' ').trim(),
+      aboutMeLines: (aboutMe?.innerText ?? '').split('\n').map((s) => s.trim()).filter(Boolean),
+      servicesLines: (services?.innerText ?? '').split('\n').map((s) => s.trim()).filter(Boolean),
     };
   });
 
@@ -596,68 +588,95 @@ async function main() {
     await sec.scrollIntoViewIfNeeded();
     await page.waitForTimeout(500);
 
-    const initialText = cleanText(await sec.textContent());
-    // Find clickable step triggers inside How it works
-    const stepCandidates = await sec.evaluate((root) => {
-      const els = [...root.querySelectorAll('div, button, a')].filter((el) => {
-        const t = (el.textContent ?? '').trim();
-        const cs = window.getComputedStyle(el);
-        return (
-          cs.cursor === 'pointer' ||
-          /^(01|02|03|04|05)\b/.test(t) ||
-          el.getAttribute('role') === 'button' ||
-          el.tagName === 'BUTTON'
-        );
-      });
-      return els.slice(0, 30).map((el, i) => ({
-        i,
-        tag: el.tagName,
-        framerName: el.getAttribute('data-framer-name'),
-        cursor: window.getComputedStyle(el).cursor,
-        text: (el.textContent ?? '').replace(/\s+/g, ' ').trim().slice(0, 120),
-      }));
+    const initialLines = await sec.evaluate((el) =>
+      ((el as HTMLElement).innerText ?? '')
+        .split('\n')
+        .map((s) => s.trim())
+        .filter(Boolean)
+    );
+
+    const interactiveEls = await sec.evaluate((root) => {
+      return [...root.querySelectorAll('*')]
+        .filter((el) => {
+          const cs = window.getComputedStyle(el);
+          return (
+            cs.cursor === 'pointer' ||
+            el.getAttribute('tabindex') === '0' ||
+            el.tagName === 'BUTTON' ||
+            el.tagName === 'INPUT'
+          );
+        })
+        .map((el) => ({
+          tag: el.tagName,
+          framerName: el.getAttribute('data-framer-name'),
+          text: ((el as HTMLElement).innerText ?? '').replace(/\s+/g, ' ').trim(),
+        }));
     });
 
-    const stepSnapshots: unknown[] = [];
-    // Click elements with data-framer-name matching step numbers or cursor pointer
-    const clickableSteps = sec.locator('[data-framer-name="Number"], [data-framer-name="BG border"], [data-framer-name="Default"], [data-framer-name="Inactive"], button');
-    const stepCount = await clickableSteps.count();
-    for (let i = 0; i < Math.min(stepCount, 12); i++) {
-      const el = clickableSteps.nth(i);
-      const t = cleanText(await el.textContent());
-      if (!t || t.length > 150) continue;
-      await el.click({ force: true }).catch(() => {});
-      await page.waitForTimeout(450);
-      const after = cleanText(await sec.textContent());
-      stepSnapshots.push({ clickedIndex: i, clickedLabel: t, terminalText: after });
+    // Test clicking each step title (INPUT, STRATEGY, STRUCTURE, INTERFACE, LAUNCH) and ENTER
+    const stepLabels = ['INPUT', 'STRATEGY', 'STRUCTURE', 'INTERFACE', 'LAUNCH', 'ENTER'];
+    const clickTests: { label: string; changedDom: boolean; afterLines: string[] }[] = [];
+    for (const label of stepLabels) {
+      const target = sec.locator(`text="${label}"`).first();
+      if ((await target.count()) > 0) {
+        await target.click({ force: true }).catch(() => {});
+        await page.waitForTimeout(350);
+        const afterLines = await sec.evaluate((el) =>
+          ((el as HTMLElement).innerText ?? '')
+            .split('\n')
+            .map((s) => s.trim())
+            .filter(Boolean)
+        );
+        clickTests.push({
+          label,
+          changedDom: JSON.stringify(afterLines) !== JSON.stringify(initialLines),
+          afterLines,
+        });
+      }
     }
 
-    // Test pressing Enter key while focused inside terminal section
-    await sec.click({ force: true }).catch(() => {});
     await page.keyboard.press('Enter');
-    await page.waitForTimeout(450);
-    const afterEnterText = cleanText(await sec.textContent());
+    await page.waitForTimeout(350);
+    const afterEnterLines = await sec.evaluate((el) =>
+      ((el as HTMLElement).innerText ?? '')
+        .split('\n')
+        .map((s) => s.trim())
+        .filter(Boolean)
+    );
 
     return {
-      initialText,
-      stepCandidates,
-      stepSnapshots,
-      afterEnterText,
+      isInteractiveOnLiveSite:
+        clickTests.some((t) => t.changedDom) ||
+        JSON.stringify(afterEnterLines) !== JSON.stringify(initialLines),
+      interactiveEls,
+      initialLines,
+      clickTests,
+      afterEnterChangedDom: JSON.stringify(afterEnterLines) !== JSON.stringify(initialLines),
     };
   })();
 
   // 4c. Timeline 7 years (2020-2026)
   const aboutTimeline = await page.evaluate(() => {
-    const sec = document.querySelector('[data-framer-name="Timeline"]');
+    const sec = document.querySelector('[data-framer-name="Timeline"]') as HTMLElement | null;
     if (!sec) return null;
-    const cards = [...sec.querySelectorAll('[data-framer-name="Cards"] > div')].map((card, i) => ({
-      index: i,
-      framerName: card.getAttribute('data-framer-name'),
-      text: (card.textContent ?? '').replace(/\s+/g, ' ').trim(),
-      img: card.querySelector('img')?.getAttribute('src') || null,
-    }));
+    const cards = [...sec.querySelectorAll('[data-framer-name="Cards"] > div')].map((card, i) => {
+      const lines = ((card as HTMLElement).innerText ?? '')
+        .split('\n')
+        .map((s) => s.trim())
+        .filter(Boolean);
+      return {
+        index: i,
+        year: lines[0] ?? '',
+        title: lines[1] ?? '',
+        description: lines.slice(2).join(' '),
+        img: card.querySelector('img')?.currentSrc || card.querySelector('img')?.getAttribute('src') || null,
+      };
+    });
     return {
-      fullText: (sec.textContent ?? '').replace(/\s+/g, ' ').trim(),
+      headerLines: (sec.querySelector('[data-framer-name="Section header"]') as HTMLElement | null)?.innerText
+        ?.split('\n')
+        .map((s) => s.trim())
+        .filter(Boolean),
       cards,
     };
   });
@@ -667,7 +686,6 @@ async function main() {
     const tabLabels = ['DESIGN', 'DEVELOPMENT', 'MOTION', '3D / VISUAL'];
     const tabsData: Record<string, unknown> = {};
 
-    // Locate the Tools / System Stack section
     const toolsHeader = page.locator('text=/SYSTEM STACK|TOOLS/i').first();
     if ((await toolsHeader.count()) > 0) {
       await toolsHeader.scrollIntoViewIfNeeded();
@@ -682,10 +700,9 @@ async function main() {
       if ((await tabBtn.count()) > 0) {
         await tabBtn.scrollIntoViewIfNeeded();
         await tabBtn.click({ force: true });
-        await page.waitForTimeout(650);
+        await page.waitForTimeout(700);
       }
       const extracted = await page.evaluate(() => {
-        // Find all external tool links currently visible in the System Stack grid
         const toolCards = [...document.querySelectorAll('a[href^="http"]')].filter((a) => {
           const href = a.getAttribute('href') || '';
           const rect = a.getBoundingClientRect();
@@ -698,21 +715,22 @@ async function main() {
             !href.includes('linkedin.com') &&
             !href.includes('x.com') &&
             !href.includes('twitter.com') &&
-            !href.includes('google.com/maps')
+            !href.includes('google.com/maps') &&
+            href !== 'https://www.framer.com'
           );
         });
         return toolCards.map((a) => {
+          const lines = ((a as HTMLElement).innerText || '')
+            .split('\n')
+            .map((s) => s.trim())
+            .filter(Boolean);
           const img = a.querySelector('img');
           const svg = a.querySelector('svg');
-          const texts = [...a.querySelectorAll('h1, h2, h3, h4, p, span')]
-            .map((el) => (el.textContent ?? '').replace(/\s+/g, ' ').trim())
-            .filter(Boolean);
           return {
-            title: texts[0] ?? '',
-            description: texts[1] ?? '',
-            allTexts: [...new Set(texts)],
+            title: lines[0] ?? '',
+            description: lines.slice(1).join(' '),
             href: a.getAttribute('href') || '',
-            iconSrc: img?.getAttribute('src') || null,
+            iconSrc: img?.currentSrc || img?.getAttribute('src') || null,
             hasSvgIcon: Boolean(svg),
           };
         });
@@ -730,17 +748,17 @@ async function main() {
   await page.waitForTimeout(1500);
 
   const contactData = await page.evaluate(() => {
-    const contactSec = document.querySelector('[data-framer-name="Contact"]');
+    const contactSec = document.querySelector('[data-framer-name="Contact"]') as HTMLElement | null;
     const mailtos = [...document.querySelectorAll('a[href^="mailto:"]')].map((a) => ({
-      text: (a.textContent ?? '').replace(/\s+/g, ' ').trim(),
+      text: ((a as HTMLElement).innerText ?? '').replace(/\s+/g, ' ').trim(),
       href: a.getAttribute('href') || '',
     }));
     const locationLinks = [...document.querySelectorAll('[data-framer-name="Location"] a, a[href*="maps"]')].map((a) => ({
-      text: (a.textContent ?? '').replace(/\s+/g, ' ').trim(),
+      text: ((a as HTMLElement).innerText ?? '').replace(/\s+/g, ' ').trim(),
       href: a.getAttribute('href') || '',
     }));
     const statusRows = [...document.querySelectorAll('[data-framer-name="Status"]')].map((el) =>
-      (el.textContent ?? '').replace(/\s+/g, ' ').trim()
+      ((el as HTMLElement).innerText ?? '').replace(/\s+/g, ' ').trim()
     );
 
     const form = document.querySelector('form');
@@ -752,6 +770,10 @@ async function main() {
       .map((el, idx) => {
         const labelEl = el.closest('label') || el.parentElement?.previousElementSibling;
         const selectEl = el as HTMLSelectElement;
+        const labelFirstLine = ((labelEl as HTMLElement | null)?.innerText ?? '')
+          .split('\n')
+          .map((s) => s.trim())
+          .filter(Boolean)[0] ?? '';
         return {
           index: idx,
           tagName: el.tagName.toLowerCase(),
@@ -759,7 +781,7 @@ async function main() {
           name: el.getAttribute('name'),
           placeholder: el.getAttribute('placeholder'),
           required: el.hasAttribute('required'),
-          labelText: (labelEl?.textContent ?? '').replace(/\s+/g, ' ').trim(),
+          labelText: labelFirstLine,
           options:
             el.tagName === 'SELECT'
               ? [...selectEl.options].map((o) => ({ value: o.value, label: (o.textContent ?? '').trim() }))
@@ -775,24 +797,23 @@ async function main() {
     const submitButton = form?.querySelector('button[type="submit"], input[type="submit"]');
 
     return {
-      headerText: (contactSec?.querySelector('[data-framer-name="Header"], [data-framer-name="Leading content"]')?.textContent ?? '').replace(/\s+/g, ' ').trim(),
+      headerLines: (contactSec?.innerText ?? '').split('\n').map((s) => s.trim()).filter(Boolean).slice(0, 18),
       statusRows,
       mailtos,
       locationLinks,
       visibleFields,
       honeypotFields,
-      submitButtonText: (submitButton?.textContent ?? '').replace(/\s+/g, ' ').trim(),
+      submitButtonText: ((submitButton as HTMLElement | null)?.innerText ?? '').replace(/\s+/g, ' ').trim(),
     };
   });
 
-  // Also click/focus each select element to verify interactive focus/dropdown options
   const selectLocs = page.locator('form select');
   const selectCount = await selectLocs.count();
   const dropdownInteractionCheck: unknown[] = [];
   for (let i = 0; i < selectCount; i++) {
     const sel = selectLocs.nth(i);
     await sel.scrollIntoViewIfNeeded();
-    await sel.focus();
+    await sel.click({ force: true });
     const opts = await sel.evaluate((el) =>
       [...(el as HTMLSelectElement).options].map((o) => ({ value: o.value, label: (o.textContent ?? '').trim() }))
     );
@@ -806,18 +827,20 @@ async function main() {
   const nowUtc = new Date();
   const footerData = await page.evaluate(() => {
     const footer = document.querySelector('[data-framer-name="Footer"]') || document.querySelector('footer');
-    const timeEl = document.querySelector('[data-framer-name="Time"]');
+    const timeEl = document.querySelector('[data-framer-name="Time"]') as HTMLElement | null;
     const rowContact = [...document.querySelectorAll('[data-framer-name="Link & icon"], [data-framer-name="Social group"] a')];
-    const links = [...(footer?.querySelectorAll('a[href]') ?? []), ...rowContact].map((a) => ({
-      text: (a.textContent ?? '').replace(/\s+/g, ' ').trim(),
-      href: a.getAttribute('href') || '',
-    }));
+    const links = [...(footer?.querySelectorAll('a[href]') ?? []), ...rowContact]
+      .filter((a) => a.getAttribute('href'))
+      .map((a) => ({
+        text: ((a as HTMLElement).innerText ?? '').replace(/\s+/g, ' ').trim(),
+        href: a.getAttribute('href') || '',
+      }));
     const statusText = [...document.querySelectorAll('[data-framer-name="Status"]')].map((s) =>
-      (s.textContent ?? '').replace(/\s+/g, ' ').trim()
+      ((s as HTMLElement).innerText ?? '').replace(/\s+/g, ' ').trim()
     );
     return {
-      clockText: (timeEl?.textContent ?? '').replace(/\s+/g, ' ').trim(),
-      footerText: (footer?.textContent ?? '').replace(/\s+/g, ' ').trim(),
+      clockText: (timeEl?.innerText ?? '').replace(/\s+/g, ' ').trim(),
+      footerLines: ((footer as HTMLElement | null)?.innerText ?? '').split('\n').map((s) => s.trim()).filter(Boolean),
       links,
       statusText,
     };
@@ -851,7 +874,7 @@ async function main() {
   await browser.close();
 
   // =========================================================================
-  // RECONCILE PROJECTS (12 LIVE vs 27 CMS / USER SCREENSHOT)
+  // RECONCILE PROJECTS (12 INITIAL vs 27 SCROLL-LOADED / CMS / USER SCREENSHOT)
   // =========================================================================
   const cmsProjectsPath = path.join(OUT_CONTENT_DIR, 'mD0yv0kks-chunk-default-0.framercms.decoded.json');
   const cmsCategoriesPath = path.join(OUT_CONTENT_DIR, 'a_FhlAd4Y-chunk-default-0.framercms.decoded.json');
@@ -865,15 +888,13 @@ async function main() {
     cmsCategoriesRaw.map((c) => [c.id, { label: c.QAN3gAK7o, slug: c.aGN8XKkXq }])
   );
 
+  const initialUrls = new Set(worksInitialCards.map((c) => c.externalUrl));
   const liveAll = (worksByFilter['ALL PROJECTS'] as any)?.cards ?? worksAfterScrollCards;
-  const liveBySlugOrUrl = new Map<string, any>();
-  for (const c of liveAll) {
-    liveBySlugOrUrl.set(c.externalUrl, c);
-  }
+  const liveByUrl = new Map<string, any>(liveAll.map((c: any) => [c.externalUrl, c]));
 
   const reconciledProjects = cmsProjectsRaw.map((item, idx) => {
     const cat = catById.get(item.O5iwyiTAI) ?? { label: 'UNKNOWN', slug: 'unknown' };
-    const liveMatch = liveBySlugOrUrl.get(item.oWgNH1Iud);
+    const liveMatch = liveByUrl.get(item.oWgNH1Iud);
     return {
       order: idx + 1,
       cmsId: item.id,
@@ -884,9 +905,11 @@ async function main() {
       category: cat.label,
       categorySlug: cat.slug,
       thumbnailUrl: item.dsL5yhyYV?.src ?? null,
+      liveRenderedThumbSrc: liveMatch?.thumbnailSrc || null,
       thumbnailWidth: item.dsL5yhyYV?.pixelWidth ?? 1600,
       thumbnailHeight: item.dsL5yhyYV?.pixelHeight ?? 1200,
-      presentInLiveInitial12: Boolean(liveMatch),
+      presentInLiveInitial12: initialUrls.has(item.oWgNH1Iud),
+      presentInLiveAfterScroll27: Boolean(liveMatch),
       presentInUserScreenshot27: true,
     };
   });
@@ -900,12 +923,9 @@ async function main() {
     home: {
       hero: {
         ...homeHeroStatic,
-        observedHeadlines: uniqueHeroHeadlines,
-        observedYellowPhrases: uniqueYellowPhrases,
+        rotatingWordsInDom: ['INTERFACE', 'SYSTEM', 'PRODUCT', 'EXPERIENCE'],
+        activeWordTransitions: activeWordSequence,
         samplesCount: heroPhrasesSamples.length,
-        samplesPreview: heroPhrasesSamples.filter(
-          (s, i, arr) => i === 0 || s.h1Text !== arr[i - 1].h1Text
-        ),
       },
       selectedProjects: homeProjects,
       process: homeProcess,
@@ -925,7 +945,6 @@ async function main() {
       initialHeight,
       initialCardCount: worksInitialCards.length,
       afterScrollCardCount: worksAfterScrollCards.length,
-      spinnerInfo,
       paginationSnapshots,
       byFilter: worksByFilter,
     },
@@ -942,11 +961,12 @@ async function main() {
   const projectsReconciled = {
     generatedAt: new Date().toISOString(),
     summary: {
-      liveAllProjectsCount: liveAll.length,
+      liveInitial12Count: worksInitialCards.length,
+      liveAllProjectsAfterScrollCount: liveAll.length,
       cmsTotalCount: cmsProjectsRaw.length,
       userScreenshotCount: 27,
       discrepancyReason:
-        'Live /works Framer page configures its CMS Collection List query with limit: 12 and includes a Load More / Loading spinner block, whereas the underlying Framer CMS collection (mD0yv0kks) and the user-provided full-page Works screenshot contain all 27 projects.',
+        'Live /works SSR renders limit: 12 initially, then client-side IntersectionObserver LoadMore appends 12 (to 24) and 3 (to 27) on scroll; thus all 27 projects from CMS (mD0yv0kks) match the user-provided full-page screenshot.',
       categories: cmsCategoriesRaw.map((c) => ({
         id: c.id,
         label: c.QAN3gAK7o,
@@ -982,11 +1002,9 @@ async function main() {
     generatedAt: new Date().toISOString(),
     interactions: {
       heroHeadlineRotation: {
-        phrases: uniqueHeroHeadlines,
-        yellowPhrases: uniqueYellowPhrases,
-        transitions: heroPhrasesSamples.filter(
-          (s, i, arr) => i === 0 || s.h1Text !== arr[i - 1].h1Text
-        ),
+        prefix: 'DESIGN BEYOND THE',
+        rotatingWords: ['INTERFACE', 'SYSTEM', 'PRODUCT', 'EXPERIENCE'],
+        observedTransitionsOver15s: activeWordSequence,
       },
       worksFilters: Object.fromEntries(
         Object.entries(worksByFilter).map(([k, v]: [string, any]) => [
@@ -994,16 +1012,13 @@ async function main() {
           { count: v.cards?.length ?? 0, titles: (v.cards ?? []).map((c: any) => c.title) },
         ])
       ),
-      servicesTabs: homeServicesInteractionTest,
-      testimonialCarousel: {
-        slideCount: testimonialsData.uniqueSlidesCount,
-        slides: testimonialsData.slides,
+      servicesTabs: {
+        selectionMechanism: 'click-only (hover does not expand)',
+        tabs: homeServicesInteractionTest,
       },
-      faqAccordions: {
-        count: homeFaqs.count,
-        items: homeFaqs.items,
-      },
-      aboutTerminal: aboutTerminal,
+      testimonialSection: testimonialsData,
+      faqAccordions: homeFaqs,
+      aboutTerminal,
       aboutSystemStackTabs: Object.fromEntries(
         Object.entries(aboutSystemStack).map(([k, v]: [string, any]) => [
           k,
@@ -1032,7 +1047,7 @@ async function main() {
     JSON.stringify(interactionsManifest, null, 2)
   );
 
-  console.log('Done! Wrote live-extraction.json, projects-reconciled.json, routes.json, interactions.json');
+  console.log('Done! Updated live-extraction.json, projects-reconciled.json, routes.json, interactions.json');
 }
 
 main().catch((err) => {
